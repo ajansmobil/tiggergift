@@ -1,0 +1,34 @@
+{
+  "name": {
+    "tr": "İletişim"
+  },
+  "status": "play",
+  "category": "",
+  "id": "ofpc9tnwx3",
+  "url": "",
+  "path": "iletisim",
+  "index": 4,
+  "icon": "home",
+  "desing": {
+    "header": [],
+    "body": [
+      "cl635i"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "text": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "update": "2025-07-25T13:03:32.604Z",
+  "date": "2025-07-25T07:24:17.491Z"
+}
