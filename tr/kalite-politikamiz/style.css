@@ -1,10 +1,10 @@
 
-  .akfnu-header-wrapper {
+  .irkej-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .akfnu-header {
+  .irkej-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .akfnu-logo {
+  .irkej-logo {
     height: 80px;
   }
 
-  .akfnu-header-top {
+  .irkej-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .akfnu-search-box {
+  .irkej-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .akfnu-search-box span {
+  .irkej-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .akfnu-search-box input {
+  .irkej-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .akfnu-search-box button {
+  .irkej-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .akfnu-search-box button:hover {
+  .irkej-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .akfnu-support-info {
+  .irkej-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .akfnu-support-info span {
+  .irkej-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .akfnu-support-info small {
+  .irkej-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .akfnu-support-info strong {
+  .irkej-support-info strong {
     font-size: 16px;
   }
 
-  .akfnu-icons {
+  .irkej-icons {
     display: flex;
     gap: 10px;
   }
 
-  .akfnu-icons span {
+  .irkej-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .akfnu-icons span:hover {
+  .irkej-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .akfnu-header-bottom {
+  .irkej-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .akfnu-header-bottom-inner {
+  .irkej-header-bottom-inner {
     max-width: 1200px;
     margin: auto;
     padding: 14px 30px;
@@ -124,7 +124,7 @@
     align-items: center;
   }
 
-  .akfnu-category-btn {
+  .irkej-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +136,72 @@
     font-weight: 500;
   }
 
-  .akfnu-main-menu {
+  .irkej-main-menu {
     display: flex;
     gap: 20px;
     margin-left: 30px;
   }
 
-  .akfnu-main-menu a {
+  .irkej-main-menu a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
   }
 
-  .akfnu-main-menu a:hover {
-    color: #238B23;
+  .irkej-main-menu a:hover {
+    color: #238b23;
   }
 
-  .akfnu-menulistactive {
-    color: #238B23 !important;
+  .irkej-menulistactive {
+    color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .akfnu-header-top {
+    .irkej-header-top {
       gap: 20px;
     }
 
-    .akfnu-search-box {
+    .irkej-search-box {
       margin: 0 10px;
     }
 
-    .akfnu-support-info strong {
+    .irkej-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .akfnu-header {
+    .irkej-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .akfnu-header-top {
+    .irkej-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .akfnu-search-box {
+    .irkej-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .akfnu-support-info {
+    .irkej-support-info {
       display: none;
     }
 
-    .akfnu-header-bottom-inner {
+    .irkej-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .akfnu-main-menu {
+    .irkej-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,15 +210,15 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .akfnu-logo {
+    .irkej-logo {
       height: 60px;
     }
 
-    .akfnu-search-box {
+    .irkej-search-box {
       flex: 0 1 150px;
     }
 
-    .akfnu-icons span {
+    .irkej-icons span {
       padding: 8px;
       font-size: 18px;
     }
@@ -228,13 +228,13 @@
   #content {
     justify-content: start;
   }
-  .wpmi4 {
+  .to4hd {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .wpmi4-menu {
+  .to4hd-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -244,7 +244,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .wpmi4-menu > a {
+  .to4hd-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -252,18 +252,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .wpmi4-menu > a:hover,
-  .wpmi4-menu > .active {
+  .to4hd-menu > a:hover,
+  .to4hd-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .wpmi4-body {
+  .to4hd-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .wpmi4-title {
+  .to4hd-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -275,7 +275,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .wpmi4-title::before {
+  .to4hd-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -289,27 +289,27 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .wpmi4-title span {
+  .to4hd-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .wpmi4 {
+    .to4hd {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .wpmi4-menu {
+    .to4hd-menu {
       display: none;
     }
-    .wpmi4-body {
+    .to4hd-body {
       width: 100%;
     }
   }
 
 
-  .fr10b-trust-boxes {
+  .wn90m-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -319,7 +319,7 @@
     gap: 0;
   }
 
-  .fr10b-trust-item {
+  .wn90m-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -330,57 +330,57 @@
     gap: 16px;
   }
 
-  .fr10b-trust-item .material-icons {
+  .wn90m-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .fr10b-trust-text {
+  .wn90m-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .fr10b-trust-title {
+  .wn90m-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .fr10b-trust-desc {
+  .wn90m-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .fr10b-trust-boxes {
+    .wn90m-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .fr10b-trust-item {
+    .wn90m-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .fr10b-trust-boxes {
+    .wn90m-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .fr10b-trust-item {
+    .wn90m-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .fr10b-trust-title {
+    .wn90m-trust-title {
       font-size: 16px;
     }
 
-    .fr10b-trust-desc {
+    .wn90m-trust-desc {
       font-size: 13px;
     }
   }

@@ -1,10 +1,10 @@
 
-  .apzo7-header-wrapper {
+  .nc3sk-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .apzo7-header {
+  .nc3sk-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .apzo7-logo {
+  .nc3sk-logo {
     height: 80px;
   }
 
-  .apzo7-header-top {
+  .nc3sk-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .apzo7-search-box {
+  .nc3sk-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .apzo7-search-box span {
+  .nc3sk-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .apzo7-search-box input {
+  .nc3sk-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .apzo7-search-box button {
+  .nc3sk-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .apzo7-search-box button:hover {
+  .nc3sk-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .apzo7-support-info {
+  .nc3sk-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .apzo7-support-info span {
+  .nc3sk-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .apzo7-support-info small {
+  .nc3sk-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .apzo7-support-info strong {
+  .nc3sk-support-info strong {
     font-size: 16px;
   }
 
-  .apzo7-icons {
+  .nc3sk-icons {
     display: flex;
     gap: 10px;
   }
 
-  .apzo7-icons span {
+  .nc3sk-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .apzo7-icons span:hover {
+  .nc3sk-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .apzo7-header-bottom {
+  .nc3sk-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .apzo7-header-bottom-inner {
+  .nc3sk-header-bottom-inner {
     max-width: 1200px;
     margin: auto;
     padding: 14px 30px;
@@ -124,7 +124,7 @@
     align-items: center;
   }
 
-  .apzo7-category-btn {
+  .nc3sk-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +136,72 @@
     font-weight: 500;
   }
 
-  .apzo7-main-menu {
+  .nc3sk-main-menu {
     display: flex;
     gap: 20px;
     margin-left: 30px;
   }
 
-  .apzo7-main-menu a {
+  .nc3sk-main-menu a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
   }
 
-  .apzo7-main-menu a:hover {
-    color: #238B23;
+  .nc3sk-main-menu a:hover {
+    color: #238b23;
   }
 
-  .apzo7-menulistactive {
-    color: #238B23 !important;
+  .nc3sk-menulistactive {
+    color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .apzo7-header-top {
+    .nc3sk-header-top {
       gap: 20px;
     }
 
-    .apzo7-search-box {
+    .nc3sk-search-box {
       margin: 0 10px;
     }
 
-    .apzo7-support-info strong {
+    .nc3sk-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .apzo7-header {
+    .nc3sk-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .apzo7-header-top {
+    .nc3sk-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .apzo7-search-box {
+    .nc3sk-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .apzo7-support-info {
+    .nc3sk-support-info {
       display: none;
     }
 
-    .apzo7-header-bottom-inner {
+    .nc3sk-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .apzo7-main-menu {
+    .nc3sk-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,22 +210,22 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .apzo7-logo {
+    .nc3sk-logo {
       height: 60px;
     }
 
-    .apzo7-search-box {
+    .nc3sk-search-box {
       flex: 0 1 150px;
     }
 
-    .apzo7-icons span {
+    .nc3sk-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .lo2t8-title {
+  .yblaa-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -238,7 +238,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .lo2t8-title::before {
+  .yblaa-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -253,13 +253,13 @@
     z-index: 1;
   }
 
-  .lo2t8-title span {
+  .yblaa-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .lo2t8 {
+  .yblaa {
     width: var(--max);
     display: flex;
     flex-direction: row;
@@ -267,14 +267,14 @@
     margin-top: 20px;
   }
 
-  .lo2t8-body {
+  .yblaa-body {
     flex: 2;
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
 
-  .lo2t8-img {
+  .yblaa-img {
     flex: 1;
     display: flex;
     align-items: start;
@@ -282,18 +282,18 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .lo2t8 {
+    .yblaa {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
       gap: 20px;
     }
 
-    .lo2t8-img {
+    .yblaa-img {
       width: 100%;
     }
 
-    .lo2t8-body {
+    .yblaa-body {
       width: 100%;
     }
   }
@@ -303,7 +303,7 @@
   }
 
 
-  .hp7ao-trust-boxes {
+  .sid4i-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -313,7 +313,7 @@
     gap: 0;
   }
 
-  .hp7ao-trust-item {
+  .sid4i-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -324,57 +324,57 @@
     gap: 16px;
   }
 
-  .hp7ao-trust-item .material-icons {
+  .sid4i-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .hp7ao-trust-text {
+  .sid4i-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .hp7ao-trust-title {
+  .sid4i-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .hp7ao-trust-desc {
+  .sid4i-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .hp7ao-trust-boxes {
+    .sid4i-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .hp7ao-trust-item {
+    .sid4i-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .hp7ao-trust-boxes {
+    .sid4i-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .hp7ao-trust-item {
+    .sid4i-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .hp7ao-trust-title {
+    .sid4i-trust-title {
       font-size: 16px;
     }
 
-    .hp7ao-trust-desc {
+    .sid4i-trust-desc {
       font-size: 13px;
     }
   }
