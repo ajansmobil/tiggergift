@@ -1,10 +1,10 @@
 
-  .j2h72-header-wrapper {
+  .vvnov-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .j2h72-header {
+  .vvnov-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .j2h72-logo {
+  .vvnov-logo {
     height: 80px;
   }
 
-  .j2h72-header-top {
+  .vvnov-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .j2h72-search-box {
+  .vvnov-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .j2h72-search-box span {
+  .vvnov-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .j2h72-search-box input {
+  .vvnov-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .j2h72-search-box button {
+  .vvnov-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .j2h72-search-box button:hover {
+  .vvnov-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .j2h72-support-info {
+  .vvnov-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .j2h72-support-info span {
+  .vvnov-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .j2h72-support-info small {
+  .vvnov-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .j2h72-support-info strong {
+  .vvnov-support-info strong {
     font-size: 16px;
   }
 
-  .j2h72-icons {
+  .vvnov-icons {
     display: flex;
     gap: 10px;
   }
 
-  .j2h72-icons span {
+  .vvnov-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .j2h72-icons span:hover {
+  .vvnov-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .j2h72-header-bottom {
+  .vvnov-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .j2h72-header-bottom-inner {
+  .vvnov-header-bottom-inner {
     max-width: 1200px;
     margin: auto;
     padding: 14px 30px;
@@ -124,7 +124,7 @@
     align-items: center;
   }
 
-  .j2h72-category-btn {
+  .vvnov-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +136,72 @@
     font-weight: 500;
   }
 
-  .j2h72-main-menu {
+  .vvnov-main-menu {
     display: flex;
     gap: 20px;
     margin-left: 30px;
   }
 
-  .j2h72-main-menu a {
+  .vvnov-main-menu a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
   }
 
-  .j2h72-main-menu a:hover {
+  .vvnov-main-menu a:hover {
     color: #238b23;
   }
 
-  .j2h72-menulistactive {
+  .vvnov-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .j2h72-header-top {
+    .vvnov-header-top {
       gap: 20px;
     }
 
-    .j2h72-search-box {
+    .vvnov-search-box {
       margin: 0 10px;
     }
 
-    .j2h72-support-info strong {
+    .vvnov-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .j2h72-header {
+    .vvnov-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .j2h72-header-top {
+    .vvnov-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .j2h72-search-box {
+    .vvnov-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .j2h72-support-info {
+    .vvnov-support-info {
       display: none;
     }
 
-    .j2h72-header-bottom-inner {
+    .vvnov-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .j2h72-main-menu {
+    .vvnov-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,15 +210,15 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .j2h72-logo {
+    .vvnov-logo {
       height: 60px;
     }
 
-    .j2h72-search-box {
+    .vvnov-search-box {
       flex: 0 1 150px;
     }
 
-    .j2h72-icons span {
+    .vvnov-icons span {
       padding: 8px;
       font-size: 18px;
     }
@@ -228,13 +228,13 @@
   #content {
     justify-content: start;
   }
-  .epkqk {
+  .ogwyb {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .epkqk-menu {
+  .ogwyb-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -244,7 +244,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .epkqk-menu > a {
+  .ogwyb-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -252,18 +252,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .epkqk-menu > a:hover,
-  .epkqk-menu > .active {
+  .ogwyb-menu > a:hover,
+  .ogwyb-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .epkqk-body {
+  .ogwyb-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .epkqk-title {
+  .ogwyb-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -275,7 +275,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .epkqk-title::before {
+  .ogwyb-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -289,27 +289,27 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .epkqk-title span {
+  .ogwyb-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .epkqk {
+    .ogwyb {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .epkqk-menu {
+    .ogwyb-menu {
       display: none;
     }
-    .epkqk-body {
+    .ogwyb-body {
       width: 100%;
     }
   }
 
 
-  .vsnpp-trust-boxes {
+  .wevw2-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -319,7 +319,7 @@
     gap: 0;
   }
 
-  .vsnpp-trust-item {
+  .wevw2-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -330,57 +330,57 @@
     gap: 16px;
   }
 
-  .vsnpp-trust-item .material-icons {
+  .wevw2-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .vsnpp-trust-text {
+  .wevw2-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .vsnpp-trust-title {
+  .wevw2-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .vsnpp-trust-desc {
+  .wevw2-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .vsnpp-trust-boxes {
+    .wevw2-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .vsnpp-trust-item {
+    .wevw2-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .vsnpp-trust-boxes {
+    .wevw2-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .vsnpp-trust-item {
+    .wevw2-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .vsnpp-trust-title {
+    .wevw2-trust-title {
       font-size: 16px;
     }
 
-    .vsnpp-trust-desc {
+    .wevw2-trust-desc {
       font-size: 13px;
     }
   }

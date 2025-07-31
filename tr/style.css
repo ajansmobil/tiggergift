@@ -1,10 +1,10 @@
 
-  .tjxuq-header-wrapper {
+  .iocjs-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .tjxuq-header {
+  .iocjs-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .tjxuq-logo {
+  .iocjs-logo {
     height: 80px;
   }
 
-  .tjxuq-header-top {
+  .iocjs-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .tjxuq-search-box {
+  .iocjs-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .tjxuq-search-box span {
+  .iocjs-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .tjxuq-search-box input {
+  .iocjs-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .tjxuq-search-box button {
+  .iocjs-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .tjxuq-search-box button:hover {
+  .iocjs-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .tjxuq-support-info {
+  .iocjs-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .tjxuq-support-info span {
+  .iocjs-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .tjxuq-support-info small {
+  .iocjs-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .tjxuq-support-info strong {
+  .iocjs-support-info strong {
     font-size: 16px;
   }
 
-  .tjxuq-icons {
+  .iocjs-icons {
     display: flex;
     gap: 10px;
   }
 
-  .tjxuq-icons span {
+  .iocjs-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .tjxuq-icons span:hover {
+  .iocjs-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .tjxuq-header-bottom {
+  .iocjs-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .tjxuq-header-bottom-inner {
+  .iocjs-header-bottom-inner {
     max-width: 1200px;
     margin: auto;
     padding: 14px 30px;
@@ -124,7 +124,7 @@
     align-items: center;
   }
 
-  .tjxuq-category-btn {
+  .iocjs-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +136,72 @@
     font-weight: 500;
   }
 
-  .tjxuq-main-menu {
+  .iocjs-main-menu {
     display: flex;
     gap: 20px;
     margin-left: 30px;
   }
 
-  .tjxuq-main-menu a {
+  .iocjs-main-menu a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
   }
 
-  .tjxuq-main-menu a:hover {
+  .iocjs-main-menu a:hover {
     color: #238b23;
   }
 
-  .tjxuq-menulistactive {
+  .iocjs-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .tjxuq-header-top {
+    .iocjs-header-top {
       gap: 20px;
     }
 
-    .tjxuq-search-box {
+    .iocjs-search-box {
       margin: 0 10px;
     }
 
-    .tjxuq-support-info strong {
+    .iocjs-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .tjxuq-header {
+    .iocjs-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .tjxuq-header-top {
+    .iocjs-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .tjxuq-search-box {
+    .iocjs-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .tjxuq-support-info {
+    .iocjs-support-info {
       display: none;
     }
 
-    .tjxuq-header-bottom-inner {
+    .iocjs-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .tjxuq-main-menu {
+    .iocjs-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,15 +210,15 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .tjxuq-logo {
+    .iocjs-logo {
       height: 60px;
     }
 
-    .tjxuq-search-box {
+    .iocjs-search-box {
       flex: 0 1 150px;
     }
 
-    .tjxuq-icons span {
+    .iocjs-icons span {
       padding: 8px;
       font-size: 18px;
     }
@@ -448,7 +448,7 @@
   }
 
 
-  .zplo2body {
+  .rzaetbody {
     margin: 10px 0px 10px 0px;
     width: 100%;
     height: 100%;
@@ -456,14 +456,14 @@
     justify-content: center;
     align-items: center;
   }
-  .zplo2 {
+  .rzaet {
     width: var(--max);
   }
-  .zplo2 > img {
+  .rzaet > img {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .zplo2 {
+    .rzaet {
       width: 100%;
     }
   }
@@ -662,7 +662,7 @@
   }
 
 
-  .ideoq-trust-boxes {
+  .nutml-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -672,7 +672,7 @@
     gap: 0;
   }
 
-  .ideoq-trust-item {
+  .nutml-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -683,57 +683,57 @@
     gap: 16px;
   }
 
-  .ideoq-trust-item .material-icons {
+  .nutml-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .ideoq-trust-text {
+  .nutml-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .ideoq-trust-title {
+  .nutml-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .ideoq-trust-desc {
+  .nutml-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .ideoq-trust-boxes {
+    .nutml-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .ideoq-trust-item {
+    .nutml-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .ideoq-trust-boxes {
+    .nutml-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .ideoq-trust-item {
+    .nutml-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .ideoq-trust-title {
+    .nutml-trust-title {
       font-size: 16px;
     }
 
-    .ideoq-trust-desc {
+    .nutml-trust-desc {
       font-size: 13px;
     }
   }

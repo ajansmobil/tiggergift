@@ -1,10 +1,10 @@
 
-  .mqndd-header-wrapper {
+  .vl8he-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .mqndd-header {
+  .vl8he-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .mqndd-logo {
+  .vl8he-logo {
     height: 80px;
   }
 
-  .mqndd-header-top {
+  .vl8he-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .mqndd-search-box {
+  .vl8he-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .mqndd-search-box span {
+  .vl8he-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .mqndd-search-box input {
+  .vl8he-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .mqndd-search-box button {
+  .vl8he-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .mqndd-search-box button:hover {
+  .vl8he-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .mqndd-support-info {
+  .vl8he-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .mqndd-support-info span {
+  .vl8he-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .mqndd-support-info small {
+  .vl8he-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .mqndd-support-info strong {
+  .vl8he-support-info strong {
     font-size: 16px;
   }
 
-  .mqndd-icons {
+  .vl8he-icons {
     display: flex;
     gap: 10px;
   }
 
-  .mqndd-icons span {
+  .vl8he-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .mqndd-icons span:hover {
+  .vl8he-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .mqndd-header-bottom {
+  .vl8he-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .mqndd-header-bottom-inner {
+  .vl8he-header-bottom-inner {
     max-width: 1200px;
     margin: auto;
     padding: 14px 30px;
@@ -124,7 +124,7 @@
     align-items: center;
   }
 
-  .mqndd-category-btn {
+  .vl8he-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +136,72 @@
     font-weight: 500;
   }
 
-  .mqndd-main-menu {
+  .vl8he-main-menu {
     display: flex;
     gap: 20px;
     margin-left: 30px;
   }
 
-  .mqndd-main-menu a {
+  .vl8he-main-menu a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
   }
 
-  .mqndd-main-menu a:hover {
+  .vl8he-main-menu a:hover {
     color: #238b23;
   }
 
-  .mqndd-menulistactive {
+  .vl8he-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .mqndd-header-top {
+    .vl8he-header-top {
       gap: 20px;
     }
 
-    .mqndd-search-box {
+    .vl8he-search-box {
       margin: 0 10px;
     }
 
-    .mqndd-support-info strong {
+    .vl8he-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .mqndd-header {
+    .vl8he-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .mqndd-header-top {
+    .vl8he-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .mqndd-search-box {
+    .vl8he-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .mqndd-support-info {
+    .vl8he-support-info {
       display: none;
     }
 
-    .mqndd-header-bottom-inner {
+    .vl8he-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .mqndd-main-menu {
+    .vl8he-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,15 +210,15 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .mqndd-logo {
+    .vl8he-logo {
       height: 60px;
     }
 
-    .mqndd-search-box {
+    .vl8he-search-box {
       flex: 0 1 150px;
     }
 
-    .mqndd-icons span {
+    .vl8he-icons span {
       padding: 8px;
       font-size: 18px;
     }
@@ -448,7 +448,7 @@
   }
 
 
-  .ulqaubody {
+  .ewgw6body {
     margin: 10px 0px 10px 0px;
     width: 100%;
     height: 100%;
@@ -456,14 +456,14 @@
     justify-content: center;
     align-items: center;
   }
-  .ulqau {
+  .ewgw6 {
     width: var(--max);
   }
-  .ulqau > img {
+  .ewgw6 > img {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .ulqau {
+    .ewgw6 {
       width: 100%;
     }
   }
@@ -662,7 +662,7 @@
   }
 
 
-  .uu4ca-trust-boxes {
+  .wun6r-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -672,7 +672,7 @@
     gap: 0;
   }
 
-  .uu4ca-trust-item {
+  .wun6r-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -683,57 +683,57 @@
     gap: 16px;
   }
 
-  .uu4ca-trust-item .material-icons {
+  .wun6r-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .uu4ca-trust-text {
+  .wun6r-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .uu4ca-trust-title {
+  .wun6r-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .uu4ca-trust-desc {
+  .wun6r-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .uu4ca-trust-boxes {
+    .wun6r-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .uu4ca-trust-item {
+    .wun6r-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .uu4ca-trust-boxes {
+    .wun6r-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .uu4ca-trust-item {
+    .wun6r-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .uu4ca-trust-title {
+    .wun6r-trust-title {
       font-size: 16px;
     }
 
-    .uu4ca-trust-desc {
+    .wun6r-trust-desc {
       font-size: 13px;
     }
   }

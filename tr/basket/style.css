@@ -1,10 +1,10 @@
 
-  .cwiqu-header-wrapper {
+  .tmzd1-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .cwiqu-header {
+  .tmzd1-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .cwiqu-logo {
+  .tmzd1-logo {
     height: 80px;
   }
 
-  .cwiqu-header-top {
+  .tmzd1-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .cwiqu-search-box {
+  .tmzd1-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .cwiqu-search-box span {
+  .tmzd1-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .cwiqu-search-box input {
+  .tmzd1-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .cwiqu-search-box button {
+  .tmzd1-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .cwiqu-search-box button:hover {
+  .tmzd1-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .cwiqu-support-info {
+  .tmzd1-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .cwiqu-support-info span {
+  .tmzd1-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .cwiqu-support-info small {
+  .tmzd1-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .cwiqu-support-info strong {
+  .tmzd1-support-info strong {
     font-size: 16px;
   }
 
-  .cwiqu-icons {
+  .tmzd1-icons {
     display: flex;
     gap: 10px;
   }
 
-  .cwiqu-icons span {
+  .tmzd1-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .cwiqu-icons span:hover {
+  .tmzd1-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .cwiqu-header-bottom {
+  .tmzd1-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .cwiqu-header-bottom-inner {
+  .tmzd1-header-bottom-inner {
     max-width: 1200px;
     margin: auto;
     padding: 14px 30px;
@@ -124,7 +124,7 @@
     align-items: center;
   }
 
-  .cwiqu-category-btn {
+  .tmzd1-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +136,72 @@
     font-weight: 500;
   }
 
-  .cwiqu-main-menu {
+  .tmzd1-main-menu {
     display: flex;
     gap: 20px;
     margin-left: 30px;
   }
 
-  .cwiqu-main-menu a {
+  .tmzd1-main-menu a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
   }
 
-  .cwiqu-main-menu a:hover {
+  .tmzd1-main-menu a:hover {
     color: #238b23;
   }
 
-  .cwiqu-menulistactive {
+  .tmzd1-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .cwiqu-header-top {
+    .tmzd1-header-top {
       gap: 20px;
     }
 
-    .cwiqu-search-box {
+    .tmzd1-search-box {
       margin: 0 10px;
     }
 
-    .cwiqu-support-info strong {
+    .tmzd1-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .cwiqu-header {
+    .tmzd1-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .cwiqu-header-top {
+    .tmzd1-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .cwiqu-search-box {
+    .tmzd1-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .cwiqu-support-info {
+    .tmzd1-support-info {
       display: none;
     }
 
-    .cwiqu-header-bottom-inner {
+    .tmzd1-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .cwiqu-main-menu {
+    .tmzd1-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,22 +210,22 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .cwiqu-logo {
+    .tmzd1-logo {
       height: 60px;
     }
 
-    .cwiqu-search-box {
+    .tmzd1-search-box {
       flex: 0 1 150px;
     }
 
-    .cwiqu-icons span {
+    .tmzd1-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .ovgxh-trust-boxes {
+  .qzwlr-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -235,7 +235,7 @@
     gap: 0;
   }
 
-  .ovgxh-trust-item {
+  .qzwlr-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -246,57 +246,57 @@
     gap: 16px;
   }
 
-  .ovgxh-trust-item .material-icons {
+  .qzwlr-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .ovgxh-trust-text {
+  .qzwlr-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .ovgxh-trust-title {
+  .qzwlr-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .ovgxh-trust-desc {
+  .qzwlr-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .ovgxh-trust-boxes {
+    .qzwlr-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .ovgxh-trust-item {
+    .qzwlr-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .ovgxh-trust-boxes {
+    .qzwlr-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .ovgxh-trust-item {
+    .qzwlr-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .ovgxh-trust-title {
+    .qzwlr-trust-title {
       font-size: 16px;
     }
 
-    .ovgxh-trust-desc {
+    .qzwlr-trust-desc {
       font-size: 13px;
     }
   }
