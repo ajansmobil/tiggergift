@@ -1,0 +1,563 @@
+{
+  "data": [
+    {
+      "index": 0,
+      "name": "Eticaret Menüsi",
+      "path": "menu-eticaret-matrix",
+      "local": "header",
+      "category": "menu",
+      "desing": {
+        "logo": "logo.png",
+        "height": "50px",
+        "urlsepet": "sepet",
+        "page": "page",
+        "menu-color": "#cd9624",
+        "menu-color-2": "#238B23"
+      },
+      "id": "khxvq5"
+    },
+    {
+      "index": 1,
+      "name": "Footer 1",
+      "path": "footer-1",
+      "local": "footer",
+      "category": "footer",
+      "desing": {
+        "color": "#CD9624"
+      },
+      "data": [],
+      "id": "neapu8"
+    },
+    {
+      "name": "E-ticaret Alt",
+      "path": "eticaret-alt",
+      "local": "footer",
+      "category": "footer",
+      "desing": {
+        "color": "#1D3557",
+        "bgcolor": "#F8F9FF"
+      },
+      "data": [
+        {
+          "id": "trust_item_1",
+          "icon": "account_balance_wallet",
+          "title": {
+            "tr": "100% Güvenli Ödeme",
+            "en": "100% Secure Payment",
+            "ar": "دفع آمن 100٪",
+            "de": "100% Sichere Zahlung",
+            "ru": "100% Безопасная оплата",
+            "es": "Pago 100% Seguro",
+            "fr": "Paiement 100% Sécurisé",
+            "it": "Pagamento 100% Sicuro",
+            "ja": "100%安全な支払い",
+            "zh": "100%安全支付",
+            "ko": "100% 안전한 결제",
+            "pt": "Pagamento 100% Seguro"
+          },
+          "desc": {
+            "tr": "3D Secure ile Güvenli Ödeme",
+            "en": "Secure Payment with 3D Secure",
+            "ar": "دفع آمن مع 3D Secure",
+            "de": "Sichere Zahlung mit 3D Secure",
+            "ru": "Безопасная оплата с 3D Secure",
+            "es": "Pago seguro con 3D Secure",
+            "fr": "Paiement sécurisé avec 3D Secure",
+            "it": "Pagamento sicuro con 3D Secure",
+            "ja": "3D Secureによる安全な支払い",
+            "zh": "使用3D Secure安全支付",
+            "ko": "3D Secure로 안전한 결제",
+            "pt": "Pagamento seguro com 3D Secure"
+          }
+        },
+        {
+          "id": "trust_item_2",
+          "icon": "inventory_2",
+          "title": {
+            "tr": "%100 Orijinal Ürün",
+            "en": "100% Original Product",
+            "ar": "منتج أصلي 100٪",
+            "de": "100% Originales Produkt",
+            "ru": "100% Оригинальный продукт",
+            "es": "Producto 100% Original",
+            "fr": "Produit 100% Original",
+            "it": "Prodotto 100% Originale",
+            "ja": "100%オリジナル製品",
+            "zh": "100%正品",
+            "ko": "100% 정품",
+            "pt": "Produto 100% Original"
+          },
+          "desc": {
+            "tr": "%100 Lisanslı Orijinal Ürün ile Etkinleştirme",
+            "en": "Activation with 100% Licensed Original Product",
+            "ar": "تفعيل مع منتج أصلي مرخص 100٪",
+            "de": "Aktivierung mit 100% lizenziertem Originalprodukt",
+            "ru": "Активация с 100% лицензированным оригинальным продуктом",
+            "es": "Activación con producto original licenciado 100%",
+            "fr": "Activation avec produit original licencié 100%",
+            "it": "Attivazione con prodotto originale licenziato 100%",
+            "ja": "100%ライセンス付きオリジナル製品でのアクティベーション",
+            "zh": "使用100%授权正品激活",
+            "ko": "100% 라이센스된 정품으로 활성화",
+            "pt": "Ativação com produto original licenciado 100%"
+          }
+        },
+        {
+          "id": "trust_item_3",
+          "icon": "local_shipping",
+          "title": {
+            "tr": "Hızlı Teslimat",
+            "en": "Fast Delivery",
+            "ar": "توصيل سريع",
+            "de": "Schnelle Lieferung",
+            "ru": "Быстрая доставка",
+            "es": "Entrega Rápida",
+            "fr": "Livraison Rapide",
+            "it": "Consegna Rapida",
+            "ja": "迅速な配達",
+            "zh": "快速配送",
+            "ko": "빠른 배송",
+            "pt": "Entrega Rápida"
+          },
+          "desc": {
+            "tr": "Tüm Alışverişlerinizde Online Hızlı Teslimat",
+            "en": "Online Fast Delivery for All Your Shopping",
+            "ar": "توصيل سريع عبر الإنترنت لجميع مشترياتك",
+            "de": "Online schnelle Lieferung für alle Ihre Einkäufe",
+            "ru": "Онлайн быстрая доставка для всех ваших покупок",
+            "es": "Entrega rápida online para todas sus compras",
+            "fr": "Livraison rapide en ligne pour tous vos achats",
+            "it": "Consegna rapida online per tutti i tuoi acquisti",
+            "ja": "すべてのショッピングでオンライン迅速配達",
+            "zh": "所有购物在线快速配送",
+            "ko": "모든 쇼핑에 온라인 빠른 배송",
+            "pt": "Entrega rápida online para todas as suas compras"
+          }
+        }
+      ],
+      "id": "rxnnnk",
+      "index": 2
+    },
+    {
+      "index": 3,
+      "name": "Slider",
+      "path": "slider",
+      "local": "header",
+      "category": "slider",
+      "data": [
+        {
+          "img": "v1.png"
+        },
+        {
+          "img": "v2.png"
+        }
+      ],
+      "id": "libe6f"
+    },
+    {
+      "index": 4,
+      "name": "Login",
+      "path": "login",
+      "local": "body",
+      "category": "login",
+      "desing": {
+        "color": "#7b560d"
+      },
+      "id": "d28lp7"
+    },
+    {
+      "index": 5,
+      "name": "Sayfa Listesi Kare",
+      "path": "page-list-5",
+      "local": "body",
+      "category": "page list",
+      "desing": {
+        "name": {
+          "tr": "Sayfa Listesi",
+          "en": ""
+        },
+        "page": "products",
+        "size": 4,
+        "category": "",
+        "aspect-ratio": "1 / 2",
+        "margin": "0px 0px 0px 0px",
+        "max": 8
+      },
+      "id": "mc9orb"
+    },
+    {
+      "index": 6,
+      "name": "Tek Resimlik",
+      "path": "img-one",
+      "local": "body",
+      "category": "module",
+      "desing": {
+        "img": "reklam.webp",
+        "margin": "10px 0px 10px 0px"
+      },
+      "id": "yt7snl"
+    },
+    {
+      "index": 7,
+      "name": "Page Desing",
+      "path": "page-desing",
+      "local": "body",
+      "category": "page",
+      "desing": {
+        "height": "200",
+        "opacity": "0.5",
+        "font-size": "50",
+        "backgroundcolor": "#000"
+      },
+      "id": "pw78dc"
+    },
+    {
+      "index": 8,
+      "name": "İletişim",
+      "path": "contact-3",
+      "local": "body",
+      "category": "contact",
+      "desing": {
+        "color": "#1e3046",
+        "name": {
+          "tr": "Bize Ulaşın",
+          "en": ""
+        },
+        "margin": "30px 0px 30px 0px"
+      },
+      "data": [
+        {
+          "icon": "phone",
+          "text": "0850 305 14 69",
+          "url": "tel:08503051469"
+        },
+        {
+          "icon": "phone",
+          "text": "0342 343 82 12",
+          "url": "tel:03423438212"
+        },
+        {
+          "icon": "phone",
+          "text": "0532 397 40 36",
+          "url": "tel:05323974036"
+        },
+        {
+          "icon": "email",
+          "text": "info@{{domain}}"
+        },
+        {
+          "icon": "map",
+          "text": "Binevler Mah Şehit Ali Akarsu Sk No:25 / 1 Şahinbey / Gaziantep"
+        }
+      ],
+      "id": "cl635i"
+    },
+    {
+      "index": 9,
+      "name": "Page Desing 3",
+      "path": "page-desing-3",
+      "local": "body",
+      "category": "page",
+      "desing": {
+        "height": "200",
+        "opacity": "0.5",
+        "font-size": "50",
+        "backgroundcolor": "#000",
+        "category": "kurumsal"
+      },
+      "id": "bjf04r"
+    },
+    {
+      "name": "WhatsApp",
+      "path": "whatsapp",
+      "local": "footer",
+      "category": "contact",
+      "desing": {
+        "number": "905320000000",
+        "name": {
+          "tr": "Bize Ulaşın",
+          "en": ""
+        },
+        "position": "fixed",
+        "color": "#25D366",
+        "z_index": 10000,
+        "responsive": true
+      },
+      "data": [],
+      "id": "d4xgxu",
+      "index": 10
+    },
+    {
+      "index": 11,
+      "name": "Admin Tema",
+      "path": "admin-tema",
+      "local": "body",
+      "category": "tema",
+      "desing": {
+        "color": "#fff",
+        "bgcolor": "#601515",
+        "colortitle": "#fff",
+        "coloractive": "#202020",
+        "url": "admin"
+      },
+      "data": [
+        {
+          "name": {
+            "tr": "Admin"
+          },
+          "page": "admin"
+        }
+      ],
+      "id": "j2qy7w"
+    },
+    {
+      "name": "Admin Dashboard",
+      "path": "admin-page",
+      "local": "body",
+      "category": "admin",
+      "desing": {
+        "page": "admin",
+        "color": "#007bff",
+        "bgcolor": "#f8f9fa",
+        "colortitle": "#2c3e50",
+        "coloractive": "#28a745",
+        "header_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "card_shadow": "0 4px 20px rgba(0, 0, 0, 0.08)",
+        "border_radius": "15px"
+      },
+      "data": {
+        "stats": {
+          "orders": {
+            "icon": "shopping_bag",
+            "color": "#007bff",
+            "bgcolor": "#e3f2fd"
+          },
+          "revenue": {
+            "icon": "trending_up",
+            "color": "#28a745",
+            "bgcolor": "#e8f5e8"
+          },
+          "stock": {
+            "icon": "inventory",
+            "color": "#ffc107",
+            "bgcolor": "#fff8e1"
+          },
+          "customers": {
+            "icon": "group",
+            "color": "#6f42c1",
+            "bgcolor": "#f3e5f5"
+          }
+        },
+        "quick_actions": [
+          {
+            "name": "Yeni Ürün",
+            "icon": "add",
+            "type": "primary",
+            "action": "add_product"
+          },
+          {
+            "name": "Siparişleri Gör",
+            "icon": "shopping_cart",
+            "type": "secondary",
+            "action": "view_orders"
+          }
+        ],
+        "chart_periods": [
+          {
+            "name": "7 Gün",
+            "value": "7",
+            "default": true
+          },
+          {
+            "name": "30 Gün",
+            "value": "30",
+            "default": false
+          },
+          {
+            "name": "3 Ay",
+            "value": "90",
+            "default": false
+          }
+        ]
+      },
+      "id": "vxisul",
+      "index": 12
+    },
+    {
+      "name": "Admin Siparişler",
+      "path": "admin-siparisler",
+      "local": "body",
+      "category": "admin",
+      "desing": {
+        "page": "admin",
+        "color": "#007bff",
+        "bgcolor": "#f8f9fa",
+        "colortitle": "#2c3e50",
+        "coloractive": "#28a745",
+        "header_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "card_shadow": "0 4px 20px rgba(0, 0, 0, 0.08)",
+        "border_radius": "15px"
+      },
+      "data": {
+        "order_statuses": [
+          {
+            "value": "beklemede",
+            "label": "Beklemede",
+            "color": "#fff3cd",
+            "text_color": "#856404",
+            "icon": "schedule"
+          },
+          {
+            "value": "onaylandi",
+            "label": "Onaylandı",
+            "color": "#cce5ff",
+            "text_color": "#004085",
+            "icon": "check_circle"
+          },
+          {
+            "value": "hazirlaniyor",
+            "label": "Hazırlanıyor",
+            "color": "#d1ecf1",
+            "text_color": "#0c5460",
+            "icon": "local_shipping"
+          },
+          {
+            "value": "kargoda",
+            "label": "Kargoda",
+            "color": "#d4edda",
+            "text_color": "#155724",
+            "icon": "local_shipping"
+          },
+          {
+            "value": "tamamlandi",
+            "label": "Tamamlandı",
+            "color": "#d4edda",
+            "text_color": "#155724",
+            "icon": "check_circle"
+          },
+          {
+            "value": "iptal",
+            "label": "İptal",
+            "color": "#f8d7da",
+            "text_color": "#721c24",
+            "icon": "cancel"
+          }
+        ],
+        "payment_methods": [
+          {
+            "value": "kredi_karti",
+            "label": "Kredi Kartı",
+            "icon": "credit_card"
+          },
+          {
+            "value": "havale",
+            "label": "Havale",
+            "icon": "account_balance"
+          },
+          {
+            "value": "kapida_odeme",
+            "label": "Kapıda Ödeme",
+            "icon": "payments"
+          }
+        ],
+        "bulk_actions": [
+          {
+            "name": "Seçilenleri Onayla",
+            "action": "bulk_approve",
+            "icon": "check",
+            "type": "success",
+            "permission": "approve_orders"
+          },
+          {
+            "name": "Hazırlamaya Al",
+            "action": "bulk_process",
+            "icon": "local_shipping",
+            "type": "warning",
+            "permission": "process_orders"
+          },
+          {
+            "name": "Kargoya Ver",
+            "action": "bulk_ship",
+            "icon": "local_shipping",
+            "type": "info",
+            "permission": "ship_orders"
+          },
+          {
+            "name": "İptal Et",
+            "action": "bulk_cancel",
+            "icon": "cancel",
+            "type": "danger",
+            "permission": "cancel_orders"
+          }
+        ],
+        "table_columns": [
+          {
+            "key": "checkbox",
+            "label": "",
+            "width": "50px",
+            "type": "checkbox"
+          },
+          {
+            "key": "order_number",
+            "label": "Sipariş No",
+            "width": "120px",
+            "type": "text",
+            "sortable": true
+          },
+          {
+            "key": "date",
+            "label": "Tarih",
+            "width": "100px",
+            "type": "date",
+            "sortable": true
+          },
+          {
+            "key": "customer",
+            "label": "Müşteri",
+            "width": "150px",
+            "type": "text",
+            "sortable": true
+          },
+          {
+            "key": "products",
+            "label": "Ürünler",
+            "width": "200px",
+            "type": "text"
+          },
+          {
+            "key": "total",
+            "label": "Toplam",
+            "width": "100px",
+            "type": "currency",
+            "sortable": true
+          },
+          {
+            "key": "status",
+            "label": "Durum",
+            "width": "120px",
+            "type": "status",
+            "sortable": true
+          },
+          {
+            "key": "payment",
+            "label": "Ödeme",
+            "width": "120px",
+            "type": "text"
+          },
+          {
+            "key": "actions",
+            "label": "İşlemler",
+            "width": "120px",
+            "type": "actions"
+          }
+        ],
+        "pagination": {
+          "items_per_page": 20,
+          "max_pages_shown": 5
+        }
+      },
+      "id": "w1s72w",
+      "index": 13
+    }
+  ]
+}

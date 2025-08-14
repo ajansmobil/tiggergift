@@ -1,0 +1,36 @@
+{
+  "name": {
+    "tr": "Siparişler",
+    "en": "Orders"
+  },
+  "status": "play",
+  "category": "",
+  "id": "siparisler123",
+  "url": "",
+  "path": "siparisler",
+  "index": 1,
+  "icon": "shopping_cart",
+  "desing": {
+    "header": [],
+    "body": [
+      "w1s72w"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "desc": {},
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "text": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "update": "2025-08-09T18:47:10.343Z",
+  "date": "2025-08-09T18:47:10.343Z"
+}

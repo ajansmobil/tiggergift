@@ -1,0 +1,27 @@
+{
+  "header": [
+    "khxvq5",
+    "libe6f"
+  ],
+  "body": [
+    "mc9orb",
+    "yt7snl",
+    "mc9orb"
+  ],
+  "footer": [
+    "rxnnnk",
+    "neapu8",
+    "d4xgxu"
+  ],
+  "headerdefault": [
+    "khxvq5"
+  ],
+  "bodydefault": [],
+  "footerdefault": [
+    "rxnnnk",
+    "neapu8",
+    "d4xgxu"
+  ],
+  "headtop": "<script src=\"https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js\"></script>\n<script src=\"https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js\"></script>\n<script src=\"https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js\"></script>\n<script src=\"https://www.gstatic.com/firebasejs/8.6.1/firebase-storage.js\"></script>\n<script src=\"https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js\"></script>\n<script src=\"https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js\"></script>\n<script src=\"https://www.gstatic.com/firebasejs/8.6.1/firebase-functions.js\"></script>\n\n\n\n<script>\n  const firebaseConfig = {\n    apiKey: \"AIzaSyBW1jNJSUMgje8ZQ_jdT0Kbge9bnOZrlfs\",\n    authDomain: \"tiggergiftcom.firebaseapp.com\",\n    projectId: \"tiggergiftcom\",\n    storageBucket: \"tiggergiftcom.firebasestorage.app\",\n    messagingSenderId: \"869071434601\",\n    appId: \"1:869071434601:web:292f989d265a4a88a6c3f8\"\n  };\n  firebase.initializeApp(firebaseConfig);\n  const db = firebase.firestore();\n</script>\n",
+  "headbottom": ""
+}

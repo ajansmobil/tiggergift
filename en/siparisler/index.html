@@ -1,0 +1,1243 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
+  <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <title>Orders</title>
+  <meta name="description" content="undefined" />
+  <meta name="keywords" content="undefined" />
+  <meta property="og:title" content="Orders" />
+  <meta property="og:description" content="undefined" />
+  <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
+  <meta name="robots" content="index, follow" />
+  <link rel="stylesheet" href="/src/css.css?v=r6nhj" />
+  <link rel="shortcut icon" href="/img/icon.png?v=r6nhj" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet" />
+  <script type="text/javascript" src="/src/firebase.js?v=r6nhj"></script>
+
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
+  <script src="/src/swiper-bundle.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-functions.js"></script>
+
+
+
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyBW1jNJSUMgje8ZQ_jdT0Kbge9bnOZrlfs",
+    authDomain: "tiggergiftcom.firebaseapp.com",
+    projectId: "tiggergiftcom",
+    storageBucket: "tiggergiftcom.firebasestorage.app",
+    messagingSenderId: "869071434601",
+    appId: "1:869071434601:web:292f989d265a4a88a6c3f8"
+  };
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
+</script>
+
+<link rel="stylesheet" href="style.css?v=r6nhj">
+</head>
+
+<body>
+  <div id="header"><header class="wmt8n-header-wrapper">
+  <div class="wmt8n-header">
+    <div class="wmt8n-header-top">
+      <a href="/en/" class="wmt8n-header-left">
+        <img
+          src="/img/logo.png?v=r6nhj"
+          alt="Tiggergift Logo"
+          class="wmt8n-logo"
+        />
+      </a>
+
+      <div class="wmt8n-search-box">
+        <span class="material-symbols-outlined">search</span>
+        <input type="text" placeholder="Ürün ara..." />
+        <button>Ara</button>
+      </div>
+
+      <div class="wmt8n-support-info">
+        <span class="material-symbols-outlined">headphones</span>
+        <div>
+          <small>7/24 Destek</small>
+          <strong>+90 342 221 00 02</strong>
+        </div>
+      </div>
+
+      <div class="wmt8n-icons">
+        <a href="/en/user/" class="material-symbols-outlined">person</a>
+        <a href="/en/favori/" class="material-symbols-outlined"
+          >favorite</a
+        >
+        <a href="/en/basket/" class="material-symbols-outlined"
+          >shopping_cart</a
+        >
+      </div>
+    </div>
+  </div>
+
+  <div class="wmt8n-header-bottom">
+    <div class="wmt8n-header-bottom-inner">
+      <button class="wmt8n-category-btn">
+        <span class="material-symbols-outlined">menu</span> Kategoriler
+      </button>
+      <nav class="wmt8n-main-menu"><a href="/en/urunlerimiz/"></a><a href="/en/baklava/"></a><a href="/en/kurumsal/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
+    </div>
+  </div>
+</header>
+
+
+</div>
+  <div id="content"><div class="m118x">
+  <div class="m118x-menu">
+    <a href="/en/admin/" class="m118x-profile">
+      <div class="m118x-user-img"></div>
+      <div>Üye Adı Soyadı</div>
+    </a>
+    
+ <div class="m118x-menu-category">
+  
+    <a href="/en/admin/" >
+      <span class="material-symbols-outlined">home</span>
+      <div> Admin </div>
+    </a>
+    
+    <a class="m118x-menu-active" href="/en/siparisler/" >
+      <span class="material-symbols-outlined">shopping_cart</span>
+      <div> Siparişler </div>
+    </a>
+    
+    <a href="/en/urunler/" >
+      <span class="material-symbols-outlined">inventory</span>
+      <div> Ürünler </div>
+    </a>
+    
+    <a href="/en/kategoriler/" >
+      <span class="material-symbols-outlined">category</span>
+      <div> Kategoriler </div>
+    </a>
+    
+    <a href="/en/musteriler/" >
+      <span class="material-symbols-outlined">people</span>
+      <div> Müşteriler </div>
+    </a>
+    
+    <a href="/en/kampanyalar/" >
+      <span class="material-symbols-outlined">campaign</span>
+      <div> Kampanyalar </div>
+    </a>
+    
+    <a href="/en/odemeler/" >
+      <span class="material-symbols-outlined">payment</span>
+      <div> Ödemeler </div>
+    </a>
+    
+    <a href="/en/raporlar/" >
+      <span class="material-symbols-outlined">analytics</span>
+      <div> Raporlar </div>
+    </a>
+    
+    <a href="/en/moduller/" >
+      <span class="material-symbols-outlined">extension</span>
+      <div> Moduller </div>
+    </a>
+    
+    <a href="/en/uyeler/" >
+      <span class="material-symbols-outlined">admin_panel_settings</span>
+      <div> Üyeler </div>
+    </a>
+    
+    <a href="/en/ayarlar/" >
+      <span class="material-symbols-outlined">settings</span>
+      <div> Ayarlar </div>
+    </a>
+    
+    <a href="/en/loglar/" >
+      <span class="material-symbols-outlined">history</span>
+      <div> Loglar </div>
+    </a>
+    </div>
+  </div>
+  <div class="m118x-body"><div class="qubl5-admin-siparisler">
+    <!-- Sayfa Başlığı ve Filtreler -->
+    <div class="qubl5-page-header">
+        <div class="qubl5-header-left">
+            <h1>Sipariş Yönetimi</h1>
+
+        </div>
+        <div class="qubl5-header-right">
+            <div class="qubl5-header-actions">
+                <button class="qubl5-btn qubl5-btn-primary" onclick="get_siparisler_getir()">
+                    <span class="material-symbols-outlined">refresh</span>
+                    Yenile
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Sipariş İstatistikleri -->
+    <div class="qubl5-orders-stats">
+        <div class="qubl5-stat-item qubl5-stat-all" data-filter="tum" style="cursor: pointer;">
+            <div class="qubl5-stat-icon">
+                <span class="material-symbols-outlined">list</span>
+            </div>
+            <div class="qubl5-stat-content">
+                <div class="qubl5-stat-number" id="tum_sayisi">0</div>
+                <div class="qubl5-stat-label">Tüm Siparişler</div>
+            </div>
+        </div>
+
+        <div class="qubl5-stat-item qubl5-stat-pending" data-filter="bekleyen" style="cursor: pointer;">
+            <div class="qubl5-stat-icon">
+                <span class="material-symbols-outlined">schedule</span>
+            </div>
+            <div class="qubl5-stat-content">
+                <div class="qubl5-stat-number" id="bekleyen_sayisi">0</div>
+                <div class="qubl5-stat-label">Bekleyen</div>
+            </div>
+        </div>
+
+        <div class="qubl5-stat-item qubl5-stat-approved" data-filter="onaylandi" style="cursor: pointer;">
+            <div class="qubl5-stat-icon">
+                <span class="material-symbols-outlined">check_circle</span>
+            </div>
+            <div class="qubl5-stat-content">
+                <div class="qubl5-stat-number" id="onaylandi_sayisi">0</div>
+                <div class="qubl5-stat-label">Onaylandı</div>
+            </div>
+        </div>
+
+        <div class="qubl5-stat-item qubl5-stat-processing" data-filter="hazirlaniyor" style="cursor: pointer;">
+            <div class="qubl5-stat-icon">
+                <span class="material-symbols-outlined">local_shipping</span>
+            </div>
+            <div class="qubl5-stat-content">
+                <div class="qubl5-stat-number" id="hazirlaniyor_sayisi">0</div>
+                <div class="qubl5-stat-label">Hazırlanan</div>
+            </div>
+        </div>
+
+        <div class="qubl5-stat-item qubl5-stat-shipped" data-filter="kargoda" style="cursor: pointer;">
+            <div class="qubl5-stat-icon">
+                <span class="material-symbols-outlined">local_shipping</span>
+            </div>
+            <div class="qubl5-stat-content">
+                <div class="qubl5-stat-number" id="kargoda_sayisi">0</div>
+                <div class="qubl5-stat-label">Kargoda</div>
+            </div>
+        </div>
+
+        <div class="qubl5-stat-item qubl5-stat-completed" data-filter="tamamlandi" style="cursor: pointer;">
+            <div class="qubl5-stat-icon">
+                <span class="material-symbols-outlined">check_circle</span>
+            </div>
+            <div class="qubl5-stat-content">
+                <div class="qubl5-stat-number" id="tamamlandi_sayisi">0</div>
+                <div class="qubl5-stat-label">Tamamlanan</div>
+            </div>
+        </div>
+
+        <div class="qubl5-stat-item qubl5-stat-cancelled" data-filter="iptal" style="cursor: pointer;">
+            <div class="qubl5-stat-icon">
+                <span class="material-symbols-outlined">cancel</span>
+            </div>
+            <div class="qubl5-stat-content">
+                <div class="qubl5-stat-number" id="iptal_sayisi">0</div>
+                <div class="qubl5-stat-label">İptal</div>
+            </div>
+        </div>
+
+        <div class="qubl5-stat-item qubl5-stat-returned" data-filter="iade" style="cursor: pointer;">
+            <div class="qubl5-stat-icon">
+                <span class="material-symbols-outlined">assignment_return</span>
+            </div>
+            <div class="qubl5-stat-content">
+                <div class="qubl5-stat-number" id="iade_sayisi">0</div>
+                <div class="qubl5-stat-label">İade</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Sipariş Tablosu -->
+    <div class="qubl5-orders-table-container">
+        <div class="qubl5-search-filters">
+            <div class="qubl5-filter-options">
+                <div class="qubl5-search-box">
+                    <span class="material-symbols-outlined">search</span>
+                    <input type="text" id="searchInput" placeholder="Sipariş no, müşteri adı veya email ara..."
+                        onkeyup="filterSiparisler()">
+                </div>
+                <select id="statusFilter" onchange="filterSiparisler()">
+                    <option value="">Tüm Durumlar</option>
+                    <option value="bekleyen">Bekleyen</option>
+                    <option value="onaylandi">Onaylandı</option>
+                    <option value="hazirlaniyor">Hazırlanıyor</option>
+                    <option value="kargoda">Kargoda</option>
+                    <option value="tamamlandi">Tamamlandı</option>
+                    <option value="iptal">İptal</option>
+                    <option value="iade">İade</option>
+                </select>
+                <select id="paymentFilter" onchange="filterSiparisler()">
+                    <option value="">Tüm Ödeme Yöntemleri</option>
+                    <option value="kredi_karti">Kredi Kartı</option>
+                    <option value="havale">Havale</option>
+                    <option value="kapida_odeme">Kapıda Ödeme</option>
+                </select>
+                <input type="date" id="dateFilter" onchange="filterSiparisler()" placeholder="Tarih seçin">
+            </div>
+        </div>
+
+        <div class="qubl5-orders-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="qubl5-th-order">Sipariş No</th>
+                        <th class="qubl5-th-date">Tarih</th>
+                        <th class="qubl5-th-customer">Müşteri</th>
+                        <th class="qubl5-th-products">Ürünler</th>
+                        <th class="qubl5-th-total">Toplam</th>
+                        <th class="qubl5-th-status">Durum</th>
+                        <th class="qubl5-th-payment">Ödeme</th>
+                        <th class="qubl5-th-actions">İşlemler</th>
+                    </tr>
+                </thead>
+                <tbody id="orders-table-body">
+                    <!-- Siparişler JavaScript ile buraya yüklenecek -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Sayfalama -->
+        <div class="qubl5-pagination">
+            <button class="qubl5-btn qubl5-btn-secondary" id="prevPage" onclick="changePage(-1)">
+                <span class="material-symbols-outlined">chevron_left</span>
+                Önceki
+            </button>
+            <span class="qubl5-page-info">
+                Sayfa <span id="currentPage">1</span> / <span id="totalPages">1</span>
+            </span>
+            <button class="qubl5-btn qubl5-btn-secondary" id="nextPage" onclick="changePage(1)">
+                Sonraki
+                <span class="material-symbols-outlined">chevron_right</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Sipariş Detay Modalı -->
+    <div id="siparisDetailModal" class="qubl5-modal">
+        <div class="qubl5-modal-content">
+            <div class="qubl5-modal-header">
+                <h3>Sipariş Detayı</h3>
+                <span class="qubl5-modal-close" onclick="closeModal('siparisDetailModal')">&times;</span>
+            </div>
+            <div class="qubl5-modal-body" id="siparisDetailContent">
+                <!-- Sipariş detayları buraya yüklenecek -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Sipariş Düzenleme Modalı -->
+    <div id="siparisEditModal" class="qubl5-modal">
+        <div class="qubl5-modal-content">
+            <div class="qubl5-modal-header">
+                <h3>Sipariş Düzenle</h3>
+                <span class="qubl5-modal-close" onclick="closeModal('siparisEditModal')">&times;</span>
+            </div>
+            <div class="qubl5-modal-body">
+                <form id="siparisEditForm">
+                    <div class="qubl5-form-group">
+                        <label>Sipariş Durumu:</label>
+                        <select id="editSiparisDurum" required>
+                            <option value="bekleyen">Bekleyen</option>
+                            <option value="onaylandi">Onaylandı</option>
+                            <option value="hazirlaniyor">Hazırlanıyor</option>
+                            <option value="kargoda">Kargoda</option>
+                            <option value="tamamlandi">Tamamlandı</option>
+                            <option value="iptal">İptal</option>
+                            <option value="iade">İade</option>
+                        </select>
+                    </div>
+                    <div class="qubl5-form-group">
+                        <label>Kargo Firması:</label>
+                        <input type="text" id="editKargoFirma" placeholder="Kargo firması">
+                    </div>
+                    <div class="qubl5-form-group">
+                        <label>Kargo Takip No:</label>
+                        <input type="text" id="editKargoTakip" placeholder="Kargo takip numarası">
+                    </div>
+                    <div class="qubl5-form-group">
+                        <label>Not:</label>
+                        <textarea id="editSiparisNot" placeholder="Sipariş notu"></textarea>
+                    </div>
+                    <div class="qubl5-form-actions">
+                        <button type="submit" class="qubl5-btn qubl5-btn-success">Güncelle</button>
+                        <button type="button" class="qubl5-btn qubl5-btn-secondary"
+                            onclick="closeModal('siparisEditModal')">İptal</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    // ========================================
+    // SİPARİŞ YÖNETİMİ - JAVASCRIPT KODU
+    // ========================================
+
+    // Global değişkenler
+    let currentFilter = null;
+    let allSiparisler = []; // Tüm siparişleri sakla
+    let filteredSiparisler = []; // Filtrelenmiş siparişleri sakla
+    let currentPage = 1;
+    const SiparisDurumlari = ["bekleyen", "onaylandi", "hazirlaniyor", "kargoda", "tamamlandi", "iptal", "iade"];
+    const ITEMS_PER_PAGE = 10;
+
+    // ========================================
+    // SAYFA YÜKLENDİĞİNDE ÇALIŞACAK KODLAR
+    // ========================================
+
+    // DOM yüklendiğinde çalışacak fonksiyonlar
+    document.addEventListener('DOMContentLoaded', function () {
+        initializeSiparisler();
+        setupEventListeners();
+    });
+
+    // ========================================
+    // ANA FONKSİYONLAR
+    // ========================================
+
+    // Siparişleri başlat ve yükle
+    function initializeSiparisler() {
+        get_siparisler_getir();
+    }
+
+    // Event listener'ları kur
+    function setupEventListeners() {
+        setupStatItemListeners();
+        setupFormListeners();
+    }
+
+    // İstatistik kartlarına tıklama olayı ekle
+    function setupStatItemListeners() {
+        const statItems = document.querySelectorAll('.qubl5-stat-item[data-filter]');
+
+        statItems.forEach(item => {
+            item.addEventListener('click', function () {
+                const filter = this.getAttribute('data-filter');
+                filterSiparislerByDurum(filter);
+
+                // Aktif durumu güncelle
+                statItems.forEach(stat => stat.classList.remove('active'));
+                this.classList.add('active');
+                currentFilter = filter;
+            });
+        });
+    }
+
+    // Form listener'ları kur
+    function setupFormListeners() {
+        const editForm = document.getElementById('siparisEditForm');
+        if (editForm) {
+            editForm.addEventListener('submit', handleSiparisEdit);
+        }
+    }
+
+    // ========================================
+    // SİPARİŞ GETİRME VE FİLTRELEME
+    // ========================================
+
+    // Ana sipariş getirme fonksiyonu
+    function get_siparisler_getir() {
+        const tableBody = document.getElementById("orders-table-body");
+        tableBody.innerHTML = ""; // Tabloyu temizle
+
+        // Tüm durumlardan siparişleri çek
+        const durumlar = SiparisDurumlari;
+
+        // İstatistik sayaçları
+        const istatistikler = {
+            toplam: 0,
+            bekleyen: 0,
+            onaylandi: 0,
+            hazirlaniyor: 0,
+            kargoda: 0,
+            tamamlandi: 0,
+            iptal: 0,
+            iade: 0
+        };
+
+        // Her durum için Promise oluştur
+        const promises = durumlar.map(durum => {
+            return db.collection("admin/siparisler/" + durum).get().then((snapshot) => {
+                let durumSayisi = 0;
+                snapshot.docs.forEach((doc) => {
+                    const siparis = doc.data();
+                    siparis.id = doc.id;
+                    siparis.durum = durum;
+                    allSiparisler.push(siparis);
+                    durumSayisi++;
+                    istatistikler.toplam++;
+                });
+
+                // Durum sayılarını güncelle
+                istatistikler[durum] = durumSayisi;
+
+                return durumSayisi;
+            }).catch(error => {
+                console.error(`${durum} durumundan veri çekilirken hata:`, error);
+                return 0;
+            });
+        });
+
+        // Tüm Promise'lar tamamlandığında istatistikleri güncelle
+        Promise.all(promises).then(() => {
+            // İstatistikleri güncelle
+            updateIstatistikler(istatistikler);
+
+            // Filtrelenmiş siparişleri ayarla
+            filteredSiparisler = [...allSiparisler];
+
+            // Sayfalama ve tabloyu güncelle
+            updatePagination();
+            renderCurrentPage();
+
+            // Eğer hiç sipariş yoksa mesaj göster
+            if (istatistikler.toplam === 0) {
+                tableBody.innerHTML = `
+                    <tr>
+                        <td colspan="8" style="text-align: center; padding: 40px; color: #6c757d;">
+                            <div style="font-size: 16px; margin-bottom: 10px;">Henüz sipariş bulunmuyor</div>
+                            <button class="qubl5-btn qubl5-btn-primary" onclick="testVerisiEkle()">
+                                <span class="material-symbols-outlined">add</span>
+                                Test Verisi Ekle
+                            </button>
+                        </div>
+                    </tr>
+                `;
+            }
+        }).catch(error => {
+            console.error('Siparişler yüklenirken hata:', error);
+            tableBody.innerHTML = `
+                <tr>
+                    <td colspan="8" style="text-align: center; padding: 40px; color: #dc3545;">
+                        <div style="font-size: 16px; margin-bottom: 10px;">Veriler yüklenirken hata oluştu</div>
+                        <button class="qubl5-btn qubl5-btn-primary" onclick="get_siparisler_getir()">
+                            <span class="material-symbols-outlined">refresh</span>
+                            Tekrar Dene
+                        </button>
+                    </div>
+                </tr>
+            `;
+        });
+    }
+
+    // ========================================
+    // ARAMA VE FİLTRELEME
+    // ========================================
+
+    // Siparişleri filtrele
+    function filterSiparisler() {
+        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+        const statusFilter = document.getElementById('statusFilter').value;
+        const paymentFilter = document.getElementById('paymentFilter').value;
+        const dateFilter = document.getElementById('dateFilter').value;
+
+        filteredSiparisler = allSiparisler.filter(siparis => {
+            // Arama filtresi
+            const searchMatch = !searchTerm ||
+                siparis.id.toLowerCase().includes(searchTerm) ||
+                siparis.user.name.toLowerCase().includes(searchTerm) ||
+                siparis.user.email.toLowerCase().includes(searchTerm);
+
+            // Durum filtresi
+            const statusMatch = !statusFilter || siparis.durum === statusFilter;
+
+            // Ödeme filtresi
+            const paymentMatch = !paymentFilter || siparis.odeme === paymentFilter;
+
+            // Tarih filtresi
+            const dateMatch = !dateFilter || siparis.tarih === dateFilter;
+
+            return searchMatch && statusMatch && paymentMatch && dateMatch;
+        });
+
+        // Sayfalama ve tabloyu güncelle
+        currentPage = 1;
+        currentFilter = null; // Manuel filtreleme yapıldığında currentFilter'ı sıfırla
+        updatePagination();
+        renderCurrentPage();
+    }
+
+    // Duruma göre siparişleri filtrele
+    function filterSiparislerByDurum(durum) {
+        if (durum === 'tum') {
+            filteredSiparisler = [...allSiparisler];
+        } else {
+            filteredSiparisler = allSiparisler.filter(siparis => siparis.durum === durum);
+        }
+
+        // Filtreleri sıfırla
+        document.getElementById('searchInput').value = '';
+        document.getElementById('statusFilter').value = '';
+        document.getElementById('paymentFilter').value = '';
+        document.getElementById('dateFilter').value = '';
+
+        // Sayfalama ve tabloyu güncelle
+        currentPage = 1;
+        currentFilter = durum;
+        updatePagination();
+        renderCurrentPage();
+    }
+
+    // ========================================
+    // SAYFALAMA
+    // ========================================
+
+    // Sayfalama güncelle
+    function updatePagination() {
+        const totalPages = Math.ceil(filteredSiparisler.length / ITEMS_PER_PAGE);
+        document.getElementById('totalPages').textContent = totalPages;
+        document.getElementById('currentPage').textContent = currentPage;
+
+        // Sayfa butonlarını güncelle
+        document.getElementById('prevPage').disabled = currentPage <= 1;
+        document.getElementById('nextPage').disabled = currentPage >= totalPages;
+    }
+
+    // Sayfa değiştir
+    function changePage(direction) {
+        const newPage = currentPage + direction;
+        const totalPages = Math.ceil(filteredSiparisler.length / ITEMS_PER_PAGE);
+
+        if (newPage >= 1 && newPage <= totalPages) {
+            currentPage = newPage;
+            updatePagination();
+            renderCurrentPage();
+        }
+    }
+
+    // Mevcut sayfayı render et
+    function renderCurrentPage() {
+        const tableBody = document.getElementById("orders-table-body");
+        tableBody.innerHTML = "";
+
+        const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+        const endIndex = startIndex + ITEMS_PER_PAGE;
+        const pageSiparisler = filteredSiparisler.slice(startIndex, endIndex);
+
+        if (pageSiparisler.length === 0) {
+            tableBody.innerHTML = `
+                <tr>
+                    <td colspan="8" style="text-align: center; padding: 40px; color: #6c757d;">
+                        <div style="font-size: 16px;">Filtrelenen kriterlere uygun sipariş bulunamadı</div>
+                    </td>
+                </tr>
+            `;
+            return;
+        }
+
+        pageSiparisler.forEach(siparis => {
+            const row = createSiparisRow(siparis.id, siparis, siparis.durum);
+            tableBody.appendChild(row);
+        });
+    }
+
+    // ========================================
+    // MODAL FONKSİYONLARI
+    // ========================================
+
+    // Modal aç
+    function openModal(modalId) {
+        document.getElementById(modalId).style.display = 'block';
+        document.body.style.overflow = 'hidden';
+    }
+
+    // Modal kapat
+    function closeModal(modalId) {
+        document.getElementById(modalId).style.display = 'none';
+        document.body.style.overflow = 'auto';
+    }
+
+    // Modal dışına tıklandığında kapat
+    window.onclick = function (event) {
+        const modals = document.querySelectorAll('.qubl5-modal');
+        modals.forEach(modal => {
+            if (event.target === modal) {
+                closeModal(modal.id);
+            }
+        });
+    }
+
+    // ========================================
+    // SİPARİŞ İŞLEMLERİ
+    // ========================================
+
+    // Sipariş görüntüle
+    function viewSiparis(id, durum) {
+        const siparis = allSiparisler.find(s => s.id === id);
+        if (!siparis) return;
+
+        const content = createSiparisDetailHTML(siparis);
+        document.getElementById('siparisDetailContent').innerHTML = content;
+        openModal('siparisDetailModal');
+    }
+
+    // Sipariş düzenle
+    function editSiparis(id, durum) {
+        const siparis = allSiparisler.find(s => s.id === id);
+        if (!siparis) return;
+
+        // Form alanlarını doldur
+        document.getElementById('editSiparisDurum').value = siparis.durum;
+        document.getElementById('editKargoFirma').value = siparis.kargo || '';
+        document.getElementById('editKargoTakip').value = siparis.kargo_takip || '';
+        document.getElementById('editSiparisNot').value = siparis.not || '';
+
+        // Form submit olayını ayarla
+        const form = document.getElementById('siparisEditForm');
+        form.onsubmit = function (e) {
+            e.preventDefault();
+            handleSiparisEdit(id, durum);
+        };
+
+        openModal('siparisEditModal');
+    }
+
+    // Sipariş düzenleme işlemi
+    function handleSiparisEdit(id, durum) {
+        const yeniDurum = document.getElementById('editSiparisDurum').value;
+        const kargoFirma = document.getElementById('editKargoFirma').value;
+        const kargoTakip = document.getElementById('editKargoTakip').value;
+        const not = document.getElementById('editSiparisNot').value;
+
+        const siparis = allSiparisler.find(s => s.id === id);
+        if (!siparis) return;
+
+        // Sipariş bilgilerini güncelle
+        const guncelSiparis = {
+            ...siparis,
+            durum: yeniDurum,
+            kargo: kargoFirma,
+            kargo_takip: kargoTakip,
+            not: not,
+            guncelleme_tarih: new Date().toISOString().split('T')[0]
+        };
+
+        // Eski durumdan sil
+        db.collection("admin/siparisler/" + durum).doc(id).delete()
+            .then(() => {
+                // Yeni duruma ekle
+                return db.collection("admin/siparisler/" + yeniDurum).doc(id).set(guncelSiparis);
+            })
+            .then(() => {
+                // Local array'i güncelle - eski siparişi kaldır ve yenisini ekle
+                const index = allSiparisler.findIndex(s => s.id === id);
+                if (index !== -1) {
+                    // Eski siparişi kaldır
+                    allSiparisler.splice(index, 1);
+                    // Yeni siparişi ekle
+                    allSiparisler.push(guncelSiparis);
+                }
+
+                // Filtrelenmiş listeyi güncelle
+                if (currentFilter && currentFilter !== 'tum') {
+                    filteredSiparisler = allSiparisler.filter(s => s.durum === currentFilter);
+                } else {
+                    filteredSiparisler = [...allSiparisler];
+                }
+
+                // Modal'ı kapat
+                closeModal('siparisEditModal');
+
+                // Sayfalama ve tabloyu güncelle
+                updatePagination();
+                renderCurrentPage();
+
+                // İstatistikleri güncelle
+                updateIstatistiklerFromArray();
+
+                // Başarı mesajı göster
+                showNotification('Sipariş başarıyla güncellendi', 'success');
+            })
+            .catch(error => {
+                console.error('Sipariş güncellenirken hata:', error);
+                showNotification('Sipariş güncellenirken hata oluştu', 'error');
+            });
+    }
+
+    // ========================================
+    // YARDIMCI FONKSİYONLAR
+    // ========================================
+
+    // İstatistikleri güncelle
+    function updateIstatistikler(istatistikler) {
+        document.getElementById("tum_sayisi").innerHTML = istatistikler.toplam;
+        document.getElementById("bekleyen_sayisi").innerHTML = istatistikler.bekleyen;
+        document.getElementById("onaylandi_sayisi").innerHTML = istatistikler.onaylandi;
+        document.getElementById("hazirlaniyor_sayisi").innerHTML = istatistikler.hazirlaniyor;
+        document.getElementById("kargoda_sayisi").innerHTML = istatistikler.kargoda;
+        document.getElementById("tamamlandi_sayisi").innerHTML = istatistikler.tamamlandi;
+        document.getElementById("iptal_sayisi").innerHTML = istatistikler.iptal;
+        document.getElementById("iade_sayisi").innerHTML = istatistikler.iade || 0;
+    }
+
+    // Array'den istatistikleri güncelle
+    function updateIstatistiklerFromArray() {
+        const istatistikler = {
+            toplam: allSiparisler.length,
+            bekleyen: allSiparisler.filter(s => s.durum === 'bekleyen').length,
+            onaylandi: allSiparisler.filter(s => s.durum === 'onaylandi').length,
+            hazirlaniyor: allSiparisler.filter(s => s.durum === 'hazirlaniyor').length,
+            kargoda: allSiparisler.filter(s => s.durum === 'kargoda').length,
+            tamamlandi: allSiparisler.filter(s => s.durum === 'tamamlandi').length,
+            iptal: allSiparisler.filter(s => s.durum === 'iptal').length,
+            iade: allSiparisler.filter(s => s.durum === 'iade').length
+        };
+
+        updateIstatistikler(istatistikler);
+    }
+
+    // Sipariş detay HTML'i oluştur
+    function createSiparisDetailHTML(siparis) {
+        return `
+            <div class="qubl5-siparis-detail">
+                <div class="qubl5-detail-section">
+                    <h4>Sipariş Bilgileri</h4>
+                    <div class="qubl5-detail-grid">
+                        <div class="qubl5-detail-item">
+                            <label>Sipariş No:</label>
+                            <span>#${siparis.id.substring(0, 8)}</span>
+                        </div>
+                        <div class="qubl5-detail-item">
+                            <label>Tarih:</label>
+                            <span>${siparis.tarih}</span>
+                        </div>
+                        <div class="qubl5-detail-item">
+                            <label>Durum:</label>
+                            <span>${createDurumBadge(siparis.durum)}</span>
+                        </div>
+                        <div class="qubl5-detail-item">
+                            <label>Toplam:</label>
+                            <span>${siparis.toplam}₺</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="qubl5-detail-section">
+                    <h4>Müşteri Bilgileri</h4>
+                    <div class="qubl5-detail-grid">
+                        <div class="qubl5-detail-item">
+                            <label>Ad Soyad:</label>
+                            <span>${siparis.user.name}</span>
+                        </div>
+                        <div class="qubl5-detail-item">
+                            <label>Email:</label>
+                            <span>${siparis.user.email}</span>
+                        </div>
+                        <div class="qubl5-detail-item">
+                            <label>Telefon:</label>
+                            <span>${siparis.user.phone || 'Belirtilmemiş'}</span>
+                        </div>
+                        <div class="qubl5-detail-item">
+                            <label>Adres:</label>
+                            <span>${siparis.user.address || 'Belirtilmemiş'}</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="qubl5-detail-section">
+                    <h4>Ürünler</h4>
+                    <div class="qubl5-products-list">
+                        ${siparis.urunler.map(urun => `
+                            <div class="qubl5-product-item">
+                                <span class="qubl5-product-name">${urun.adi}</span>
+                                <span class="qubl5-product-quantity">${urun.adet} adet</span>
+                                <span class="qubl5-product-price">${urun.fiyat}₺</span>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+
+                ${siparis.kargo ? `
+                <div class="qubl5-detail-section">
+                    <h4>Kargo Bilgileri</h4>
+                    <div class="qubl5-detail-grid">
+                        <div class="qubl5-detail-item">
+                            <label>Kargo Firması:</label>
+                            <span>${siparis.kargo}</span>
+                        </div>
+                        ${siparis.kargo_takip ? `
+                        <div class="qubl5-detail-item">
+                            <label>Takip No:</label>
+                            <span>${siparis.kargo_takip}</span>
+                        </div>
+                        ` : ''}
+                        ${siparis.kargo_tarih ? `
+                        <div class="qubl5-detail-item">
+                            <label>Kargo Tarihi:</label>
+                            <span>${siparis.kargo_tarih}</span>
+                        </div>
+                        ` : ''}
+                    </div>
+                </div>
+                ` : ''}
+
+                ${siparis.not ? `
+                <div class="qubl5-detail-section">
+                    <h4>Not</h4>
+                    <p>${siparis.not}</p>
+                </div>
+                ` : ''}
+            </div>
+        `;
+    }
+
+    // Bildirim göster
+    function showNotification(message, type = 'info') {
+        // Basit bildirim sistemi
+        const notification = document.createElement('div');
+        notification.className = `qubl5-notification qubl5-notification-${type}`;
+        notification.textContent = message;
+
+        document.body.appendChild(notification);
+
+        setTimeout(() => {
+            notification.remove();
+        }, 3000);
+    }
+
+    // ========================================
+    // TEST VE GELİŞTİRME FONKSİYONLARI
+    // ========================================
+
+    // Test verisi ekle
+    function testVerisiEkle() {
+        const testSiparisler = createTestData();
+
+        // Test siparişlerini ekle
+        testSiparisler.forEach((siparis, index) => {
+            const durum = siparis.durum;
+            db.collection("admin/siparisler/" + durum).add(siparis)
+                .then(() => {
+                    console.log(`${durum} durumuna sipariş eklendi`);
+                    if (index === testSiparisler.length - 1) {
+                        get_siparisler_getir();
+                    }
+                })
+                .catch(error => {
+                    console.error('Test siparişi eklenirken hata:', error);
+                });
+        });
+    }
+
+    // Test verisi oluştur
+    function createTestData() {
+        return [
+            {
+                user: {
+                    id: "1234567890",
+                    name: "Ahmet Yılmaz",
+                    email: "ahmet@example.com",
+                    phone: "0555 123 45 67",
+                    address: "İstanbul, Türkiye",
+                },
+                urunler: [
+                    {
+                        id: "urun1",
+                        adi: "iPhone 15 Pro",
+                        fiyat: 45000,
+                        adet: 1,
+                    }
+                ],
+                toplam: 45000,
+                durum: "bekleyen",
+                tarih: "2024-01-15",
+                odeme: "kredi_karti",
+                kargo: "MNG Kargo",
+                kargo_tarih: "2024-01-16",
+            },
+            {
+                user: {
+                    id: "0987654321",
+                    name: "Fatma Demir",
+                    email: "fatma@example.com",
+                    phone: "0532 987 65 43",
+                    address: "Ankara, Türkiye",
+                },
+                urunler: [
+                    {
+                        id: "urun2",
+                        adi: "Samsung Galaxy S24",
+                        fiyat: 35000,
+                        adet: 1,
+                    },
+                    {
+                        id: "urun3",
+                        adi: "Kılıf",
+                        fiyat: 150,
+                        adet: 2,
+                    }
+                ],
+                toplam: 35300,
+                durum: "onaylandi",
+                tarih: "2024-01-14",
+                odeme: "havale",
+                kargo: "Aras Kargo",
+                kargo_tarih: "2024-01-17",
+            },
+            {
+                user: {
+                    id: "1122334455",
+                    name: "Mehmet Kaya",
+                    email: "mehmet@example.com",
+                    phone: "0533 555 44 33",
+                    address: "İzmir, Türkiye",
+                },
+                urunler: [
+                    {
+                        id: "urun4",
+                        adi: "MacBook Air",
+                        fiyat: 25000,
+                        adet: 1,
+                    }
+                ],
+                toplam: 25000,
+                durum: "iade",
+                tarih: "2024-01-13",
+                odeme: "kredi_karti",
+                kargo: "PTT Kargo",
+                kargo_tarih: "2024-01-15",
+            }
+        ];
+    }
+
+    // ========================================
+    // TABLO VE VERİ İŞLEME FONKSİYONLARI
+    // ========================================
+
+    // Sipariş satırı oluştur
+    function createSiparisRow(id, siparis, durum) {
+        const row = document.createElement("tr");
+
+        // HTML içeriğini oluştur
+        row.innerHTML = createSiparisRowHTML(id, siparis, durum);
+        return row;
+    }
+
+    // Sipariş satırı HTML'i oluştur
+    function createSiparisRowHTML(id, siparis, durum) {
+        const durumBadge = createDurumBadge(durum);
+        const urunlerList = createUrunlerList(siparis.urunler);
+
+        return `
+            <td>#${id.substring(0, 8)}</td>
+            <td>${siparis.tarih}</td>
+            <td>
+                <div class="qubl5-customer-info">
+                    <div class="qubl5-customer-name">${siparis.user.name}</div>
+                    <div class="qubl5-customer-email">${siparis.user.email}</div>
+                </div>
+            </td>
+            <td class="qubl5-products-cell">${urunlerList}</td>
+            <td class="qubl5-total-cell">${siparis.toplam}₺</td>
+            <td>${durumBadge}</td>
+            <td>${createOdemeBadge(siparis.odeme)}</td>
+            <td>
+                <div class="qubl5-action-buttons">
+                    <button class="qubl5-btn qubl5-btn-sm qubl5-btn-info" onclick="viewSiparis('${id}', '${durum}')">
+                        <span class="material-symbols-outlined">visibility</span>
+                    </button>
+                    <button class="qubl5-btn qubl5-btn-sm qubl5-btn-warning" onclick="editSiparis('${id}', '${durum}')">
+                        <span class="material-symbols-outlined">edit</span>
+                    </button>
+                </div>
+            </td>
+        `;
+    }
+
+    // Durum badge'i oluştur
+    function createDurumBadge(durum) {
+        return `<span class="qubl5-status-badge qubl5-status-${durum}">${getDurumText(durum)}</span>`;
+    }
+
+    // Ödeme badge'i oluştur
+    function createOdemeBadge(odeme) {
+        return `<span class="qubl5-payment-badge">${getOdemeText(odeme)}</span>`;
+    }
+
+    // Ürün listesi oluştur
+    function createUrunlerList(urunler) {
+        return urunler.map(urun =>
+            `${urun.adet} adet`
+        ).join(", ");
+    }
+
+    // ========================================
+    // YARDIMCI VE UTILITY FONKSİYONLAR
+    // ========================================
+
+    // Durum metni getir
+    function getDurumText(durum) {
+        const durumMap = {
+            'tum': 'Tüm Siparişler',
+            'bekleyen': 'Bekleyen',
+            'onaylandi': 'Onaylandı',
+            'hazirlaniyor': 'Hazırlanıyor',
+            'kargoda': 'Kargoda',
+            'tamamlandi': 'Tamamlandı',
+            'iptal': 'İptal',
+            'iade': 'İade'
+        };
+        return durumMap[durum] || durum;
+    }
+
+    // Ödeme metni getir
+    function getOdemeText(odeme) {
+        const odemeMap = {
+            'kredi_karti': 'Kredi Kartı',
+            'havale': 'Havale',
+            'kapida_odeme': 'Kapıda Ödeme'
+        };
+        return odemeMap[odeme] || odeme;
+    }
+
+    // ========================================
+    // KOD SONU
+    // ========================================
+</script>
+
+
+</div>
+</div>
+
+</div>
+  <div id="footer"><!-- Google Material Icons -->
+<link
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet"
+/>
+
+<!-- Güven Kutuları Alanı -->
+<div class="wjmwj-trust-boxes">
+      <div class="wjmwj-trust-item">
+        <span class="material-icons">account_balance_wallet</span>
+        <div class="wjmwj-trust-text">
+          <div class="wjmwj-trust-title">100% Secure Payment</div>
+          <div class="wjmwj-trust-desc">Secure Payment with 3D Secure</div>
+        </div>
+      </div>
+    
+      <div class="wjmwj-trust-item">
+        <span class="material-icons">inventory_2</span>
+        <div class="wjmwj-trust-text">
+          <div class="wjmwj-trust-title">100% Original Product</div>
+          <div class="wjmwj-trust-desc">Activation with 100% Licensed Original Product</div>
+        </div>
+      </div>
+    
+      <div class="wjmwj-trust-item">
+        <span class="material-icons">local_shipping</span>
+        <div class="wjmwj-trust-text">
+          <div class="wjmwj-trust-title">Fast Delivery</div>
+          <div class="wjmwj-trust-desc">Online Fast Delivery for All Your Shopping</div>
+        </div>
+      </div>
+    </div>
+
+<!-- CSS -->
+
+<footer class="footer">
+  <div class="waves">
+    <div class="wave" id="wave1"></div>
+    <div class="wave" id="wave2"></div>
+    <div class="wave" id="wave3"></div>
+    <div class="wave" id="wave4"></div>
+  </div>
+  <ul class="social-icon">
+    <li class="social-icon__item">
+      <a class="social-icon__link" href="#">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </a>
+    </li>
+    <li class="social-icon__item">
+      <a class="social-icon__link" href="#">
+        <ion-icon name="logo-x"></ion-icon>
+      </a>
+    </li>
+    <li class="social-icon__item">
+      <a class="social-icon__link" href="#">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a>
+    </li>
+    <li class="social-icon__item">
+      <a class="social-icon__link" href="#">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
+    </li>
+  </ul>
+  <ul class="menu">
+    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/urunlerimiz"></a></li><li class="menu__item"><a class="menu__link" href="/en/baklava"></a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/en/yerelurunler"></a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim"></a></li>
+  </ul>
+  <p>Tiggergift 2025 cognite. &copy;</p>
+</footer>
+
+<a
+  href="https://api.whatsapp.com/send/?phone=905320000000&text=&app_absent=0"
+  target="_blank"
+  class="whatsapp"
+>
+  <div class="whatsappicon">
+    <svg
+      _ngcontent-cty-c90=""
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 0 32 32"
+      class="wa-messenger-svg-whatsapp wh-svg-icon"
+    >
+      <path
+        _ngcontent-cty-c90=""
+        d=" M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
+        fill-rule="evenodd"
+      ></path>
+    </svg>
+  </div>
+  
+</a>
+
+</div>
+</body>
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+
+
+<script type="text/javascript" src="/src/js.js?v=r6nhj"></script>
+
+
+
+
+<script src="/src/cookie.js?v=r6nhj"></script>
+
+</html>

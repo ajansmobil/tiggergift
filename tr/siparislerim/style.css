@@ -1,10 +1,10 @@
 
-  .irqfh-header-wrapper {
+  .g2w4p-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .irqfh-header {
+  .g2w4p-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .irqfh-logo {
+  .g2w4p-logo {
     height: 80px;
   }
 
-  .irqfh-header-top {
+  .g2w4p-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .irqfh-search-box {
+  .g2w4p-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .irqfh-search-box span {
+  .g2w4p-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .irqfh-search-box input {
+  .g2w4p-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .irqfh-search-box button {
+  .g2w4p-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .irqfh-search-box button:hover {
+  .g2w4p-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .irqfh-support-info {
+  .g2w4p-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .irqfh-support-info span {
+  .g2w4p-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .irqfh-support-info small {
+  .g2w4p-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .irqfh-support-info strong {
+  .g2w4p-support-info strong {
     font-size: 16px;
   }
 
-  .irqfh-icons {
+  .g2w4p-icons {
     display: flex;
     gap: 10px;
   }
 
-  .irqfh-icons span {
+  .g2w4p-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .irqfh-icons span:hover {
+  .g2w4p-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .irqfh-header-bottom {
+  .g2w4p-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .irqfh-header-bottom-inner {
+  .g2w4p-header-bottom-inner {
     max-width: 1200px;
     margin: auto;
     padding: 14px 30px;
@@ -124,7 +124,7 @@
     align-items: center;
   }
 
-  .irqfh-category-btn {
+  .g2w4p-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +136,72 @@
     font-weight: 500;
   }
 
-  .irqfh-main-menu {
+  .g2w4p-main-menu {
     display: flex;
     gap: 20px;
     margin-left: 30px;
   }
 
-  .irqfh-main-menu a {
+  .g2w4p-main-menu a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
   }
 
-  .irqfh-main-menu a:hover {
+  .g2w4p-main-menu a:hover {
     color: #238b23;
   }
 
-  .irqfh-menulistactive {
+  .g2w4p-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .irqfh-header-top {
+    .g2w4p-header-top {
       gap: 20px;
     }
 
-    .irqfh-search-box {
+    .g2w4p-search-box {
       margin: 0 10px;
     }
 
-    .irqfh-support-info strong {
+    .g2w4p-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .irqfh-header {
+    .g2w4p-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .irqfh-header-top {
+    .g2w4p-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .irqfh-search-box {
+    .g2w4p-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .irqfh-support-info {
+    .g2w4p-support-info {
       display: none;
     }
 
-    .irqfh-header-bottom-inner {
+    .g2w4p-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .irqfh-main-menu {
+    .g2w4p-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,22 +210,22 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .irqfh-logo {
+    .g2w4p-logo {
       height: 60px;
     }
 
-    .irqfh-search-box {
+    .g2w4p-search-box {
       flex: 0 1 150px;
     }
 
-    .irqfh-icons span {
+    .g2w4p-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .zdvo4-trust-boxes {
+  .zd377-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -235,7 +235,7 @@
     gap: 0;
   }
 
-  .zdvo4-trust-item {
+  .zd377-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -246,57 +246,57 @@
     gap: 16px;
   }
 
-  .zdvo4-trust-item .material-icons {
+  .zd377-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .zdvo4-trust-text {
+  .zd377-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .zdvo4-trust-title {
+  .zd377-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .zdvo4-trust-desc {
+  .zd377-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .zdvo4-trust-boxes {
+    .zd377-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .zdvo4-trust-item {
+    .zd377-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .zdvo4-trust-boxes {
+    .zd377-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .zdvo4-trust-item {
+    .zd377-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .zdvo4-trust-title {
+    .zd377-trust-title {
       font-size: 16px;
     }
 
-    .zdvo4-trust-desc {
+    .zd377-trust-desc {
       font-size: 13px;
     }
   }

@@ -82,3 +82,8 @@ checkAndSendAnalytics();
 
 // Her 1 saniyede bir analitik gönder
 setInterval(checkAndSendAnalytics, 5000);
+
+
+
+
+

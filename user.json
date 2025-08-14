@@ -1,0 +1,63 @@
+{
+  "data": [
+    {
+      "name": {
+        "tr": "Siparişlerim",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "n4iqt4z4se",
+      "url": "",
+      "path": "siparislerim",
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": ""
+    },
+    {
+      "name": {
+        "tr": "Profilim",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "wzslqisqlm",
+      "url": "",
+      "path": "profilim",
+      "index": 1,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": ""
+    },
+    {
+      "name": {
+        "tr": "Favorilerim",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "ljdnje8h4b",
+      "url": "",
+      "path": "favori",
+      "index": 2,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "icon": "home"
+    }
+  ],
+  "modulestatus": {
+    "body": true
+  }
+}

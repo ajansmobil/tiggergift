@@ -1,10 +1,10 @@
 
-  .kizi0-header-wrapper {
+  .pncvt-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .kizi0-header {
+  .pncvt-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .kizi0-logo {
+  .pncvt-logo {
     height: 80px;
   }
 
-  .kizi0-header-top {
+  .pncvt-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .kizi0-search-box {
+  .pncvt-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .kizi0-search-box span {
+  .pncvt-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .kizi0-search-box input {
+  .pncvt-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .kizi0-search-box button {
+  .pncvt-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .kizi0-search-box button:hover {
+  .pncvt-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .kizi0-support-info {
+  .pncvt-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .kizi0-support-info span {
+  .pncvt-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .kizi0-support-info small {
+  .pncvt-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .kizi0-support-info strong {
+  .pncvt-support-info strong {
     font-size: 16px;
   }
 
-  .kizi0-icons {
+  .pncvt-icons {
     display: flex;
     gap: 10px;
   }
 
-  .kizi0-icons span {
+  .pncvt-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .kizi0-icons span:hover {
+  .pncvt-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .kizi0-header-bottom {
+  .pncvt-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .kizi0-header-bottom-inner {
+  .pncvt-header-bottom-inner {
     max-width: 1200px;
     margin: auto;
     padding: 14px 30px;
@@ -124,7 +124,7 @@
     align-items: center;
   }
 
-  .kizi0-category-btn {
+  .pncvt-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +136,72 @@
     font-weight: 500;
   }
 
-  .kizi0-main-menu {
+  .pncvt-main-menu {
     display: flex;
     gap: 20px;
     margin-left: 30px;
   }
 
-  .kizi0-main-menu a {
+  .pncvt-main-menu a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
   }
 
-  .kizi0-main-menu a:hover {
+  .pncvt-main-menu a:hover {
     color: #238b23;
   }
 
-  .kizi0-menulistactive {
+  .pncvt-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .kizi0-header-top {
+    .pncvt-header-top {
       gap: 20px;
     }
 
-    .kizi0-search-box {
+    .pncvt-search-box {
       margin: 0 10px;
     }
 
-    .kizi0-support-info strong {
+    .pncvt-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .kizi0-header {
+    .pncvt-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .kizi0-header-top {
+    .pncvt-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .kizi0-search-box {
+    .pncvt-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .kizi0-support-info {
+    .pncvt-support-info {
       display: none;
     }
 
-    .kizi0-header-bottom-inner {
+    .pncvt-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .kizi0-main-menu {
+    .pncvt-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,22 +210,22 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .kizi0-logo {
+    .pncvt-logo {
       height: 60px;
     }
 
-    .kizi0-search-box {
+    .pncvt-search-box {
       flex: 0 1 150px;
     }
 
-    .kizi0-icons span {
+    .pncvt-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .vmdt6-trust-boxes {
+  .p1jgh-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -235,7 +235,7 @@
     gap: 0;
   }
 
-  .vmdt6-trust-item {
+  .p1jgh-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -246,57 +246,57 @@
     gap: 16px;
   }
 
-  .vmdt6-trust-item .material-icons {
+  .p1jgh-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .vmdt6-trust-text {
+  .p1jgh-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .vmdt6-trust-title {
+  .p1jgh-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .vmdt6-trust-desc {
+  .p1jgh-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .vmdt6-trust-boxes {
+    .p1jgh-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .vmdt6-trust-item {
+    .p1jgh-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .vmdt6-trust-boxes {
+    .p1jgh-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .vmdt6-trust-item {
+    .p1jgh-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .vmdt6-trust-title {
+    .p1jgh-trust-title {
       font-size: 16px;
     }
 
-    .vmdt6-trust-desc {
+    .p1jgh-trust-desc {
       font-size: 13px;
     }
   }

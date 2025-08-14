@@ -1,10 +1,10 @@
 
-  .rtmil-header-wrapper {
+  .zllxu-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .rtmil-header {
+  .zllxu-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .rtmil-logo {
+  .zllxu-logo {
     height: 80px;
   }
 
-  .rtmil-header-top {
+  .zllxu-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .rtmil-search-box {
+  .zllxu-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .rtmil-search-box span {
+  .zllxu-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .rtmil-search-box input {
+  .zllxu-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .rtmil-search-box button {
+  .zllxu-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .rtmil-search-box button:hover {
+  .zllxu-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .rtmil-support-info {
+  .zllxu-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .rtmil-support-info span {
+  .zllxu-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .rtmil-support-info small {
+  .zllxu-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .rtmil-support-info strong {
+  .zllxu-support-info strong {
     font-size: 16px;
   }
 
-  .rtmil-icons {
+  .zllxu-icons {
     display: flex;
     gap: 10px;
   }
 
-  .rtmil-icons span {
+  .zllxu-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .rtmil-icons span:hover {
+  .zllxu-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .rtmil-header-bottom {
+  .zllxu-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .rtmil-header-bottom-inner {
+  .zllxu-header-bottom-inner {
     max-width: 1200px;
     margin: auto;
     padding: 14px 30px;
@@ -124,7 +124,7 @@
     align-items: center;
   }
 
-  .rtmil-category-btn {
+  .zllxu-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +136,72 @@
     font-weight: 500;
   }
 
-  .rtmil-main-menu {
+  .zllxu-main-menu {
     display: flex;
     gap: 20px;
     margin-left: 30px;
   }
 
-  .rtmil-main-menu a {
+  .zllxu-main-menu a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
   }
 
-  .rtmil-main-menu a:hover {
+  .zllxu-main-menu a:hover {
     color: #238b23;
   }
 
-  .rtmil-menulistactive {
+  .zllxu-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .rtmil-header-top {
+    .zllxu-header-top {
       gap: 20px;
     }
 
-    .rtmil-search-box {
+    .zllxu-search-box {
       margin: 0 10px;
     }
 
-    .rtmil-support-info strong {
+    .zllxu-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .rtmil-header {
+    .zllxu-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .rtmil-header-top {
+    .zllxu-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .rtmil-search-box {
+    .zllxu-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .rtmil-support-info {
+    .zllxu-support-info {
       display: none;
     }
 
-    .rtmil-header-bottom-inner {
+    .zllxu-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .rtmil-main-menu {
+    .zllxu-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,15 +210,15 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .rtmil-logo {
+    .zllxu-logo {
       height: 60px;
     }
 
-    .rtmil-search-box {
+    .zllxu-search-box {
       flex: 0 1 150px;
     }
 
-    .rtmil-icons span {
+    .zllxu-icons span {
       padding: 8px;
       font-size: 18px;
     }
@@ -228,13 +228,13 @@
   #content {
     justify-content: start;
   }
-  .kpb32 {
+  .mb4wl {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .kpb32-menu {
+  .mb4wl-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -244,7 +244,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .kpb32-menu > a {
+  .mb4wl-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -252,18 +252,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .kpb32-menu > a:hover,
-  .kpb32-menu > .active {
+  .mb4wl-menu > a:hover,
+  .mb4wl-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .kpb32-body {
+  .mb4wl-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .kpb32-title {
+  .mb4wl-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -275,7 +275,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .kpb32-title::before {
+  .mb4wl-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -289,27 +289,27 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .kpb32-title span {
+  .mb4wl-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .kpb32 {
+    .mb4wl {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .kpb32-menu {
+    .mb4wl-menu {
       display: none;
     }
-    .kpb32-body {
+    .mb4wl-body {
       width: 100%;
     }
   }
 
 
-  .kb6tc-trust-boxes {
+  .gu0m8-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -319,7 +319,7 @@
     gap: 0;
   }
 
-  .kb6tc-trust-item {
+  .gu0m8-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -330,57 +330,57 @@
     gap: 16px;
   }
 
-  .kb6tc-trust-item .material-icons {
+  .gu0m8-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .kb6tc-trust-text {
+  .gu0m8-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .kb6tc-trust-title {
+  .gu0m8-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .kb6tc-trust-desc {
+  .gu0m8-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .kb6tc-trust-boxes {
+    .gu0m8-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .kb6tc-trust-item {
+    .gu0m8-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .kb6tc-trust-boxes {
+    .gu0m8-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .kb6tc-trust-item {
+    .gu0m8-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .kb6tc-trust-title {
+    .gu0m8-trust-title {
       font-size: 16px;
     }
 
-    .kb6tc-trust-desc {
+    .gu0m8-trust-desc {
       font-size: 13px;
     }
   }

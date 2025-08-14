@@ -1,0 +1,118 @@
+{
+  "name": "Sayfalar",
+  "path": "page",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "Kampanyalı",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "tar4oohpyq",
+      "url": "",
+      "path": "urunlerimiz",
+      "index": 0,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Baklava",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "vrg700i5zd",
+      "url": "",
+      "path": "baklava",
+      "index": 1,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Kurumsal",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "rh20ipcfn1",
+      "url": "",
+      "path": "kurumsal",
+      "index": 2,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "kurumsal",
+      "desc": {},
+      "icon": "home"
+    },
+    {
+      "name": {
+        "tr": "Yerel Ürünler",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "qfr1exlrla",
+      "url": "",
+      "path": "yerelurunler",
+      "index": 3,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "ofpc9tnwx3",
+      "url": "",
+      "path": "iletisim",
+      "index": 4,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [
+          "cl635i"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    }
+  ],
+  "index": 0,
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "modulestatus": {
+    "body": true
+  }
+}

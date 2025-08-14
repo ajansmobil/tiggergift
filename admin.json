@@ -1,0 +1,278 @@
+{
+  "name": "Admin",
+  "path": "admin",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "Admin",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "okb6cqr3ku",
+      "url": "",
+      "path": "admin",
+      "index": 0,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [
+          "vxisul"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Siparişler",
+        "en": "Orders"
+      },
+      "status": "play",
+      "category": "",
+      "id": "siparisler123",
+      "url": "",
+      "path": "siparisler",
+      "index": 1,
+      "icon": "shopping_cart",
+      "desing": {
+        "header": [],
+        "body": [
+          "w1s72w"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Ürünler",
+        "en": "Products"
+      },
+      "status": "play",
+      "category": "",
+      "id": "v0dqngmkwt",
+      "url": "",
+      "path": "urunler",
+      "index": 2,
+      "desing": {
+        "header": [],
+        "body": [
+          "d28lp7"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {},
+      "icon": "inventory"
+    },
+    {
+      "name": {
+        "tr": "Kategoriler",
+        "en": "Categories"
+      },
+      "status": "play",
+      "category": "",
+      "id": "k4224mwar2",
+      "url": "",
+      "path": "kategoriler",
+      "index": 3,
+      "icon": "category",
+      "desing": {
+        "header": [],
+        "body": [
+          "d28lp7"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Müşteriler",
+        "en": "Customers"
+      },
+      "status": "play",
+      "category": "",
+      "id": "musteriler123",
+      "url": "",
+      "path": "musteriler",
+      "index": 4,
+      "icon": "people",
+      "desing": {
+        "header": [],
+        "body": [
+          "d28lp7"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Kampanyalar",
+        "en": "Campaigns"
+      },
+      "status": "play",
+      "category": "",
+      "id": "kampanyalar123",
+      "url": "",
+      "path": "kampanyalar",
+      "index": 5,
+      "icon": "campaign",
+      "desing": {
+        "header": [],
+        "body": [
+          "d28lp7"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Ödemeler",
+        "en": "Payments"
+      },
+      "status": "play",
+      "category": "",
+      "id": "odemeler123",
+      "url": "",
+      "path": "odemeler",
+      "index": 6,
+      "icon": "payment",
+      "desing": {
+        "header": [],
+        "body": [
+          "d28lp7"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Raporlar",
+        "en": "Reports"
+      },
+      "status": "play",
+      "category": "",
+      "id": "raporlar123",
+      "url": "",
+      "path": "raporlar",
+      "index": 7,
+      "icon": "analytics",
+      "desing": {
+        "header": [],
+        "body": [
+          "d28lp7"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Moduller",
+        "en": "Modules"
+      },
+      "status": "play",
+      "category": "",
+      "id": "w9uc4pekqz",
+      "url": "",
+      "path": "moduller",
+      "index": 8,
+      "icon": "extension",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Üyeler",
+        "en": "Users"
+      },
+      "status": "play",
+      "category": "",
+      "id": "lzlmb2grc0",
+      "url": "",
+      "path": "uyeler",
+      "index": 9,
+      "icon": "admin_panel_settings",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Ayarlar",
+        "en": "Settings"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ayarlar123",
+      "url": "",
+      "path": "ayarlar",
+      "index": 10,
+      "icon": "settings",
+      "desing": {
+        "header": [],
+        "body": [
+          "d28lp7"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Loglar",
+        "en": "Logs"
+      },
+      "status": "play",
+      "category": "",
+      "id": "loglar123",
+      "url": "",
+      "path": "loglar",
+      "index": 11,
+      "icon": "history",
+      "desing": {
+        "header": [],
+        "body": [
+          "d28lp7"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    }
+  ],
+  "index": 13,
+  "desing": {
+    "header": [],
+    "body": [
+      "j2qy7w"
+    ],
+    "footer": []
+  },
+  "modulestatus": {
+    "body": true
+  }
+}

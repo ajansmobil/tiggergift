@@ -1,0 +1,104 @@
+{
+  "name": "Ürünler",
+  "path": "products",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "Bakır 4",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "w081f8hwbq",
+      "url": "",
+      "path": "bakir-4",
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "icon": "home",
+      "img": "b2kfo.png",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Bakır 3",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "q2sq7c0knd",
+      "url": "",
+      "path": "bakir-3",
+      "index": 1,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "icon": "home",
+      "img": "bxn7s.png",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Bakır 2",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "y2ysbavd0q",
+      "url": "",
+      "path": "bakir-2",
+      "index": 2,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "icon": "home",
+      "img": "hoak3.png",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Bakır",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "j9pu3bp7y7",
+      "url": "",
+      "path": "newpage",
+      "index": 3,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "icon": "home",
+      "img": "janqm.png",
+      "desc": {}
+    }
+  ],
+  "index": 1,
+  "desing": {
+    "header": [],
+    "body": [
+      "pw78dc"
+    ],
+    "footer": []
+  },
+  "modulestatus": {
+    "img": true,
+    "detail": true,
+    "bgimg": true
+  }
+}

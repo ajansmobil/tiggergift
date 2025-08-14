@@ -1,0 +1,99 @@
+{
+  "data": [
+    {
+      "name": "Sayfalar",
+      "path": "page",
+      "desc": [],
+      "data": [],
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "modulestatus": {
+        "body": true
+      }
+    },
+    {
+      "name": "Ürünler",
+      "path": "products",
+      "desc": [],
+      "data": [],
+      "index": 1,
+      "desing": {
+        "header": [],
+        "body": [
+          "pw78dc"
+        ],
+        "footer": []
+      },
+      "modulestatus": {
+        "img": true,
+        "detail": true,
+        "bgimg": true
+      }
+    },
+    {
+      "name": "Kurumsal",
+      "path": "kurumsal",
+      "desc": [],
+      "data": [],
+      "index": 2,
+      "desing": {
+        "header": [],
+        "body": [
+          "bjf04r"
+        ],
+        "footer": []
+      }
+    },
+    {
+      "name": "User",
+      "path": "user",
+      "desc": [],
+      "data": [],
+      "index": 3,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "modulestatus": {
+        "body": true
+      }
+    },
+    {
+      "name": "Alt Sayfa",
+      "path": "altsayfa",
+      "desc": [],
+      "data": [],
+      "index": 4,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "modulestatus": {
+        "body": true
+      }
+    },
+    {
+      "name": "Admin",
+      "path": "admin",
+      "desc": [],
+      "data": [],
+      "index": 5,
+      "desing": {
+        "header": [],
+        "body": [
+          "j2qy7w"
+        ],
+        "footer": []
+      },
+      "modulestatus": {
+        "body": true
+      }
+    }
+  ]
+}

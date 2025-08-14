@@ -1,62 +1,75 @@
 <!doctype html>
 <html lang="tr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
-    />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="Page-Exit" content="BlendTrans(Duration" ="0)" />
-    <meta http-equiv="Page-Enter" content="BlendTrans(Duration" ="0)" />
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="upgrade-insecure-requests"
-    />
-    <title>Bakır 3</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta property="og:title" content="Bakır 3" />
-    <meta property="og:description" content="" />
-    <meta property="og:image" content="https://tiggergift.com/page/q2sq7c0knd/bxn7s.png" />
-    <meta name="robots" content="index, follow" />
-    <link rel="stylesheet" href="/src/css.css?v=rnx0v" />
-    <link
-      rel="shortcut icon"
-      href="/img/icon.png?v=rnx0v"
-      type="image/png"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-    <script src="/src/swiper-bundle.min.js"></script>
-    
-  <link rel="stylesheet" href="style.css?v=rnx0v">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
+  <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <title>Bakır 3</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta property="og:title" content="Bakır 3" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="https://tiggergift.com/page/q2sq7c0knd/bxn7s.png" />
+  <meta name="robots" content="index, follow" />
+  <link rel="stylesheet" href="/src/css.css?v=zopar" />
+  <link rel="shortcut icon" href="/img/icon.png?v=zopar" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet" />
+  <script type="text/javascript" src="/src/firebase.js?v=zopar"></script>
+
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
+  <script src="/src/swiper-bundle.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-functions.js"></script>
+
+
+
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyBW1jNJSUMgje8ZQ_jdT0Kbge9bnOZrlfs",
+    authDomain: "tiggergiftcom.firebaseapp.com",
+    projectId: "tiggergiftcom",
+    storageBucket: "tiggergiftcom.firebasestorage.app",
+    messagingSenderId: "869071434601",
+    appId: "1:869071434601:web:292f989d265a4a88a6c3f8"
+  };
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
+</script>
+
+<link rel="stylesheet" href="style.css?v=zopar">
 </head>
 
-  <body>
-    <div id="header"><header class="gvyzr-header-wrapper">
-  <div class="gvyzr-header">
-    <div class="gvyzr-header-top">
-      <a href="/tr/" class="gvyzr-header-left">
+<body>
+  <div id="header"><header class="p2drj-header-wrapper">
+  <div class="p2drj-header">
+    <div class="p2drj-header-top">
+      <a href="/tr/" class="p2drj-header-left">
         <img
-          src="/img/logo.png?v=rnx0v"
+          src="/img/logo.png?v=zopar"
           alt="Tiggergift Logo"
-          class="gvyzr-logo"
+          class="p2drj-logo"
         />
       </a>
 
-      <div class="gvyzr-search-box">
+      <div class="p2drj-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="gvyzr-support-info">
+      <div class="p2drj-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
@@ -64,7 +77,7 @@
         </div>
       </div>
 
-      <div class="gvyzr-icons">
+      <div class="p2drj-icons">
         <a href="/tr/user/" class="material-symbols-outlined">person</a>
         <a href="/tr/favori/" class="material-symbols-outlined"
           >favorite</a
@@ -76,58 +89,58 @@
     </div>
   </div>
 
-  <div class="gvyzr-header-bottom">
-    <div class="gvyzr-header-bottom-inner">
-      <button class="gvyzr-category-btn">
+  <div class="p2drj-header-bottom">
+    <div class="p2drj-header-bottom-inner">
+      <button class="p2drj-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="gvyzr-main-menu"><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/baklava/">Baklava</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/iletisim/">İletişim</a></nav>
+      <nav class="p2drj-main-menu"><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/baklava/">Baklava</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/iletisim/">İletişim</a></nav>
     </div>
   </div>
 </header>
 
 
 </div>
-    <div id="content"><div class="divrr-title f36">
+  <div id="content"><div class="yhg14-title f36">
   <span>Bakır 3</span>
 </div>
-<div class="divrr">
-  <div class="divrr-body"></div>
-  <div class="divrr-img">
-    <img src="/page/q2sq7c0knd/bxn7s.png?v=rnx0v" width="100%" alt="{{title}}" />
+<div class="yhg14">
+  <div class="yhg14-body"></div>
+  <div class="yhg14-img">
+    <img src="/page/q2sq7c0knd/bxn7s.png?v=zopar" width="100%" alt="{{title}}" />
   </div>
 </div>
 
 </div>
-    <div id="footer"><!-- Google Material Icons -->
+  <div id="footer"><!-- Google Material Icons -->
 <link
   href="https://fonts.googleapis.com/icon?family=Material+Icons"
   rel="stylesheet"
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="acipn-trust-boxes">
-      <div class="acipn-trust-item">
+<div class="l7o0p-trust-boxes">
+      <div class="l7o0p-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="acipn-trust-text">
-          <div class="acipn-trust-title">100% Güvenli Ödeme</div>
-          <div class="acipn-trust-desc">3D Secure ile Güvenli Ödeme</div>
+        <div class="l7o0p-trust-text">
+          <div class="l7o0p-trust-title">100% Güvenli Ödeme</div>
+          <div class="l7o0p-trust-desc">3D Secure ile Güvenli Ödeme</div>
         </div>
       </div>
     
-      <div class="acipn-trust-item">
+      <div class="l7o0p-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="acipn-trust-text">
-          <div class="acipn-trust-title">%100 Orijinal Ürün</div>
-          <div class="acipn-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
+        <div class="l7o0p-trust-text">
+          <div class="l7o0p-trust-title">%100 Orijinal Ürün</div>
+          <div class="l7o0p-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
         </div>
       </div>
     
-      <div class="acipn-trust-item">
+      <div class="l7o0p-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="acipn-trust-text">
-          <div class="acipn-trust-title">Hızlı Teslimat</div>
-          <div class="acipn-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
+        <div class="l7o0p-trust-text">
+          <div class="l7o0p-trust-title">Hızlı Teslimat</div>
+          <div class="l7o0p-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
         </div>
       </div>
     </div>
@@ -164,7 +177,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/yerelurunler">Yerel Ürünler</a></li><li class="menu__item"><a class="menu__link" href="/tr/urunlerimiz">Kampanyalı</a></li><li class="menu__item"><a class="menu__link" href="/tr/baklava">Baklava</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
+    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/urunlerimiz">Kampanyalı</a></li><li class="menu__item"><a class="menu__link" href="/tr/baklava">Baklava</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/yerelurunler">Yerel Ürünler</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
   </ul>
   <p>Tiggergift 2025 cognite. &copy;</p>
 </footer>
@@ -193,12 +206,18 @@
 </a>
 
 </div>
-  </body>
-  <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-  />
-  
-  <script type="text/javascript" src="/src/js.js?v=rnx0v"></script>
-  <script src="/src/cookie.js?v=rnx0v"></script>
+</body>
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+
+
+<script type="text/javascript" src="/src/js.js?v=zopar"></script>
+
+
+
+
+<script src="/src/cookie.js?v=zopar"></script>
+
 </html>

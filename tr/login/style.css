@@ -1,10 +1,10 @@
 
-  .o8jo6-header-wrapper {
+  .easdi-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .o8jo6-header {
+  .easdi-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .o8jo6-logo {
+  .easdi-logo {
     height: 80px;
   }
 
-  .o8jo6-header-top {
+  .easdi-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .o8jo6-search-box {
+  .easdi-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .o8jo6-search-box span {
+  .easdi-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .o8jo6-search-box input {
+  .easdi-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .o8jo6-search-box button {
+  .easdi-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .o8jo6-search-box button:hover {
+  .easdi-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .o8jo6-support-info {
+  .easdi-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .o8jo6-support-info span {
+  .easdi-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .o8jo6-support-info small {
+  .easdi-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .o8jo6-support-info strong {
+  .easdi-support-info strong {
     font-size: 16px;
   }
 
-  .o8jo6-icons {
+  .easdi-icons {
     display: flex;
     gap: 10px;
   }
 
-  .o8jo6-icons span {
+  .easdi-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .o8jo6-icons span:hover {
+  .easdi-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .o8jo6-header-bottom {
+  .easdi-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .o8jo6-header-bottom-inner {
+  .easdi-header-bottom-inner {
     max-width: 1200px;
     margin: auto;
     padding: 14px 30px;
@@ -124,7 +124,7 @@
     align-items: center;
   }
 
-  .o8jo6-category-btn {
+  .easdi-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +136,72 @@
     font-weight: 500;
   }
 
-  .o8jo6-main-menu {
+  .easdi-main-menu {
     display: flex;
     gap: 20px;
     margin-left: 30px;
   }
 
-  .o8jo6-main-menu a {
+  .easdi-main-menu a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
   }
 
-  .o8jo6-main-menu a:hover {
+  .easdi-main-menu a:hover {
     color: #238b23;
   }
 
-  .o8jo6-menulistactive {
+  .easdi-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .o8jo6-header-top {
+    .easdi-header-top {
       gap: 20px;
     }
 
-    .o8jo6-search-box {
+    .easdi-search-box {
       margin: 0 10px;
     }
 
-    .o8jo6-support-info strong {
+    .easdi-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .o8jo6-header {
+    .easdi-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .o8jo6-header-top {
+    .easdi-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .o8jo6-search-box {
+    .easdi-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .o8jo6-support-info {
+    .easdi-support-info {
       display: none;
     }
 
-    .o8jo6-header-bottom-inner {
+    .easdi-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .o8jo6-main-menu {
+    .easdi-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,22 +210,22 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .o8jo6-logo {
+    .easdi-logo {
       height: 60px;
     }
 
-    .o8jo6-search-box {
+    .easdi-search-box {
       flex: 0 1 150px;
     }
 
-    .o8jo6-icons span {
+    .easdi-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .exlrp {
+  .yanc0 {
     width: 95%;
     height: 500px;
     flex: 1;
@@ -235,7 +235,7 @@
     margin-top: 20px;
   }
 
-  .exlrp-null {
+  .yanc0-null {
     color: #fff;
     cursor: pointer;
     text-align: right;
@@ -243,11 +243,11 @@
     font-size: 14px;
   }
 
-  .exlrp-null:hover {
+  .yanc0-null:hover {
     color: #999;
   }
 
-  .exlrp-body {
+  .yanc0-body {
     background-color: #101010;
     width: 500px;
     border-radius: 20px;
@@ -255,13 +255,13 @@
     flex-direction: column;
   }
 
-  .exlrp-body-form {
+  .yanc0-body-form {
     padding: 20px;
     display: flex;
     flex-direction: column;
   }
 
-  .exlrp-button {
+  .yanc0-button {
     padding: 10px;
     background-color: #7b560d;
     margin-top: 20px;
@@ -274,21 +274,21 @@
     cursor: pointer;
   }
 
-  .exlrp-login-menu {
+  .yanc0-login-menu {
     display: flex;
     gap: 2px;
   }
 
-  #exlrp-login-menu-left {
+  #yanc0-login-menu-left {
     border-radius: 20px 0px 0px 0px;
     background-color: #101010;
   }
 
-  #exlrp-login-menu-right {
+  #yanc0-login-menu-right {
     border-radius: 0px 20px 0px 0px;
   }
 
-  #exlrp-memberol {
+  #yanc0-memberol {
     display: none;
     flex-direction: column;
   }
@@ -315,7 +315,7 @@
     justify-content: center;
   }
 
-  .exlrp-login-menu > div {
+  .yanc0-login-menu > div {
     background-color: #7b560d;
     width: 100%;
     display: flex;
@@ -333,7 +333,7 @@
   }
 
 
-  .q6y1q-trust-boxes {
+  .lca4b-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -343,7 +343,7 @@
     gap: 0;
   }
 
-  .q6y1q-trust-item {
+  .lca4b-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -354,57 +354,57 @@
     gap: 16px;
   }
 
-  .q6y1q-trust-item .material-icons {
+  .lca4b-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .q6y1q-trust-text {
+  .lca4b-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .q6y1q-trust-title {
+  .lca4b-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .q6y1q-trust-desc {
+  .lca4b-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .q6y1q-trust-boxes {
+    .lca4b-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .q6y1q-trust-item {
+    .lca4b-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .q6y1q-trust-boxes {
+    .lca4b-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .q6y1q-trust-item {
+    .lca4b-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .q6y1q-trust-title {
+    .lca4b-trust-title {
       font-size: 16px;
     }
 
-    .q6y1q-trust-desc {
+    .lca4b-trust-desc {
       font-size: 13px;
     }
   }

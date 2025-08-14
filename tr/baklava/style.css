@@ -1,10 +1,10 @@
 
-  .rdw97-header-wrapper {
+  .lot8q-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .rdw97-header {
+  .lot8q-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .rdw97-logo {
+  .lot8q-logo {
     height: 80px;
   }
 
-  .rdw97-header-top {
+  .lot8q-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .rdw97-search-box {
+  .lot8q-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .rdw97-search-box span {
+  .lot8q-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .rdw97-search-box input {
+  .lot8q-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .rdw97-search-box button {
+  .lot8q-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .rdw97-search-box button:hover {
+  .lot8q-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .rdw97-support-info {
+  .lot8q-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .rdw97-support-info span {
+  .lot8q-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .rdw97-support-info small {
+  .lot8q-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .rdw97-support-info strong {
+  .lot8q-support-info strong {
     font-size: 16px;
   }
 
-  .rdw97-icons {
+  .lot8q-icons {
     display: flex;
     gap: 10px;
   }
 
-  .rdw97-icons span {
+  .lot8q-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .rdw97-icons span:hover {
+  .lot8q-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .rdw97-header-bottom {
+  .lot8q-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .rdw97-header-bottom-inner {
+  .lot8q-header-bottom-inner {
     max-width: 1200px;
     margin: auto;
     padding: 14px 30px;
@@ -124,7 +124,7 @@
     align-items: center;
   }
 
-  .rdw97-category-btn {
+  .lot8q-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +136,72 @@
     font-weight: 500;
   }
 
-  .rdw97-main-menu {
+  .lot8q-main-menu {
     display: flex;
     gap: 20px;
     margin-left: 30px;
   }
 
-  .rdw97-main-menu a {
+  .lot8q-main-menu a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
   }
 
-  .rdw97-main-menu a:hover {
+  .lot8q-main-menu a:hover {
     color: #238b23;
   }
 
-  .rdw97-menulistactive {
+  .lot8q-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .rdw97-header-top {
+    .lot8q-header-top {
       gap: 20px;
     }
 
-    .rdw97-search-box {
+    .lot8q-search-box {
       margin: 0 10px;
     }
 
-    .rdw97-support-info strong {
+    .lot8q-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .rdw97-header {
+    .lot8q-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .rdw97-header-top {
+    .lot8q-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .rdw97-search-box {
+    .lot8q-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .rdw97-support-info {
+    .lot8q-support-info {
       display: none;
     }
 
-    .rdw97-header-bottom-inner {
+    .lot8q-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .rdw97-main-menu {
+    .lot8q-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,22 +210,22 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .rdw97-logo {
+    .lot8q-logo {
       height: 60px;
     }
 
-    .rdw97-search-box {
+    .lot8q-search-box {
       flex: 0 1 150px;
     }
 
-    .rdw97-icons span {
+    .lot8q-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .oeoh1-trust-boxes {
+  .t0p97-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -235,7 +235,7 @@
     gap: 0;
   }
 
-  .oeoh1-trust-item {
+  .t0p97-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -246,57 +246,57 @@
     gap: 16px;
   }
 
-  .oeoh1-trust-item .material-icons {
+  .t0p97-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .oeoh1-trust-text {
+  .t0p97-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .oeoh1-trust-title {
+  .t0p97-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .oeoh1-trust-desc {
+  .t0p97-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .oeoh1-trust-boxes {
+    .t0p97-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .oeoh1-trust-item {
+    .t0p97-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .oeoh1-trust-boxes {
+    .t0p97-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .oeoh1-trust-item {
+    .t0p97-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .oeoh1-trust-title {
+    .t0p97-trust-title {
       font-size: 16px;
     }
 
-    .oeoh1-trust-desc {
+    .t0p97-trust-desc {
       font-size: 13px;
     }
   }

@@ -1,0 +1,35 @@
+{
+  "name": {
+    "tr": "Admin",
+    "en": ""
+  },
+  "status": "play",
+  "category": "",
+  "id": "okb6cqr3ku",
+  "url": "",
+  "path": "admin",
+  "index": 0,
+  "icon": "home",
+  "desing": {
+    "header": [],
+    "body": [
+      "vxisul"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "text": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "update": "2025-08-09T07:14:49.416Z",
+  "date": "2025-08-09T06:10:38.005Z"
+}

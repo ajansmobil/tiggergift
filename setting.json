@@ -1,0 +1,31 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Bakır ürünleri ve el sanatları konusunda uzman e-ticaret platformu. Geleneksel bakır işçiliği, modern tasarım ve kaliteli malzeme ile üretilen ürünlerimizi keşfedin.",
+    "en": "Expert e-commerce platform for copper products and handicrafts. Discover our products crafted with traditional copper craftsmanship, modern design and quality materials."
+  },
+  "keyword": {
+    "tr": "bakır ürünleri, bakır kaplar, bakır süs eşyaları, el yapımı bakır, geleneksel bakır işçiliği, bakır mutfak gereçleri, dekoratif bakır, antika bakır, bakır sanatı",
+    "en": "copper products, copper vessels, copper decorative items, handmade copper, traditional copper craftsmanship, copper kitchenware, decorative copper, antique copper"
+  },
+  "logo": "logo.svg",
+  "multi": false,
+  "category": "Eticaret",
+  "name": "Tiggergift",
+  "domain": "tiggergift.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": false,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  }
+}

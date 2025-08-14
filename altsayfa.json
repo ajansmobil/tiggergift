@@ -1,0 +1,68 @@
+{
+  "data": [
+    {
+      "name": {
+        "tr": "User",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "jjk7k6kpxp",
+      "url": "",
+      "path": "user",
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [
+          "d28lp7"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "icon": "home"
+    },
+    {
+      "name": {
+        "tr": "Login",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "hgzzlchjtg",
+      "url": "",
+      "path": "login",
+      "index": 1,
+      "desing": {
+        "header": [],
+        "body": [
+          "d28lp7"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "icon": "home"
+    },
+    {
+      "name": {
+        "tr": "Sepet",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "am0rkifzhz",
+      "url": "",
+      "path": "basket",
+      "index": 2,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": ""
+    }
+  ],
+  "modulestatus": {
+    "body": true
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": {
+    "tr": "Ürünler",
+    "en": ""
+  },
+  "status": "play",
+  "category": "",
+  "id": "v0dqngmkwt",
+  "url": "",
+  "path": "urunler",
+  "index": 0,
+  "desing": {
+    "header": [],
+    "body": [
+      "d28lp7"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "text": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "update": "2025-08-09T06:23:05.394Z",
+  "date": "2025-08-09T06:10:28.845Z"
+}
