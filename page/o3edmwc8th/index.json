@@ -1,0 +1,35 @@
+{
+  "name": {
+    "tr": "Cüzdanım",
+    "en": ""
+  },
+  "status": "play",
+  "category": "",
+  "id": "o3edmwc8th",
+  "url": "",
+  "path": "cuzdanim",
+  "keyword": {
+    "tr": ""
+  },
+  "description": {
+    "tr": ""
+  },
+  "text": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "desc": {},
+  "index": 10,
+  "icon": "account_balance_wallet",
+  "desing": {
+    "header": [],
+    "body": [
+      "s4ja3q"
+    ],
+    "footer": []
+  },
+  "update": "2025-08-28T17:51:25.608Z",
+  "date": "2025-08-28T17:51:25.608Z"
+}

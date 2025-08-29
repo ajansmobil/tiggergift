@@ -15,13 +15,12 @@
   <meta property="og:description" content="undefined" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=xfenr" />
-  <link rel="shortcut icon" href="/img/icon.png?v=xfenr" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=qqqdr" />
+  <link rel="shortcut icon" href="/img/icon.png?v=qqqdr" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
     rel="stylesheet" />
-  <script type="text/javascript" src="/src/firebase.js?v=xfenr"></script>
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -48,28 +47,29 @@
   const db = firebase.firestore();
 </script>
 
-<link rel="stylesheet" href="style.css?v=xfenr">
+
+
+  <script type="text/javascript" src="/src/firebase.js?v=qqqdr"></script>
+
+
+<link rel="stylesheet" href="style.css?v=qqqdr">
 </head>
 
 <body>
-  <div id="header"><header class="lon5u-header-wrapper">
-  <div class="lon5u-header">
-    <div class="lon5u-header-top">
-      <a href="/en/" class="lon5u-header-left">
-        <img
-          src="/img/logo.png?v=xfenr"
-          alt="Tiggergift Logo"
-          class="lon5u-logo"
-        />
+  <div id="header"><header class="hpeef-header-wrapper">
+  <div class="hpeef-header">
+    <div class="hpeef-header-top">
+      <a href="/en/" class="hpeef-header-left">
+        <img src="/img/logo.png?v=qqqdr" alt="Tiggergift Logo" class="hpeef-logo" />
       </a>
 
-      <div class="lon5u-search-box">
+      <div class="hpeef-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="lon5u-support-info">
+      <div class="hpeef-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
@@ -77,108 +77,412 @@
         </div>
       </div>
 
-      <div class="lon5u-icons">
-        <a href="/en/user/" class="material-symbols-outlined">person</a>
-        <a href="/en/favori/" class="material-symbols-outlined"
-          >favorite</a
-        >
-        <a href="/en/basket/" class="material-symbols-outlined"
-          >shopping_cart</a
-        >
+      <div class="hpeef-icons">
+        <a href="/en/login/" class="material-symbols-outlined">person</a>
+        <a href="/en/favorilerim/" class="material-symbols-outlined">favorite</a>
+        <a href="/en/basket/" class="material-symbols-outlined">shopping_cart</a>
       </div>
     </div>
   </div>
 
-  <div class="lon5u-header-bottom">
-    <div class="lon5u-header-bottom-inner">
-      <button class="lon5u-category-btn">
+  <div class="hpeef-header-bottom">
+    <div class="hpeef-header-bottom-inner">
+      <button class="hpeef-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="lon5u-main-menu"><a href="/en/urunlerimiz/"></a><a href="/en/baklava/"></a><a href="/en/kurumsal/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
+      <nav class="hpeef-main-menu"><a href="/en/urunlerimiz/"></a><a href="/en/baklava/"></a><a href="/en/kurumsal/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
     </div>
   </div>
 </header>
 
 
 </div>
-  <div id="content"><div class="euh8g">
-  <div class="euh8g-body">
-    <div class="euh8g-login-menu">
-      <div id="euh8g-login-menu-left">Login</div>
-      <div id="euh8g-login-menu-right">Üye Ol</div>
+  <div id="content"><div class="viow7">
+  <div class="viow7-body">
+    <div class="viow7-login-menu">
+      <div id="viow7-login-menu-left">Login</div>
+      <div id="viow7-login-menu-right">Register</div>
     </div>
-    <div class="euh8g-body-form" id="euh8g-login">
+    <div class="viow7-body-form" id="viow7-login">
       <div class="input-container">
-        <input type="text" class="inputmatrix1" placeholder="Mail Adresiniz" />
-        <label for="input" class="placeholder">Mail Adresiniz</label>
+        <input type="email" id="login-email" class="inputmatrix1" placeholder="Your Email" />
+        <label for="input" class="placeholder">Your Email</label>
       </div>
       <div class="input-container">
-        <input type="text" class="inputmatrix1" placeholder="Şifre" />
-        <label for="input" class="placeholder">Şifre</label>
+        <input type="password" id="login-password" class="inputmatrix1" placeholder="Password" />
+        <label for="input" class="placeholder">Password</label>
       </div>
-      <div class="euh8g-null">Şifremi Unuttum</div>
-      <a href="/en/user/" class="euh8g-button">Giriş Yap</a>
+      <div class="viow7-null" onclick="showForgotPassword()">Forgot Password</div>
+      <div class="viow7-button" onclick="loginUser()">Login</div>
     </div>
-    <div class="euh8g-body-form" id="euh8g-memberol">
+    <div class="viow7-body-form" id="viow7-memberol">
       <div class="input-container">
-        <input
-          type="text"
-          class="inputmatrix1"
-          placeholder="Your Name and Surname"
-        />
-        <label for="input" class="placeholder">Your Name and Surname</label>
+        <input type="text" id="register-name" class="inputmatrix1" placeholder="Full Name" />
+        <label for="input" class="placeholder">Full Name</label>
       </div>
       <div class="input-container">
-        <input type="text" class="inputmatrix1" placeholder="Mail Adresiniz" />
-        <label for="input" class="placeholder">Mail Adresiniz</label>
+        <input type="email" id="register-email" class="inputmatrix1" placeholder="Your Email" />
+        <label for="input" class="placeholder">Your Email</label>
       </div>
       <div class="input-container">
-        <input type="text" class="inputmatrix1" placeholder="Şifre" />
-        <label for="input" class="placeholder">Şifre</label>
+        <input type="password" id="register-password" class="inputmatrix1" placeholder="Password" />
+        <label for="input" class="placeholder">Password</label>
       </div>
       <div class="input-container">
-        <input type="text" class="inputmatrix1" placeholder="Şifre Tekrar" />
-        <label for="input" class="placeholder">Şifre Tekrar</label>
+        <input type="password" id="register-password-confirm" class="inputmatrix1"
+          placeholder="Confirm Password" />
+        <label for="input" class="placeholder">Confirm Password</label>
       </div>
-      <div class="euh8g-button">Üye Ol</div>
-      <div class="euh8g-null">Üye misin?</div>
+      <div class="viow7-button" onclick="registerUser()">Register</div>
+      <div class="viow7-null" onclick="switchToLogin()">Already a member?</div>
+    </div>
+
+    <!-- Şifre Unutma Formu -->
+    <div class="viow7-body-form" id="viow7-forgot-password" style="display: none;">
+      <div class="input-container">
+        <input type="email" id="forgot-email" class="inputmatrix1" placeholder="Your Email" />
+        <label for="input" class="placeholder">Your Email</label>
+      </div>
+      <div class="viow7-button" onclick="resetPassword()">Send Password Reset Email</div>
+      <div class="viow7-null" onclick="backToLogin()">Back to Login</div>
     </div>
     <div class="media-login">
-      <div>
-        <img src="/src/icon/google.png" height="35" alt="Google ile Giriş" />
-        <div>Google İle Giriş Yap</div>
-      </div>
-      <div>
-        <img src="/src/icon/apple.png" height="35" alt="Apple ile Giriş" />
-        <div>Apple ile Giriş Yap</div>
+      <div onclick="googleLogin()">
+        <img src="/src/icon/google.png" height="35" alt="Login with Google" />
+        <div>Login with Google</div>
       </div>
     </div>
   </div>
 </div>
 
 <script>
-  document
-    .getElementById("euh8g-login-menu-left")
-    .addEventListener("click", function () {
-      document.getElementById("euh8g-login-menu-left").style.backgroundColor =
-        "#101010";
-      document.getElementById(
-        "euh8g-login-menu-right",
-      ).style.backgroundColor = "#7b560d";
-      document.getElementById("euh8g-login").style.display = "flex";
-      document.getElementById("euh8g-memberol").style.display = "none";
-    });
-  document
-    .getElementById("euh8g-login-menu-right")
-    .addEventListener("click", function () {
-      document.getElementById(
-        "euh8g-login-menu-right",
-      ).style.backgroundColor = "#101010";
-      document.getElementById("euh8g-login-menu-left").style.backgroundColor =
-        "#7b560d";
-      document.getElementById("euh8g-login").style.display = "none";
-      document.getElementById("euh8g-memberol").style.display = "flex";
-    });
+        // Login messages for en
+        window.loginMessages = {"loginTitle":"Login","registerTitle":"Register","emailPlaceholder":"Your Email","passwordPlaceholder":"Password","passwordConfirmPlaceholder":"Confirm Password","namePlaceholder":"Full Name","loginButton":"Login","registerButton":"Register","forgotPassword":"Forgot Password","alreadyMember":"Already a member?","googleLogin":"Login with Google","resetPasswordButton":"Send Password Reset Email","backToLogin":"Back to Login"};
+
+
+  // Menu navigation functions
+  function switchToLogin() {
+    document.getElementById("viow7-login-menu-left").style.backgroundColor = "#101010";
+    document.getElementById("viow7-login-menu-right").style.backgroundColor = "#7b560d";
+      document.getElementById("viow7-login").style.display = "flex";
+      document.getElementById("viow7-memberol").style.display = "none";
+    document.getElementById("viow7-forgot-password").style.display = "none";
+  }
+
+  function switchToRegister() {
+    document.getElementById("viow7-login-menu-right").style.backgroundColor = "#101010";
+    document.getElementById("viow7-login-menu-left").style.backgroundColor = "#7b560d";
+      document.getElementById("viow7-login").style.display = "none";
+      document.getElementById("viow7-memberol").style.display = "flex";
+    document.getElementById("viow7-forgot-password").style.display = "none";
+  }
+
+  function showForgotPassword() {
+    document.getElementById("viow7-login").style.display = "none";
+    document.getElementById("viow7-memberol").style.display = "none";
+    document.getElementById("viow7-forgot-password").style.display = "flex";
+  }
+
+  function backToLogin() {
+    switchToLogin();
+  }
+
+  // Validation functions
+  function validateEmail(email) {
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(email);
+  }
+
+  function validatePassword(password) {
+    return password.length >= 6;
+  }
+
+  function showNotification(message, type = 'info') {
+    // Mevcut bildirimi kaldır
+    const existingNotification = document.querySelector('.login-notification');
+    if (existingNotification) {
+      existingNotification.remove();
+    }
+
+    // Yeni bildirim oluştur
+    const notification = document.createElement('div');
+    notification.className = `login-notification ${type}`;
+    notification.innerHTML = `
+      <span class="material-symbols-outlined">
+        ${type === 'success' ? 'check_circle' : type === 'error' ? 'error' : 'info'}
+      </span>
+      ${message}
+    `;
+
+    // Bildirim stilini ekle
+    notification.style.cssText = `
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: ${type === 'success' ? '#22c55e' : type === 'error' ? '#ef4444' : '#3b82f6'};
+      color: white;
+      padding: 12px 16px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 500;
+      animation: slideIn 0.3s ease-out;
+    `;
+
+    document.body.appendChild(notification);
+
+    // 3 saniye sonra kaldır
+    setTimeout(() => {
+      notification.style.animation = 'slideOut 0.3s ease-in';
+      setTimeout(() => {
+        if (notification.parentNode) {
+          notification.remove();
+        }
+      }, 300);
+    }, 3000);
+  }
+
+  // User registration
+  async function registerUser() {
+    const name = document.getElementById('register-name').value.trim();
+    const email = document.getElementById('register-email').value.trim();
+    const password = document.getElementById('register-password').value;
+    const passwordConfirm = document.getElementById('register-password-confirm').value;
+
+    // Validation
+    if (!name) {
+      showNotification(window.loginMessages.nameRequired || 'Ad soyad giriniz!', 'error');
+      return;
+    }
+
+    if (!validateEmail(email)) {
+      showNotification(window.loginMessages.validEmailRequired || 'Geçerli bir email adresi giriniz!', 'error');
+      return;
+    }
+
+    if (!validatePassword(password)) {
+      showNotification(window.loginMessages.passwordMinLength || 'Şifre en az 6 karakter olmalıdır!', 'error');
+      return;
+    }
+
+    if (password !== passwordConfirm) {
+      showNotification(window.loginMessages.passwordsNotMatch || 'Şifreler eşleşmiyor!', 'error');
+      return;
+    }
+
+    try {
+      // Firebase Authentication ile kullanıcı oluştur
+      const userCredential = await authRegisterWeb(email, password, {
+        name: name,
+        loginMethod: 'email'
+      });
+
+      const firebaseUser = userCredential;
+
+      // Update global user object
+      window.user.id = firebaseUser.uid;
+      window.user.email = firebaseUser.email;
+      window.user.name = name;
+      window.user.isLoggedIn = true;
+      window.user.loginMethod = 'email';
+
+      // Save to localStorage
+      localStorage.setItem('user', JSON.stringify(window.user));
+
+      showNotification(window.loginMessages.registrationSuccess || 'Üyelik başarıyla oluşturuldu!', 'success');
+
+      // Redirect to siparislerim page
+      setTimeout(() => {
+        window.location.href = '/en/siparislerim/';
+      }, 1500);
+
+    } catch (error) {
+      console.error('Registration error:', error);
+
+      let errorMessage = window.loginMessages.registrationError || 'Üyelik oluşturulurken bir hata oluştu!';
+
+      // Firebase Authentication hata mesajları
+      if (error.code === 'auth/email-already-in-use') {
+        errorMessage = window.loginMessages.emailAlreadyExists || 'Bu email adresi zaten kullanımda!';
+      } else if (error.code === 'auth/weak-password') {
+        errorMessage = window.loginMessages.passwordMinLength || 'Şifre en az 6 karakter olmalıdır!';
+      } else if (error.code === 'auth/invalid-email') {
+        errorMessage = window.loginMessages.validEmailRequired || 'Geçerli bir email adresi giriniz!';
+      }
+
+      showNotification(errorMessage, 'error');
+    }
+  }
+
+  // User login
+  async function loginUser() {
+    const email = document.getElementById('login-email').value.trim();
+    const password = document.getElementById('login-password').value;
+
+    // Validation
+    if (!validateEmail(email)) {
+      showNotification(window.loginMessages.validEmailRequired || 'Geçerli bir email adresi giriniz!', 'error');
+      return;
+    }
+
+    if (!password) {
+      showNotification(window.loginMessages.passwordRequired || 'Şifre giriniz!', 'error');
+      return;
+    }
+
+    try {
+      // Firebase Authentication ile giriş yap
+      const userCredential = await authLoginWeb(email, password);
+      const firebaseUser = userCredential.user;
+
+      // Firestore'dan kullanıcı bilgilerini al
+      const userDoc = await dataGetWeb('users', firebaseUser.uid);
+      const userData = userDoc.exists ? userDoc.data() : {};
+
+      // Check if user is active
+      if (userData.isActive === false) {
+        showNotification(window.loginMessages.accountDeactivated || 'Hesabınız deaktif durumda!', 'error');
+        await authLogoutWeb(); // Deaktif kullanıcıyı çıkış yaptır
+        return;
+      }
+
+      // Update global user object
+      window.user.id = firebaseUser.uid;
+      window.user.email = firebaseUser.email;
+      window.user.name = userData.name || firebaseUser.displayName || '';
+      window.user.isLoggedIn = true;
+      window.user.loginMethod = userData.loginMethod || 'email';
+
+      // Save to localStorage
+      localStorage.setItem('user', JSON.stringify(window.user));
+
+      showNotification(window.loginMessages.loginSuccess || 'Giriş başarılı!', 'success');
+
+      // Redirect to user page
+      setTimeout(() => {
+        window.location.href = '/en/siparislerim/';
+      }, 1500);
+
+    } catch (error) {
+      console.error('Login error:', error);
+
+      let errorMessage = window.loginMessages.loginError || 'Giriş yapılırken bir hata oluştu!';
+
+      // Firebase Authentication hata mesajları
+      if (error.code === 'auth/user-not-found' || error.code === 'auth/wrong-password') {
+        errorMessage = window.loginMessages.invalidCredentials || 'Email adresi veya şifre hatalı!';
+      } else if (error.code === 'auth/invalid-email') {
+        errorMessage = window.loginMessages.validEmailRequired || 'Geçerli bir email adresi giriniz!';
+      } else if (error.code === 'auth/user-disabled') {
+        errorMessage = window.loginMessages.accountDeactivated || 'Hesabınız deaktif durumda!';
+      }
+
+      showNotification(errorMessage, 'error');
+    }
+  }
+
+  // Password reset
+  async function resetPassword() {
+    const email = document.getElementById('forgot-email').value.trim();
+
+    if (!validateEmail(email)) {
+      showNotification(window.loginMessages.validEmailRequired || 'Geçerli bir email adresi giriniz!', 'error');
+      return;
+    }
+
+    try {
+      // Firebase Authentication ile şifre sıfırlama maili gönder
+      await authResetPasswordWeb(email);
+
+      showNotification(window.loginMessages.resetEmailSent || 'Şifre sıfırlama maili gönderildi!', 'success');
+
+      // Giriş sayfasına dön
+      setTimeout(() => {
+        backToLogin();
+      }, 2000);
+
+    } catch (error) {
+      console.error('Password reset error:', error);
+
+      let errorMessage = window.loginMessages.resetEmailError || 'Şifre sıfırlama maili gönderilirken bir hata oluştu!';
+
+      // Firebase Authentication hata mesajları
+      if (error.code === 'auth/user-not-found') {
+        errorMessage = window.loginMessages.userNotFound || 'Bu email adresine kayıtlı kullanıcı bulunamadı!';
+      } else if (error.code === 'auth/invalid-email') {
+        errorMessage = window.loginMessages.validEmailRequired || 'Geçerli bir email adresi giriniz!';
+      }
+
+      showNotification(errorMessage, 'error');
+    }
+  }
+
+  // Google login
+  async function googleLogin() {
+    try {
+      // Firebase Authentication ile Google giriş
+      const firebaseUser = await authGoogleLoginWeb();
+
+      // Update global user object
+      user.id = firebaseUser.uid;
+      user.email = firebaseUser.email;
+      user.name = firebaseUser.displayName;
+      user.isLoggedIn = true;
+      user.loginMethod = 'google';
+
+      // Save to localStorage
+      localStorage.setItem('user', JSON.stringify(user));
+
+      showNotification(window.loginMessages.loginSuccess || 'Giriş başarılı!', 'success');
+
+      // Redirect to user page
+      setTimeout(() => {
+        window.location.href = '/en/siparislerim/';
+      }, 1500);
+
+    } catch (error) {
+      console.error('Google login error:', error);
+
+      let errorMessage = window.loginMessages.loginError || 'Giriş yapılırken bir hata oluştu!';
+
+      // Google login hata mesajları
+      if (error.code === 'auth/popup-closed-by-user') {
+        return; // Kullanıcı popup'ı kapattı, hata gösterme
+      } else if (error.code === 'auth/cancelled-popup-request') {
+        return; // İptal edildi, hata gösterme
+      }
+
+      showNotification(errorMessage, 'error');
+    }
+  }
+
+  // Authentication state değişikliklerini dinle ve otomatik yönlendir
+  authStateListenerWeb((firebaseUser) => {
+    if (firebaseUser) {
+      // Kullanıcı giriş yapmış, otomatik yönlendir
+      showNotification(window.loginMessages?.alreadyLoggedIn || 'Zaten giriş yapmışsınız!', 'info');
+      setTimeout(() => {
+        window.location.href = '/en/siparislerim/';
+      }, 1000);
+    }
+  });
+
+  // Initialize menu event listeners
+  setTimeout(() => {
+    const loginMenuLeft = document.getElementById("viow7-login-menu-left");
+    const loginMenuRight = document.getElementById("viow7-login-menu-right");
+
+    if (loginMenuLeft) {
+      loginMenuLeft.addEventListener("click", switchToLogin);
+    }
+
+    if (loginMenuRight) {
+      loginMenuRight.addEventListener("click", switchToRegister);
+    }
+  }, 100);
 </script>
 </div>
   <div id="footer"><!-- Google Material Icons -->
@@ -188,28 +492,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="ki6j0-trust-boxes">
-      <div class="ki6j0-trust-item">
+<div class="ic75a-trust-boxes">
+      <div class="ic75a-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="ki6j0-trust-text">
-          <div class="ki6j0-trust-title">100% Secure Payment</div>
-          <div class="ki6j0-trust-desc">Secure Payment with 3D Secure</div>
+        <div class="ic75a-trust-text">
+          <div class="ic75a-trust-title">100% Secure Payment</div>
+          <div class="ic75a-trust-desc">Secure Payment with 3D Secure</div>
         </div>
       </div>
     
-      <div class="ki6j0-trust-item">
+      <div class="ic75a-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="ki6j0-trust-text">
-          <div class="ki6j0-trust-title">100% Original Product</div>
-          <div class="ki6j0-trust-desc">Activation with 100% Licensed Original Product</div>
+        <div class="ic75a-trust-text">
+          <div class="ic75a-trust-title">100% Original Product</div>
+          <div class="ic75a-trust-desc">Activation with 100% Licensed Original Product</div>
         </div>
       </div>
     
-      <div class="ki6j0-trust-item">
+      <div class="ic75a-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="ki6j0-trust-text">
-          <div class="ki6j0-trust-title">Fast Delivery</div>
-          <div class="ki6j0-trust-desc">Online Fast Delivery for All Your Shopping</div>
+        <div class="ic75a-trust-text">
+          <div class="ic75a-trust-title">Fast Delivery</div>
+          <div class="ic75a-trust-desc">Online Fast Delivery for All Your Shopping</div>
         </div>
       </div>
     </div>
@@ -282,11 +586,11 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=xfenr"></script>
+<script type="text/javascript" src="/src/js.js?v=qqqdr"></script>
 
 
 
 
-<script src="/src/cookie.js?v=xfenr"></script>
+<script src="/src/cookie.js?v=qqqdr"></script>
 
 </html>

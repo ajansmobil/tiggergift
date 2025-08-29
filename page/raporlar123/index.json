@@ -1,0 +1,36 @@
+{
+  "name": {
+    "tr": "Raporlar",
+    "en": "Reports"
+  },
+  "status": "play",
+  "category": "",
+  "id": "raporlar123",
+  "url": "",
+  "path": "raporlar",
+  "index": 7,
+  "icon": "analytics",
+  "desing": {
+    "header": [],
+    "body": [
+      "admin_raporlar_36"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "desc": {},
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "text": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "update": "2025-08-29T10:20:38.591Z",
+  "date": "2025-08-28T17:03:10.733Z"
+}

@@ -27,6 +27,28 @@
     },
     {
       "name": {
+        "tr": "Ürünler",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "v0dqngmkwt",
+      "url": "",
+      "path": "admin-urunler",
+      "index": 1,
+      "desing": {
+        "header": [],
+        "body": [
+          "admin_urunler_31"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {},
+      "icon": "home"
+    },
+    {
+      "name": {
         "tr": "Siparişler",
         "en": "Orders"
       },
@@ -34,8 +56,8 @@
       "category": "",
       "id": "siparisler123",
       "url": "",
-      "path": "siparisler",
-      "index": 1,
+      "path": "admin-siparisler",
+      "index": 2,
       "icon": "shopping_cart",
       "desing": {
         "header": [],
@@ -49,42 +71,20 @@
     },
     {
       "name": {
-        "tr": "Ürünler",
-        "en": "Products"
-      },
-      "status": "play",
-      "category": "",
-      "id": "v0dqngmkwt",
-      "url": "",
-      "path": "urunler",
-      "index": 2,
-      "desing": {
-        "header": [],
-        "body": [
-          "d28lp7"
-        ],
-        "footer": []
-      },
-      "pathnext": "",
-      "desc": {},
-      "icon": "inventory"
-    },
-    {
-      "name": {
         "tr": "Kategoriler",
-        "en": "Categories"
+        "en": ""
       },
       "status": "play",
       "category": "",
       "id": "k4224mwar2",
       "url": "",
-      "path": "kategoriler",
+      "path": "adminkategoriler",
       "index": 3,
-      "icon": "category",
+      "icon": "home",
       "desing": {
         "header": [],
         "body": [
-          "d28lp7"
+          "admin_kategoriler_32"
         ],
         "footer": []
       },
@@ -106,7 +106,29 @@
       "desing": {
         "header": [],
         "body": [
-          "d28lp7"
+          "admin_musteriler_33"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Moduller",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "w9uc4pekqz",
+      "url": "",
+      "path": "moduller",
+      "index": 5,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [
+          "admin_moduller_37"
         ],
         "footer": []
       },
@@ -123,12 +145,12 @@
       "id": "kampanyalar123",
       "url": "",
       "path": "kampanyalar",
-      "index": 5,
+      "index": 6,
       "icon": "campaign",
       "desing": {
         "header": [],
         "body": [
-          "d28lp7"
+          "admin_kampanyalar_34"
         ],
         "footer": []
       },
@@ -145,12 +167,12 @@
       "id": "odemeler123",
       "url": "",
       "path": "odemeler",
-      "index": 6,
+      "index": 7,
       "icon": "payment",
       "desing": {
         "header": [],
         "body": [
-          "d28lp7"
+          "admin_odemeler_35"
         ],
         "footer": []
       },
@@ -167,53 +189,13 @@
       "id": "raporlar123",
       "url": "",
       "path": "raporlar",
-      "index": 7,
+      "index": 8,
       "icon": "analytics",
       "desing": {
         "header": [],
         "body": [
-          "d28lp7"
+          "admin_raporlar_36"
         ],
-        "footer": []
-      },
-      "pathnext": "",
-      "desc": {}
-    },
-    {
-      "name": {
-        "tr": "Moduller",
-        "en": "Modules"
-      },
-      "status": "play",
-      "category": "",
-      "id": "w9uc4pekqz",
-      "url": "",
-      "path": "moduller",
-      "index": 8,
-      "icon": "extension",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "pathnext": "",
-      "desc": {}
-    },
-    {
-      "name": {
-        "tr": "Üyeler",
-        "en": "Users"
-      },
-      "status": "play",
-      "category": "",
-      "id": "lzlmb2grc0",
-      "url": "",
-      "path": "uyeler",
-      "index": 9,
-      "icon": "admin_panel_settings",
-      "desing": {
-        "header": [],
-        "body": [],
         "footer": []
       },
       "pathnext": "",
@@ -228,13 +210,13 @@
       "category": "",
       "id": "ayarlar123",
       "url": "",
-      "path": "ayarlar",
-      "index": 10,
+      "path": "adminayarlar",
+      "index": 9,
       "icon": "settings",
       "desing": {
         "header": [],
         "body": [
-          "d28lp7"
+          "admin_ayarlar_39"
         ],
         "footer": []
       },
@@ -251,12 +233,12 @@
       "id": "loglar123",
       "url": "",
       "path": "loglar",
-      "index": 11,
+      "index": 10,
       "icon": "history",
       "desing": {
         "header": [],
         "body": [
-          "d28lp7"
+          "admin_loglar_40"
         ],
         "footer": []
       },
@@ -264,7 +246,7 @@
       "desc": {}
     }
   ],
-  "index": 13,
+  "index": 5,
   "desing": {
     "header": [],
     "body": [

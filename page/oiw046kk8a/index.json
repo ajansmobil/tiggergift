@@ -1,0 +1,35 @@
+{
+  "name": {
+    "tr": "Favorilerim",
+    "en": ""
+  },
+  "status": "play",
+  "category": "",
+  "id": "oiw046kk8a",
+  "url": "",
+  "path": "favorilerim",
+  "keyword": {
+    "tr": ""
+  },
+  "description": {
+    "tr": ""
+  },
+  "text": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "desc": {},
+  "index": 2,
+  "icon": "favorite",
+  "desing": {
+    "header": [],
+    "body": [
+      "e1pysr"
+    ],
+    "footer": []
+  },
+  "update": "2025-08-28T17:51:25.563Z",
+  "date": "2025-08-28T17:51:25.563Z"
+}

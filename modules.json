@@ -161,7 +161,60 @@
       "local": "body",
       "category": "login",
       "desing": {
-        "color": "#7b560d"
+        "color": "#7b560d",
+        "bgcolor": "#101010",
+        "loginTitle": {
+          "tr": "Giriş Yap",
+          "en": "Login"
+        },
+        "registerTitle": {
+          "tr": "Üye Ol",
+          "en": "Register"
+        },
+        "emailPlaceholder": {
+          "tr": "Mail Adresiniz",
+          "en": "Your Email"
+        },
+        "passwordPlaceholder": {
+          "tr": "Şifre",
+          "en": "Password"
+        },
+        "passwordConfirmPlaceholder": {
+          "tr": "Şifre Tekrar",
+          "en": "Confirm Password"
+        },
+        "namePlaceholder": {
+          "tr": "Ad Soyad",
+          "en": "Full Name"
+        },
+        "loginButton": {
+          "tr": "Giriş Yap",
+          "en": "Login"
+        },
+        "registerButton": {
+          "tr": "Üye Ol",
+          "en": "Register"
+        },
+        "forgotPassword": {
+          "tr": "Şifremi Unuttum",
+          "en": "Forgot Password"
+        },
+        "alreadyMember": {
+          "tr": "Üye misin?",
+          "en": "Already a member?"
+        },
+        "googleLogin": {
+          "tr": "Google İle Giriş Yap",
+          "en": "Login with Google"
+        },
+        "resetPasswordButton": {
+          "tr": "Şifre Sıfırlama Maili Gönder",
+          "en": "Send Password Reset Email"
+        },
+        "backToLogin": {
+          "tr": "Giriş Sayfasına Dön",
+          "en": "Back to Login"
+        }
       },
       "id": "d28lp7"
     },
@@ -311,6 +364,7 @@
       "id": "j2qy7w"
     },
     {
+      "index": 12,
       "name": "Admin Dashboard",
       "path": "admin-page",
       "local": "body",
@@ -381,9 +435,14 @@
         ]
       },
       "id": "vxisul",
-      "index": 12
+      "description": "E-ticaret admin sayfası ana dashboard modülü",
+      "version": "1.0.0",
+      "icon": "dashboard",
+      "type": "module",
+      "author": "Code Matrix"
     },
     {
+      "index": 13,
       "name": "Admin Siparişler",
       "path": "admin-siparisler",
       "local": "body",
@@ -557,7 +616,1653 @@
         }
       },
       "id": "w1s72w",
-      "index": 13
+      "description": "E-ticaret admin paneli sipariş yönetimi modülü",
+      "version": "1.0.0",
+      "icon": "shopping_cart",
+      "type": "module",
+      "author": "Code Matrix"
+    },
+    {
+      "index": 14,
+      "name": "Sepetim",
+      "path": "eticaret-sepet",
+      "local": "body",
+      "category": "e-commerce",
+      "desing": {
+        "color": "#333333",
+        "bgcolor": "#ffffff",
+        "bordercolor": "#e0e0e0",
+        "pricecolor": "#28a745",
+        "primarycolor": "#007bff",
+        "title": {
+          "tr": "Sepetim",
+          "en": "My Cart"
+        },
+        "subtotal": {
+          "tr": "Ara Toplam",
+          "en": "Subtotal"
+        },
+        "tax": {
+          "tr": "KDV",
+          "en": "Tax"
+        },
+        "total": {
+          "tr": "Toplam",
+          "en": "Total"
+        },
+        "checkout": {
+          "tr": "Ödemeye Geç",
+          "en": "Proceed to Checkout"
+        },
+        "emptyCart": {
+          "tr": "Sepetinizde ürün bulunmuyor",
+          "en": "Your cart is empty"
+        },
+        "removeItem": {
+          "tr": "Ürünü Kaldır",
+          "en": "Remove Item"
+        },
+        "loginRequired": {
+          "tr": "Sepetinizi görmek için giriş yapmanız gerekiyor.",
+          "en": "Please login to view your cart."
+        },
+        "itemRemoved": {
+          "tr": "Ürün sepetten kaldırıldı!",
+          "en": "Item removed from cart!"
+        },
+        "quantityUpdated": {
+          "tr": "Miktar güncellendi!",
+          "en": "Quantity updated!"
+        },
+        "cartCleared": {
+          "tr": "Sepet temizlendi!",
+          "en": "Cart cleared!"
+        },
+        "proceedingToPayment": {
+          "tr": "Ödeme sayfasına yönlendiriliyorsunuz...",
+          "en": "Redirecting to payment page..."
+        },
+        "errorOccurred": {
+          "tr": "Bir hata oluştu!",
+          "en": "An error occurred!"
+        },
+        "clearCart": {
+          "tr": "Sepeti Temizle",
+          "en": "Clear Cart"
+        },
+        "continueShopping": {
+          "tr": "Alışverişe Devam Et",
+          "en": "Continue Shopping"
+        },
+        "quantity": {
+          "tr": "Adet",
+          "en": "Quantity"
+        }
+      },
+      "id": "okm6a1",
+      "description": "E-ticaret sepet modülü",
+      "version": "1.0.0",
+      "icon": "shopping_cart",
+      "type": "module",
+      "author": "Code Matrix"
+    },
+    {
+      "index": 15,
+      "name": "Tema",
+      "path": "admin-tema",
+      "local": "body",
+      "category": "tema",
+      "desing": {
+        "color": "#fff",
+        "bgcolor": "#cd9624",
+        "colortitle": "#fff",
+        "url": "user",
+        "coloractive": "#202020",
+        "page": "admin"
+      },
+      "data": [
+        {
+          "name": {
+            "tr": "User"
+          },
+          "page": "user"
+        }
+      ],
+      "id": "hrd5qp"
+    },
+    {
+      "index": 16,
+      "name": "Adreslerim",
+      "path": "eticaret-adresler",
+      "local": "body",
+      "category": "e-commerce",
+      "id": "cl6l1n",
+      "description": "E-ticaret adres modülü",
+      "version": "1.0.0",
+      "icon": "location_on",
+      "type": "module",
+      "author": "Code Matrix",
+      "desing": {
+        "color": "#333333",
+        "bgcolor": "#ffffff",
+        "bordercolor": "#e0e0e0",
+        "primarycolor": "#007bff",
+        "successcolor": "#28a745",
+        "title": {
+          "tr": "Adreslerim",
+          "en": "My Addresses"
+        },
+        "addButton": {
+          "tr": "Yeni Adres Ekle",
+          "en": "Add New Address"
+        },
+        "defaultBadge": {
+          "tr": "Varsayılan",
+          "en": "Default"
+        },
+        "addressType": {
+          "tr": "Ev",
+          "en": "Home"
+        },
+        "editButton": {
+          "tr": "Düzenle",
+          "en": "Edit"
+        },
+        "deleteButton": {
+          "tr": "Sil",
+          "en": "Delete"
+        },
+        "setDefaultButton": {
+          "tr": "Varsayılan Yap",
+          "en": "Set as Default"
+        }
+      }
+    },
+    {
+      "index": 17,
+      "name": "Bildirimlerim",
+      "path": "eticaret-bildirimler",
+      "local": "body",
+      "category": "e-commerce",
+      "id": "dw4wvd",
+      "description": "E-ticaret bildirim modülü",
+      "version": "1.0.0",
+      "icon": "notifications",
+      "type": "module",
+      "author": "Code Matrix",
+      "desing": {
+        "color": "#333333",
+        "bgcolor": "#ffffff",
+        "bordercolor": "#e0e0e0",
+        "notificationcolor": "#17a2b8",
+        "unreadcolor": "#ffc107",
+        "title": {
+          "tr": "Bildirimlerim",
+          "en": "My Notifications"
+        },
+        "markAllRead": {
+          "tr": "Tümünü Okundu İşaretle",
+          "en": "Mark All as Read"
+        },
+        "clearAll": {
+          "tr": "Temizle",
+          "en": "Clear All"
+        },
+        "unread": {
+          "tr": "Okunmamış",
+          "en": "Unread"
+        },
+        "noNotifications": {
+          "tr": "Henüz bildiriminiz bulunmuyor",
+          "en": "No notifications yet"
+        }
+      }
+    },
+    {
+      "index": 18,
+      "name": "Değerlendirmelerim",
+      "path": "eticaret-degerlendirmeler",
+      "local": "body",
+      "category": "e-commerce",
+      "id": "qx9m0l",
+      "description": "E-ticaret değerlendirme modülü",
+      "version": "1.0.0",
+      "icon": "rate_review",
+      "type": "module",
+      "author": "Code Matrix",
+      "desing": {
+        "color": "#333333",
+        "bgcolor": "#ffffff",
+        "bordercolor": "#e0e0e0",
+        "starcolor": "#ffc107",
+        "primarycolor": "#007bff",
+        "title": {
+          "tr": "Değerlendirmelerim",
+          "en": "My Reviews"
+        },
+        "reviewButton": {
+          "tr": "Değerlendir",
+          "en": "Review"
+        },
+        "editButton": {
+          "tr": "Düzenle",
+          "en": "Edit"
+        },
+        "deleteButton": {
+          "tr": "Sil",
+          "en": "Delete"
+        },
+        "noReviews": {
+          "tr": "Henüz değerlendirmeniz bulunmuyor",
+          "en": "No reviews yet"
+        },
+        "pendingReview": {
+          "tr": "Değerlendirme Bekleniyor",
+          "en": "Pending Review"
+        }
+      }
+    },
+    {
+      "index": 19,
+      "name": "Faturalarım",
+      "path": "eticaret-faturalar",
+      "local": "body",
+      "category": "e-commerce",
+      "id": "cnxoum",
+      "description": "E-ticaret fatura modülü",
+      "version": "1.0.0",
+      "icon": "receipt",
+      "type": "module",
+      "author": "Code Matrix",
+      "desing": {
+        "color": "#333333",
+        "bgcolor": "#ffffff",
+        "bordercolor": "#e0e0e0",
+        "invoicecolor": "#28a745",
+        "primarycolor": "#007bff",
+        "title": {
+          "tr": "Faturalarım",
+          "en": "My Invoices"
+        },
+        "viewButton": {
+          "tr": "Görüntüle",
+          "en": "View"
+        },
+        "downloadButton": {
+          "tr": "İndir",
+          "en": "Download"
+        },
+        "printButton": {
+          "tr": "Yazdır",
+          "en": "Print"
+        },
+        "noInvoices": {
+          "tr": "Henüz faturanız bulunmuyor",
+          "en": "No invoices yet"
+        }
+      }
+    },
+    {
+      "index": 20,
+      "name": "Favorilerim",
+      "path": "eticaret-favorilerim",
+      "local": "body",
+      "category": "e-commerce",
+      "id": "e1pysr",
+      "description": "E-ticaret favori ürünler modülü",
+      "version": "1.0.0",
+      "icon": "favorite",
+      "type": "module",
+      "author": "Code Matrix",
+      "desing": {
+        "color": "#333333",
+        "bgcolor": "#ffffff",
+        "bordercolor": "#e0e0e0",
+        "favoritecolor": "#dc3545",
+        "primarycolor": "#007bff",
+        "title": {
+          "tr": "Favorilerim",
+          "en": "My Favorites"
+        },
+        "addToCart": {
+          "tr": "Sepete Ekle",
+          "en": "Add to Cart"
+        },
+        "removeFromFavorites": {
+          "tr": "Favorilerden Çıkar",
+          "en": "Remove from Favorites"
+        },
+        "noFavorites": {
+          "tr": "Henüz favori ürününüz bulunmuyor",
+          "en": "No favorite products yet"
+        }
+      }
+    },
+    {
+      "index": 21,
+      "name": "İade ve Değişim",
+      "path": "eticaret-iade",
+      "local": "body",
+      "category": "e-commerce",
+      "id": "a030h0",
+      "description": "E-ticaret iade modülü",
+      "version": "1.0.0",
+      "icon": "swap_horiz",
+      "type": "module",
+      "author": "Code Matrix",
+      "desing": {
+        "color": "#333333",
+        "bgcolor": "#ffffff",
+        "bordercolor": "#e0e0e0",
+        "returncolor": "#17a2b8",
+        "warningcolor": "#ffc107",
+        "title": {
+          "tr": "İade ve Değişim",
+          "en": "Returns & Exchanges"
+        },
+        "returnRequest": {
+          "tr": "İade Talebi",
+          "en": "Return Request"
+        },
+        "viewDetails": {
+          "tr": "Detayları Gör",
+          "en": "View Details"
+        },
+        "cancelButton": {
+          "tr": "İptal Et",
+          "en": "Cancel"
+        },
+        "noReturns": {
+          "tr": "Henüz iade talebiniz bulunmuyor",
+          "en": "No return requests yet"
+        },
+        "pending": {
+          "tr": "Beklemede",
+          "en": "Pending"
+        },
+        "approved": {
+          "tr": "Onaylandı",
+          "en": "Approved"
+        },
+        "rejected": {
+          "tr": "Reddedildi",
+          "en": "Rejected"
+        }
+      }
+    },
+    {
+      "index": 22,
+      "name": "Kredi Kartlarım",
+      "path": "eticaret-kredikartlari",
+      "local": "body",
+      "category": "e-commerce",
+      "id": "hp120i",
+      "description": "E-ticaret kredi kartı modülü",
+      "version": "1.0.0",
+      "icon": "credit_card",
+      "type": "module",
+      "author": "Code Matrix",
+      "desing": {
+        "color": "#333333",
+        "bgcolor": "#ffffff",
+        "bordercolor": "#e0e0e0",
+        "cardcolor": "#6c757d",
+        "primarycolor": "#007bff",
+        "title": {
+          "tr": "Kredi Kartlarım",
+          "en": "My Credit Cards"
+        },
+        "addNewCard": {
+          "tr": "Yeni Kart Ekle",
+          "en": "Add New Card"
+        },
+        "editButton": {
+          "tr": "Düzenle",
+          "en": "Edit"
+        },
+        "deleteButton": {
+          "tr": "Sil",
+          "en": "Delete"
+        },
+        "setDefaultButton": {
+          "tr": "Varsayılan Yap",
+          "en": "Set as Default"
+        },
+        "defaultBadge": {
+          "tr": "Varsayılan",
+          "en": "Default"
+        }
+      }
+    },
+    {
+      "index": 23,
+      "name": "Mesajlarım",
+      "path": "eticaret-mesajlar",
+      "local": "body",
+      "category": "e-commerce",
+      "id": "uc8pqi",
+      "description": "E-ticaret mesajlaşma modülü",
+      "version": "1.0.0",
+      "icon": "chat",
+      "type": "module",
+      "author": "Code Matrix",
+      "desing": {
+        "color": "#333333",
+        "bgcolor": "#ffffff",
+        "bordercolor": "#e0e0e0",
+        "messagecolor": "#007bff",
+        "onlinecolor": "#28a745",
+        "title": {
+          "tr": "Mesajlarım",
+          "en": "My Messages"
+        },
+        "selectChat": {
+          "tr": "Sohbet Seçin",
+          "en": "Select Chat"
+        },
+        "online": {
+          "tr": "Çevrimiçi",
+          "en": "Online"
+        },
+        "offline": {
+          "tr": "Çevrimdışı",
+          "en": "Offline"
+        },
+        "typeMessage": {
+          "tr": "Mesaj yazın...",
+          "en": "Type a message..."
+        },
+        "noMessages": {
+          "tr": "Henüz mesajınız bulunmuyor",
+          "en": "No messages yet"
+        }
+      }
+    },
+    {
+      "index": 24,
+      "name": "Siparişlerim",
+      "path": "eticaret-siparisler",
+      "local": "body",
+      "category": "e-commerce",
+      "id": "bmfzrv",
+      "description": "E-ticaret sipariş modülü",
+      "version": "1.0.0",
+      "icon": "shopping_bag",
+      "type": "module",
+      "author": "Code Matrix",
+      "desing": {
+        "color": "#333333",
+        "bgcolor": "#ffffff",
+        "bordercolor": "#e0e0e0",
+        "ordercolor": "#17a2b8",
+        "successcolor": "#28a745",
+        "title": {
+          "tr": "Siparişlerim",
+          "en": "My Orders"
+        },
+        "preparing": {
+          "tr": "Hazırlanıyor",
+          "en": "Preparing"
+        },
+        "shipping": {
+          "tr": "Kargoda",
+          "en": "Shipping"
+        },
+        "delivered": {
+          "tr": "Teslim Edildi",
+          "en": "Delivered"
+        },
+        "cancelled": {
+          "tr": "İptal Edildi",
+          "en": "Cancelled"
+        },
+        "viewInvoice": {
+          "tr": "Faturayı Görüntüle",
+          "en": "View Invoice"
+        },
+        "trackOrder": {
+          "tr": "Kargo Takip",
+          "en": "Track Order"
+        },
+        "reviewProduct": {
+          "tr": "Değerlendir",
+          "en": "Review"
+        },
+        "returnProduct": {
+          "tr": "İade Et",
+          "en": "Return"
+        },
+        "noOrders": {
+          "tr": "Henüz siparişiniz bulunmuyor",
+          "en": "No orders yet"
+        }
+      }
+    },
+    {
+      "index": 25,
+      "name": "Kullanıcı Bilgilerim",
+      "path": "eticaret-kullanicibilgileri",
+      "local": "body",
+      "category": "e-commerce",
+      "id": "tfozdv",
+      "description": "E-ticaret kullanıcı bilgileri modülü",
+      "version": "1.0.0",
+      "icon": "person",
+      "type": "module",
+      "author": "Code Matrix",
+      "desing": {
+        "color": "#333333",
+        "bgcolor": "#ffffff",
+        "bordercolor": "#e0e0e0",
+        "inputcolor": "#6c757d",
+        "primarycolor": "#007bff",
+        "title": {
+          "tr": "Kullanıcı Bilgilerim",
+          "en": "My Profile"
+        },
+        "profileInfo": {
+          "tr": "Profil Bilgileri",
+          "en": "Profile Information"
+        },
+        "firstName": {
+          "tr": "Ad",
+          "en": "First Name"
+        },
+        "lastName": {
+          "tr": "Soyad",
+          "en": "Last Name"
+        },
+        "email": {
+          "tr": "E-posta",
+          "en": "Email"
+        },
+        "phone": {
+          "tr": "Telefon",
+          "en": "Phone"
+        },
+        "updateButton": {
+          "tr": "Güncelle",
+          "en": "Update"
+        },
+        "changePassword": {
+          "tr": "Şifre Değiştir",
+          "en": "Change Password"
+        }
+      }
+    },
+    {
+      "index": 26,
+      "name": "Kuponlarım",
+      "path": "eticaret-kuponlar",
+      "local": "body",
+      "category": "e-commerce",
+      "id": "emy3c0",
+      "description": "E-ticaret kupon modülü",
+      "version": "1.0.0",
+      "icon": "local_offer",
+      "type": "module",
+      "author": "Code Matrix",
+      "desing": {
+        "color": "#333333",
+        "bgcolor": "#ffffff",
+        "bordercolor": "#e0e0e0",
+        "couponcolor": "#28a745",
+        "expiredcolor": "#6c757d",
+        "title": {
+          "tr": "Kuponlarım",
+          "en": "My Coupons"
+        },
+        "copyCode": {
+          "tr": "Kodu Kopyala",
+          "en": "Copy Code"
+        },
+        "active": {
+          "tr": "Aktif",
+          "en": "Active"
+        },
+        "used": {
+          "tr": "Kullanıldı",
+          "en": "Used"
+        },
+        "expired": {
+          "tr": "Süresi Doldu",
+          "en": "Expired"
+        },
+        "noCoupons": {
+          "tr": "Henüz kuponunuz bulunmuyor",
+          "en": "No coupons available"
+        }
+      }
+    },
+    {
+      "index": 27,
+      "name": "İletişim Tercihlerim",
+      "path": "eticaret-iletisimtercihleri",
+      "local": "body",
+      "category": "e-commerce",
+      "id": "c4vuhb",
+      "description": "E-ticaret iletişim tercihleri modülü",
+      "version": "1.0.0",
+      "icon": "notifications_active",
+      "type": "module",
+      "author": "Code Matrix",
+      "desing": {
+        "color": "#333333",
+        "bgcolor": "#ffffff",
+        "bordercolor": "#e0e0e0",
+        "switchcolor": "#007bff",
+        "primarycolor": "#007bff",
+        "title": {
+          "tr": "İletişim Tercihlerim",
+          "en": "Communication Preferences"
+        },
+        "emailNotifications": {
+          "tr": "E-posta Bildirimleri",
+          "en": "Email Notifications"
+        },
+        "smsNotifications": {
+          "tr": "SMS Bildirimleri",
+          "en": "SMS Notifications"
+        },
+        "pushNotifications": {
+          "tr": "Push Bildirimleri",
+          "en": "Push Notifications"
+        },
+        "saveButton": {
+          "tr": "Kaydet",
+          "en": "Save"
+        },
+        "orderUpdates": {
+          "tr": "Sipariş Güncellemeleri",
+          "en": "Order Updates"
+        },
+        "promotions": {
+          "tr": "Kampanya ve Promosyonlar",
+          "en": "Campaigns & Promotions"
+        }
+      }
+    },
+    {
+      "index": 28,
+      "name": "Cüzdanım",
+      "path": "eticaret-cuzdan",
+      "local": "body",
+      "category": "e-commerce",
+      "id": "s4ja3q",
+      "description": "E-ticaret cüzdan modülü",
+      "version": "1.0.0",
+      "icon": "account_balance_wallet",
+      "type": "module",
+      "author": "Code Matrix",
+      "desing": {
+        "color": "#333333",
+        "bgcolor": "#ffffff",
+        "bordercolor": "#e0e0e0",
+        "primarycolor": "#007bff",
+        "successcolor": "#28a745",
+        "dangercolor": "#dc3545",
+        "title": {
+          "tr": "Cüzdanım",
+          "en": "My Wallet"
+        },
+        "balanceHeader": {
+          "tr": "Toplam Bakiye",
+          "en": "Total Balance"
+        },
+        "addMoneyButton": {
+          "tr": "Para Yükle",
+          "en": "Add Money"
+        },
+        "withdrawButton": {
+          "tr": "Para Çek",
+          "en": "Withdraw"
+        },
+        "transactionHistory": {
+          "tr": "İşlem Geçmişi",
+          "en": "Transaction History"
+        },
+        "allTransactions": {
+          "tr": "Tüm İşlemler",
+          "en": "All Transactions"
+        },
+        "deposits": {
+          "tr": "Para Yüklemeler",
+          "en": "Deposits"
+        },
+        "withdrawals": {
+          "tr": "Para Çekmeler",
+          "en": "Withdrawals"
+        },
+        "payments": {
+          "tr": "Ödemeler",
+          "en": "Payments"
+        }
+      }
+    },
+    {
+      "index": 29,
+      "name": "Çözüm Merkezi",
+      "path": "eticaret-cozummerkezi",
+      "local": "body",
+      "category": "e-commerce",
+      "id": "qz47g7",
+      "description": "E-ticaret destek modülü",
+      "version": "1.0.0",
+      "icon": "support",
+      "type": "module",
+      "author": "Code Matrix",
+      "desing": {
+        "color": "#333333",
+        "bgcolor": "#ffffff",
+        "bordercolor": "#e0e0e0",
+        "helpcolor": "#ffc107",
+        "primarycolor": "#007bff",
+        "title": {
+          "tr": "Çözüm Merkezi",
+          "en": "Help Center"
+        },
+        "supportTickets": {
+          "tr": "Destek Taleplerim",
+          "en": "My Support Tickets"
+        },
+        "faq": {
+          "tr": "Sık Sorulan Sorular",
+          "en": "Frequently Asked Questions"
+        },
+        "createTicket": {
+          "tr": "Yeni Talep Oluştur",
+          "en": "Create New Ticket"
+        },
+        "noTickets": {
+          "tr": "Henüz destek talebiniz bulunmuyor",
+          "en": "No support tickets yet"
+        }
+      }
+    },
+    {
+      "index": 30,
+      "name": "Ödeme",
+      "path": "eticaret-odeme",
+      "local": "body",
+      "category": "e-commerce",
+      "desing": {
+        "color": "#333333",
+        "bgcolor": "#ffffff",
+        "bordercolor": "#e0e0e0",
+        "pricecolor": "#28a745",
+        "primarycolor": "#007bff",
+        "title": {
+          "tr": "Ödeme",
+          "en": "Payment"
+        },
+        "orderSummary": {
+          "tr": "Sipariş Özeti",
+          "en": "Order Summary"
+        },
+        "paymentMethod": {
+          "tr": "Ödeme Yöntemi",
+          "en": "Payment Method"
+        },
+        "creditCard": {
+          "tr": "Kredi Kartı",
+          "en": "Credit Card"
+        },
+        "bankTransfer": {
+          "tr": "Havale/EFT",
+          "en": "Bank Transfer"
+        },
+        "cardNumber": {
+          "tr": "Kart Numarası",
+          "en": "Card Number"
+        },
+        "expiryDate": {
+          "tr": "Son Kullanma Tarihi",
+          "en": "Expiry Date"
+        },
+        "cvv": {
+          "tr": "CVV",
+          "en": "CVV"
+        },
+        "cardHolder": {
+          "tr": "Kart Sahibi",
+          "en": "Card Holder"
+        },
+        "billingAddress": {
+          "tr": "Fatura Adresi",
+          "en": "Billing Address"
+        },
+        "fullName": {
+          "tr": "Ad Soyad",
+          "en": "Full Name"
+        },
+        "address": {
+          "tr": "Adres",
+          "en": "Address"
+        },
+        "city": {
+          "tr": "Şehir",
+          "en": "City"
+        },
+        "postalCode": {
+          "tr": "Posta Kodu",
+          "en": "Postal Code"
+        },
+        "phone": {
+          "tr": "Telefon",
+          "en": "Phone"
+        },
+        "completePayment": {
+          "tr": "Ödemeyi Tamamla",
+          "en": "Complete Payment"
+        },
+        "backToCart": {
+          "tr": "Sepete Dön",
+          "en": "Back to Cart"
+        },
+        "subtotal": {
+          "tr": "Ara Toplam",
+          "en": "Subtotal"
+        },
+        "tax": {
+          "tr": "KDV",
+          "en": "Tax"
+        },
+        "shipping": {
+          "tr": "Kargo",
+          "en": "Shipping"
+        },
+        "total": {
+          "tr": "Toplam",
+          "en": "Total"
+        },
+        "loginRequired": {
+          "tr": "Ödeme yapmak için giriş yapmanız gerekiyor.",
+          "en": "Please login to make a payment."
+        },
+        "emptyCart": {
+          "tr": "Sepetinizde ürün bulunmuyor.",
+          "en": "Your cart is empty."
+        },
+        "paymentProcessing": {
+          "tr": "Ödeme işleniyor...",
+          "en": "Processing payment..."
+        },
+        "paymentSuccess": {
+          "tr": "Ödeme başarılı! Siparişiniz oluşturuldu.",
+          "en": "Payment successful! Your order has been created."
+        },
+        "paymentError": {
+          "tr": "Ödeme işlemi başarısız!",
+          "en": "Payment failed!"
+        },
+        "fillAllFields": {
+          "tr": "Lütfen tüm alanları doldurun.",
+          "en": "Please fill all fields."
+        },
+        "invalidCardNumber": {
+          "tr": "Geçersiz kart numarası.",
+          "en": "Invalid card number."
+        },
+        "invalidExpiryDate": {
+          "tr": "Geçersiz son kullanma tarihi.",
+          "en": "Invalid expiry date."
+        },
+        "invalidCVV": {
+          "tr": "Geçersiz CVV.",
+          "en": "Invalid CVV."
+        },
+        "legalAgreements": {
+          "tr": "Yasal Sözleşmeler",
+          "en": "Legal Agreements"
+        },
+        "distanceSalesContract": {
+          "tr": "Mesafeli Satış Sözleşmesi",
+          "en": "Distance Sales Contract"
+        },
+        "privacyPolicy": {
+          "tr": "Gizlilik Politikası",
+          "en": "Privacy Policy"
+        },
+        "termsOfService": {
+          "tr": "Kullanım Koşulları",
+          "en": "Terms of Service"
+        },
+        "iAccept": {
+          "tr": "Kabul Ediyorum",
+          "en": "I Accept"
+        },
+        "iHaveReadAndAccept": {
+          "tr": "Okudum ve kabul ediyorum",
+          "en": "I have read and accept"
+        },
+        "mustAcceptTerms": {
+          "tr": "Sözleşmeleri kabul etmeniz gerekiyor.",
+          "en": "You must accept the terms and conditions."
+        },
+        "close": {
+          "tr": "Kapat",
+          "en": "Close"
+        },
+        "read": {
+          "tr": "Oku",
+          "en": "Read"
+        }
+      },
+      "id": "ulej43",
+      "description": "E-ticaret ödeme modülü",
+      "version": "1.0.0",
+      "icon": "payment",
+      "type": "module",
+      "author": "Code Matrix"
+    },
+    {
+      "index": 31,
+      "name": "Admin Ürünler",
+      "path": "admin-urunler",
+      "local": "body",
+      "category": "admin",
+      "desing": {
+        "page": "admin",
+        "color": "#007bff",
+        "bgcolor": "#f8f9fa",
+        "colortitle": "#2c3e50",
+        "coloractive": "#28a745",
+        "header_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "card_shadow": "0 4px 20px rgba(0, 0, 0, 0.08)",
+        "border_radius": "15px"
+      },
+      "id": "admin_urunler_31",
+      "description": "E-ticaret admin paneli ürün yönetimi modülü",
+      "version": "1.0.0",
+      "icon": "inventory_2",
+      "type": "module",
+      "author": "Code Matrix"
+    },
+    {
+      "index": 32,
+      "name": "Admin Kategoriler",
+      "path": "admin-kategoriler",
+      "local": "body",
+      "category": "admin",
+      "desing": {
+        "page": "admin",
+        "color": "#007bff",
+        "bgcolor": "#f8f9fa",
+        "colortitle": "#2c3e50",
+        "coloractive": "#28a745",
+        "card_shadow": "0 4px 20px rgba(0, 0, 0, 0.08)",
+        "border_radius": "15px",
+        "pageTitle": {
+          "tr": "Kategori Yönetimi",
+          "en": "Category Management"
+        },
+        "pageSubtitle": {
+          "tr": "Kategorileri yönetin ve düzenleyin",
+          "en": "Manage and organize categories"
+        },
+        "addButton": {
+          "tr": "Yeni Kategori Ekle",
+          "en": "Add New Category"
+        },
+        "refreshButton": {
+          "tr": "Yenile",
+          "en": "Refresh"
+        },
+        "editButton": {
+          "tr": "Düzenle",
+          "en": "Edit"
+        },
+        "deleteButton": {
+          "tr": "Sil",
+          "en": "Delete"
+        },
+        "saveButton": {
+          "tr": "Kaydet",
+          "en": "Save"
+        },
+        "cancelButton": {
+          "tr": "İptal",
+          "en": "Cancel"
+        },
+        "categoryName": {
+          "tr": "Kategori Adı",
+          "en": "Category Name"
+        },
+        "categoryDescription": {
+          "tr": "Açıklama",
+          "en": "Description"
+        },
+        "categoryStatus": {
+          "tr": "Durum",
+          "en": "Status"
+        },
+        "tableName": {
+          "tr": "Kategori Adı",
+          "en": "Category Name"
+        },
+        "tableDescription": {
+          "tr": "Açıklama",
+          "en": "Description"
+        },
+        "tableProductCount": {
+          "tr": "Ürün Sayısı",
+          "en": "Product Count"
+        },
+        "tableStatus": {
+          "tr": "Durum",
+          "en": "Status"
+        },
+        "tableActions": {
+          "tr": "İşlemler",
+          "en": "Actions"
+        },
+        "statusActive": {
+          "tr": "Aktif",
+          "en": "Active"
+        },
+        "statusInactive": {
+          "tr": "Pasif",
+          "en": "Inactive"
+        },
+        "modalTitleAdd": {
+          "tr": "Yeni Kategori Ekle",
+          "en": "Add New Category"
+        },
+        "modalTitleEdit": {
+          "tr": "Kategori Düzenle",
+          "en": "Edit Category"
+        },
+        "loadingMessage": {
+          "tr": "Kategoriler yükleniyor...",
+          "en": "Loading categories..."
+        },
+        "noDataMessage": {
+          "tr": "Henüz kategori bulunmuyor",
+          "en": "No categories found yet"
+        },
+        "errorMessage": {
+          "tr": "Veriler yüklenirken hata oluştu",
+          "en": "Error occurred while loading data"
+        },
+        "firstCategoryButton": {
+          "tr": "İlk Kategoriyi Ekle",
+          "en": "Add First Category"
+        },
+        "retryButton": {
+          "tr": "Tekrar Dene",
+          "en": "Try Again"
+        }
+      },
+      "id": "admin_kategoriler_32",
+      "description": "E-ticaret admin paneli kategori yönetimi modülü",
+      "version": "1.0.0",
+      "icon": "category",
+      "type": "module",
+      "author": "Code Matrix"
+    },
+    {
+      "index": 33,
+      "name": "Admin Müşteriler",
+      "path": "admin-musteriler",
+      "local": "body",
+      "category": "admin",
+      "desing": {
+        "page": "admin",
+        "color": "#007bff",
+        "bgcolor": "#f8f9fa",
+        "colortitle": "#2c3e50",
+        "coloractive": "#28a745",
+        "header_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "card_shadow": "0 4px 20px rgba(0, 0, 0, 0.08)",
+        "border_radius": "15px"
+      },
+      "id": "admin_musteriler_33",
+      "description": "E-ticaret admin paneli müşteri yönetimi modülü",
+      "version": "1.0.0",
+      "icon": "people",
+      "type": "module",
+      "author": "Code Matrix"
+    },
+    {
+      "index": 34,
+      "name": "Admin Kampanyalar",
+      "path": "admin-kampanyalar",
+      "local": "body",
+      "category": "admin",
+      "desing": {
+        "page": "admin",
+        "color": "#007bff",
+        "bgcolor": "#f8f9fa",
+        "colortitle": "#2c3e50",
+        "coloractive": "#28a745",
+        "header_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "card_shadow": "0 4px 20px rgba(0, 0, 0, 0.08)",
+        "border_radius": "15px",
+        "pageTitle": {
+          "tr": "Kampanya Yönetimi",
+          "en": "Campaign Management"
+        },
+        "pageSubtitle": {
+          "tr": "Kampanyaları yönetin ve düzenleyin",
+          "en": "Manage and organize campaigns"
+        },
+        "addButton": {
+          "tr": "Yeni Kampanya Ekle",
+          "en": "Add New Campaign"
+        },
+        "refreshButton": {
+          "tr": "Yenile",
+          "en": "Refresh"
+        },
+        "totalCampaigns": {
+          "tr": "Toplam Kampanya",
+          "en": "Total Campaigns"
+        },
+        "activeCampaigns": {
+          "tr": "Aktif Kampanyalar",
+          "en": "Active Campaigns"
+        },
+        "scheduledCampaigns": {
+          "tr": "Planlanmış",
+          "en": "Scheduled"
+        },
+        "endedCampaigns": {
+          "tr": "Sona Ermiş",
+          "en": "Ended"
+        },
+        "searchPlaceholder": {
+          "tr": "Kampanya adı veya açıklama ara...",
+          "en": "Search campaign name or description..."
+        },
+        "allStatuses": {
+          "tr": "Tüm Durumlar",
+          "en": "All Statuses"
+        },
+        "statusActive": {
+          "tr": "Aktif",
+          "en": "Active"
+        },
+        "statusScheduled": {
+          "tr": "Planlanmış",
+          "en": "Scheduled"
+        },
+        "statusEnded": {
+          "tr": "Sona Ermiş",
+          "en": "Ended"
+        },
+        "statusInactive": {
+          "tr": "Pasif",
+          "en": "Inactive"
+        },
+        "allTypes": {
+          "tr": "Tüm Türler",
+          "en": "All Types"
+        },
+        "typeDiscount": {
+          "tr": "İndirim",
+          "en": "Discount"
+        },
+        "typeCoupon": {
+          "tr": "Kupon",
+          "en": "Coupon"
+        },
+        "typeFreeShipping": {
+          "tr": "Ücretsiz Kargo",
+          "en": "Free Shipping"
+        },
+        "tableName": {
+          "tr": "Kampanya Adı",
+          "en": "Campaign Name"
+        },
+        "tableType": {
+          "tr": "Tür",
+          "en": "Type"
+        },
+        "tableDiscount": {
+          "tr": "İndirim",
+          "en": "Discount"
+        },
+        "tableDates": {
+          "tr": "Tarihler",
+          "en": "Dates"
+        },
+        "tableUsage": {
+          "tr": "Kullanım",
+          "en": "Usage"
+        },
+        "tableStatus": {
+          "tr": "Durum",
+          "en": "Status"
+        },
+        "tableActions": {
+          "tr": "İşlemler",
+          "en": "Actions"
+        },
+        "previousButton": {
+          "tr": "Önceki",
+          "en": "Previous"
+        },
+        "nextButton": {
+          "tr": "Sonraki",
+          "en": "Next"
+        },
+        "pageText": {
+          "tr": "Sayfa",
+          "en": "Page"
+        },
+        "modalTitleAdd": {
+          "tr": "Yeni Kampanya Ekle",
+          "en": "Add New Campaign"
+        },
+        "modalTitleEdit": {
+          "tr": "Kampanya Düzenle",
+          "en": "Edit Campaign"
+        },
+        "campaignName": {
+          "tr": "Kampanya Adı",
+          "en": "Campaign Name"
+        },
+        "campaignType": {
+          "tr": "Kampanya Türü",
+          "en": "Campaign Type"
+        },
+        "selectType": {
+          "tr": "Tür Seçin",
+          "en": "Select Type"
+        },
+        "discountAmount": {
+          "tr": "İndirim Miktarı",
+          "en": "Discount Amount"
+        },
+        "discountType": {
+          "tr": "İndirim Türü",
+          "en": "Discount Type"
+        },
+        "discountPercentage": {
+          "tr": "Yüzde",
+          "en": "Percentage"
+        },
+        "discountFixed": {
+          "tr": "Sabit Tutar",
+          "en": "Fixed Amount"
+        },
+        "startDate": {
+          "tr": "Başlangıç Tarihi",
+          "en": "Start Date"
+        },
+        "endDate": {
+          "tr": "Bitiş Tarihi",
+          "en": "End Date"
+        },
+        "usageLimit": {
+          "tr": "Kullanım Limiti",
+          "en": "Usage Limit"
+        },
+        "status": {
+          "tr": "Durum",
+          "en": "Status"
+        },
+        "campaignDescription": {
+          "tr": "Kampanya Açıklaması",
+          "en": "Campaign Description"
+        },
+        "campaignConditions": {
+          "tr": "Kampanya Koşulları",
+          "en": "Campaign Conditions"
+        },
+        "saveButton": {
+          "tr": "Kaydet",
+          "en": "Save"
+        },
+        "cancelButton": {
+          "tr": "İptal",
+          "en": "Cancel"
+        },
+        "demoButton": {
+          "tr": "Demo Veri Ekle",
+          "en": "Add Demo Data"
+        }
+      },
+      "id": "admin_kampanyalar_34",
+      "description": "E-ticaret admin paneli kampanya yönetimi modülü",
+      "version": "1.0.0",
+      "icon": "campaign",
+      "type": "module",
+      "author": "Code Matrix"
+    },
+    {
+      "index": 35,
+      "name": "Admin Ödemeler",
+      "path": "admin-odemeler",
+      "local": "body",
+      "category": "admin",
+      "desing": {
+        "page": "admin",
+        "color": "#007bff",
+        "bgcolor": "#f8f9fa",
+        "colortitle": "#2c3e50",
+        "coloractive": "#28a745",
+        "header_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "card_shadow": "0 4px 20px rgba(0, 0, 0, 0.08)",
+        "border_radius": "15px",
+        "pageTitle": {
+          "tr": "Ödeme Yönetimi",
+          "en": "Payment Management"
+        },
+        "pageSubtitle": {
+          "tr": "Ödemeleri görüntüleyin ve yönetin",
+          "en": "View and manage payments"
+        },
+        "refreshButton": {
+          "tr": "Yenile",
+          "en": "Refresh"
+        },
+        "tableName": {
+          "tr": "Sipariş No",
+          "en": "Order No"
+        },
+        "tableAmount": {
+          "tr": "Tutar",
+          "en": "Amount"
+        },
+        "tableMethod": {
+          "tr": "Yöntem",
+          "en": "Method"
+        },
+        "tableStatus": {
+          "tr": "Durum",
+          "en": "Status"
+        },
+        "tableDate": {
+          "tr": "Tarih",
+          "en": "Date"
+        },
+        "tableActions": {
+          "tr": "İşlemler",
+          "en": "Actions"
+        }
+      },
+      "id": "admin_odemeler_35",
+      "description": "E-ticaret admin paneli ödeme yönetimi modülü",
+      "version": "1.0.0",
+      "icon": "payment",
+      "type": "module",
+      "author": "Code Matrix"
+    },
+    {
+      "index": 36,
+      "name": "Admin Raporlar",
+      "path": "admin-raporlar",
+      "local": "body",
+      "category": "admin",
+      "desing": {
+        "page": "admin",
+        "color": "#007bff",
+        "bgcolor": "#f8f9fa",
+        "colortitle": "#2c3e50",
+        "coloractive": "#28a745",
+        "header_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "card_shadow": "0 4px 20px rgba(0, 0, 0, 0.08)",
+        "border_radius": "15px",
+        "pageTitle": {
+          "tr": "Rapor Yönetimi",
+          "en": "Report Management"
+        },
+        "pageSubtitle": {
+          "tr": "Raporları görüntüleyin ve analiz edin",
+          "en": "View and analyze reports"
+        },
+        "refreshButton": {
+          "tr": "Yenile",
+          "en": "Refresh"
+        },
+        "tableName": {
+          "tr": "Rapor Adı",
+          "en": "Report Name"
+        },
+        "tableType": {
+          "tr": "Tür",
+          "en": "Type"
+        },
+        "tablePeriod": {
+          "tr": "Dönem",
+          "en": "Period"
+        },
+        "tableStatus": {
+          "tr": "Durum",
+          "en": "Status"
+        },
+        "tableActions": {
+          "tr": "İşlemler",
+          "en": "Actions"
+        }
+      },
+      "id": "admin_raporlar_36",
+      "description": "E-ticaret admin paneli rapor yönetimi modülü",
+      "version": "1.0.0",
+      "icon": "analytics",
+      "type": "module",
+      "author": "Code Matrix"
+    },
+    {
+      "index": 37,
+      "name": "Admin Modüller",
+      "path": "admin-moduller",
+      "local": "body",
+      "category": "admin",
+      "desing": {
+        "page": "admin",
+        "color": "#007bff",
+        "bgcolor": "#f8f9fa",
+        "colortitle": "#2c3e50",
+        "coloractive": "#28a745",
+        "header_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "card_shadow": "0 4px 20px rgba(0, 0, 0, 0.08)",
+        "border_radius": "15px",
+        "pageTitle": {
+          "tr": "Modül Yönetimi",
+          "en": "Module Management"
+        },
+        "pageSubtitle": {
+          "tr": "Modülleri yönetin ve düzenleyin",
+          "en": "Manage and organize modules"
+        },
+        "refreshButton": {
+          "tr": "Yenile",
+          "en": "Refresh"
+        },
+        "tableName": {
+          "tr": "Modül Adı",
+          "en": "Module Name"
+        },
+        "tableVersion": {
+          "tr": "Versiyon",
+          "en": "Version"
+        },
+        "tableCategory": {
+          "tr": "Kategori",
+          "en": "Category"
+        },
+        "tableStatus": {
+          "tr": "Durum",
+          "en": "Status"
+        },
+        "tableActions": {
+          "tr": "İşlemler",
+          "en": "Actions"
+        }
+      },
+      "id": "admin_moduller_37",
+      "description": "E-ticaret admin paneli modül yönetimi modülü",
+      "version": "1.0.0",
+      "icon": "extension",
+      "type": "module",
+      "author": "Code Matrix"
+    },
+    {
+      "index": 38,
+      "name": "Admin Üyeler",
+      "path": "admin-uyeler",
+      "local": "body",
+      "category": "admin",
+      "desing": {
+        "page": "admin",
+        "color": "#007bff",
+        "bgcolor": "#f8f9fa",
+        "colortitle": "#2c3e50",
+        "coloractive": "#28a745",
+        "header_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "card_shadow": "0 4px 20px rgba(0, 0, 0, 0.08)",
+        "border_radius": "15px",
+        "pageTitle": {
+          "tr": "Üye Yönetimi",
+          "en": "Member Management"
+        },
+        "pageSubtitle": {
+          "tr": "Üyeleri yönetin ve düzenleyin",
+          "en": "Manage and organize members"
+        },
+        "refreshButton": {
+          "tr": "Yenile",
+          "en": "Refresh"
+        },
+        "tableName": {
+          "tr": "Ad Soyad",
+          "en": "Full Name"
+        },
+        "tableEmail": {
+          "tr": "Email",
+          "en": "Email"
+        },
+        "tableRole": {
+          "tr": "Rol",
+          "en": "Role"
+        },
+        "tableStatus": {
+          "tr": "Durum",
+          "en": "Status"
+        },
+        "tableJoinDate": {
+          "tr": "Kayıt Tarihi",
+          "en": "Join Date"
+        },
+        "tableActions": {
+          "tr": "İşlemler",
+          "en": "Actions"
+        }
+      },
+      "id": "admin_uyeler_38",
+      "description": "E-ticaret admin paneli üye yönetimi modülü",
+      "version": "1.0.0",
+      "icon": "people",
+      "type": "module",
+      "author": "Code Matrix"
+    },
+    {
+      "index": 39,
+      "name": "Admin Ayarlar",
+      "path": "admin-ayarlar",
+      "local": "body",
+      "category": "admin",
+      "desing": {
+        "page": "admin",
+        "color": "#007bff",
+        "bgcolor": "#f8f9fa",
+        "colortitle": "#2c3e50",
+        "coloractive": "#28a745",
+        "header_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "card_shadow": "0 4px 20px rgba(0, 0, 0, 0.08)",
+        "border_radius": "15px",
+        "pageTitle": {
+          "tr": "Ayar Yönetimi",
+          "en": "Settings Management"
+        },
+        "pageSubtitle": {
+          "tr": "Sistem ayarlarını yönetin",
+          "en": "Manage system settings"
+        },
+        "refreshButton": {
+          "tr": "Yenile",
+          "en": "Refresh"
+        },
+        "tableName": {
+          "tr": "Ayar Adı",
+          "en": "Setting Name"
+        },
+        "tableValue": {
+          "tr": "Değer",
+          "en": "Value"
+        },
+        "tableCategory": {
+          "tr": "Kategori",
+          "en": "Category"
+        },
+        "tableActions": {
+          "tr": "İşlemler",
+          "en": "Actions"
+        }
+      },
+      "id": "admin_ayarlar_39",
+      "description": "E-ticaret admin paneli ayar yönetimi modülü",
+      "version": "1.0.0",
+      "icon": "settings",
+      "type": "module",
+      "author": "Code Matrix"
+    },
+    {
+      "index": 40,
+      "name": "Admin Loglar",
+      "path": "admin-loglar",
+      "local": "body",
+      "category": "admin",
+      "desing": {
+        "page": "admin",
+        "color": "#007bff",
+        "bgcolor": "#f8f9fa",
+        "colortitle": "#2c3e50",
+        "coloractive": "#28a745",
+        "header_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "card_shadow": "0 4px 20px rgba(0, 0, 0, 0.08)",
+        "border_radius": "15px",
+        "pageTitle": {
+          "tr": "Log Yönetimi",
+          "en": "Log Management"
+        },
+        "pageSubtitle": {
+          "tr": "Sistem loglarını görüntüleyin",
+          "en": "View system logs"
+        },
+        "refreshButton": {
+          "tr": "Yenile",
+          "en": "Refresh"
+        },
+        "tableName": {
+          "tr": "Log Tipi",
+          "en": "Log Type"
+        },
+        "tableMessage": {
+          "tr": "Mesaj",
+          "en": "Message"
+        },
+        "tableLevel": {
+          "tr": "Seviye",
+          "en": "Level"
+        },
+        "tableDate": {
+          "tr": "Tarih",
+          "en": "Date"
+        },
+        "tableActions": {
+          "tr": "İşlemler",
+          "en": "Actions"
+        }
+      },
+      "id": "admin_loglar_40",
+      "description": "E-ticaret admin paneli log yönetimi modülü",
+      "version": "1.0.0",
+      "icon": "history",
+      "type": "module",
+      "author": "Code Matrix"
     }
   ]
 }

@@ -1,0 +1,36 @@
+{
+  "name": {
+    "tr": "Ayarlar",
+    "en": "Settings"
+  },
+  "status": "play",
+  "category": "",
+  "id": "ayarlar123",
+  "url": "",
+  "path": "adminayarlar",
+  "index": 10,
+  "icon": "settings",
+  "desing": {
+    "header": [],
+    "body": [
+      "admin_ayarlar_39"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "desc": {},
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "text": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "update": "2025-08-29T10:28:33.603Z",
+  "date": "2025-08-28T17:03:10.752Z"
+}

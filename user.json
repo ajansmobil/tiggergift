@@ -1,5 +1,30 @@
 {
+  "name": "User",
+  "path": "user",
+  "desc": [],
   "data": [
+    {
+      "name": {
+        "tr": "Sepetim",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "oi85atkwbk",
+      "url": "",
+      "path": "sepetim",
+      "index": 0,
+      "icon": "shopping_basket",
+      "desing": {
+        "header": [],
+        "body": [
+          "okm6a1"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
     {
       "name": {
         "tr": "Siparişlerim",
@@ -7,35 +32,19 @@
       },
       "status": "play",
       "category": "",
-      "id": "n4iqt4z4se",
+      "id": "y10c0m3nlj",
       "url": "",
       "path": "siparislerim",
-      "index": 0,
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "pathnext": ""
-    },
-    {
-      "name": {
-        "tr": "Profilim",
-        "en": ""
-      },
-      "status": "play",
-      "category": "",
-      "id": "wzslqisqlm",
-      "url": "",
-      "path": "profilim",
       "index": 1,
-      "icon": "home",
+      "icon": "shopping_cart",
       "desing": {
         "header": [],
-        "body": [],
+        "body": [
+          "bmfzrv"
+        ],
         "footer": []
       },
-      "pathnext": ""
+      "desc": {}
     },
     {
       "name": {
@@ -44,19 +53,319 @@
       },
       "status": "play",
       "category": "",
-      "id": "ljdnje8h4b",
+      "id": "oiw046kk8a",
       "url": "",
-      "path": "favori",
+      "path": "favorilerim",
       "index": 2,
+      "icon": "favorite",
       "desing": {
         "header": [],
-        "body": [],
+        "body": [
+          "e1pysr"
+        ],
+        "footer": []
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Bildirimler",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "gnrz114brp",
+      "url": "",
+      "path": "bildirimler",
+      "index": 3,
+      "icon": "notifications",
+      "desing": {
+        "header": [],
+        "body": [
+          "dw4wvd"
+        ],
+        "footer": []
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Mesajlar",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "o1fm3yldtl",
+      "url": "",
+      "path": "mesajlar",
+      "index": 4,
+      "icon": "message",
+      "desing": {
+        "header": [],
+        "body": [
+          "uc8pqi"
+        ],
         "footer": []
       },
       "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Değerlendirmelerim",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "d8y4qxxj6k",
+      "url": "",
+      "path": "degerlendirmelerim",
+      "index": 5,
+      "icon": "stars",
+      "desing": {
+        "header": [],
+        "body": [
+          "qx9m0l"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Adreslerim",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "wq98w9ennm",
+      "url": "",
+      "path": "adreslerim",
+      "index": 6,
+      "icon": "location_on",
+      "desing": {
+        "header": [],
+        "body": [
+          "cl6l1n"
+        ],
+        "footer": []
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Kredi Kartlarım",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "ejegvugg93",
+      "url": "",
+      "path": "kredikartlarim",
+      "index": 7,
+      "icon": "credit_card",
+      "desing": {
+        "header": [],
+        "body": [
+          "hp120i"
+        ],
+        "footer": []
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Faturalarım",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "ay2brrhvtw",
+      "url": "",
+      "path": "faturalarim",
+      "index": 8,
+      "icon": "receipt",
+      "desing": {
+        "header": [],
+        "body": [
+          "cnxoum"
+        ],
+        "footer": []
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İade ve Değişim",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "kseilkrnu2",
+      "url": "",
+      "path": "iadevedegisim",
+      "index": 9,
+      "icon": "swap_horiz",
+      "desing": {
+        "header": [],
+        "body": [
+          "a030h0"
+        ],
+        "footer": []
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Cüzdanım",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "o3edmwc8th",
+      "url": "",
+      "path": "cuzdanim",
+      "index": 10,
+      "icon": "account_balance_wallet",
+      "desing": {
+        "header": [],
+        "body": [
+          "s4ja3q"
+        ],
+        "footer": []
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Çözüm Merkezi",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "gxkr9hri2w",
+      "url": "",
+      "path": "cozummerkezi",
+      "index": 11,
+      "icon": "support",
+      "desing": {
+        "header": [],
+        "body": [
+          "qz47g7"
+        ],
+        "footer": []
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Kuponlarım",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "m8vuid0sa9",
+      "url": "",
+      "path": "kuponlarim",
+      "index": 12,
+      "icon": "local_offer",
+      "desing": {
+        "header": [],
+        "body": [
+          "emy3c0"
+        ],
+        "footer": []
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İletişim Tercihlerim",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "zezuolswqf",
+      "url": "",
+      "path": "iletisimtercihlerim",
+      "index": 13,
+      "icon": "settings",
+      "desing": {
+        "header": [],
+        "body": [
+          "c4vuhb"
+        ],
+        "footer": []
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Kullanıcı Bilgilerim",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "vaojovw2ac",
+      "url": "",
+      "path": "kullanicibilgilerim",
+      "index": 14,
+      "icon": "person",
+      "desing": {
+        "header": [],
+        "body": [
+          "tfozdv"
+        ],
+        "footer": []
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Üye Çıkış",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "vafjvva2ac",
+      "url": "",
+      "path": "uyecikis",
+      "index": 15,
+      "icon": "exit_to_app",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Ödeme",
+        "en": ""
+      },
+      "status": "pause",
+      "category": "",
+      "id": "h93wjj0gfi",
+      "url": "",
+      "path": "odeme",
+      "index": 16,
+      "desing": {
+        "header": [],
+        "body": [
+          "ulej43"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {},
       "icon": "home"
     }
   ],
+  "index": 3,
+  "desing": {
+    "header": [],
+    "body": [
+      "hrd5qp"
+    ],
+    "footer": []
+  },
   "modulestatus": {
     "body": true
   }

@@ -9,19 +9,18 @@
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <title>Reports</title>
-  <meta name="description" content="[object Object]" />
-  <meta name="keywords" content="[object Object]" />
+  <meta name="description" content="undefined" />
+  <meta name="keywords" content="undefined" />
   <meta property="og:title" content="Reports" />
-  <meta property="og:description" content="[object Object]" />
+  <meta property="og:description" content="undefined" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=ss3pu" />
-  <link rel="shortcut icon" href="/img/icon.png?v=ss3pu" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=diuxl" />
+  <link rel="shortcut icon" href="/img/icon.png?v=diuxl" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
     rel="stylesheet" />
-  <script type="text/javascript" src="/src/firebase.js?v=ss3pu"></script>
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -48,28 +47,29 @@
   const db = firebase.firestore();
 </script>
 
-<link rel="stylesheet" href="style.css?v=ss3pu">
+
+
+  <script type="text/javascript" src="/src/firebase.js?v=diuxl"></script>
+
+
+<link rel="stylesheet" href="style.css?v=diuxl">
 </head>
 
 <body>
-  <div id="header"><header class="vunlu-header-wrapper">
-  <div class="vunlu-header">
-    <div class="vunlu-header-top">
-      <a href="/en/" class="vunlu-header-left">
-        <img
-          src="/img/logo.png?v=ss3pu"
-          alt="Tiggergift Logo"
-          class="vunlu-logo"
-        />
+  <div id="header"><header class="ugzii-header-wrapper">
+  <div class="ugzii-header">
+    <div class="ugzii-header-top">
+      <a href="/en/" class="ugzii-header-left">
+        <img src="/img/logo.png?v=diuxl" alt="Tiggergift Logo" class="ugzii-logo" />
       </a>
 
-      <div class="vunlu-search-box">
+      <div class="ugzii-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="vunlu-support-info">
+      <div class="ugzii-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
@@ -77,182 +77,486 @@
         </div>
       </div>
 
-      <div class="vunlu-icons">
-        <a href="/en/user/" class="material-symbols-outlined">person</a>
-        <a href="/en/favori/" class="material-symbols-outlined"
-          >favorite</a
-        >
-        <a href="/en/basket/" class="material-symbols-outlined"
-          >shopping_cart</a
-        >
+      <div class="ugzii-icons">
+        <a href="/en/login/" class="material-symbols-outlined">person</a>
+        <a href="/en/favorilerim/" class="material-symbols-outlined">favorite</a>
+        <a href="/en/basket/" class="material-symbols-outlined">shopping_cart</a>
       </div>
     </div>
   </div>
 
-  <div class="vunlu-header-bottom">
-    <div class="vunlu-header-bottom-inner">
-      <button class="vunlu-category-btn">
+  <div class="ugzii-header-bottom">
+    <div class="ugzii-header-bottom-inner">
+      <button class="ugzii-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="vunlu-main-menu"><a href="/en/urunlerimiz/"></a><a href="/en/baklava/"></a><a href="/en/kurumsal/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
+      <nav class="ugzii-main-menu"><a href="/en/urunlerimiz/"></a><a href="/en/baklava/"></a><a href="/en/kurumsal/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
     </div>
   </div>
 </header>
 
 
 </div>
-  <div id="content"><div class="jmywu">
-  <div class="jmywu-menu">
-    <a href="/en/admin/" class="jmywu-profile">
-      <div class="jmywu-user-img"></div>
-      <div>Üye Adı Soyadı</div>
-    </a>
-    
- <div class="jmywu-menu-category">
-  
-    <a href="/en/admin/" >
-      <span class="material-symbols-outlined">home</span>
-      <div> Admin </div>
-    </a>
-    
-    <a href="/en/siparisler/" >
-      <span class="material-symbols-outlined">shopping_cart</span>
-      <div> Siparişler </div>
-    </a>
-    
-    <a href="/en/urunler/" >
-      <span class="material-symbols-outlined">inventory</span>
-      <div> Ürünler </div>
-    </a>
-    
-    <a href="/en/kategoriler/" >
-      <span class="material-symbols-outlined">category</span>
-      <div> Kategoriler </div>
-    </a>
-    
-    <a href="/en/musteriler/" >
-      <span class="material-symbols-outlined">people</span>
-      <div> Müşteriler </div>
-    </a>
-    
-    <a href="/en/kampanyalar/" >
-      <span class="material-symbols-outlined">campaign</span>
-      <div> Kampanyalar </div>
-    </a>
-    
-    <a href="/en/odemeler/" >
-      <span class="material-symbols-outlined">payment</span>
-      <div> Ödemeler </div>
-    </a>
-    
-    <a class="jmywu-menu-active" href="/en/raporlar/" >
-      <span class="material-symbols-outlined">analytics</span>
-      <div> Raporlar </div>
-    </a>
-    
-    <a href="/en/moduller/" >
-      <span class="material-symbols-outlined">extension</span>
-      <div> Moduller </div>
-    </a>
-    
-    <a href="/en/uyeler/" >
-      <span class="material-symbols-outlined">admin_panel_settings</span>
-      <div> Üyeler </div>
-    </a>
-    
-    <a href="/en/ayarlar/" >
-      <span class="material-symbols-outlined">settings</span>
-      <div> Ayarlar </div>
-    </a>
-    
-    <a href="/en/loglar/" >
-      <span class="material-symbols-outlined">history</span>
-      <div> Loglar </div>
-    </a>
-    </div>
-  </div>
-  <div class="jmywu-body"><div class="iddqj">
-  <div class="iddqj-body">
-    <div class="iddqj-login-menu">
-      <div id="iddqj-login-menu-left">Login</div>
-      <div id="iddqj-login-menu-right">Üye Ol</div>
-    </div>
-    <div class="iddqj-body-form" id="iddqj-login">
-      <div class="input-container">
-        <input type="text" class="inputmatrix1" placeholder="Mail Adresiniz" />
-        <label for="input" class="placeholder">Mail Adresiniz</label>
-      </div>
-      <div class="input-container">
-        <input type="text" class="inputmatrix1" placeholder="Şifre" />
-        <label for="input" class="placeholder">Şifre</label>
-      </div>
-      <div class="iddqj-null">Şifremi Unuttum</div>
-      <a href="/en/user/" class="iddqj-button">Giriş Yap</a>
-    </div>
-    <div class="iddqj-body-form" id="iddqj-memberol">
-      <div class="input-container">
-        <input
-          type="text"
-          class="inputmatrix1"
-          placeholder="Your Name and Surname"
-        />
-        <label for="input" class="placeholder">Your Name and Surname</label>
-      </div>
-      <div class="input-container">
-        <input type="text" class="inputmatrix1" placeholder="Mail Adresiniz" />
-        <label for="input" class="placeholder">Mail Adresiniz</label>
-      </div>
-      <div class="input-container">
-        <input type="text" class="inputmatrix1" placeholder="Şifre" />
-        <label for="input" class="placeholder">Şifre</label>
-      </div>
-      <div class="input-container">
-        <input type="text" class="inputmatrix1" placeholder="Şifre Tekrar" />
-        <label for="input" class="placeholder">Şifre Tekrar</label>
-      </div>
-      <div class="iddqj-button">Üye Ol</div>
-      <div class="iddqj-null">Üye misin?</div>
-    </div>
-    <div class="media-login">
-      <div>
-        <img src="/src/icon/google.png" height="35" alt="Google ile Giriş" />
-        <div>Google İle Giriş Yap</div>
-      </div>
-      <div>
-        <img src="/src/icon/apple.png" height="35" alt="Apple ile Giriş" />
-        <div>Apple ile Giriş Yap</div>
-      </div>
-    </div>
+  <div id="content"><!-- Loading Screen -->
+<div class="admin-loading-overlay" id="adminLoadingOverlay">
+  <div class="admin-loading-content">
+    <div class="admin-loading-spinner"></div>
+    <div class="admin-loading-text">Giriş kontrol ediliyor...</div>
   </div>
 </div>
 
+<!-- Main Content -->
+<div class="njejq" id="adminMainContent" style="display: none;">
+  <div class="njejq-menu">
+    <a href="/en/admin/" class="njejq-profile">
+      <div class="njejq-user-img" id="userAvatar"></div>
+      <div id="userName">Yükleniyor...</div>
+    </a>
+    <div class="njejq-menu-category">
+    <a href="/en/admin/" >
+      <span class="material-symbols-outlined">home</span>
+      <div>Admin</div>
+    </a>
+    <a href="/en/admin-urunler/" >
+      <span class="material-symbols-outlined">home</span>
+      <div>Ürünler</div>
+    </a>
+    <a href="/en/admin-siparisler/" >
+      <span class="material-symbols-outlined">shopping_cart</span>
+      <div>Orders</div>
+    </a>
+    <a href="/en/adminkategoriler/" >
+      <span class="material-symbols-outlined">home</span>
+      <div>Kategoriler</div>
+    </a>
+    <a href="/en/musteriler/" >
+      <span class="material-symbols-outlined">people</span>
+      <div>Customers</div>
+    </a>
+    <a href="/en/moduller/" >
+      <span class="material-symbols-outlined">home</span>
+      <div>Moduller</div>
+    </a>
+    <a href="/en/kampanyalar/" >
+      <span class="material-symbols-outlined">campaign</span>
+      <div>Campaigns</div>
+    </a>
+    <a href="/en/odemeler/" >
+      <span class="material-symbols-outlined">payment</span>
+      <div>Payments</div>
+    </a>
+    <a class="njejq-menu-active" href="/en/raporlar/" >
+      <span class="material-symbols-outlined">analytics</span>
+      <div>Reports</div>
+    </a>
+    <a href="/en/adminayarlar/" >
+      <span class="material-symbols-outlined">settings</span>
+      <div>Settings</div>
+    </a>
+    <a href="/en/loglar/" >
+      <span class="material-symbols-outlined">history</span>
+      <div>Logs</div>
+    </a></div>
+  </div>
+  <div class="njejq-body"><div class="tduao-admin-raporlar">
+    <!-- Sayfa Başlığı -->
+    <div class="tduao-page-header">
+        <div class="tduao-header-left">
+            <h1>Report Management</h1>
+            <p class="tduao-header-subtitle">
+                <span class="material-symbols-outlined">analytics</span>
+                View and analyze reports
+            </p>
+        </div>
+        <div class="tduao-header-right">
+            <div class="tduao-header-actions">
+                <button class="tduao-btn tduao-btn-primary" onclick="loadReports()">
+                    <span class="material-symbols-outlined">refresh</span>
+                    Refresh
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rapor Tablosu -->
+    <div class="tduao-reports-table-container">
+        <div class="tduao-reports-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Report Name</th>
+                        <th>Type</th>
+                        <th>Period</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="reports-table-body">
+                    <tr>
+                        <td colspan="5" style="text-align: center; padding: 40px;">Raporlar yükleniyor...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Demo Veri Ekleme Butonu -->
+    <div class="tduao-demo-section">
+        <button class="tduao-btn tduao-btn-success" onclick="addDemoReports()">
+            <span class="material-symbols-outlined">add</span>
+            {{demoButton}}
+        </button>
+    </div>
+</div>
+
+
+
 <script>
-  document
-    .getElementById("iddqj-login-menu-left")
-    .addEventListener("click", function () {
-      document.getElementById("iddqj-login-menu-left").style.backgroundColor =
-        "#101010";
-      document.getElementById(
-        "iddqj-login-menu-right",
-      ).style.backgroundColor = "#7b560d";
-      document.getElementById("iddqj-login").style.display = "flex";
-      document.getElementById("iddqj-memberol").style.display = "none";
+    // Raporları yükle
+    async function loadReports() {
+        const tableBody = document.getElementById("reports-table-body");
+        tableBody.innerHTML = '<tr><td colspan="5" style="text-align: center; padding: 40px;">Raporlar yükleniyor...</td></tr>';
+
+        try {
+            // Firebase fonksiyonunun varlığını kontrol et
+            if (typeof dataListWeb !== 'function') {
+                throw new Error('Firebase fonksiyonları yüklenmemiş');
+            }
+
+            const reportsSnapshot = await dataListWeb('reports');
+            tableBody.innerHTML = "";
+
+            if (reportsSnapshot.empty) {
+                tableBody.innerHTML = `
+                    <tr>
+                        <td colspan="5" style="text-align: center; padding: 40px; color: #6c757d;">
+                            <div style="font-size: 16px;">Henüz rapor bulunmuyor</div>
+                        </td>
+                    </tr>
+                `;
+                return;
+            }
+
+            reportsSnapshot.forEach(doc => {
+                const report = doc.data();
+                const row = document.createElement("tr");
+
+                row.innerHTML = `
+                    <td>${report.name}</td>
+                    <td>${report.type}</td>
+                    <td>${report.period}</td>
+                    <td><span class="status-badge">${report.status}</span></td>
+                    <td>
+                        <button class="tduao-btn tduao-btn-sm" onclick="viewReport('${doc.id}')">Görüntüle</button>
+                        <button class="tduao-btn tduao-btn-sm" onclick="downloadReport('${doc.id}')">İndir</button>
+                    </td>
+                `;
+
+                tableBody.appendChild(row);
+            });
+
+        } catch (error) {
+            console.error('Raporlar yüklenirken hata:', error);
+            tableBody.innerHTML = `
+                <tr>
+                    <td colspan="5" style="text-align: center; padding: 40px; color: #dc3545;">
+                        <div style="font-size: 16px; margin-bottom: 10px;">Veriler yüklenirken hata oluştu</div>
+                        <button class="tduao-btn tduao-btn-primary" onclick="loadReports()">
+                            <span class="material-symbols-outlined">refresh</span>
+                            Tekrar Dene
+                        </button>
+                    </td>
+                </tr>
+            `;
+        }
+    }
+
+    // Sayfa yüklendiğinde raporları yükle
+    document.addEventListener('DOMContentLoaded', function () {
+        loadReports();
     });
-  document
-    .getElementById("iddqj-login-menu-right")
-    .addEventListener("click", function () {
-      document.getElementById(
-        "iddqj-login-menu-right",
-      ).style.backgroundColor = "#101010";
-      document.getElementById("iddqj-login-menu-left").style.backgroundColor =
-        "#7b560d";
-      document.getElementById("iddqj-login").style.display = "none";
-      document.getElementById("iddqj-memberol").style.display = "flex";
-    });
+
+    function viewReport(id) {
+        alert('Rapor görüntüle: ' + id);
+    }
+
+    function downloadReport(id) {
+        alert('Rapor indir: ' + id);
+    }
+
+    // Demo rapor verisi ekle
+    async function addDemoReports() {
+        try {
+            if (typeof dataAddWeb !== 'function') {
+                alert('Firebase fonksiyonları yüklenmemiş - Demo veri eklenemez');
+                return;
+            }
+
+            const demoReports = [
+                {
+                    name: 'Aylık Satış Raporu',
+                    type: 'Satış',
+                    period: 'Ocak 2024',
+                    status: 'Hazır',
+                    createdAt: new Date()
+                },
+                {
+                    name: 'Müşteri Analizi',
+                    type: 'Analiz',
+                    period: '2024 Yılı',
+                    status: 'İşleniyor',
+                    createdAt: new Date()
+                }
+            ];
+
+            for (const report of demoReports) {
+                await dataAddWeb('reports', report);
+            }
+
+            alert('Demo rapor verileri başarıyla eklendi!');
+            loadReports();
+        } catch (error) {
+            console.error('Demo veri eklenirken hata:', error);
+            alert('Demo veri eklenirken hata oluştu!');
+        }
+    }
 </script>
 </div>
 </div>
 
+
+<script>
+  // Firebase'den kullanıcı bilgilerini yükle
+  async function loadUserProfile() {
+    try {
+      // Global user objesini kontrol et
+      const currentUser = window.user || {};
+
+      if (!currentUser.isLoggedIn || !currentUser.id) {
+        document.getElementById('userName').textContent = 'Admin Kullanıcı';
+
+        // Varsayılan avatar
+        const avatarUrl = `https://ui-avatars.com/api/?name=Admin&background=007bff&color=fff&size=40`;
+        document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+        document.getElementById('userAvatar').style.backgroundSize = 'cover';
+        document.getElementById('userAvatar').style.backgroundPosition = 'center';
+        return;
+      }
+
+      // Firebase'den kullanıcı bilgilerini almaya çalış
+      if (typeof dataListWeb === 'function') {
+        try {
+          const userSnapshot = await dataListWeb(`users`);
+          let userData = null;
+
+          // Kullanıcıyı ID ile bul
+          userSnapshot.forEach(doc => {
+            if (doc.id === currentUser.id) {
+              userData = doc.data();
+            }
+          });
+
+          if (userData) {
+            // Kullanıcı adını güncelle
+            const fullName = `${userData.firstName || ''} ${userData.lastName || ''}`.trim();
+            document.getElementById('userName').textContent = fullName || userData.email || currentUser.email || 'Kullanıcı';
+
+            // Profil fotoğrafını güncelle
+            const avatarElement = document.getElementById('userAvatar');
+            if (userData.photoURL) {
+              avatarElement.style.backgroundImage = `url(${userData.photoURL})`;
+              avatarElement.style.backgroundSize = 'cover';
+              avatarElement.style.backgroundPosition = 'center';
+            } else {
+              // UI Avatars ile otomatik avatar oluştur
+              const displayName = fullName || userData.email || currentUser.email || 'U';
+              const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&background=random&color=fff&size=40`;
+              avatarElement.style.backgroundImage = `url(${avatarUrl})`;
+              avatarElement.style.backgroundSize = 'cover';
+              avatarElement.style.backgroundPosition = 'center';
+            }
+          } else {
+            // Kullanıcı verisi bulunamazsa email'den isim çıkar
+            const displayName = currentUser.email ? currentUser.email.split('@')[0] : currentUser.name || 'Kullanıcı';
+            document.getElementById('userName').textContent = displayName;
+
+            // Varsayılan avatar
+            const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&background=random&color=fff&size=40`;
+            document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+            document.getElementById('userAvatar').style.backgroundSize = 'cover';
+            document.getElementById('userAvatar').style.backgroundPosition = 'center';
+          }
+        } catch (fbError) {
+          console.log('Firebase veri çekme hatası:', fbError);
+          // Firebase hatası varsa localStorage'daki bilgileri kullan
+          const displayName = currentUser.email ? currentUser.email.split('@')[0] : currentUser.name || 'Kullanıcı';
+          document.getElementById('userName').textContent = displayName;
+
+          const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&background=007bff&color=fff&size=40`;
+          document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+          document.getElementById('userAvatar').style.backgroundSize = 'cover';
+          document.getElementById('userAvatar').style.backgroundPosition = 'center';
+        }
+      } else {
+        // dataListWeb fonksiyonu yoksa localStorage bilgilerini kullan
+        const displayName = currentUser.email ? currentUser.email.split('@')[0] : currentUser.name || 'Kullanıcı';
+        document.getElementById('userName').textContent = displayName;
+
+        const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&background=007bff&color=fff&size=40`;
+        document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+        document.getElementById('userAvatar').style.backgroundSize = 'cover';
+        document.getElementById('userAvatar').style.backgroundPosition = 'center';
+      }
+
+    } catch (error) {
+      console.error('Kullanıcı profili yüklenirken hata:', error);
+      document.getElementById('userName').textContent = 'Admin Kullanıcı';
+
+      const avatarUrl = `https://ui-avatars.com/api/?name=Admin&background=dc3545&color=fff&size=40`;
+      document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+      document.getElementById('userAvatar').style.backgroundSize = 'cover';
+      document.getElementById('userAvatar').style.backgroundPosition = 'center';
+    }
+  }
+
+  // Admin sayfası için authentication kontrolü
+  function checkAdminAccess() {
+    const loadingOverlay = document.getElementById('adminLoadingOverlay');
+    const mainContent = document.getElementById('adminMainContent');
+
+    // Önce localStorage'dan user bilgisini kontrol et
+    try {
+      const storedUser = localStorage.getItem('user');
+      if (storedUser) {
+        const userData = JSON.parse(storedUser);
+        if (userData.isLoggedIn && userData.id) {
+          console.log('User authenticated from localStorage:', userData.id);
+
+          // Loading ekranını gizle ve ana içeriği göster
+          setTimeout(() => {
+            loadingOverlay.style.display = 'none';
+            mainContent.style.display = 'flex';
+
+            // Global user objesini güncelle
+            if (typeof window.user === 'undefined') {
+              window.user = userData;
+            }
+
+            // Profil bilgilerini yükle
+            loadUserProfile();
+          }, 500);
+          return;
+        }
+      }
+    } catch (error) {
+      console.log('localStorage user kontrolü hatası:', error);
+    }
+
+    // Firebase authentication kontrolü (eğer authStateListenerWeb fonksiyonu varsa)
+    if (typeof authStateListenerWeb === 'function') {
+      authStateListenerWeb((firebaseUser) => {
+        if (firebaseUser) {
+          // Kullanıcı giriş yapmış
+          console.log('User authenticated for admin panel:', firebaseUser.uid);
+
+          // Loading ekranını gizle ve ana içeriği göster
+          setTimeout(() => {
+            loadingOverlay.style.display = 'none';
+            mainContent.style.display = 'flex';
+
+            // Global user objesini güncelle
+            if (typeof window.user === 'undefined') {
+              window.user = {
+                id: firebaseUser.uid,
+                email: firebaseUser.email,
+                isLoggedIn: true
+              };
+            }
+
+            // Profil bilgilerini yükle
+            loadUserProfile();
+          }, 1000);
+
+        } else {
+          // Kullanıcı giriş yapmamış - login sayfasına yönlendir
+          console.log('User not authenticated, redirecting to login...');
+
+          setTimeout(() => {
+            window.location.href = '/en/login/';
+          }, 1500);
+        }
+      });
+    } else {
+      // authStateListenerWeb fonksiyonu yoksa, doğrudan ana içeriği göster
+      console.log('authStateListenerWeb not available, showing admin content directly');
+
+      setTimeout(() => {
+        loadingOverlay.style.display = 'none';
+        mainContent.style.display = 'flex';
+
+        // Varsayılan user objesi
+        if (typeof window.user === 'undefined') {
+          window.user = {
+            id: 'demo_user',
+            email: 'admin@demo.com',
+            isLoggedIn: true
+          };
+        }
+
+        loadUserProfile();
+      }, 500);
+    }
+  }
+
+  // Firebase fonksiyonları mock'ları (eğer yüklü değilse)
+  function initializeFirebaseMocks() {
+    if (typeof dataListWeb === 'undefined') {
+      console.log('Firebase fonksiyonları bulunamadı, mock fonksiyonlar oluşturuluyor...');
+
+      window.dataListWeb = async function (collection) {
+        console.log('Mock dataListWeb çağrıldı:', collection);
+        return {
+          empty: true,
+          forEach: function (callback) {
+            // Boş collection
+          }
+        };
+      };
+
+      window.dataAddWeb = async function (collection, data) {
+        console.log('Mock dataAddWeb çağrıldı:', collection, data);
+        return { id: 'mock_' + Date.now() };
+      };
+
+      window.dataUpdateWeb = async function (collection, id, data) {
+        console.log('Mock dataUpdateWeb çağrıldı:', collection, id, data);
+        return true;
+      };
+
+      window.dataDeleteWeb = async function (collection, id) {
+        console.log('Mock dataDeleteWeb çağrıldı:', collection, id);
+        return true;
+      };
+
+      window.authStateListenerWeb = function (callback) {
+        console.log('Mock authStateListenerWeb çağrıldı');
+        // Varsayılan olarak giriş yapmış user döndür
+        setTimeout(() => {
+          callback({
+            uid: 'mock_user_id',
+            email: 'admin@demo.com'
+          });
+        }, 100);
+      };
+    }
+  }
+
+  // Mock fonksiyonları başlat
+  initializeFirebaseMocks();
+
+  // Sayfa yüklendiğinde admin erişim kontrolü yap
+  checkAdminAccess();
+</script>
 </div>
   <div id="footer"><!-- Google Material Icons -->
 <link
@@ -261,28 +565,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="v8wy1-trust-boxes">
-      <div class="v8wy1-trust-item">
+<div class="fxqyh-trust-boxes">
+      <div class="fxqyh-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="v8wy1-trust-text">
-          <div class="v8wy1-trust-title">100% Secure Payment</div>
-          <div class="v8wy1-trust-desc">Secure Payment with 3D Secure</div>
+        <div class="fxqyh-trust-text">
+          <div class="fxqyh-trust-title">100% Secure Payment</div>
+          <div class="fxqyh-trust-desc">Secure Payment with 3D Secure</div>
         </div>
       </div>
     
-      <div class="v8wy1-trust-item">
+      <div class="fxqyh-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="v8wy1-trust-text">
-          <div class="v8wy1-trust-title">100% Original Product</div>
-          <div class="v8wy1-trust-desc">Activation with 100% Licensed Original Product</div>
+        <div class="fxqyh-trust-text">
+          <div class="fxqyh-trust-title">100% Original Product</div>
+          <div class="fxqyh-trust-desc">Activation with 100% Licensed Original Product</div>
         </div>
       </div>
     
-      <div class="v8wy1-trust-item">
+      <div class="fxqyh-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="v8wy1-trust-text">
-          <div class="v8wy1-trust-title">Fast Delivery</div>
-          <div class="v8wy1-trust-desc">Online Fast Delivery for All Your Shopping</div>
+        <div class="fxqyh-trust-text">
+          <div class="fxqyh-trust-title">Fast Delivery</div>
+          <div class="fxqyh-trust-desc">Online Fast Delivery for All Your Shopping</div>
         </div>
       </div>
     </div>
@@ -355,11 +659,11 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=ss3pu"></script>
+<script type="text/javascript" src="/src/js.js?v=diuxl"></script>
 
 
 
 
-<script src="/src/cookie.js?v=ss3pu"></script>
+<script src="/src/cookie.js?v=diuxl"></script>
 
 </html>

@@ -9,19 +9,18 @@
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <title>Kampanyalar</title>
-  <meta name="description" content="[object Object]" />
-  <meta name="keywords" content="[object Object]" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
   <meta property="og:title" content="Kampanyalar" />
-  <meta property="og:description" content="[object Object]" />
+  <meta property="og:description" content="" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=vnw1c" />
-  <link rel="shortcut icon" href="/img/icon.png?v=vnw1c" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=m8ko9" />
+  <link rel="shortcut icon" href="/img/icon.png?v=m8ko9" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
     rel="stylesheet" />
-  <script type="text/javascript" src="/src/firebase.js?v=vnw1c"></script>
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -48,28 +47,29 @@
   const db = firebase.firestore();
 </script>
 
-<link rel="stylesheet" href="style.css?v=vnw1c">
+
+
+  <script type="text/javascript" src="/src/firebase.js?v=m8ko9"></script>
+
+
+<link rel="stylesheet" href="style.css?v=m8ko9">
 </head>
 
 <body>
-  <div id="header"><header class="fiek7-header-wrapper">
-  <div class="fiek7-header">
-    <div class="fiek7-header-top">
-      <a href="/tr/" class="fiek7-header-left">
-        <img
-          src="/img/logo.png?v=vnw1c"
-          alt="Tiggergift Logo"
-          class="fiek7-logo"
-        />
+  <div id="header"><header class="ltvyx-header-wrapper">
+  <div class="ltvyx-header">
+    <div class="ltvyx-header-top">
+      <a href="/tr/" class="ltvyx-header-left">
+        <img src="/img/logo.png?v=m8ko9" alt="Tiggergift Logo" class="ltvyx-logo" />
       </a>
 
-      <div class="fiek7-search-box">
+      <div class="ltvyx-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="fiek7-support-info">
+      <div class="ltvyx-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
@@ -77,182 +77,522 @@
         </div>
       </div>
 
-      <div class="fiek7-icons">
-        <a href="/tr/user/" class="material-symbols-outlined">person</a>
-        <a href="/tr/favori/" class="material-symbols-outlined"
-          >favorite</a
-        >
-        <a href="/tr/basket/" class="material-symbols-outlined"
-          >shopping_cart</a
-        >
+      <div class="ltvyx-icons">
+        <a href="/tr/login/" class="material-symbols-outlined">person</a>
+        <a href="/tr/favorilerim/" class="material-symbols-outlined">favorite</a>
+        <a href="/tr/basket/" class="material-symbols-outlined">shopping_cart</a>
       </div>
     </div>
   </div>
 
-  <div class="fiek7-header-bottom">
-    <div class="fiek7-header-bottom-inner">
-      <button class="fiek7-category-btn">
+  <div class="ltvyx-header-bottom">
+    <div class="ltvyx-header-bottom-inner">
+      <button class="ltvyx-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="fiek7-main-menu"><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/baklava/">Baklava</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/iletisim/">İletişim</a></nav>
+      <nav class="ltvyx-main-menu"><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/baklava/">Baklava</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/iletisim/">İletişim</a></nav>
     </div>
   </div>
 </header>
 
 
 </div>
-  <div id="content"><div class="t8tff">
-  <div class="t8tff-menu">
-    <a href="/tr/admin/" class="t8tff-profile">
-      <div class="t8tff-user-img"></div>
-      <div>Üye Adı Soyadı</div>
-    </a>
-    
- <div class="t8tff-menu-category">
-  
-    <a href="/tr/admin/" >
-      <span class="material-symbols-outlined">home</span>
-      <div> Admin </div>
-    </a>
-    
-    <a href="/tr/siparisler/" >
-      <span class="material-symbols-outlined">shopping_cart</span>
-      <div> Siparişler </div>
-    </a>
-    
-    <a href="/tr/urunler/" >
-      <span class="material-symbols-outlined">inventory</span>
-      <div> Ürünler </div>
-    </a>
-    
-    <a href="/tr/kategoriler/" >
-      <span class="material-symbols-outlined">category</span>
-      <div> Kategoriler </div>
-    </a>
-    
-    <a href="/tr/musteriler/" >
-      <span class="material-symbols-outlined">people</span>
-      <div> Müşteriler </div>
-    </a>
-    
-    <a class="t8tff-menu-active" href="/tr/kampanyalar/" >
-      <span class="material-symbols-outlined">campaign</span>
-      <div> Kampanyalar </div>
-    </a>
-    
-    <a href="/tr/odemeler/" >
-      <span class="material-symbols-outlined">payment</span>
-      <div> Ödemeler </div>
-    </a>
-    
-    <a href="/tr/raporlar/" >
-      <span class="material-symbols-outlined">analytics</span>
-      <div> Raporlar </div>
-    </a>
-    
-    <a href="/tr/moduller/" >
-      <span class="material-symbols-outlined">extension</span>
-      <div> Moduller </div>
-    </a>
-    
-    <a href="/tr/uyeler/" >
-      <span class="material-symbols-outlined">admin_panel_settings</span>
-      <div> Üyeler </div>
-    </a>
-    
-    <a href="/tr/ayarlar/" >
-      <span class="material-symbols-outlined">settings</span>
-      <div> Ayarlar </div>
-    </a>
-    
-    <a href="/tr/loglar/" >
-      <span class="material-symbols-outlined">history</span>
-      <div> Loglar </div>
-    </a>
-    </div>
-  </div>
-  <div class="t8tff-body"><div class="m20lu">
-  <div class="m20lu-body">
-    <div class="m20lu-login-menu">
-      <div id="m20lu-login-menu-left">Giriş Yap</div>
-      <div id="m20lu-login-menu-right">Üye Ol</div>
-    </div>
-    <div class="m20lu-body-form" id="m20lu-login">
-      <div class="input-container">
-        <input type="text" class="inputmatrix1" placeholder="Mail Adresiniz" />
-        <label for="input" class="placeholder">Mail Adresiniz</label>
-      </div>
-      <div class="input-container">
-        <input type="text" class="inputmatrix1" placeholder="Şifre" />
-        <label for="input" class="placeholder">Şifre</label>
-      </div>
-      <div class="m20lu-null">Şifremi Unuttum</div>
-      <a href="/tr/user/" class="m20lu-button">Giriş Yap</a>
-    </div>
-    <div class="m20lu-body-form" id="m20lu-memberol">
-      <div class="input-container">
-        <input
-          type="text"
-          class="inputmatrix1"
-          placeholder="Adnınız ve Soyadınız"
-        />
-        <label for="input" class="placeholder">Adnınız ve Soyadınız</label>
-      </div>
-      <div class="input-container">
-        <input type="text" class="inputmatrix1" placeholder="Mail Adresiniz" />
-        <label for="input" class="placeholder">Mail Adresiniz</label>
-      </div>
-      <div class="input-container">
-        <input type="text" class="inputmatrix1" placeholder="Şifre" />
-        <label for="input" class="placeholder">Şifre</label>
-      </div>
-      <div class="input-container">
-        <input type="text" class="inputmatrix1" placeholder="Şifre Tekrar" />
-        <label for="input" class="placeholder">Şifre Tekrar</label>
-      </div>
-      <div class="m20lu-button">Üye Ol</div>
-      <div class="m20lu-null">Üye misin?</div>
-    </div>
-    <div class="media-login">
-      <div>
-        <img src="/src/icon/google.png" height="35" alt="Google ile Giriş" />
-        <div>Google İle Giriş Yap</div>
-      </div>
-      <div>
-        <img src="/src/icon/apple.png" height="35" alt="Apple ile Giriş" />
-        <div>Apple ile Giriş Yap</div>
-      </div>
-    </div>
+  <div id="content"><!-- Loading Screen -->
+<div class="admin-loading-overlay" id="adminLoadingOverlay">
+  <div class="admin-loading-content">
+    <div class="admin-loading-spinner"></div>
+    <div class="admin-loading-text">Giriş kontrol ediliyor...</div>
   </div>
 </div>
 
+<!-- Main Content -->
+<div class="r19bd" id="adminMainContent" style="display: none;">
+  <div class="r19bd-menu">
+    <a href="/tr/admin/" class="r19bd-profile">
+      <div class="r19bd-user-img" id="userAvatar"></div>
+      <div id="userName">Yükleniyor...</div>
+    </a>
+    <div class="r19bd-menu-category">
+    <a href="/tr/admin/" >
+      <span class="material-symbols-outlined">home</span>
+      <div>Admin</div>
+    </a>
+    <a href="/tr/admin-urunler/" >
+      <span class="material-symbols-outlined">home</span>
+      <div>Ürünler</div>
+    </a>
+    <a href="/tr/admin-siparisler/" >
+      <span class="material-symbols-outlined">shopping_cart</span>
+      <div>Siparişler</div>
+    </a>
+    <a href="/tr/adminkategoriler/" >
+      <span class="material-symbols-outlined">home</span>
+      <div>Kategoriler</div>
+    </a>
+    <a href="/tr/musteriler/" >
+      <span class="material-symbols-outlined">people</span>
+      <div>Müşteriler</div>
+    </a>
+    <a href="/tr/moduller/" >
+      <span class="material-symbols-outlined">home</span>
+      <div>Moduller</div>
+    </a>
+    <a class="r19bd-menu-active" href="/tr/kampanyalar/" >
+      <span class="material-symbols-outlined">campaign</span>
+      <div>Kampanyalar</div>
+    </a>
+    <a href="/tr/odemeler/" >
+      <span class="material-symbols-outlined">payment</span>
+      <div>Ödemeler</div>
+    </a>
+    <a href="/tr/raporlar/" >
+      <span class="material-symbols-outlined">analytics</span>
+      <div>Raporlar</div>
+    </a>
+    <a href="/tr/adminayarlar/" >
+      <span class="material-symbols-outlined">settings</span>
+      <div>Ayarlar</div>
+    </a>
+    <a href="/tr/loglar/" >
+      <span class="material-symbols-outlined">history</span>
+      <div>Loglar</div>
+    </a></div>
+  </div>
+  <div class="r19bd-body"><div class="wig9h-admin-kampanyalar">
+    <!-- Sayfa Başlığı -->
+    <div class="wig9h-page-header">
+        <div class="wig9h-header-left">
+            <h1>Kampanya Yönetimi</h1>
+            <p class="wig9h-header-subtitle">
+                <span class="material-symbols-outlined">campaign</span>
+                Kampanyaları yönetin ve düzenleyin
+            </p>
+        </div>
+        <div class="wig9h-header-right">
+            <div class="wig9h-header-actions">
+                <button class="wig9h-btn wig9h-btn-success" onclick="openAddCampaignModal()">
+                    <span class="material-symbols-outlined">add</span>
+                    Yeni Kampanya Ekle
+                </button>
+                <button class="wig9h-btn wig9h-btn-primary" onclick="loadCampaigns()">
+                    <span class="material-symbols-outlined">refresh</span>
+                    Yenile
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Kampanya Tablosu -->
+    <div class="wig9h-campaigns-table-container">
+        <div class="wig9h-campaigns-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Kampanya Adı</th>
+                        <th>Tür</th>
+                        <th>İndirim</th>
+                        <th>Durum</th>
+                        <th>İşlemler</th>
+                    </tr>
+                </thead>
+                <tbody id="campaigns-table-body">
+                    <tr>
+                        <td colspan="5" style="text-align: center; padding: 40px;">Kampanyalar yükleniyor...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Demo Veri Ekleme Butonu -->
+    <div class="wig9h-demo-section">
+        <button class="wig9h-btn wig9h-btn-success" onclick="addDemoCampaigns()">
+            <span class="material-symbols-outlined">add</span>
+            Demo Veri Ekle
+        </button>
+    </div>
+</div>
+
+
+
 <script>
-  document
-    .getElementById("m20lu-login-menu-left")
-    .addEventListener("click", function () {
-      document.getElementById("m20lu-login-menu-left").style.backgroundColor =
-        "#101010";
-      document.getElementById(
-        "m20lu-login-menu-right",
-      ).style.backgroundColor = "#7b560d";
-      document.getElementById("m20lu-login").style.display = "flex";
-      document.getElementById("m20lu-memberol").style.display = "none";
+    // Kampanyaları yükle
+    async function loadCampaigns() {
+        const tableBody = document.getElementById("campaigns-table-body");
+        tableBody.innerHTML = '<tr><td colspan="5" style="text-align: center; padding: 40px;">Kampanyalar yükleniyor...</td></tr>';
+
+        try {
+            // Firebase fonksiyonunun varlığını kontrol et
+            if (typeof dataListWeb !== 'function') {
+                throw new Error('Firebase fonksiyonları yüklenmemiş');
+            }
+
+            const campaignsSnapshot = await dataListWeb('campaigns');
+            tableBody.innerHTML = "";
+
+            if (campaignsSnapshot.empty) {
+                tableBody.innerHTML = `
+                    <tr>
+                        <td colspan="5" style="text-align: center; padding: 40px; color: #6c757d;">
+                            <div style="font-size: 16px; margin-bottom: 10px;">Henüz kampanya bulunmuyor</div>
+                            <button class="wig9h-btn wig9h-btn-success" onclick="openAddCampaignModal()">
+                                <span class="material-symbols-outlined">add</span>
+                                İlk Kampanyayı Ekle
+                            </button>
+                        </td>
+                    </tr>
+                `;
+                return;
+            }
+
+            campaignsSnapshot.forEach(doc => {
+                const campaign = doc.data();
+                const row = document.createElement("tr");
+
+                row.innerHTML = `
+                    <td>${campaign.name}</td>
+                    <td>${campaign.type}</td>
+                    <td>${campaign.discount || '-'}</td>
+                    <td><span class="status-badge">${campaign.status}</span></td>
+                    <td>
+                        <button class="wig9h-btn wig9h-btn-sm" onclick="editCampaign('${doc.id}')">Düzenle</button>
+                        <button class="wig9h-btn wig9h-btn-sm" onclick="deleteCampaign('${doc.id}')">Sil</button>
+                    </td>
+                `;
+
+                tableBody.appendChild(row);
+            });
+
+        } catch (error) {
+            console.error('Kampanyalar yüklenirken hata:', error);
+            tableBody.innerHTML = `
+                <tr>
+                    <td colspan="5" style="text-align: center; padding: 40px; color: #dc3545;">
+                        <div style="font-size: 16px; margin-bottom: 10px;">Veriler yüklenirken hata oluştu</div>
+                        <button class="wig9h-btn wig9h-btn-primary" onclick="loadCampaigns()">
+                            <span class="material-symbols-outlined">refresh</span>
+                            Tekrar Dene
+                        </button>
+                    </td>
+                </tr>
+            `;
+        }
+    }
+
+    // Sayfa yüklendiğinde kampanyaları yükle
+    document.addEventListener('DOMContentLoaded', function () {
+        loadCampaigns();
     });
-  document
-    .getElementById("m20lu-login-menu-right")
-    .addEventListener("click", function () {
-      document.getElementById(
-        "m20lu-login-menu-right",
-      ).style.backgroundColor = "#101010";
-      document.getElementById("m20lu-login-menu-left").style.backgroundColor =
-        "#7b560d";
-      document.getElementById("m20lu-login").style.display = "none";
-      document.getElementById("m20lu-memberol").style.display = "flex";
-    });
+
+    // Placeholder fonksiyonlar
+    function openAddCampaignModal() {
+        alert('Kampanya ekleme modali açılacak');
+    }
+
+    function editCampaign(id) {
+        alert('Kampanya düzenleme: ' + id);
+    }
+
+    function deleteCampaign(id) {
+        if (confirm('Kampanyayı silmek istediğinizden emin misiniz?')) {
+            alert('Kampanya silme: ' + id);
+        }
+    }
+
+    // Demo kampanya verisi ekle
+    async function addDemoCampaigns() {
+        try {
+            if (typeof dataAddWeb !== 'function') {
+                alert('Firebase fonksiyonları yüklenmemiş - Demo veri eklenemez');
+                return;
+            }
+
+            const demoCampaigns = [
+                {
+                    name: 'Yılbaşı İndirimi',
+                    type: 'discount',
+                    discountAmount: 25,
+                    discountType: 'percentage',
+                    startDate: '2024-12-20T00:00',
+                    endDate: '2025-01-05T23:59',
+                    status: 'active',
+                    description: 'Yılbaşı özel indirim kampanyası',
+                    usageCount: 0,
+                    createdAt: new Date()
+                },
+                {
+                    name: 'Ücretsiz Kargo',
+                    type: 'free_shipping',
+                    startDate: '2024-01-01T00:00',
+                    endDate: '2024-12-31T23:59',
+                    status: 'active',
+                    description: '500₺ üzeri alışverişlerde ücretsiz kargo',
+                    usageCount: 0,
+                    createdAt: new Date()
+                },
+                {
+                    name: 'İlk Alışveriş Kuponu',
+                    type: 'coupon',
+                    discountAmount: 50,
+                    discountType: 'fixed',
+                    startDate: '2024-01-01T00:00',
+                    endDate: '2024-12-31T23:59',
+                    status: 'scheduled',
+                    description: 'Yeni üyeler için özel kupon',
+                    usageLimit: 1000,
+                    usageCount: 0,
+                    createdAt: new Date()
+                }
+            ];
+
+            for (const campaign of demoCampaigns) {
+                await dataAddWeb('campaigns', campaign);
+            }
+
+            alert('Demo kampanya verileri başarıyla eklendi!');
+            loadCampaigns();
+        } catch (error) {
+            console.error('Demo veri eklenirken hata:', error);
+            alert('Demo veri eklenirken hata oluştu!');
+        }
+    }
 </script>
 </div>
 </div>
 
+
+<script>
+  // Firebase'den kullanıcı bilgilerini yükle
+  async function loadUserProfile() {
+    try {
+      // Global user objesini kontrol et
+      const currentUser = window.user || {};
+
+      if (!currentUser.isLoggedIn || !currentUser.id) {
+        document.getElementById('userName').textContent = 'Admin Kullanıcı';
+
+        // Varsayılan avatar
+        const avatarUrl = `https://ui-avatars.com/api/?name=Admin&background=007bff&color=fff&size=40`;
+        document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+        document.getElementById('userAvatar').style.backgroundSize = 'cover';
+        document.getElementById('userAvatar').style.backgroundPosition = 'center';
+        return;
+      }
+
+      // Firebase'den kullanıcı bilgilerini almaya çalış
+      if (typeof dataListWeb === 'function') {
+        try {
+          const userSnapshot = await dataListWeb(`users`);
+          let userData = null;
+
+          // Kullanıcıyı ID ile bul
+          userSnapshot.forEach(doc => {
+            if (doc.id === currentUser.id) {
+              userData = doc.data();
+            }
+          });
+
+          if (userData) {
+            // Kullanıcı adını güncelle
+            const fullName = `${userData.firstName || ''} ${userData.lastName || ''}`.trim();
+            document.getElementById('userName').textContent = fullName || userData.email || currentUser.email || 'Kullanıcı';
+
+            // Profil fotoğrafını güncelle
+            const avatarElement = document.getElementById('userAvatar');
+            if (userData.photoURL) {
+              avatarElement.style.backgroundImage = `url(${userData.photoURL})`;
+              avatarElement.style.backgroundSize = 'cover';
+              avatarElement.style.backgroundPosition = 'center';
+            } else {
+              // UI Avatars ile otomatik avatar oluştur
+              const displayName = fullName || userData.email || currentUser.email || 'U';
+              const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&background=random&color=fff&size=40`;
+              avatarElement.style.backgroundImage = `url(${avatarUrl})`;
+              avatarElement.style.backgroundSize = 'cover';
+              avatarElement.style.backgroundPosition = 'center';
+            }
+          } else {
+            // Kullanıcı verisi bulunamazsa email'den isim çıkar
+            const displayName = currentUser.email ? currentUser.email.split('@')[0] : currentUser.name || 'Kullanıcı';
+            document.getElementById('userName').textContent = displayName;
+
+            // Varsayılan avatar
+            const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&background=random&color=fff&size=40`;
+            document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+            document.getElementById('userAvatar').style.backgroundSize = 'cover';
+            document.getElementById('userAvatar').style.backgroundPosition = 'center';
+          }
+        } catch (fbError) {
+          console.log('Firebase veri çekme hatası:', fbError);
+          // Firebase hatası varsa localStorage'daki bilgileri kullan
+          const displayName = currentUser.email ? currentUser.email.split('@')[0] : currentUser.name || 'Kullanıcı';
+          document.getElementById('userName').textContent = displayName;
+
+          const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&background=007bff&color=fff&size=40`;
+          document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+          document.getElementById('userAvatar').style.backgroundSize = 'cover';
+          document.getElementById('userAvatar').style.backgroundPosition = 'center';
+        }
+      } else {
+        // dataListWeb fonksiyonu yoksa localStorage bilgilerini kullan
+        const displayName = currentUser.email ? currentUser.email.split('@')[0] : currentUser.name || 'Kullanıcı';
+        document.getElementById('userName').textContent = displayName;
+
+        const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&background=007bff&color=fff&size=40`;
+        document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+        document.getElementById('userAvatar').style.backgroundSize = 'cover';
+        document.getElementById('userAvatar').style.backgroundPosition = 'center';
+      }
+
+    } catch (error) {
+      console.error('Kullanıcı profili yüklenirken hata:', error);
+      document.getElementById('userName').textContent = 'Admin Kullanıcı';
+
+      const avatarUrl = `https://ui-avatars.com/api/?name=Admin&background=dc3545&color=fff&size=40`;
+      document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+      document.getElementById('userAvatar').style.backgroundSize = 'cover';
+      document.getElementById('userAvatar').style.backgroundPosition = 'center';
+    }
+  }
+
+  // Admin sayfası için authentication kontrolü
+  function checkAdminAccess() {
+    const loadingOverlay = document.getElementById('adminLoadingOverlay');
+    const mainContent = document.getElementById('adminMainContent');
+
+    // Önce localStorage'dan user bilgisini kontrol et
+    try {
+      const storedUser = localStorage.getItem('user');
+      if (storedUser) {
+        const userData = JSON.parse(storedUser);
+        if (userData.isLoggedIn && userData.id) {
+          console.log('User authenticated from localStorage:', userData.id);
+
+          // Loading ekranını gizle ve ana içeriği göster
+          setTimeout(() => {
+            loadingOverlay.style.display = 'none';
+            mainContent.style.display = 'flex';
+
+            // Global user objesini güncelle
+            if (typeof window.user === 'undefined') {
+              window.user = userData;
+            }
+
+            // Profil bilgilerini yükle
+            loadUserProfile();
+          }, 500);
+          return;
+        }
+      }
+    } catch (error) {
+      console.log('localStorage user kontrolü hatası:', error);
+    }
+
+    // Firebase authentication kontrolü (eğer authStateListenerWeb fonksiyonu varsa)
+    if (typeof authStateListenerWeb === 'function') {
+      authStateListenerWeb((firebaseUser) => {
+        if (firebaseUser) {
+          // Kullanıcı giriş yapmış
+          console.log('User authenticated for admin panel:', firebaseUser.uid);
+
+          // Loading ekranını gizle ve ana içeriği göster
+          setTimeout(() => {
+            loadingOverlay.style.display = 'none';
+            mainContent.style.display = 'flex';
+
+            // Global user objesini güncelle
+            if (typeof window.user === 'undefined') {
+              window.user = {
+                id: firebaseUser.uid,
+                email: firebaseUser.email,
+                isLoggedIn: true
+              };
+            }
+
+            // Profil bilgilerini yükle
+            loadUserProfile();
+          }, 1000);
+
+        } else {
+          // Kullanıcı giriş yapmamış - login sayfasına yönlendir
+          console.log('User not authenticated, redirecting to login...');
+
+          setTimeout(() => {
+            window.location.href = '/tr/login/';
+          }, 1500);
+        }
+      });
+    } else {
+      // authStateListenerWeb fonksiyonu yoksa, doğrudan ana içeriği göster
+      console.log('authStateListenerWeb not available, showing admin content directly');
+
+      setTimeout(() => {
+        loadingOverlay.style.display = 'none';
+        mainContent.style.display = 'flex';
+
+        // Varsayılan user objesi
+        if (typeof window.user === 'undefined') {
+          window.user = {
+            id: 'demo_user',
+            email: 'admin@demo.com',
+            isLoggedIn: true
+          };
+        }
+
+        loadUserProfile();
+      }, 500);
+    }
+  }
+
+  // Firebase fonksiyonları mock'ları (eğer yüklü değilse)
+  function initializeFirebaseMocks() {
+    if (typeof dataListWeb === 'undefined') {
+      console.log('Firebase fonksiyonları bulunamadı, mock fonksiyonlar oluşturuluyor...');
+
+      window.dataListWeb = async function (collection) {
+        console.log('Mock dataListWeb çağrıldı:', collection);
+        return {
+          empty: true,
+          forEach: function (callback) {
+            // Boş collection
+          }
+        };
+      };
+
+      window.dataAddWeb = async function (collection, data) {
+        console.log('Mock dataAddWeb çağrıldı:', collection, data);
+        return { id: 'mock_' + Date.now() };
+      };
+
+      window.dataUpdateWeb = async function (collection, id, data) {
+        console.log('Mock dataUpdateWeb çağrıldı:', collection, id, data);
+        return true;
+      };
+
+      window.dataDeleteWeb = async function (collection, id) {
+        console.log('Mock dataDeleteWeb çağrıldı:', collection, id);
+        return true;
+      };
+
+      window.authStateListenerWeb = function (callback) {
+        console.log('Mock authStateListenerWeb çağrıldı');
+        // Varsayılan olarak giriş yapmış user döndür
+        setTimeout(() => {
+          callback({
+            uid: 'mock_user_id',
+            email: 'admin@demo.com'
+          });
+        }, 100);
+      };
+    }
+  }
+
+  // Mock fonksiyonları başlat
+  initializeFirebaseMocks();
+
+  // Sayfa yüklendiğinde admin erişim kontrolü yap
+  checkAdminAccess();
+</script>
 </div>
   <div id="footer"><!-- Google Material Icons -->
 <link
@@ -261,28 +601,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="k7c4q-trust-boxes">
-      <div class="k7c4q-trust-item">
+<div class="y4jni-trust-boxes">
+      <div class="y4jni-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="k7c4q-trust-text">
-          <div class="k7c4q-trust-title">100% Güvenli Ödeme</div>
-          <div class="k7c4q-trust-desc">3D Secure ile Güvenli Ödeme</div>
+        <div class="y4jni-trust-text">
+          <div class="y4jni-trust-title">100% Güvenli Ödeme</div>
+          <div class="y4jni-trust-desc">3D Secure ile Güvenli Ödeme</div>
         </div>
       </div>
     
-      <div class="k7c4q-trust-item">
+      <div class="y4jni-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="k7c4q-trust-text">
-          <div class="k7c4q-trust-title">%100 Orijinal Ürün</div>
-          <div class="k7c4q-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
+        <div class="y4jni-trust-text">
+          <div class="y4jni-trust-title">%100 Orijinal Ürün</div>
+          <div class="y4jni-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
         </div>
       </div>
     
-      <div class="k7c4q-trust-item">
+      <div class="y4jni-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="k7c4q-trust-text">
-          <div class="k7c4q-trust-title">Hızlı Teslimat</div>
-          <div class="k7c4q-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
+        <div class="y4jni-trust-text">
+          <div class="y4jni-trust-title">Hızlı Teslimat</div>
+          <div class="y4jni-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
         </div>
       </div>
     </div>
@@ -355,11 +695,11 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=vnw1c"></script>
+<script type="text/javascript" src="/src/js.js?v=m8ko9"></script>
 
 
 
 
-<script src="/src/cookie.js?v=vnw1c"></script>
+<script src="/src/cookie.js?v=m8ko9"></script>
 
 </html>

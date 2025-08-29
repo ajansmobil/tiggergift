@@ -1,10 +1,10 @@
 
-  .easdi-header-wrapper {
+  .zqp1s-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .easdi-header {
+  .zqp1s-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .easdi-logo {
+  .zqp1s-logo {
     height: 80px;
   }
 
-  .easdi-header-top {
+  .zqp1s-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .easdi-search-box {
+  .zqp1s-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .easdi-search-box span {
+  .zqp1s-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .easdi-search-box input {
+  .zqp1s-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .easdi-search-box button {
+  .zqp1s-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .easdi-search-box button:hover {
+  .zqp1s-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .easdi-support-info {
+  .zqp1s-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .easdi-support-info span {
+  .zqp1s-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .easdi-support-info small {
+  .zqp1s-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .easdi-support-info strong {
+  .zqp1s-support-info strong {
     font-size: 16px;
   }
 
-  .easdi-icons {
+  .zqp1s-icons {
     display: flex;
     gap: 10px;
   }
 
-  .easdi-icons span {
+  .zqp1s-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .easdi-icons span:hover {
+  .zqp1s-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .easdi-header-bottom {
+  .zqp1s-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .easdi-header-bottom-inner {
+  .zqp1s-header-bottom-inner {
     max-width: 1200px;
     margin: auto;
     padding: 14px 30px;
@@ -124,7 +124,7 @@
     align-items: center;
   }
 
-  .easdi-category-btn {
+  .zqp1s-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +136,72 @@
     font-weight: 500;
   }
 
-  .easdi-main-menu {
+  .zqp1s-main-menu {
     display: flex;
     gap: 20px;
     margin-left: 30px;
   }
 
-  .easdi-main-menu a {
+  .zqp1s-main-menu a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
   }
 
-  .easdi-main-menu a:hover {
+  .zqp1s-main-menu a:hover {
     color: #238b23;
   }
 
-  .easdi-menulistactive {
+  .zqp1s-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .easdi-header-top {
+    .zqp1s-header-top {
       gap: 20px;
     }
 
-    .easdi-search-box {
+    .zqp1s-search-box {
       margin: 0 10px;
     }
 
-    .easdi-support-info strong {
+    .zqp1s-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .easdi-header {
+    .zqp1s-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .easdi-header-top {
+    .zqp1s-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .easdi-search-box {
+    .zqp1s-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .easdi-support-info {
+    .zqp1s-support-info {
       display: none;
     }
 
-    .easdi-header-bottom-inner {
+    .zqp1s-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .easdi-main-menu {
+    .zqp1s-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,22 +210,22 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .easdi-logo {
+    .zqp1s-logo {
       height: 60px;
     }
 
-    .easdi-search-box {
+    .zqp1s-search-box {
       flex: 0 1 150px;
     }
 
-    .easdi-icons span {
+    .zqp1s-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .yanc0 {
+  .mwpxv {
     width: 95%;
     height: 500px;
     flex: 1;
@@ -235,7 +235,7 @@
     margin-top: 20px;
   }
 
-  .yanc0-null {
+  .mwpxv-null {
     color: #fff;
     cursor: pointer;
     text-align: right;
@@ -243,11 +243,11 @@
     font-size: 14px;
   }
 
-  .yanc0-null:hover {
+  .mwpxv-null:hover {
     color: #999;
   }
 
-  .yanc0-body {
+  .mwpxv-body {
     background-color: #101010;
     width: 500px;
     border-radius: 20px;
@@ -255,13 +255,13 @@
     flex-direction: column;
   }
 
-  .yanc0-body-form {
+  .mwpxv-body-form {
     padding: 20px;
     display: flex;
     flex-direction: column;
   }
 
-  .yanc0-button {
+  .mwpxv-button {
     padding: 10px;
     background-color: #7b560d;
     margin-top: 20px;
@@ -274,21 +274,21 @@
     cursor: pointer;
   }
 
-  .yanc0-login-menu {
+  .mwpxv-login-menu {
     display: flex;
     gap: 2px;
   }
 
-  #yanc0-login-menu-left {
+  #mwpxv-login-menu-left {
     border-radius: 20px 0px 0px 0px;
     background-color: #101010;
   }
 
-  #yanc0-login-menu-right {
+  #mwpxv-login-menu-right {
     border-radius: 0px 20px 0px 0px;
   }
 
-  #yanc0-memberol {
+  #mwpxv-memberol {
     display: none;
     flex-direction: column;
   }
@@ -299,7 +299,7 @@
     gap: 10px;
   }
 
-  .media-login > div {
+  .media-login>div {
     display: flex;
     width: 100%;
     padding: 5px;
@@ -309,13 +309,13 @@
     border-radius: 5px;
   }
 
-  .media-login > div > div {
+  .media-login>div>div {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .yanc0-login-menu > div {
+  .mwpxv-login-menu>div {
     background-color: #7b560d;
     width: 100%;
     display: flex;
@@ -333,7 +333,7 @@
   }
 
 
-  .lca4b-trust-boxes {
+  .ksojz-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -343,7 +343,7 @@
     gap: 0;
   }
 
-  .lca4b-trust-item {
+  .ksojz-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -354,57 +354,57 @@
     gap: 16px;
   }
 
-  .lca4b-trust-item .material-icons {
+  .ksojz-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .lca4b-trust-text {
+  .ksojz-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .lca4b-trust-title {
+  .ksojz-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .lca4b-trust-desc {
+  .ksojz-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .lca4b-trust-boxes {
+    .ksojz-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .lca4b-trust-item {
+    .ksojz-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .lca4b-trust-boxes {
+    .ksojz-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .lca4b-trust-item {
+    .ksojz-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .lca4b-trust-title {
+    .ksojz-trust-title {
       font-size: 16px;
     }
 
-    .lca4b-trust-desc {
+    .ksojz-trust-desc {
       font-size: 13px;
     }
   }

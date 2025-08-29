@@ -1,10 +1,10 @@
 
-  .lot8q-header-wrapper {
+  .c5qyi-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .lot8q-header {
+  .c5qyi-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .lot8q-logo {
+  .c5qyi-logo {
     height: 80px;
   }
 
-  .lot8q-header-top {
+  .c5qyi-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .lot8q-search-box {
+  .c5qyi-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .lot8q-search-box span {
+  .c5qyi-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .lot8q-search-box input {
+  .c5qyi-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .lot8q-search-box button {
+  .c5qyi-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .lot8q-search-box button:hover {
+  .c5qyi-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .lot8q-support-info {
+  .c5qyi-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .lot8q-support-info span {
+  .c5qyi-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .lot8q-support-info small {
+  .c5qyi-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .lot8q-support-info strong {
+  .c5qyi-support-info strong {
     font-size: 16px;
   }
 
-  .lot8q-icons {
+  .c5qyi-icons {
     display: flex;
     gap: 10px;
   }
 
-  .lot8q-icons span {
+  .c5qyi-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .lot8q-icons span:hover {
+  .c5qyi-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .lot8q-header-bottom {
+  .c5qyi-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .lot8q-header-bottom-inner {
+  .c5qyi-header-bottom-inner {
     max-width: 1200px;
     margin: auto;
     padding: 14px 30px;
@@ -124,7 +124,7 @@
     align-items: center;
   }
 
-  .lot8q-category-btn {
+  .c5qyi-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +136,72 @@
     font-weight: 500;
   }
 
-  .lot8q-main-menu {
+  .c5qyi-main-menu {
     display: flex;
     gap: 20px;
     margin-left: 30px;
   }
 
-  .lot8q-main-menu a {
+  .c5qyi-main-menu a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
   }
 
-  .lot8q-main-menu a:hover {
+  .c5qyi-main-menu a:hover {
     color: #238b23;
   }
 
-  .lot8q-menulistactive {
+  .c5qyi-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .lot8q-header-top {
+    .c5qyi-header-top {
       gap: 20px;
     }
 
-    .lot8q-search-box {
+    .c5qyi-search-box {
       margin: 0 10px;
     }
 
-    .lot8q-support-info strong {
+    .c5qyi-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .lot8q-header {
+    .c5qyi-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .lot8q-header-top {
+    .c5qyi-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .lot8q-search-box {
+    .c5qyi-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .lot8q-support-info {
+    .c5qyi-support-info {
       display: none;
     }
 
-    .lot8q-header-bottom-inner {
+    .c5qyi-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .lot8q-main-menu {
+    .c5qyi-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,22 +210,22 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .lot8q-logo {
+    .c5qyi-logo {
       height: 60px;
     }
 
-    .lot8q-search-box {
+    .c5qyi-search-box {
       flex: 0 1 150px;
     }
 
-    .lot8q-icons span {
+    .c5qyi-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .t0p97-trust-boxes {
+  .hlzhu-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -235,7 +235,7 @@
     gap: 0;
   }
 
-  .t0p97-trust-item {
+  .hlzhu-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -246,57 +246,57 @@
     gap: 16px;
   }
 
-  .t0p97-trust-item .material-icons {
+  .hlzhu-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .t0p97-trust-text {
+  .hlzhu-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .t0p97-trust-title {
+  .hlzhu-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .t0p97-trust-desc {
+  .hlzhu-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .t0p97-trust-boxes {
+    .hlzhu-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .t0p97-trust-item {
+    .hlzhu-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .t0p97-trust-boxes {
+    .hlzhu-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .t0p97-trust-item {
+    .hlzhu-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .t0p97-trust-title {
+    .hlzhu-trust-title {
       font-size: 16px;
     }
 
-    .t0p97-trust-desc {
+    .hlzhu-trust-desc {
       font-size: 13px;
     }
   }

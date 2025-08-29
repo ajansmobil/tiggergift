@@ -1,0 +1,1232 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
+  <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <title>Ödeme</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta property="og:title" content="Ödeme" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
+  <meta name="robots" content="index, follow" />
+  <link rel="stylesheet" href="/src/css.css?v=dtkwj" />
+  <link rel="shortcut icon" href="/img/icon.png?v=dtkwj" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
+  <script src="/src/swiper-bundle.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-functions.js"></script>
+
+
+
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyBW1jNJSUMgje8ZQ_jdT0Kbge9bnOZrlfs",
+    authDomain: "tiggergiftcom.firebaseapp.com",
+    projectId: "tiggergiftcom",
+    storageBucket: "tiggergiftcom.firebasestorage.app",
+    messagingSenderId: "869071434601",
+    appId: "1:869071434601:web:292f989d265a4a88a6c3f8"
+  };
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
+</script>
+
+
+
+  <script type="text/javascript" src="/src/firebase.js?v=dtkwj"></script>
+
+
+<link rel="stylesheet" href="style.css?v=dtkwj">
+</head>
+
+<body>
+  <div id="header"><header class="urraa-header-wrapper">
+  <div class="urraa-header">
+    <div class="urraa-header-top">
+      <a href="/tr/" class="urraa-header-left">
+        <img src="/img/logo.png?v=dtkwj" alt="Tiggergift Logo" class="urraa-logo" />
+      </a>
+
+      <div class="urraa-search-box">
+        <span class="material-symbols-outlined">search</span>
+        <input type="text" placeholder="Ürün ara..." />
+        <button>Ara</button>
+      </div>
+
+      <div class="urraa-support-info">
+        <span class="material-symbols-outlined">headphones</span>
+        <div>
+          <small>7/24 Destek</small>
+          <strong>+90 342 221 00 02</strong>
+        </div>
+      </div>
+
+      <div class="urraa-icons">
+        <a href="/tr/login/" class="material-symbols-outlined">person</a>
+        <a href="/tr/favorilerim/" class="material-symbols-outlined">favorite</a>
+        <a href="/tr/basket/" class="material-symbols-outlined">shopping_cart</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="urraa-header-bottom">
+    <div class="urraa-header-bottom-inner">
+      <button class="urraa-category-btn">
+        <span class="material-symbols-outlined">menu</span> Kategoriler
+      </button>
+      <nav class="urraa-main-menu"><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/baklava/">Baklava</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/iletisim/">İletişim</a></nav>
+    </div>
+  </div>
+</header>
+
+
+</div>
+  <div id="content"><!-- Loading Screen -->
+<div class="admin-loading-overlay" id="adminLoadingOverlay">
+  <div class="admin-loading-content">
+    <div class="admin-loading-spinner"></div>
+    <div class="admin-loading-text">Giriş kontrol ediliyor...</div>
+  </div>
+</div>
+
+<!-- Main Content -->
+<div class="x2w4l" id="adminMainContent" style="display: none;">
+  <div class="x2w4l-menu">
+    <a href="/tr/user/" class="x2w4l-profile">
+      <div class="x2w4l-user-img" id="userAvatar"></div>
+      <div id="userName">Yükleniyor...</div>
+    </a>
+    <div class="x2w4l-menu-category">
+    <a href="/tr/sepetim/" >
+      <span class="material-symbols-outlined">shopping_basket</span>
+      <div>Sepetim</div>
+    </a>
+    <a href="/tr/siparislerim/" >
+      <span class="material-symbols-outlined">shopping_cart</span>
+      <div>Siparişlerim</div>
+    </a>
+    <a href="/tr/favorilerim/" >
+      <span class="material-symbols-outlined">favorite</span>
+      <div>Favorilerim</div>
+    </a>
+    <a href="/tr/bildirimler/" >
+      <span class="material-symbols-outlined">notifications</span>
+      <div>Bildirimler</div>
+    </a>
+    <a href="/tr/mesajlar/" >
+      <span class="material-symbols-outlined">message</span>
+      <div>Mesajlar</div>
+    </a>
+    <a href="/tr/degerlendirmelerim/" >
+      <span class="material-symbols-outlined">stars</span>
+      <div>Değerlendirmelerim</div>
+    </a>
+    <a href="/tr/adreslerim/" >
+      <span class="material-symbols-outlined">location_on</span>
+      <div>Adreslerim</div>
+    </a>
+    <a href="/tr/kredikartlarim/" >
+      <span class="material-symbols-outlined">credit_card</span>
+      <div>Kredi Kartlarım</div>
+    </a>
+    <a href="/tr/faturalarim/" >
+      <span class="material-symbols-outlined">receipt</span>
+      <div>Faturalarım</div>
+    </a>
+    <a href="/tr/iadevedegisim/" >
+      <span class="material-symbols-outlined">swap_horiz</span>
+      <div>İade ve Değişim</div>
+    </a>
+    <a href="/tr/cuzdanim/" >
+      <span class="material-symbols-outlined">account_balance_wallet</span>
+      <div>Cüzdanım</div>
+    </a>
+    <a href="/tr/cozummerkezi/" >
+      <span class="material-symbols-outlined">support</span>
+      <div>Çözüm Merkezi</div>
+    </a>
+    <a href="/tr/kuponlarim/" >
+      <span class="material-symbols-outlined">local_offer</span>
+      <div>Kuponlarım</div>
+    </a>
+    <a href="/tr/iletisimtercihlerim/" >
+      <span class="material-symbols-outlined">settings</span>
+      <div>İletişim Tercihlerim</div>
+    </a>
+    <a href="/tr/kullanicibilgilerim/" >
+      <span class="material-symbols-outlined">person</span>
+      <div>Kullanıcı Bilgilerim</div>
+    </a>
+    <a href="/tr/uyecikis/" >
+      <span class="material-symbols-outlined">exit_to_app</span>
+      <div>Üye Çıkış</div>
+    </a>
+    <a class="x2w4l-menu-active" href="/tr/odeme/" >
+      <span class="material-symbols-outlined">home</span>
+      <div>Ödeme</div>
+    </a></div>
+  </div>
+  <div class="x2w4l-body"><div class="wvx0k">
+    <div class="wvx0kTitle">
+        <span class="material-symbols-outlined">payment</span>
+        Ödeme
+    </div>
+
+    <div class="payment-container">
+        <!-- Order Summary -->
+        <div class="order-summary">
+            <h3>Sipariş Özeti</h3>
+            <div class="order-items" id="orderItems">
+                <!-- Dynamic order items will be loaded here -->
+            </div>
+            <div class="order-totals">
+                <div class="total-item">
+                    <span>Ara Toplam:</span>
+                    <span id="orderSubtotal">0 ₺</span>
+                </div>
+                <div class="total-item">
+                    <span>Kargo:</span>
+                    <span id="orderShipping">29.99 ₺</span>
+                </div>
+                <div class="total-item">
+                    <span>KDV (18%):</span>
+                    <span id="orderTax">0 ₺</span>
+                </div>
+                <div class="total-item final-total">
+                    <span>Toplam:</span>
+                    <span id="orderTotal">0 ₺</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Payment Form -->
+        <div class="payment-form">
+            <h3>Ödeme Yöntemi</h3>
+
+            <!-- Payment Method Selection -->
+            <div class="payment-methods">
+                <label class="payment-method-option">
+                    <input type="radio" name="paymentMethod" value="creditCard" checked>
+                    <span class="material-symbols-outlined">credit_card</span>
+                    Kredi Kartı
+                </label>
+                <label class="payment-method-option">
+                    <input type="radio" name="paymentMethod" value="bankTransfer">
+                    <span class="material-symbols-outlined">account_balance</span>
+                    Havale/EFT
+                </label>
+            </div>
+
+            <!-- Credit Card Form -->
+            <div class="credit-card-form" id="creditCardForm">
+                <div class="form-group">
+                    <label>Kart Numarası</label>
+                    <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456" maxlength="19">
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Son Kullanma Tarihi</label>
+                        <input type="text" id="expiryDate" placeholder="MM/YY" maxlength="5">
+                    </div>
+                    <div class="form-group">
+                        <label>CVV</label>
+                        <input type="text" id="cvv" placeholder="123" maxlength="3">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Kart Sahibi</label>
+                    <input type="text" id="cardHolder" placeholder="Kart Sahibi">
+                </div>
+            </div>
+
+            <!-- Bank Transfer Info -->
+            <div class="bank-transfer-info" id="bankTransferInfo" style="display: none;">
+                <div class="bank-info">
+                    <h4>Banka Bilgileri</h4>
+                    <p><strong>Banka:</strong> Türkiye İş Bankası</p>
+                    <p><strong>Hesap No:</strong> 1234 5678 9012 3456</p>
+                    <p><strong>IBAN:</strong> TR12 3456 7890 1234 5678 9012 34</p>
+                    <p><strong>Hesap Sahibi:</strong> Code Matrix E-Ticaret Ltd.</p>
+                    <p class="transfer-note">Havale/EFT açıklamasına sipariş numaranızı yazınız.</p>
+                </div>
+            </div>
+
+            <!-- Billing Address -->
+            <h3>Fatura Adresi</h3>
+            <div class="billing-address">
+                <div class="form-group">
+                    <label>Ad Soyad</label>
+                    <input type="text" id="billingName" placeholder="Ad Soyad">
+                </div>
+
+                <div class="form-group">
+                    <label>Adres</label>
+                    <textarea id="billingAddress" placeholder="Adres" rows="3"></textarea>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Şehir</label>
+                        <input type="text" id="billingCity" placeholder="Şehir">
+                    </div>
+                    <div class="form-group">
+                        <label>Posta Kodu</label>
+                        <input type="text" id="billingPostalCode" placeholder="Posta Kodu">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Telefon</label>
+                    <input type="tel" id="billingPhone" placeholder="Telefon">
+                </div>
+            </div>
+
+            <!-- Legal Agreements -->
+            <h3>Yasal Sözleşmeler</h3>
+            <div class="legal-agreements">
+                <label class="legal-agreement-item">
+                    <input type="checkbox" id="distanceSalesAgreement" required>
+                    <span>Okudum ve kabul ediyorum
+                        <a href="#" onclick="openLegalPopup('distanceSales')"
+                            class="legal-link">Mesafeli Satış Sözleşmesi</a>
+                    </span>
+                </label>
+
+                <label class="legal-agreement-item">
+                    <input type="checkbox" id="privacyPolicyAgreement" required>
+                    <span>Okudum ve kabul ediyorum
+                        <a href="#" onclick="openLegalPopup('privacyPolicy')" class="legal-link">Gizlilik Politikası</a>
+                    </span>
+                </label>
+
+                <label class="legal-agreement-item">
+                    <input type="checkbox" id="termsOfServiceAgreement" required>
+                    <span>Okudum ve kabul ediyorum
+                        <a href="#" onclick="openLegalPopup('termsOfService')" class="legal-link">Kullanım Koşulları</a>
+                    </span>
+                </label>
+            </div>
+
+            <!-- Payment Actions -->
+            <div class="payment-actions">
+                <button class="back-btn" onclick="goBackToCart()">
+                    <span class="material-symbols-outlined">arrow_back</span>
+                    Sepete Dön
+                </button>
+                <button class="pay-btn" onclick="processPayment()">
+                    <span class="material-symbols-outlined">payment</span>
+                    Ödemeyi Tamamla
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Legal Popup Modal -->
+<div id="legalPopup" class="legal-popup-overlay" style="display: none;">
+    <div class="legal-popup-content">
+        <div class="legal-popup-header">
+            <h3 id="legalPopupTitle">Mesafeli Satış Sözleşmesi</h3>
+            <button class="close-popup" onclick="closeLegalPopup()">
+                <span class="material-symbols-outlined">close</span>
+            </button>
+        </div>
+        <div class="legal-popup-body" id="legalPopupBody">
+            <!-- Dynamic content will be loaded here -->
+        </div>
+        <div class="legal-popup-footer">
+            <button class="accept-btn" onclick="acceptLegalAgreement()">
+                <span class="material-symbols-outlined">check</span>
+                Kabul Ediyorum
+            </button>
+            <button class="close-btn" onclick="closeLegalPopup()">Kapat</button>
+        </div>
+    </div>
+</div>
+
+<script>
+        // Payment messages for tr
+        window.paymentMessages = {"title":"Ödeme","orderSummary":"Sipariş Özeti","paymentMethod":"Ödeme Yöntemi","creditCard":"Kredi Kartı","bankTransfer":"Havale/EFT","cardNumber":"Kart Numarası","expiryDate":"Son Kullanma Tarihi","cvv":"CVV","cardHolder":"Kart Sahibi","billingAddress":"Fatura Adresi","fullName":"Ad Soyad","address":"Adres","city":"Şehir","postalCode":"Posta Kodu","phone":"Telefon","completePayment":"Ödemeyi Tamamla","backToCart":"Sepete Dön","subtotal":"Ara Toplam","tax":"KDV","shipping":"Kargo","total":"Toplam","loginRequired":"Ödeme yapmak için giriş yapmanız gerekiyor.","emptyCart":"Sepetinizde ürün bulunmuyor.","paymentProcessing":"Ödeme işleniyor...","paymentSuccess":"Ödeme başarılı! Siparişiniz oluşturuldu.","paymentError":"Ödeme işlemi başarısız!","fillAllFields":"Lütfen tüm alanları doldurun.","invalidCardNumber":"Geçersiz kart numarası.","invalidExpiryDate":"Geçersiz son kullanma tarihi.","invalidCVV":"Geçersiz CVV.","legalAgreements":"Yasal Sözleşmeler","distanceSalesContract":"Mesafeli Satış Sözleşmesi","privacyPolicy":"Gizlilik Politikası","termsOfService":"Kullanım Koşulları","iAccept":"Kabul Ediyorum","iHaveReadAndAccept":"Okudum ve kabul ediyorum","mustAcceptTerms":"Sözleşmeleri kabul etmeniz gerekiyor.","close":"Kapat","read":"Oku"};
+    let cartItems = [];
+    let orderTotals = { subtotal: 0, tax: 0, shipping: 29.99, total: 0 };
+
+    // Sayfa yüklendiğinde sepet verilerini yükle
+    async function loadOrderSummary() {
+        try {
+            // Kullanıcı giriş yapmış mı kontrol et
+            if (!user.isLoggedIn || !user.id) {
+                const orderItems = document.getElementById('orderItems');
+                orderItems.innerHTML = `<div class="empty-order">
+          <span class="material-symbols-outlined">login</span>
+          <p>${window.paymentMessages?.loginRequired || 'Ödeme yapmak için giriş yapmanız gerekiyor.'}</p>
+          <button class="login-btn" onclick="window.location.href='/tr/login/'">
+            Giriş Yap
+          </button>
+        </div>`;
+                return;
+            }
+
+            // Sepet öğelerini Firebase'den çek
+            const cartSnapshot = await dataListWeb(`users/${user.id}/cart`);
+
+            if (cartSnapshot.empty) {
+                const orderItems = document.getElementById('orderItems');
+                orderItems.innerHTML = `<div class="empty-order">
+          <span class="material-symbols-outlined">shopping_cart</span>
+          <p>${window.paymentMessages?.emptyCart || 'Sepetinizde ürün bulunmuyor.'}</p>
+          <button class="back-btn" onclick="window.location.href='/tr/sepetim/'">
+            Sepete Dön
+          </button>
+        </div>`;
+                return;
+            }
+
+            // Sepet öğelerini işle
+            cartItems = [];
+            cartSnapshot.forEach((doc) => {
+                const item = { id: doc.id, ...doc.data() };
+                cartItems.push(item);
+            });
+
+            // Order summary'yi render et
+            renderOrderSummary();
+            calculateTotals();
+
+        } catch (error) {
+            console.error('Order summary loading error:', error);
+            showNotification(window.paymentMessages?.paymentError || 'Bir hata oluştu!', 'error');
+        }
+    }
+
+    // Sipariş özetini render et
+    function renderOrderSummary() {
+        const orderItems = document.getElementById('orderItems');
+        let itemsHTML = '';
+
+        cartItems.forEach(item => {
+            itemsHTML += `
+        <div class="order-item">
+          <img src="${item.image || '/img/no-image.png'}" alt="${item.name}">
+          <div class="item-details">
+            <h4>${item.name}</h4>
+            <p class="item-category">${item.category || 'Genel'}</p>
+            <p class="item-quantity">Adet: ${item.quantity}</p>
+          </div>
+          <div class="item-price">${formatPrice(item.price * item.quantity)} ₺</div>
+        </div>
+      `;
+        });
+
+        orderItems.innerHTML = itemsHTML;
+    }
+
+    // Toplamları hesapla
+    function calculateTotals() {
+        orderTotals.subtotal = cartItems.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+        orderTotals.tax = orderTotals.subtotal * 0.18;
+        orderTotals.total = orderTotals.subtotal + orderTotals.tax + orderTotals.shipping;
+
+        // UI'ı güncelle
+        document.getElementById('orderSubtotal').textContent = formatPrice(orderTotals.subtotal) + ' ₺';
+        document.getElementById('orderTax').textContent = formatPrice(orderTotals.tax) + ' ₺';
+        document.getElementById('orderTotal').textContent = formatPrice(orderTotals.total) + ' ₺';
+    }
+
+    // Fiyat formatlama
+    function formatPrice(price) {
+        return parseFloat(price).toLocaleString('tr-TR', {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2
+        });
+    }
+
+    // Ödeme yöntemi değişimi
+    document.addEventListener('change', function (e) {
+        if (e.target.name === 'paymentMethod') {
+            const creditCardForm = document.getElementById('creditCardForm');
+            const bankTransferInfo = document.getElementById('bankTransferInfo');
+
+            if (e.target.value === 'creditCard') {
+                creditCardForm.style.display = 'block';
+                bankTransferInfo.style.display = 'none';
+            } else {
+                creditCardForm.style.display = 'none';
+                bankTransferInfo.style.display = 'block';
+            }
+        }
+    });
+
+    // Kart numarası formatlama
+    document.addEventListener('input', function (e) {
+        if (e.target.id === 'cardNumber') {
+            let value = e.target.value.replace(/\s+/g, '').replace(/[^0-9]/gi, '');
+            let formattedValue = value.match(/.{1,4}/g)?.join(' ') || value;
+            e.target.value = formattedValue;
+        }
+
+        if (e.target.id === 'expiryDate') {
+            let value = e.target.value.replace(/\D/g, '');
+            if (value.length >= 2) {
+                value = value.substring(0, 2) + '/' + value.substring(2, 4);
+            }
+            e.target.value = value;
+        }
+
+        if (e.target.id === 'cvv') {
+            e.target.value = e.target.value.replace(/\D/g, '');
+        }
+    });
+
+    // Form validasyonu
+    function validatePaymentForm() {
+        const paymentMethod = document.querySelector('input[name="paymentMethod"]:checked').value;
+
+        // Fatura adresi validasyonu
+        const billingName = document.getElementById('billingName').value.trim();
+        const billingAddress = document.getElementById('billingAddress').value.trim();
+        const billingCity = document.getElementById('billingCity').value.trim();
+        const billingPostalCode = document.getElementById('billingPostalCode').value.trim();
+        const billingPhone = document.getElementById('billingPhone').value.trim();
+
+        if (!billingName || !billingAddress || !billingCity || !billingPostalCode || !billingPhone) {
+            showNotification(window.paymentMessages?.fillAllFields || 'Lütfen tüm alanları doldurun.', 'error');
+            return false;
+        }
+
+        // Yasal sözleşmeler kontrolü
+        const distanceSalesAgreement = document.getElementById('distanceSalesAgreement').checked;
+        const privacyPolicyAgreement = document.getElementById('privacyPolicyAgreement').checked;
+        const termsOfServiceAgreement = document.getElementById('termsOfServiceAgreement').checked;
+
+        if (!distanceSalesAgreement || !privacyPolicyAgreement || !termsOfServiceAgreement) {
+            showNotification(window.paymentMessages?.mustAcceptTerms || 'Sözleşmeleri kabul etmeniz gerekiyor.', 'error');
+            return false;
+        }
+
+        // Kredi kartı validasyonu
+        if (paymentMethod === 'creditCard') {
+            const cardNumber = document.getElementById('cardNumber').value.replace(/\s/g, '');
+            const expiryDate = document.getElementById('expiryDate').value;
+            const cvv = document.getElementById('cvv').value;
+            const cardHolder = document.getElementById('cardHolder').value.trim();
+
+            if (!cardNumber || cardNumber.length !== 16) {
+                showNotification(window.paymentMessages?.invalidCardNumber || 'Geçersiz kart numarası.', 'error');
+                return false;
+            }
+
+            if (!expiryDate || !expiryDate.match(/^\d{2}\/\d{2}$/)) {
+                showNotification(window.paymentMessages?.invalidExpiryDate || 'Geçersiz son kullanma tarihi.', 'error');
+                return false;
+            }
+
+            if (!cvv || cvv.length !== 3) {
+                showNotification(window.paymentMessages?.invalidCVV || 'Geçersiz CVV.', 'error');
+                return false;
+            }
+
+            if (!cardHolder) {
+                showNotification(window.paymentMessages?.fillAllFields || 'Lütfen tüm alanları doldurun.', 'error');
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    // Ödeme işlemi
+    async function processPayment() {
+        if (!user.isLoggedIn || !user.id) {
+            showNotification(window.paymentMessages?.loginRequired || 'Giriş yapmanız gerekiyor.', 'error');
+            return;
+        }
+
+        if (cartItems.length === 0) {
+            showNotification(window.paymentMessages?.emptyCart || 'Sepetinizde ürün bulunmuyor.', 'error');
+            return;
+        }
+
+        if (!validatePaymentForm()) {
+            return;
+        }
+
+        try {
+            // Ödeme işleniyor mesajı
+            showNotification(window.paymentMessages?.paymentProcessing || 'Ödeme işleniyor...', 'info');
+
+            // Ödeme bilgilerini topla
+            const paymentMethod = document.querySelector('input[name="paymentMethod"]:checked').value;
+            const billingInfo = {
+                name: document.getElementById('billingName').value.trim(),
+                address: document.getElementById('billingAddress').value.trim(),
+                city: document.getElementById('billingCity').value.trim(),
+                postalCode: document.getElementById('billingPostalCode').value.trim(),
+                phone: document.getElementById('billingPhone').value.trim()
+            };
+
+            let paymentInfo = { method: paymentMethod };
+            if (paymentMethod === 'creditCard') {
+                paymentInfo.cardLast4 = document.getElementById('cardNumber').value.slice(-4);
+                paymentInfo.cardHolder = document.getElementById('cardHolder').value.trim();
+            }
+
+            // Sipariş oluştur
+            const orderData = {
+                userId: user.id,
+                items: cartItems,
+                totals: orderTotals,
+                billingAddress: billingInfo,
+                paymentInfo: paymentInfo,
+                status: paymentMethod === 'creditCard' ? 'paid' : 'pending_payment',
+                orderDate: new Date(),
+                orderNumber: 'ORD-' + Date.now(),
+                trackingNumber: 'TRK-' + Math.random().toString(36).substr(2, 9).toUpperCase()
+            };
+
+            // Siparişi Firebase'e kaydet
+            await dataAddWeb(`users/${user.id}/orders`, orderData);
+
+            // Sepeti temizle
+            const cartSnapshot = await dataListWeb(`users/${user.id}/cart`);
+            const deletePromises = [];
+            cartSnapshot.forEach((doc) => {
+                deletePromises.push(dataDeleteWeb(`users/${user.id}/cart`, doc.id));
+            });
+            await Promise.all(deletePromises);
+
+            // Başarı mesajı ve yönlendirme
+            showNotification(window.paymentMessages?.paymentSuccess || 'Ödeme başarılı! Siparişiniz oluşturuldu.', 'success');
+
+            setTimeout(() => {
+                window.location.href = `/tr/siparislerim/`;
+            }, 2000);
+
+        } catch (error) {
+            console.error('Payment processing error:', error);
+            showNotification(window.paymentMessages?.paymentError || 'Ödeme işlemi başarısız!', 'error');
+        }
+    }
+
+    // Sepete dön
+    function goBackToCart() {
+        window.location.href = '/tr/sepetim/';
+    }
+
+    // Bildirim sistemi
+    function showNotification(message, type = 'info') {
+        // Mevcut bildirimi kaldır
+        const existingNotification = document.querySelector('.payment-notification');
+        if (existingNotification) {
+            existingNotification.remove();
+        }
+
+        // Yeni bildirim oluştur
+        const notification = document.createElement('div');
+        notification.className = `payment-notification ${type}`;
+        notification.innerHTML = `
+      <span class="material-symbols-outlined">
+        ${type === 'success' ? 'check_circle' : type === 'error' ? 'error' : 'info'}
+      </span>
+      ${message}
+    `;
+
+        // Bildirim stilini ekle
+        notification.style.cssText = `
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: ${type === 'success' ? '#22c55e' : type === 'error' ? '#ef4444' : '#3b82f6'};
+      color: white;
+      padding: 12px 16px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 500;
+      animation: slideIn 0.3s ease-out;
+    `;
+
+        document.body.appendChild(notification);
+
+        // 5 saniye sonra kaldır
+        setTimeout(() => {
+            notification.style.animation = 'slideOut 0.3s ease-in';
+            setTimeout(() => {
+                if (notification.parentNode) {
+                    notification.remove();
+                }
+            }, 300);
+        }, 5000);
+    }
+
+    // Yasal popup yönetimi
+    let currentLegalType = '';
+
+    function openLegalPopup(type) {
+        currentLegalType = type;
+        const popup = document.getElementById('legalPopup');
+        const title = document.getElementById('legalPopupTitle');
+        const body = document.getElementById('legalPopupBody');
+
+        // Başlık ve içeriği ayarla
+        switch (type) {
+            case 'distanceSales':
+                title.textContent = window.paymentMessages?.distanceSalesContract || 'Mesafeli Satış Sözleşmesi';
+                body.innerHTML = getDistanceSalesContract();
+                break;
+            case 'privacyPolicy':
+                title.textContent = window.paymentMessages?.privacyPolicy || 'Gizlilik Politikası';
+                body.innerHTML = getPrivacyPolicy();
+                break;
+            case 'termsOfService':
+                title.textContent = window.paymentMessages?.termsOfService || 'Kullanım Koşulları';
+                body.innerHTML = getTermsOfService();
+                break;
+        }
+
+        popup.style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeLegalPopup() {
+        const popup = document.getElementById('legalPopup');
+        popup.style.display = 'none';
+        document.body.style.overflow = 'auto';
+        currentLegalType = '';
+    }
+
+    function acceptLegalAgreement() {
+        // İlgili checkbox'ı işaretle
+        switch (currentLegalType) {
+            case 'distanceSales':
+                document.getElementById('distanceSalesAgreement').checked = true;
+                break;
+            case 'privacyPolicy':
+                document.getElementById('privacyPolicyAgreement').checked = true;
+                break;
+            case 'termsOfService':
+                document.getElementById('termsOfServiceAgreement').checked = true;
+                break;
+        }
+
+        showNotification('Sözleşme kabul edildi!', 'success');
+        closeLegalPopup();
+    }
+
+    // Mesafeli Satış Sözleşmesi içeriği
+    function getDistanceSalesContract() {
+        return `
+            <div class="legal-content">
+                <h4>1. TARAFLAR</h4>
+                <p><strong>SATICI:</strong> Code Matrix E-Ticaret Ltd.<br>
+                Adres: İstanbul, Türkiye<br>
+                Telefon: +90 212 XXX XX XX<br>
+                E-posta: info@codematrix.com</p>
+
+                <p><strong>ALICI:</strong> Sözleşmede adı, soyadı, adresi, telefonu ve e-posta adresi belirtilen kişi.</p>
+
+                <h4>2. KONU</h4>
+                <p>Bu sözleşme, ALICI'nın SATICI'ya ait internet sitesi üzerinden elektronik ortamda siparişini verdiği aşağıda nitelikleri ve satış fiyatı belirtilen ürün/ürünlerin satışı ve teslimi ile ilgili tarafların hak ve yükümlülüklerini düzenler.</p>
+
+                <h4>3. CAYMA HAKKI</h4>
+                <p>ALICI, sözleşme konusu ürünü teslim aldığı tarihten itibaren 14 (on dört) gün içinde herhangi bir gerekçe göstermeksizin ve cezai şart ödemeksizin sözleşmeden cayma hakkına sahiptir.</p>
+
+                <h4>4. TESLİMAT</h4>
+                <p>Ürünler, siparişin onaylanmasından sonra en geç 30 gün içinde ALICI'nın belirttiği adrese teslim edilir.</p>
+
+                <h4>5. ÖDEME</h4>
+                <p>ALICI, seçtiği ödeme yöntemi ile ürün bedelini öder. Kredi kartı ile yapılan ödemelerde güvenlik protokolleri uygulanır.</p>
+
+                <h4>6. GARANTI</h4>
+                <p>Ürünler, yasal garanti kapsamında 2 yıl garantilidir. Garanti şartları ürün ile birlikte teslim edilir.</p>
+
+                <h4>7. UYUŞMAZLIK ÇÖZÜMÜ</h4>
+                <p>Bu sözleşmeden doğan uyuşmazlıklarda İstanbul mahkemeleri ve icra daireleri yetkilidir.</p>
+            </div>
+        `;
+    }
+
+    // Gizlilik Politikası içeriği
+    function getPrivacyPolicy() {
+        return `
+            <div class="legal-content">
+                <h4>1. KİŞİSEL VERİLERİN KORUNMASI</h4>
+                <p>Code Matrix E-Ticaret Ltd. olarak, 6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında kişisel verilerinizi korumayı taahhüt ederiz.</p>
+
+                <h4>2. TOPLANAN VERİLER</h4>
+                <p>Hizmetlerimizi sunabilmek için aşağıdaki kişisel verilerinizi toplarız:</p>
+                <ul>
+                    <li>Kimlik bilgileri (ad, soyad, T.C. kimlik numarası)</li>
+                    <li>İletişim bilgileri (adres, telefon, e-posta)</li>
+                    <li>Ödeme bilgileri (kart bilgileri, fatura adresi)</li>
+                    <li>Sipariş geçmişi ve alışveriş tercihleri</li>
+                </ul>
+
+                <h4>3. VERİLERİN KULLANIM AMAÇLARI</h4>
+                <p>Kişisel verileriniz şu amaçlarla kullanılır:</p>
+                <ul>
+                    <li>Sipariş işlemlerinin gerçekleştirilmesi</li>
+                    <li>Müşteri hizmetlerinin sunulması</li>
+                    <li>Yasal yükümlülüklerin yerine getirilmesi</li>
+                    <li>Pazarlama faaliyetleri (onayınız dahilinde)</li>
+                </ul>
+
+                <h4>4. VERİ GÜVENLİĞİ</h4>
+                <p>Kişisel verileriniz, güvenli sunucularda şifrelenerek saklanır. SSL sertifikası ile korunur.</p>
+
+                <h4>5. HAKLARINIZ</h4>
+                <p>KVKK kapsamında aşağıdaki haklara sahipsiniz:</p>
+                <ul>
+                    <li>Kişisel verilerinizin işlenip işlenmediğini öğrenme</li>
+                    <li>İşlenen kişisel verileriniz hakkında bilgi talep etme</li>
+                    <li>Kişisel verilerinizin düzeltilmesini isteme</li>
+                    <li>Kişisel verilerinizin silinmesini isteme</li>
+                </ul>
+
+                <h4>6. İLETİŞİM</h4>
+                <p>Gizlilik politikası ile ilgili sorularınız için: privacy@codematrix.com</p>
+            </div>
+        `;
+    }
+
+    // Kullanım Koşulları içeriği
+    function getTermsOfService() {
+        return `
+            <div class="legal-content">
+                <h4>1. GENEL HÜKÜMLER</h4>
+                <p>Bu kullanım koşulları, Code Matrix E-Ticaret Ltd. internet sitesini kullanan tüm ziyaretçiler için geçerlidir.</p>
+
+                <h4>2. SİTE KULLANIMI</h4>
+                <p>Siteyi kullanarak aşağıdaki koşulları kabul etmiş sayılırsınız:</p>
+                <ul>
+                    <li>18 yaşından büyük olmak veya velinin onayına sahip olmak</li>
+                    <li>Doğru ve güncel bilgiler vermek</li>
+                    <li>Hesap güvenliğinizi sağlamak</li>
+                    <li>Yasal olmayan faaliyetlerde bulunmamak</li>
+                </ul>
+
+                <h4>3. ÜRÜN VE HİZMETLER</h4>
+                <p>Sitede yer alan ürün bilgileri, fiyatlar ve görseller değişiklik gösterebilir. Stok durumuna göre ürünler satıştan kaldırılabilir.</p>
+
+                <h4>4. FİKRİ MÜLKİYET HAKLARI</h4>
+                <p>Sitede yer alan tüm içerik, tasarım, logo ve markalar Code Matrix E-Ticaret Ltd.'ye aittir ve telif hakkı ile korunmaktadır.</p>
+
+                <h4>5. SORUMLULUK SINIRLAMALARI</h4>
+                <p>Şirketimiz, aşağıdaki durumlardan sorumlu değildir:</p>
+                <ul>
+                    <li>Teknik arızalar nedeniyle oluşan kesintiler</li>
+                    <li>Üçüncü taraf hizmetlerindeki aksaklıklar</li>
+                    <li>Kullanıcı hatalarından kaynaklanan sorunlar</li>
+                </ul>
+
+                <h4>6. HESAP İPTALİ</h4>
+                <p>Kullanım koşullarını ihlal eden hesaplar uyarı verilerek veya derhal iptal edilebilir.</p>
+
+                <h4>7. DEĞİŞİKLİKLER</h4>
+                <p>Bu koşullar önceden haber vermeksizin güncellenebilir. Güncel versiyon her zaman sitede yayınlanır.</p>
+
+                <h4>8. UYGULANACAK HUKUK</h4>
+                <p>Bu sözleşme Türkiye Cumhuriyeti hukukuna tabidir.</p>
+            </div>
+        `;
+    }
+
+    // Popup dışına tıklandığında kapat
+    document.addEventListener('click', function (e) {
+        const popup = document.getElementById('legalPopup');
+        if (e.target === popup) {
+            closeLegalPopup();
+        }
+    });
+
+    // ESC tuşu ile popup'ı kapat
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') {
+            closeLegalPopup();
+        }
+    });
+
+    // Authentication state değişikliklerini dinle
+    authStateListenerWeb((firebaseUser) => {
+        if (firebaseUser) {
+            // Kullanıcı giriş yapmış, order summary'yi yükle
+            setTimeout(() => {
+                loadOrderSummary();
+            }, 500); // Firebase user objesi güncellenmesi için biraz bekle
+        } else {
+            // Kullanıcı giriş yapmamış, sepet sayfasına yönlendir
+            showNotification('Ödeme sayfasına erişmek için giriş yapmanız gerekiyor.', 'error');
+            setTimeout(() => {
+                window.location.href = '/tr/sepetim/';
+            }, 2000);
+        }
+    });
+</script>
+
+
+</div>
+</div>
+
+
+<script>
+  // Firebase'den kullanıcı bilgilerini yükle
+  async function loadUserProfile() {
+    try {
+      // Global user objesini kontrol et
+      const currentUser = window.user || {};
+
+      if (!currentUser.isLoggedIn || !currentUser.id) {
+        document.getElementById('userName').textContent = 'Admin Kullanıcı';
+
+        // Varsayılan avatar
+        const avatarUrl = `https://ui-avatars.com/api/?name=Admin&background=007bff&color=fff&size=40`;
+        document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+        document.getElementById('userAvatar').style.backgroundSize = 'cover';
+        document.getElementById('userAvatar').style.backgroundPosition = 'center';
+        return;
+      }
+
+      // Firebase'den kullanıcı bilgilerini almaya çalış
+      if (typeof dataListWeb === 'function') {
+        try {
+          const userSnapshot = await dataListWeb(`users`);
+          let userData = null;
+
+          // Kullanıcıyı ID ile bul
+          userSnapshot.forEach(doc => {
+            if (doc.id === currentUser.id) {
+              userData = doc.data();
+            }
+          });
+
+          if (userData) {
+            // Kullanıcı adını güncelle
+            const fullName = `${userData.firstName || ''} ${userData.lastName || ''}`.trim();
+            document.getElementById('userName').textContent = fullName || userData.email || currentUser.email || 'Kullanıcı';
+
+            // Profil fotoğrafını güncelle
+            const avatarElement = document.getElementById('userAvatar');
+            if (userData.photoURL) {
+              avatarElement.style.backgroundImage = `url(${userData.photoURL})`;
+              avatarElement.style.backgroundSize = 'cover';
+              avatarElement.style.backgroundPosition = 'center';
+            } else {
+              // UI Avatars ile otomatik avatar oluştur
+              const displayName = fullName || userData.email || currentUser.email || 'U';
+              const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&background=random&color=fff&size=40`;
+              avatarElement.style.backgroundImage = `url(${avatarUrl})`;
+              avatarElement.style.backgroundSize = 'cover';
+              avatarElement.style.backgroundPosition = 'center';
+            }
+          } else {
+            // Kullanıcı verisi bulunamazsa email'den isim çıkar
+            const displayName = currentUser.email ? currentUser.email.split('@')[0] : currentUser.name || 'Kullanıcı';
+            document.getElementById('userName').textContent = displayName;
+
+            // Varsayılan avatar
+            const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&background=random&color=fff&size=40`;
+            document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+            document.getElementById('userAvatar').style.backgroundSize = 'cover';
+            document.getElementById('userAvatar').style.backgroundPosition = 'center';
+          }
+        } catch (fbError) {
+          console.log('Firebase veri çekme hatası:', fbError);
+          // Firebase hatası varsa localStorage'daki bilgileri kullan
+          const displayName = currentUser.email ? currentUser.email.split('@')[0] : currentUser.name || 'Kullanıcı';
+          document.getElementById('userName').textContent = displayName;
+
+          const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&background=007bff&color=fff&size=40`;
+          document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+          document.getElementById('userAvatar').style.backgroundSize = 'cover';
+          document.getElementById('userAvatar').style.backgroundPosition = 'center';
+        }
+      } else {
+        // dataListWeb fonksiyonu yoksa localStorage bilgilerini kullan
+        const displayName = currentUser.email ? currentUser.email.split('@')[0] : currentUser.name || 'Kullanıcı';
+        document.getElementById('userName').textContent = displayName;
+
+        const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&background=007bff&color=fff&size=40`;
+        document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+        document.getElementById('userAvatar').style.backgroundSize = 'cover';
+        document.getElementById('userAvatar').style.backgroundPosition = 'center';
+      }
+
+    } catch (error) {
+      console.error('Kullanıcı profili yüklenirken hata:', error);
+      document.getElementById('userName').textContent = 'Admin Kullanıcı';
+
+      const avatarUrl = `https://ui-avatars.com/api/?name=Admin&background=dc3545&color=fff&size=40`;
+      document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+      document.getElementById('userAvatar').style.backgroundSize = 'cover';
+      document.getElementById('userAvatar').style.backgroundPosition = 'center';
+    }
+  }
+
+  // Admin sayfası için authentication kontrolü
+  function checkAdminAccess() {
+    const loadingOverlay = document.getElementById('adminLoadingOverlay');
+    const mainContent = document.getElementById('adminMainContent');
+
+    // Önce localStorage'dan user bilgisini kontrol et
+    try {
+      const storedUser = localStorage.getItem('user');
+      if (storedUser) {
+        const userData = JSON.parse(storedUser);
+        if (userData.isLoggedIn && userData.id) {
+          console.log('User authenticated from localStorage:', userData.id);
+
+          // Loading ekranını gizle ve ana içeriği göster
+          setTimeout(() => {
+            loadingOverlay.style.display = 'none';
+            mainContent.style.display = 'flex';
+
+            // Global user objesini güncelle
+            if (typeof window.user === 'undefined') {
+              window.user = userData;
+            }
+
+            // Profil bilgilerini yükle
+            loadUserProfile();
+          }, 500);
+          return;
+        }
+      }
+    } catch (error) {
+      console.log('localStorage user kontrolü hatası:', error);
+    }
+
+    // Firebase authentication kontrolü (eğer authStateListenerWeb fonksiyonu varsa)
+    if (typeof authStateListenerWeb === 'function') {
+      authStateListenerWeb((firebaseUser) => {
+        if (firebaseUser) {
+          // Kullanıcı giriş yapmış
+          console.log('User authenticated for admin panel:', firebaseUser.uid);
+
+          // Loading ekranını gizle ve ana içeriği göster
+          setTimeout(() => {
+            loadingOverlay.style.display = 'none';
+            mainContent.style.display = 'flex';
+
+            // Global user objesini güncelle
+            if (typeof window.user === 'undefined') {
+              window.user = {
+                id: firebaseUser.uid,
+                email: firebaseUser.email,
+                isLoggedIn: true
+              };
+            }
+
+            // Profil bilgilerini yükle
+            loadUserProfile();
+          }, 1000);
+
+        } else {
+          // Kullanıcı giriş yapmamış - login sayfasına yönlendir
+          console.log('User not authenticated, redirecting to login...');
+
+          setTimeout(() => {
+            window.location.href = '/tr/login/';
+          }, 1500);
+        }
+      });
+    } else {
+      // authStateListenerWeb fonksiyonu yoksa, doğrudan ana içeriği göster
+      console.log('authStateListenerWeb not available, showing admin content directly');
+
+      setTimeout(() => {
+        loadingOverlay.style.display = 'none';
+        mainContent.style.display = 'flex';
+
+        // Varsayılan user objesi
+        if (typeof window.user === 'undefined') {
+          window.user = {
+            id: 'demo_user',
+            email: 'admin@demo.com',
+            isLoggedIn: true
+          };
+        }
+
+        loadUserProfile();
+      }, 500);
+    }
+  }
+
+  // Firebase fonksiyonları mock'ları (eğer yüklü değilse)
+  function initializeFirebaseMocks() {
+    if (typeof dataListWeb === 'undefined') {
+      console.log('Firebase fonksiyonları bulunamadı, mock fonksiyonlar oluşturuluyor...');
+
+      window.dataListWeb = async function (collection) {
+        console.log('Mock dataListWeb çağrıldı:', collection);
+        return {
+          empty: true,
+          forEach: function (callback) {
+            // Boş collection
+          }
+        };
+      };
+
+      window.dataAddWeb = async function (collection, data) {
+        console.log('Mock dataAddWeb çağrıldı:', collection, data);
+        return { id: 'mock_' + Date.now() };
+      };
+
+      window.dataUpdateWeb = async function (collection, id, data) {
+        console.log('Mock dataUpdateWeb çağrıldı:', collection, id, data);
+        return true;
+      };
+
+      window.dataDeleteWeb = async function (collection, id) {
+        console.log('Mock dataDeleteWeb çağrıldı:', collection, id);
+        return true;
+      };
+
+      window.authStateListenerWeb = function (callback) {
+        console.log('Mock authStateListenerWeb çağrıldı');
+        // Varsayılan olarak giriş yapmış user döndür
+        setTimeout(() => {
+          callback({
+            uid: 'mock_user_id',
+            email: 'admin@demo.com'
+          });
+        }, 100);
+      };
+    }
+  }
+
+  // Mock fonksiyonları başlat
+  initializeFirebaseMocks();
+
+  // Sayfa yüklendiğinde admin erişim kontrolü yap
+  checkAdminAccess();
+</script>
+</div>
+  <div id="footer"><!-- Google Material Icons -->
+<link
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet"
+/>
+
+<!-- Güven Kutuları Alanı -->
+<div class="e5fx7-trust-boxes">
+      <div class="e5fx7-trust-item">
+        <span class="material-icons">account_balance_wallet</span>
+        <div class="e5fx7-trust-text">
+          <div class="e5fx7-trust-title">100% Güvenli Ödeme</div>
+          <div class="e5fx7-trust-desc">3D Secure ile Güvenli Ödeme</div>
+        </div>
+      </div>
+    
+      <div class="e5fx7-trust-item">
+        <span class="material-icons">inventory_2</span>
+        <div class="e5fx7-trust-text">
+          <div class="e5fx7-trust-title">%100 Orijinal Ürün</div>
+          <div class="e5fx7-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
+        </div>
+      </div>
+    
+      <div class="e5fx7-trust-item">
+        <span class="material-icons">local_shipping</span>
+        <div class="e5fx7-trust-text">
+          <div class="e5fx7-trust-title">Hızlı Teslimat</div>
+          <div class="e5fx7-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
+        </div>
+      </div>
+    </div>
+
+<!-- CSS -->
+
+<footer class="footer">
+  <div class="waves">
+    <div class="wave" id="wave1"></div>
+    <div class="wave" id="wave2"></div>
+    <div class="wave" id="wave3"></div>
+    <div class="wave" id="wave4"></div>
+  </div>
+  <ul class="social-icon">
+    <li class="social-icon__item">
+      <a class="social-icon__link" href="#">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </a>
+    </li>
+    <li class="social-icon__item">
+      <a class="social-icon__link" href="#">
+        <ion-icon name="logo-x"></ion-icon>
+      </a>
+    </li>
+    <li class="social-icon__item">
+      <a class="social-icon__link" href="#">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a>
+    </li>
+    <li class="social-icon__item">
+      <a class="social-icon__link" href="#">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
+    </li>
+  </ul>
+  <ul class="menu">
+    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/urunlerimiz">Kampanyalı</a></li><li class="menu__item"><a class="menu__link" href="/tr/baklava">Baklava</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/yerelurunler">Yerel Ürünler</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
+  </ul>
+  <p>Tiggergift 2025 cognite. &copy;</p>
+</footer>
+
+<a
+  href="https://api.whatsapp.com/send/?phone=905320000000&text=&app_absent=0"
+  target="_blank"
+  class="whatsapp"
+>
+  <div class="whatsappicon">
+    <svg
+      _ngcontent-cty-c90=""
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 0 32 32"
+      class="wa-messenger-svg-whatsapp wh-svg-icon"
+    >
+      <path
+        _ngcontent-cty-c90=""
+        d=" M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
+        fill-rule="evenodd"
+      ></path>
+    </svg>
+  </div>
+  Bize Ulaşın
+</a>
+
+</div>
+</body>
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+
+
+<script type="text/javascript" src="/src/js.js?v=dtkwj"></script>
+
+
+
+
+<script src="/src/cookie.js?v=dtkwj"></script>
+
+</html>

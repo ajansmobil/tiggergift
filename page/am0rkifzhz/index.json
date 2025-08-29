@@ -7,11 +7,13 @@
   "id": "am0rkifzhz",
   "url": "",
   "path": "basket",
-  "index": 1,
+  "index": 2,
   "icon": "home",
   "desing": {
     "header": [],
-    "body": [],
+    "body": [
+      "okm6a1"
+    ],
     "footer": []
   },
   "pathnext": "",
@@ -27,6 +29,6 @@
   "spot": {
     "tr": ""
   },
-  "update": "2025-07-25T11:52:10.112Z",
+  "update": "2025-08-28T17:51:25.656Z",
   "date": "2025-07-25T11:51:55.808Z"
 }

@@ -1,10 +1,10 @@
 
-  .cxkof-header-wrapper {
+  .t3ybb-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .cxkof-header {
+  .t3ybb-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .cxkof-logo {
+  .t3ybb-logo {
     height: 80px;
   }
 
-  .cxkof-header-top {
+  .t3ybb-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .cxkof-search-box {
+  .t3ybb-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .cxkof-search-box span {
+  .t3ybb-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .cxkof-search-box input {
+  .t3ybb-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .cxkof-search-box button {
+  .t3ybb-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .cxkof-search-box button:hover {
+  .t3ybb-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .cxkof-support-info {
+  .t3ybb-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .cxkof-support-info span {
+  .t3ybb-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .cxkof-support-info small {
+  .t3ybb-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .cxkof-support-info strong {
+  .t3ybb-support-info strong {
     font-size: 16px;
   }
 
-  .cxkof-icons {
+  .t3ybb-icons {
     display: flex;
     gap: 10px;
   }
 
-  .cxkof-icons span {
+  .t3ybb-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .cxkof-icons span:hover {
+  .t3ybb-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .cxkof-header-bottom {
+  .t3ybb-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .cxkof-header-bottom-inner {
+  .t3ybb-header-bottom-inner {
     max-width: 1200px;
     margin: auto;
     padding: 14px 30px;
@@ -124,7 +124,7 @@
     align-items: center;
   }
 
-  .cxkof-category-btn {
+  .t3ybb-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +136,72 @@
     font-weight: 500;
   }
 
-  .cxkof-main-menu {
+  .t3ybb-main-menu {
     display: flex;
     gap: 20px;
     margin-left: 30px;
   }
 
-  .cxkof-main-menu a {
+  .t3ybb-main-menu a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
   }
 
-  .cxkof-main-menu a:hover {
+  .t3ybb-main-menu a:hover {
     color: #238b23;
   }
 
-  .cxkof-menulistactive {
+  .t3ybb-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .cxkof-header-top {
+    .t3ybb-header-top {
       gap: 20px;
     }
 
-    .cxkof-search-box {
+    .t3ybb-search-box {
       margin: 0 10px;
     }
 
-    .cxkof-support-info strong {
+    .t3ybb-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .cxkof-header {
+    .t3ybb-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .cxkof-header-top {
+    .t3ybb-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .cxkof-search-box {
+    .t3ybb-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .cxkof-support-info {
+    .t3ybb-support-info {
       display: none;
     }
 
-    .cxkof-header-bottom-inner {
+    .t3ybb-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .cxkof-main-menu {
+    .t3ybb-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,15 +210,15 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .cxkof-logo {
+    .t3ybb-logo {
       height: 60px;
     }
 
-    .cxkof-search-box {
+    .t3ybb-search-box {
       flex: 0 1 150px;
     }
 
-    .cxkof-icons span {
+    .t3ybb-icons span {
       padding: 8px;
       font-size: 18px;
     }
@@ -467,7 +467,7 @@
   }
 
 
-  .f4u9nbody {
+  .hllccbody {
     margin: 10px 0px 10px 0px;
     width: 100%;
     height: 100%;
@@ -475,14 +475,14 @@
     justify-content: center;
     align-items: center;
   }
-  .f4u9n {
+  .hllcc {
     width: var(--max);
   }
-  .f4u9n > img {
+  .hllcc > img {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .f4u9n {
+    .hllcc {
       width: 100%;
     }
   }
@@ -681,7 +681,7 @@
   }
 
 
-  .d0ftm-trust-boxes {
+  .hj2k4-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -691,7 +691,7 @@
     gap: 0;
   }
 
-  .d0ftm-trust-item {
+  .hj2k4-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -702,57 +702,57 @@
     gap: 16px;
   }
 
-  .d0ftm-trust-item .material-icons {
+  .hj2k4-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .d0ftm-trust-text {
+  .hj2k4-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .d0ftm-trust-title {
+  .hj2k4-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .d0ftm-trust-desc {
+  .hj2k4-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .d0ftm-trust-boxes {
+    .hj2k4-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .d0ftm-trust-item {
+    .hj2k4-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .d0ftm-trust-boxes {
+    .hj2k4-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .d0ftm-trust-item {
+    .hj2k4-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .d0ftm-trust-title {
+    .hj2k4-trust-title {
       font-size: 16px;
     }
 
-    .d0ftm-trust-desc {
+    .hj2k4-trust-desc {
       font-size: 13px;
     }
   }

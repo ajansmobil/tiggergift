@@ -1,0 +1,36 @@
+{
+  "name": {
+    "tr": "Sepetim",
+    "en": ""
+  },
+  "status": "play",
+  "category": "",
+  "id": "oi85atkwbk",
+  "url": "",
+  "path": "sepetim",
+  "keyword": {
+    "tr": ""
+  },
+  "description": {
+    "tr": ""
+  },
+  "text": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "desc": {},
+  "index": 0,
+  "icon": "shopping_basket",
+  "desing": {
+    "header": [],
+    "body": [
+      "okm6a1"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "update": "2025-08-28T17:51:25.551Z",
+  "date": "2025-08-28T17:07:33.372Z"
+}

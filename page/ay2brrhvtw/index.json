@@ -1,0 +1,35 @@
+{
+  "name": {
+    "tr": "Faturalarım",
+    "en": ""
+  },
+  "status": "play",
+  "category": "",
+  "id": "ay2brrhvtw",
+  "url": "",
+  "path": "faturalarim",
+  "keyword": {
+    "tr": ""
+  },
+  "description": {
+    "tr": ""
+  },
+  "text": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "desc": {},
+  "index": 8,
+  "icon": "receipt",
+  "desing": {
+    "header": [],
+    "body": [
+      "cnxoum"
+    ],
+    "footer": []
+  },
+  "update": "2025-08-28T17:51:25.595Z",
+  "date": "2025-08-28T17:51:25.595Z"
+}

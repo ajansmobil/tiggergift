@@ -10,7 +10,7 @@
       },
       "status": "play",
       "id": "kurumsal",
-      "path": "kurumsal",
+      "path": "kurumsalyrv",
       "category": "",
       "desing": {
         "header": [],
@@ -136,7 +136,7 @@
       },
       "status": "play",
       "id": "kullanicahaklari",
-      "path": "kullanici-haklari",
+      "path": "kullanicihaklari",
       "category": "kurumsal",
       "desing": {
         "header": [],

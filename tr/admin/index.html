@@ -15,13 +15,12 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=cm7qn" />
-  <link rel="shortcut icon" href="/img/icon.png?v=cm7qn" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=o8ize" />
+  <link rel="shortcut icon" href="/img/icon.png?v=o8ize" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
     rel="stylesheet" />
-  <script type="text/javascript" src="/src/firebase.js?v=cm7qn"></script>
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -48,28 +47,29 @@
   const db = firebase.firestore();
 </script>
 
-<link rel="stylesheet" href="style.css?v=cm7qn">
+
+
+  <script type="text/javascript" src="/src/firebase.js?v=o8ize"></script>
+
+
+<link rel="stylesheet" href="style.css?v=o8ize">
 </head>
 
 <body>
-  <div id="header"><header class="l3qfp-header-wrapper">
-  <div class="l3qfp-header">
-    <div class="l3qfp-header-top">
-      <a href="/tr/" class="l3qfp-header-left">
-        <img
-          src="/img/logo.png?v=cm7qn"
-          alt="Tiggergift Logo"
-          class="l3qfp-logo"
-        />
+  <div id="header"><header class="pji6m-header-wrapper">
+  <div class="pji6m-header">
+    <div class="pji6m-header-top">
+      <a href="/tr/" class="pji6m-header-left">
+        <img src="/img/logo.png?v=o8ize" alt="Tiggergift Logo" class="pji6m-logo" />
       </a>
 
-      <div class="l3qfp-search-box">
+      <div class="pji6m-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="l3qfp-support-info">
+      <div class="pji6m-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
@@ -77,199 +77,186 @@
         </div>
       </div>
 
-      <div class="l3qfp-icons">
-        <a href="/tr/user/" class="material-symbols-outlined">person</a>
-        <a href="/tr/favori/" class="material-symbols-outlined"
-          >favorite</a
-        >
-        <a href="/tr/basket/" class="material-symbols-outlined"
-          >shopping_cart</a
-        >
+      <div class="pji6m-icons">
+        <a href="/tr/login/" class="material-symbols-outlined">person</a>
+        <a href="/tr/favorilerim/" class="material-symbols-outlined">favorite</a>
+        <a href="/tr/basket/" class="material-symbols-outlined">shopping_cart</a>
       </div>
     </div>
   </div>
 
-  <div class="l3qfp-header-bottom">
-    <div class="l3qfp-header-bottom-inner">
-      <button class="l3qfp-category-btn">
+  <div class="pji6m-header-bottom">
+    <div class="pji6m-header-bottom-inner">
+      <button class="pji6m-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="l3qfp-main-menu"><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/baklava/">Baklava</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/iletisim/">İletişim</a></nav>
+      <nav class="pji6m-main-menu"><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/baklava/">Baklava</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/iletisim/">İletişim</a></nav>
     </div>
   </div>
 </header>
 
 
 </div>
-  <div id="content"><div class="mucdo">
-  <div class="mucdo-menu">
-    <a href="/tr/admin/" class="mucdo-profile">
-      <div class="mucdo-user-img"></div>
-      <div>Üye Adı Soyadı</div>
+  <div id="content"><!-- Loading Screen -->
+<div class="admin-loading-overlay" id="adminLoadingOverlay">
+  <div class="admin-loading-content">
+    <div class="admin-loading-spinner"></div>
+    <div class="admin-loading-text">Giriş kontrol ediliyor...</div>
+  </div>
+</div>
+
+<!-- Main Content -->
+<div class="cfdk7" id="adminMainContent" style="display: none;">
+  <div class="cfdk7-menu">
+    <a href="/tr/admin/" class="cfdk7-profile">
+      <div class="cfdk7-user-img" id="userAvatar"></div>
+      <div id="userName">Yükleniyor...</div>
     </a>
-    
- <div class="mucdo-menu-category">
-  
-    <a class="mucdo-menu-active" href="/tr/admin/" >
+    <div class="cfdk7-menu-category">
+    <a class="cfdk7-menu-active" href="/tr/admin/" >
       <span class="material-symbols-outlined">home</span>
-      <div> Admin </div>
+      <div>Admin</div>
     </a>
-    
-    <a href="/tr/siparisler/" >
+    <a href="/tr/admin-urunler/" >
+      <span class="material-symbols-outlined">home</span>
+      <div>Ürünler</div>
+    </a>
+    <a href="/tr/admin-siparisler/" >
       <span class="material-symbols-outlined">shopping_cart</span>
-      <div> Siparişler </div>
+      <div>Siparişler</div>
     </a>
-    
-    <a href="/tr/urunler/" >
-      <span class="material-symbols-outlined">inventory</span>
-      <div> Ürünler </div>
+    <a href="/tr/adminkategoriler/" >
+      <span class="material-symbols-outlined">home</span>
+      <div>Kategoriler</div>
     </a>
-    
-    <a href="/tr/kategoriler/" >
-      <span class="material-symbols-outlined">category</span>
-      <div> Kategoriler </div>
-    </a>
-    
     <a href="/tr/musteriler/" >
       <span class="material-symbols-outlined">people</span>
-      <div> Müşteriler </div>
+      <div>Müşteriler</div>
     </a>
-    
+    <a href="/tr/moduller/" >
+      <span class="material-symbols-outlined">home</span>
+      <div>Moduller</div>
+    </a>
     <a href="/tr/kampanyalar/" >
       <span class="material-symbols-outlined">campaign</span>
-      <div> Kampanyalar </div>
+      <div>Kampanyalar</div>
     </a>
-    
     <a href="/tr/odemeler/" >
       <span class="material-symbols-outlined">payment</span>
-      <div> Ödemeler </div>
+      <div>Ödemeler</div>
     </a>
-    
     <a href="/tr/raporlar/" >
       <span class="material-symbols-outlined">analytics</span>
-      <div> Raporlar </div>
+      <div>Raporlar</div>
     </a>
-    
-    <a href="/tr/moduller/" >
-      <span class="material-symbols-outlined">extension</span>
-      <div> Moduller </div>
-    </a>
-    
-    <a href="/tr/uyeler/" >
-      <span class="material-symbols-outlined">admin_panel_settings</span>
-      <div> Üyeler </div>
-    </a>
-    
-    <a href="/tr/ayarlar/" >
+    <a href="/tr/adminayarlar/" >
       <span class="material-symbols-outlined">settings</span>
-      <div> Ayarlar </div>
+      <div>Ayarlar</div>
     </a>
-    
     <a href="/tr/loglar/" >
       <span class="material-symbols-outlined">history</span>
-      <div> Loglar </div>
-    </a>
-    </div>
+      <div>Loglar</div>
+    </a></div>
   </div>
-  <div class="mucdo-body"><div class="eoca0-admin-page">
-    <div class="eoca0-header">
-        <div class="eoca0-welcome">
+  <div class="cfdk7-body"><div class="dc384-admin-page">
+    <div class="dc384-header">
+        <div class="dc384-welcome">
             <h1>Hoş Geldiniz, {{username}}</h1>
             <p>2025-08-09T06:10:38.005Z</p>
         </div>
-        <div class="eoca0-quick-actions">
-            <button class="eoca0-btn eoca0-btn-primary" data-action="add_product">
+        <div class="dc384-quick-actions">
+            <button class="dc384-btn dc384-btn-primary" data-action="add_product">
                 <span class="material-symbols-outlined">add</span>
                 Yeni Ürün
             </button>
-            <button class="eoca0-btn eoca0-btn-secondary" data-action="view_orders">
+            <button class="dc384-btn dc384-btn-secondary" data-action="view_orders">
                 <span class="material-symbols-outlined">shopping_cart</span>
                 Siparişleri Gör
             </button>
         </div>
     </div>
 
-    <div class="eoca0-stats-grid">
-        <div class="eoca0-stat-card eoca0-stat-orders">
-            <div class="eoca0-stat-icon">
+    <div class="dc384-stats-grid">
+        <div class="dc384-stat-card dc384-stat-orders">
+            <div class="dc384-stat-icon">
                 <span class="material-symbols-outlined">shopping_bag</span>
             </div>
-            <div class="eoca0-stat-content">
-                <div class="eoca0-stat-number" data-stat="new_orders">{{new_orders}}</div>
-                <div class="eoca0-stat-label">Yeni Siparişler</div>
-                <div class="eoca0-stat-change eoca0-stat-positive" data-stat="orders_change">+{{orders_change}}%
+            <div class="dc384-stat-content">
+                <div class="dc384-stat-number" data-stat="new_orders">{{new_orders}}</div>
+                <div class="dc384-stat-label">Yeni Siparişler</div>
+                <div class="dc384-stat-change dc384-stat-positive" data-stat="orders_change">+{{orders_change}}%
                 </div>
             </div>
         </div>
 
-        <div class="eoca0-stat-card eoca0-stat-revenue">
-            <div class="eoca0-stat-icon">
+        <div class="dc384-stat-card dc384-stat-revenue">
+            <div class="dc384-stat-icon">
                 <span class="material-symbols-outlined">trending_up</span>
             </div>
-            <div class="eoca0-stat-content">
-                <div class="eoca0-stat-number" data-stat="today_revenue">₺{{today_revenue}}</div>
-                <div class="eoca0-stat-label">Bugünkü Gelir</div>
-                <div class="eoca0-stat-change eoca0-stat-positive" data-stat="revenue_change">+{{revenue_change}}%
+            <div class="dc384-stat-content">
+                <div class="dc384-stat-number" data-stat="today_revenue">₺{{today_revenue}}</div>
+                <div class="dc384-stat-label">Bugünkü Gelir</div>
+                <div class="dc384-stat-change dc384-stat-positive" data-stat="revenue_change">+{{revenue_change}}%
                 </div>
             </div>
         </div>
 
-        <div class="eoca0-stat-card eoca0-stat-stock">
-            <div class="eoca0-stat-icon">
+        <div class="dc384-stat-card dc384-stat-stock">
+            <div class="dc384-stat-icon">
                 <span class="material-symbols-outlined">inventory</span>
             </div>
-            <div class="eoca0-stat-content">
-                <div class="eoca0-stat-number" data-stat="low_stock_count">{{low_stock_count}}</div>
-                <div class="eoca0-stat-label">Düşük Stok</div>
-                <div class="eoca0-stat-change eoca0-stat-warning">Dikkat</div>
+            <div class="dc384-stat-content">
+                <div class="dc384-stat-number" data-stat="low_stock_count">{{low_stock_count}}</div>
+                <div class="dc384-stat-label">Düşük Stok</div>
+                <div class="dc384-stat-change dc384-stat-warning">Dikkat</div>
             </div>
         </div>
 
-        <div class="eoca0-stat-card eoca0-stat-customers">
-            <div class="eoca0-stat-icon">
+        <div class="dc384-stat-card dc384-stat-customers">
+            <div class="dc384-stat-icon">
                 <span class="material-symbols-outlined">group</span>
             </div>
-            <div class="eoca0-stat-content">
-                <div class="eoca0-stat-number" data-stat="new_customers">{{new_customers}}</div>
-                <div class="eoca0-stat-label">Yeni Müşteriler</div>
-                <div class="eoca0-stat-change eoca0-stat-positive" data-stat="customers_change">
+            <div class="dc384-stat-content">
+                <div class="dc384-stat-number" data-stat="new_customers">{{new_customers}}</div>
+                <div class="dc384-stat-label">Yeni Müşteriler</div>
+                <div class="dc384-stat-change dc384-stat-positive" data-stat="customers_change">
                     +{{customers_change}}%</div>
             </div>
         </div>
     </div>
 
-    <div class="eoca0-content-grid">
-        <div class="eoca0-recent-orders">
-            <div class="eoca0-section-header">
+    <div class="dc384-content-grid">
+        <div class="dc384-recent-orders">
+            <div class="dc384-section-header">
                 <h3>Son Siparişler</h3>
-                <a href="#" class="eoca0-view-all" data-section="orders">Tümünü Gör</a>
+                <a href="#" class="dc384-view-all" data-section="orders">Tümünü Gör</a>
             </div>
-            <div class="eoca0-orders-list">
+            <div class="dc384-orders-list">
                 {{recent_orders}}
             </div>
         </div>
 
-        <div class="eoca0-stock-alerts">
-            <div class="eoca0-section-header">
+        <div class="dc384-stock-alerts">
+            <div class="dc384-section-header">
                 <h3>Stok Uyarıları</h3>
-                <a href="#" class="eoca0-view-all" data-section="stock">Tümünü Gör</a>
+                <a href="#" class="dc384-view-all" data-section="stock">Tümünü Gör</a>
             </div>
-            <div class="eoca0-stock-list">
+            <div class="dc384-stock-list">
                 {{stock_alerts}}
             </div>
         </div>
     </div>
 
-    <div class="eoca0-chart-section">
-        <div class="eoca0-section-header">
+    <div class="dc384-chart-section">
+        <div class="dc384-section-header">
             <h3>Satış Grafiği</h3>
-            <div class="eoca0-chart-periods">
-                <button class="eoca0-period-btn eoca0-period-active" data-period="7">7 Gün</button>
-                <button class="eoca0-period-btn" data-period="30">30 Gün</button>
-                <button class="eoca0-period-btn" data-period="90">3 Ay</button>
+            <div class="dc384-chart-periods">
+                <button class="dc384-period-btn dc384-period-active" data-period="7">7 Gün</button>
+                <button class="dc384-period-btn" data-period="30">30 Gün</button>
+                <button class="dc384-period-btn" data-period="90">3 Ay</button>
             </div>
         </div>
-        <div class="eoca0-chart-container">
+        <div class="dc384-chart-container">
             <canvas id="salesChart" width="400" height="200"></canvas>
         </div>
     </div>
@@ -306,6 +293,239 @@
 </div>
 </div>
 
+
+<script>
+  // Firebase'den kullanıcı bilgilerini yükle
+  async function loadUserProfile() {
+    try {
+      // Global user objesini kontrol et
+      const currentUser = window.user || {};
+
+      if (!currentUser.isLoggedIn || !currentUser.id) {
+        document.getElementById('userName').textContent = 'Admin Kullanıcı';
+
+        // Varsayılan avatar
+        const avatarUrl = `https://ui-avatars.com/api/?name=Admin&background=007bff&color=fff&size=40`;
+        document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+        document.getElementById('userAvatar').style.backgroundSize = 'cover';
+        document.getElementById('userAvatar').style.backgroundPosition = 'center';
+        return;
+      }
+
+      // Firebase'den kullanıcı bilgilerini almaya çalış
+      if (typeof dataListWeb === 'function') {
+        try {
+          const userSnapshot = await dataListWeb(`users`);
+          let userData = null;
+
+          // Kullanıcıyı ID ile bul
+          userSnapshot.forEach(doc => {
+            if (doc.id === currentUser.id) {
+              userData = doc.data();
+            }
+          });
+
+          if (userData) {
+            // Kullanıcı adını güncelle
+            const fullName = `${userData.firstName || ''} ${userData.lastName || ''}`.trim();
+            document.getElementById('userName').textContent = fullName || userData.email || currentUser.email || 'Kullanıcı';
+
+            // Profil fotoğrafını güncelle
+            const avatarElement = document.getElementById('userAvatar');
+            if (userData.photoURL) {
+              avatarElement.style.backgroundImage = `url(${userData.photoURL})`;
+              avatarElement.style.backgroundSize = 'cover';
+              avatarElement.style.backgroundPosition = 'center';
+            } else {
+              // UI Avatars ile otomatik avatar oluştur
+              const displayName = fullName || userData.email || currentUser.email || 'U';
+              const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&background=random&color=fff&size=40`;
+              avatarElement.style.backgroundImage = `url(${avatarUrl})`;
+              avatarElement.style.backgroundSize = 'cover';
+              avatarElement.style.backgroundPosition = 'center';
+            }
+          } else {
+            // Kullanıcı verisi bulunamazsa email'den isim çıkar
+            const displayName = currentUser.email ? currentUser.email.split('@')[0] : currentUser.name || 'Kullanıcı';
+            document.getElementById('userName').textContent = displayName;
+
+            // Varsayılan avatar
+            const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&background=random&color=fff&size=40`;
+            document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+            document.getElementById('userAvatar').style.backgroundSize = 'cover';
+            document.getElementById('userAvatar').style.backgroundPosition = 'center';
+          }
+        } catch (fbError) {
+          console.log('Firebase veri çekme hatası:', fbError);
+          // Firebase hatası varsa localStorage'daki bilgileri kullan
+          const displayName = currentUser.email ? currentUser.email.split('@')[0] : currentUser.name || 'Kullanıcı';
+          document.getElementById('userName').textContent = displayName;
+
+          const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&background=007bff&color=fff&size=40`;
+          document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+          document.getElementById('userAvatar').style.backgroundSize = 'cover';
+          document.getElementById('userAvatar').style.backgroundPosition = 'center';
+        }
+      } else {
+        // dataListWeb fonksiyonu yoksa localStorage bilgilerini kullan
+        const displayName = currentUser.email ? currentUser.email.split('@')[0] : currentUser.name || 'Kullanıcı';
+        document.getElementById('userName').textContent = displayName;
+
+        const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&background=007bff&color=fff&size=40`;
+        document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+        document.getElementById('userAvatar').style.backgroundSize = 'cover';
+        document.getElementById('userAvatar').style.backgroundPosition = 'center';
+      }
+
+    } catch (error) {
+      console.error('Kullanıcı profili yüklenirken hata:', error);
+      document.getElementById('userName').textContent = 'Admin Kullanıcı';
+
+      const avatarUrl = `https://ui-avatars.com/api/?name=Admin&background=dc3545&color=fff&size=40`;
+      document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+      document.getElementById('userAvatar').style.backgroundSize = 'cover';
+      document.getElementById('userAvatar').style.backgroundPosition = 'center';
+    }
+  }
+
+  // Admin sayfası için authentication kontrolü
+  function checkAdminAccess() {
+    const loadingOverlay = document.getElementById('adminLoadingOverlay');
+    const mainContent = document.getElementById('adminMainContent');
+
+    // Önce localStorage'dan user bilgisini kontrol et
+    try {
+      const storedUser = localStorage.getItem('user');
+      if (storedUser) {
+        const userData = JSON.parse(storedUser);
+        if (userData.isLoggedIn && userData.id) {
+          console.log('User authenticated from localStorage:', userData.id);
+
+          // Loading ekranını gizle ve ana içeriği göster
+          setTimeout(() => {
+            loadingOverlay.style.display = 'none';
+            mainContent.style.display = 'flex';
+
+            // Global user objesini güncelle
+            if (typeof window.user === 'undefined') {
+              window.user = userData;
+            }
+
+            // Profil bilgilerini yükle
+            loadUserProfile();
+          }, 500);
+          return;
+        }
+      }
+    } catch (error) {
+      console.log('localStorage user kontrolü hatası:', error);
+    }
+
+    // Firebase authentication kontrolü (eğer authStateListenerWeb fonksiyonu varsa)
+    if (typeof authStateListenerWeb === 'function') {
+      authStateListenerWeb((firebaseUser) => {
+        if (firebaseUser) {
+          // Kullanıcı giriş yapmış
+          console.log('User authenticated for admin panel:', firebaseUser.uid);
+
+          // Loading ekranını gizle ve ana içeriği göster
+          setTimeout(() => {
+            loadingOverlay.style.display = 'none';
+            mainContent.style.display = 'flex';
+
+            // Global user objesini güncelle
+            if (typeof window.user === 'undefined') {
+              window.user = {
+                id: firebaseUser.uid,
+                email: firebaseUser.email,
+                isLoggedIn: true
+              };
+            }
+
+            // Profil bilgilerini yükle
+            loadUserProfile();
+          }, 1000);
+
+        } else {
+          // Kullanıcı giriş yapmamış - login sayfasına yönlendir
+          console.log('User not authenticated, redirecting to login...');
+
+          setTimeout(() => {
+            window.location.href = '/tr/login/';
+          }, 1500);
+        }
+      });
+    } else {
+      // authStateListenerWeb fonksiyonu yoksa, doğrudan ana içeriği göster
+      console.log('authStateListenerWeb not available, showing admin content directly');
+
+      setTimeout(() => {
+        loadingOverlay.style.display = 'none';
+        mainContent.style.display = 'flex';
+
+        // Varsayılan user objesi
+        if (typeof window.user === 'undefined') {
+          window.user = {
+            id: 'demo_user',
+            email: 'admin@demo.com',
+            isLoggedIn: true
+          };
+        }
+
+        loadUserProfile();
+      }, 500);
+    }
+  }
+
+  // Firebase fonksiyonları mock'ları (eğer yüklü değilse)
+  function initializeFirebaseMocks() {
+    if (typeof dataListWeb === 'undefined') {
+      console.log('Firebase fonksiyonları bulunamadı, mock fonksiyonlar oluşturuluyor...');
+
+      window.dataListWeb = async function (collection) {
+        console.log('Mock dataListWeb çağrıldı:', collection);
+        return {
+          empty: true,
+          forEach: function (callback) {
+            // Boş collection
+          }
+        };
+      };
+
+      window.dataAddWeb = async function (collection, data) {
+        console.log('Mock dataAddWeb çağrıldı:', collection, data);
+        return { id: 'mock_' + Date.now() };
+      };
+
+      window.dataUpdateWeb = async function (collection, id, data) {
+        console.log('Mock dataUpdateWeb çağrıldı:', collection, id, data);
+        return true;
+      };
+
+      window.dataDeleteWeb = async function (collection, id) {
+        console.log('Mock dataDeleteWeb çağrıldı:', collection, id);
+        return true;
+      };
+
+      window.authStateListenerWeb = function (callback) {
+        console.log('Mock authStateListenerWeb çağrıldı');
+        // Varsayılan olarak giriş yapmış user döndür
+        setTimeout(() => {
+          callback({
+            uid: 'mock_user_id',
+            email: 'admin@demo.com'
+          });
+        }, 100);
+      };
+    }
+  }
+
+  // Mock fonksiyonları başlat
+  initializeFirebaseMocks();
+
+  // Sayfa yüklendiğinde admin erişim kontrolü yap
+  checkAdminAccess();
+</script>
 </div>
   <div id="footer"><!-- Google Material Icons -->
 <link
@@ -314,28 +534,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="zsny1-trust-boxes">
-      <div class="zsny1-trust-item">
+<div class="u6hpc-trust-boxes">
+      <div class="u6hpc-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="zsny1-trust-text">
-          <div class="zsny1-trust-title">100% Güvenli Ödeme</div>
-          <div class="zsny1-trust-desc">3D Secure ile Güvenli Ödeme</div>
+        <div class="u6hpc-trust-text">
+          <div class="u6hpc-trust-title">100% Güvenli Ödeme</div>
+          <div class="u6hpc-trust-desc">3D Secure ile Güvenli Ödeme</div>
         </div>
       </div>
     
-      <div class="zsny1-trust-item">
+      <div class="u6hpc-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="zsny1-trust-text">
-          <div class="zsny1-trust-title">%100 Orijinal Ürün</div>
-          <div class="zsny1-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
+        <div class="u6hpc-trust-text">
+          <div class="u6hpc-trust-title">%100 Orijinal Ürün</div>
+          <div class="u6hpc-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
         </div>
       </div>
     
-      <div class="zsny1-trust-item">
+      <div class="u6hpc-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="zsny1-trust-text">
-          <div class="zsny1-trust-title">Hızlı Teslimat</div>
-          <div class="zsny1-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
+        <div class="u6hpc-trust-text">
+          <div class="u6hpc-trust-title">Hızlı Teslimat</div>
+          <div class="u6hpc-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
         </div>
       </div>
     </div>
@@ -408,11 +628,11 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=cm7qn"></script>
+<script type="text/javascript" src="/src/js.js?v=o8ize"></script>
 
 
 
 
-<script src="/src/cookie.js?v=cm7qn"></script>
+<script src="/src/cookie.js?v=o8ize"></script>
 
 </html>

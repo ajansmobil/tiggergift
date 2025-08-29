@@ -1,10 +1,10 @@
 
-  .hqhmu-header-wrapper {
+  .fps9i-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .hqhmu-header {
+  .fps9i-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .hqhmu-logo {
+  .fps9i-logo {
     height: 80px;
   }
 
-  .hqhmu-header-top {
+  .fps9i-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .hqhmu-search-box {
+  .fps9i-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .hqhmu-search-box span {
+  .fps9i-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .hqhmu-search-box input {
+  .fps9i-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .hqhmu-search-box button {
+  .fps9i-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .hqhmu-search-box button:hover {
+  .fps9i-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .hqhmu-support-info {
+  .fps9i-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .hqhmu-support-info span {
+  .fps9i-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .hqhmu-support-info small {
+  .fps9i-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .hqhmu-support-info strong {
+  .fps9i-support-info strong {
     font-size: 16px;
   }
 
-  .hqhmu-icons {
+  .fps9i-icons {
     display: flex;
     gap: 10px;
   }
 
-  .hqhmu-icons span {
+  .fps9i-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .hqhmu-icons span:hover {
+  .fps9i-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .hqhmu-header-bottom {
+  .fps9i-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .hqhmu-header-bottom-inner {
+  .fps9i-header-bottom-inner {
     max-width: 1200px;
     margin: auto;
     padding: 14px 30px;
@@ -124,7 +124,7 @@
     align-items: center;
   }
 
-  .hqhmu-category-btn {
+  .fps9i-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +136,72 @@
     font-weight: 500;
   }
 
-  .hqhmu-main-menu {
+  .fps9i-main-menu {
     display: flex;
     gap: 20px;
     margin-left: 30px;
   }
 
-  .hqhmu-main-menu a {
+  .fps9i-main-menu a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
   }
 
-  .hqhmu-main-menu a:hover {
+  .fps9i-main-menu a:hover {
     color: #238b23;
   }
 
-  .hqhmu-menulistactive {
+  .fps9i-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .hqhmu-header-top {
+    .fps9i-header-top {
       gap: 20px;
     }
 
-    .hqhmu-search-box {
+    .fps9i-search-box {
       margin: 0 10px;
     }
 
-    .hqhmu-support-info strong {
+    .fps9i-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .hqhmu-header {
+    .fps9i-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .hqhmu-header-top {
+    .fps9i-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .hqhmu-search-box {
+    .fps9i-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .hqhmu-support-info {
+    .fps9i-support-info {
       display: none;
     }
 
-    .hqhmu-header-bottom-inner {
+    .fps9i-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .hqhmu-main-menu {
+    .fps9i-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,22 +210,361 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .hqhmu-logo {
+    .fps9i-logo {
       height: 60px;
     }
 
-    .hqhmu-search-box {
+    .fps9i-search-box {
       flex: 0 1 150px;
     }
 
-    .hqhmu-icons span {
+    .fps9i-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .shjhl-trust-boxes {
+  .upezv {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: var(--max);
+  }
+
+  .upezvTitle {
+    background: linear-gradient(135deg, #333333 0%, #4a4a4a 100%);
+    border-radius: 8px;
+    color: #fff;
+    padding: 15px;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid #333333;
+  }
+
+  .upezvBody {
+    display: flex;
+    min-height: 200px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .upezvList {
+    flex: 1;
+    min-width: 300px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .upezvListChile {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    gap: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+    border: 1px solid #e0e0e0;
+  }
+
+  .upezvListChile:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .upezvListChileImg {
+    width: 120px;
+    height: 120px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .upezvListChileImg>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+
+  .upezvListChileImg>img:hover {
+    transform: scale(1.05);
+  }
+
+  .upezvListChileBody {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .upezvListChileBodyTitle {
+    font-size: 1.1em;
+    color: #333333;
+    font-weight: 500;
+  }
+
+  .upezvListChileBodySpot {
+    color: #666;
+    font-size: 0.9em;
+  }
+
+  .upezvListChileBodyPrice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+  }
+
+  .upezvListChileBodyPriceBody {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #28a745;
+  }
+
+  .upezvListChileBodyNumber {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .quantity-btn {
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+
+  .quantity-btn:hover {
+    background-color: #333333;
+    color: white;
+  }
+
+  .quantity {
+    min-width: 30px;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .remove-item {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: none;
+    color: #ff4757;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+    font-size: 20px;
+  }
+
+  .remove-item:hover {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+  .upezvTotal {
+    width: 350px;
+    min-width: 300px;
+  }
+
+  .upezvTotalBody {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e0e0e0;
+  }
+
+  .cart-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .summary-item {
+    display: flex;
+    justify-content: space-between;
+    color: #666;
+  }
+
+  .summary-item.total {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #333333;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 15px;
+    margin-top: 5px;
+  }
+
+  .cart-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .checkout-btn,
+  .clear-cart-btn,
+  .continue-shopping-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .checkout-btn {
+    background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
+    color: white;
+    font-weight: 600;
+  }
+
+  .checkout-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(46, 204, 113, 0.2);
+  }
+
+  .clear-cart-btn {
+    background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+    color: white;
+  }
+
+  .clear-cart-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(231, 76, 60, 0.2);
+  }
+
+  .continue-shopping-btn {
+    background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+    color: white;
+  }
+
+  .continue-shopping-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.2);
+  }
+
+  .empty-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    text-align: center;
+    color: #666;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px dashed #e0e0e0;
+  }
+
+  .empty-cart .material-symbols-outlined {
+    font-size: 4em;
+    margin-bottom: 20px;
+    opacity: 0.3;
+  }
+
+  .empty-cart p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+
+  .login-btn {
+    background: linear-gradient(135deg, #333333 0%, #4a4a4a 100%);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1em;
+    transition: transform 0.2s;
+  }
+
+  .login-btn:hover {
+    transform: translateY(-2px);
+  }
+
+  /* Demo styles removed */
+
+  /* Animations */
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideOut {
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
+
+    to {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .upezvBody {
+      flex-direction: column;
+    }
+
+    .upezvTotal {
+      width: 100%;
+    }
+
+    .upezvListChileImg {
+      width: 80px;
+      height: 80px;
+    }
+
+    .upezvListChileBodyTitle {
+      font-size: 1em;
+    }
+
+    .cart-actions {
+      gap: 8px;
+    }
+
+    .checkout-btn,
+    .clear-cart-btn,
+    .continue-shopping-btn {
+      padding: 10px;
+      font-size: 0.9em;
+    }
+  }
+
+
+  .z2kzp-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -235,7 +574,7 @@
     gap: 0;
   }
 
-  .shjhl-trust-item {
+  .z2kzp-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -246,57 +585,57 @@
     gap: 16px;
   }
 
-  .shjhl-trust-item .material-icons {
+  .z2kzp-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .shjhl-trust-text {
+  .z2kzp-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .shjhl-trust-title {
+  .z2kzp-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .shjhl-trust-desc {
+  .z2kzp-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .shjhl-trust-boxes {
+    .z2kzp-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .shjhl-trust-item {
+    .z2kzp-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .shjhl-trust-boxes {
+    .z2kzp-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .shjhl-trust-item {
+    .z2kzp-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .shjhl-trust-title {
+    .z2kzp-trust-title {
       font-size: 16px;
     }
 
-    .shjhl-trust-desc {
+    .z2kzp-trust-desc {
       font-size: 13px;
     }
   }

@@ -1,0 +1,36 @@
+{
+  "name": {
+    "tr": "Müşteriler",
+    "en": "Customers"
+  },
+  "status": "play",
+  "category": "",
+  "id": "musteriler123",
+  "url": "",
+  "path": "musteriler",
+  "index": 4,
+  "icon": "people",
+  "desing": {
+    "header": [],
+    "body": [
+      "admin_musteriler_33"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "desc": {},
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "text": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "update": "2025-08-29T10:21:13.847Z",
+  "date": "2025-08-28T17:03:10.710Z"
+}

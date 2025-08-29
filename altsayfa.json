@@ -18,8 +18,7 @@
         ],
         "footer": []
       },
-      "pathnext": "",
-      "icon": "home"
+      "pathnext": ""
     },
     {
       "name": {
@@ -39,8 +38,7 @@
         ],
         "footer": []
       },
-      "pathnext": "",
-      "icon": "home"
+      "pathnext": ""
     },
     {
       "name": {
@@ -56,7 +54,9 @@
       "icon": "home",
       "desing": {
         "header": [],
-        "body": [],
+        "body": [
+          "okm6a1"
+        ],
         "footer": []
       },
       "pathnext": ""

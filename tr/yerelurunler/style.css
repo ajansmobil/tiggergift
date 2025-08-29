@@ -1,10 +1,10 @@
 
-  .pncvt-header-wrapper {
+  .gw7sa-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .pncvt-header {
+  .gw7sa-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .pncvt-logo {
+  .gw7sa-logo {
     height: 80px;
   }
 
-  .pncvt-header-top {
+  .gw7sa-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .pncvt-search-box {
+  .gw7sa-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .pncvt-search-box span {
+  .gw7sa-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .pncvt-search-box input {
+  .gw7sa-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .pncvt-search-box button {
+  .gw7sa-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .pncvt-search-box button:hover {
+  .gw7sa-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .pncvt-support-info {
+  .gw7sa-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .pncvt-support-info span {
+  .gw7sa-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .pncvt-support-info small {
+  .gw7sa-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .pncvt-support-info strong {
+  .gw7sa-support-info strong {
     font-size: 16px;
   }
 
-  .pncvt-icons {
+  .gw7sa-icons {
     display: flex;
     gap: 10px;
   }
 
-  .pncvt-icons span {
+  .gw7sa-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .pncvt-icons span:hover {
+  .gw7sa-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .pncvt-header-bottom {
+  .gw7sa-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .pncvt-header-bottom-inner {
+  .gw7sa-header-bottom-inner {
     max-width: 1200px;
     margin: auto;
     padding: 14px 30px;
@@ -124,7 +124,7 @@
     align-items: center;
   }
 
-  .pncvt-category-btn {
+  .gw7sa-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +136,72 @@
     font-weight: 500;
   }
 
-  .pncvt-main-menu {
+  .gw7sa-main-menu {
     display: flex;
     gap: 20px;
     margin-left: 30px;
   }
 
-  .pncvt-main-menu a {
+  .gw7sa-main-menu a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
   }
 
-  .pncvt-main-menu a:hover {
+  .gw7sa-main-menu a:hover {
     color: #238b23;
   }
 
-  .pncvt-menulistactive {
+  .gw7sa-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .pncvt-header-top {
+    .gw7sa-header-top {
       gap: 20px;
     }
 
-    .pncvt-search-box {
+    .gw7sa-search-box {
       margin: 0 10px;
     }
 
-    .pncvt-support-info strong {
+    .gw7sa-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .pncvt-header {
+    .gw7sa-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .pncvt-header-top {
+    .gw7sa-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .pncvt-search-box {
+    .gw7sa-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .pncvt-support-info {
+    .gw7sa-support-info {
       display: none;
     }
 
-    .pncvt-header-bottom-inner {
+    .gw7sa-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .pncvt-main-menu {
+    .gw7sa-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,22 +210,22 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .pncvt-logo {
+    .gw7sa-logo {
       height: 60px;
     }
 
-    .pncvt-search-box {
+    .gw7sa-search-box {
       flex: 0 1 150px;
     }
 
-    .pncvt-icons span {
+    .gw7sa-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .p1jgh-trust-boxes {
+  .offzx-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -235,7 +235,7 @@
     gap: 0;
   }
 
-  .p1jgh-trust-item {
+  .offzx-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -246,57 +246,57 @@
     gap: 16px;
   }
 
-  .p1jgh-trust-item .material-icons {
+  .offzx-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .p1jgh-trust-text {
+  .offzx-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .p1jgh-trust-title {
+  .offzx-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .p1jgh-trust-desc {
+  .offzx-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .p1jgh-trust-boxes {
+    .offzx-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .p1jgh-trust-item {
+    .offzx-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .p1jgh-trust-boxes {
+    .offzx-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .p1jgh-trust-item {
+    .offzx-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .p1jgh-trust-title {
+    .offzx-trust-title {
       font-size: 16px;
     }
 
-    .p1jgh-trust-desc {
+    .offzx-trust-desc {
       font-size: 13px;
     }
   }

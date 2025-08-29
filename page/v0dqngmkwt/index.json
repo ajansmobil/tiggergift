@@ -8,11 +8,11 @@
   "id": "v0dqngmkwt",
   "url": "",
   "path": "urunler",
-  "index": 0,
+  "index": 1,
   "desing": {
     "header": [],
     "body": [
-      "d28lp7"
+      "admin_urunler_31"
     ],
     "footer": []
   },
@@ -29,6 +29,6 @@
   "spot": {
     "tr": ""
   },
-  "update": "2025-08-09T06:23:05.394Z",
+  "update": "2025-08-29T10:12:31.306Z",
   "date": "2025-08-09T06:10:28.845Z"
 }

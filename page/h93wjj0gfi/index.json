@@ -1,0 +1,35 @@
+{
+  "name": {
+    "tr": "Ödeme",
+    "en": ""
+  },
+  "status": "play",
+  "category": "",
+  "id": "h93wjj0gfi",
+  "url": "",
+  "path": "odeme",
+  "desc": {},
+  "index": 0,
+  "desing": {
+    "header": [],
+    "body": [
+      "ulej43"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "text": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "update": "2025-08-28T19:02:40.368Z",
+  "date": "2025-08-28T19:01:47.543Z"
+}

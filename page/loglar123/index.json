@@ -1,0 +1,36 @@
+{
+  "name": {
+    "tr": "Loglar",
+    "en": "Logs"
+  },
+  "status": "play",
+  "category": "",
+  "id": "loglar123",
+  "url": "",
+  "path": "loglar",
+  "index": 11,
+  "icon": "history",
+  "desing": {
+    "header": [],
+    "body": [
+      "admin_loglar_40"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "desc": {},
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "text": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "update": "2025-08-29T10:20:57.735Z",
+  "date": "2025-08-28T17:03:10.759Z"
+}

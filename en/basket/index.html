@@ -15,13 +15,12 @@
   <meta property="og:description" content="undefined" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=xw6mw" />
-  <link rel="shortcut icon" href="/img/icon.png?v=xw6mw" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=ffb9q" />
+  <link rel="shortcut icon" href="/img/icon.png?v=ffb9q" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
     rel="stylesheet" />
-  <script type="text/javascript" src="/src/firebase.js?v=xw6mw"></script>
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -48,28 +47,29 @@
   const db = firebase.firestore();
 </script>
 
-<link rel="stylesheet" href="style.css?v=xw6mw">
+
+
+  <script type="text/javascript" src="/src/firebase.js?v=ffb9q"></script>
+
+
+<link rel="stylesheet" href="style.css?v=ffb9q">
 </head>
 
 <body>
-  <div id="header"><header class="hqhmu-header-wrapper">
-  <div class="hqhmu-header">
-    <div class="hqhmu-header-top">
-      <a href="/en/" class="hqhmu-header-left">
-        <img
-          src="/img/logo.png?v=xw6mw"
-          alt="Tiggergift Logo"
-          class="hqhmu-logo"
-        />
+  <div id="header"><header class="fps9i-header-wrapper">
+  <div class="fps9i-header">
+    <div class="fps9i-header-top">
+      <a href="/en/" class="fps9i-header-left">
+        <img src="/img/logo.png?v=ffb9q" alt="Tiggergift Logo" class="fps9i-logo" />
       </a>
 
-      <div class="hqhmu-search-box">
+      <div class="fps9i-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="hqhmu-support-info">
+      <div class="fps9i-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
@@ -77,31 +77,398 @@
         </div>
       </div>
 
-      <div class="hqhmu-icons">
-        <a href="/en/user/" class="material-symbols-outlined">person</a>
-        <a href="/en/favori/" class="material-symbols-outlined"
-          >favorite</a
-        >
-        <a href="/en/basket/" class="material-symbols-outlined"
-          >shopping_cart</a
-        >
+      <div class="fps9i-icons">
+        <a href="/en/login/" class="material-symbols-outlined">person</a>
+        <a href="/en/favorilerim/" class="material-symbols-outlined">favorite</a>
+        <a href="/en/basket/" class="material-symbols-outlined">shopping_cart</a>
       </div>
     </div>
   </div>
 
-  <div class="hqhmu-header-bottom">
-    <div class="hqhmu-header-bottom-inner">
-      <button class="hqhmu-category-btn">
+  <div class="fps9i-header-bottom">
+    <div class="fps9i-header-bottom-inner">
+      <button class="fps9i-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="hqhmu-main-menu"><a href="/en/urunlerimiz/"></a><a href="/en/baklava/"></a><a href="/en/kurumsal/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
+      <nav class="fps9i-main-menu"><a href="/en/urunlerimiz/"></a><a href="/en/baklava/"></a><a href="/en/kurumsal/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
     </div>
   </div>
 </header>
 
 
 </div>
-  <div id="content"></div>
+  <div id="content"><div class="upezv">
+  <div class="upezvTitle">
+    <span class="material-symbols-outlined">shopping_cart</span>
+    My Cart
+  </div>
+  <div class="upezvBody">
+    <!-- Cart Items List -->
+    <div class="upezvList" id="cartItemsList">
+      <!-- Dynamic cart items will be loaded here -->
+    </div>
+
+    <!-- Cart Summary -->
+    <div class="upezvTotal">
+      <div class="upezvTotalBody">
+        <div class="cart-summary">
+          <div class="summary-item">
+            <span>Subtotal:</span>
+            <span id="subtotalAmount">0 ₺</span>
+          </div>
+          <div class="summary-item">
+            <span>Tax (18%):</span>
+            <span id="taxAmount">0 ₺</span>
+          </div>
+          <div class="summary-item total">
+            <span>Total:</span>
+            <span id="totalAmount">0 ₺</span>
+          </div>
+          <div class="cart-actions">
+            <button class="clear-cart-btn" onclick="clearCart()" style="display: none;">
+              <span class="material-symbols-outlined">delete_sweep</span>
+              Clear Cart
+            </button>
+            <button class="continue-shopping-btn" onclick="continueShopping()">
+              <span class="material-symbols-outlined">storefront</span>
+              Continue Shopping
+            </button>
+            <button class="checkout-btn" onclick="proceedToCheckout()" style="display: none;">
+              <span class="material-symbols-outlined">payment</span>
+              Proceed to Checkout
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Demo actions removed for production -->
+</div>
+
+<script>
+        // Cart messages for en
+        window.cartMessages = {"title":"My Cart","subtotal":"Subtotal","tax":"Tax","total":"Total","checkout":"Proceed to Checkout","emptyCart":"Your cart is empty","removeItem":"Remove Item","loginRequired":"Please login to view your cart.","itemRemoved":"Item removed from cart!","quantityUpdated":"Quantity updated!","cartCleared":"Cart cleared!","proceedingToPayment":"Redirecting to payment page...","errorOccurred":"An error occurred!","clearCart":"Clear Cart","continueShopping":"Continue Shopping","quantity":"Quantity"};
+  // Firebase'den sepet verilerini çek
+  async function loadCart() {
+    try {
+      // Kullanıcı giriş yapmış mı kontrol et
+      if (!user.isLoggedIn || !user.id) {
+        const cartList = document.getElementById('cartItemsList');
+        cartList.innerHTML = `<div class="empty-cart">
+          <span class="material-symbols-outlined">shopping_cart</span>
+          <p>${window.cartMessages?.loginRequired || 'Sepetinizi görmek için giriş yapmanız gerekiyor.'}</p>
+          <button class="login-btn" onclick="window.location.href='/en/login/'">
+            <span class="material-symbols-outlined">login</span>
+            Giriş Yap
+          </button>
+        </div>`;
+        return;
+      }
+
+      // Sepet öğelerini Firebase'den çek
+      const cartSnapshot = await dataListWeb(`users/${user.id}/cart`);
+      const cartList = document.getElementById('cartItemsList');
+
+      if (cartSnapshot.empty) {
+        cartList.innerHTML = `<div class="empty-cart">
+          <span class="material-symbols-outlined">shopping_cart</span>
+          <p>${window.cartMessages?.emptyCart || 'Sepetinizde ürün bulunmuyor'}</p>
+        </div>`;
+        updateCartSummary([]);
+        return;
+      }
+
+      // Sepet öğelerini render et
+      let cartHTML = '';
+      const cartItems = [];
+
+      cartSnapshot.forEach((doc) => {
+        const item = { id: doc.id, ...doc.data() };
+        cartItems.push(item);
+        cartHTML += generateCartItemHTML(item);
+      });
+
+      cartList.innerHTML = cartHTML;
+      updateCartSummary(cartItems);
+
+      // Clear cart ve checkout butonlarını göster
+      document.querySelector('.clear-cart-btn').style.display = 'flex';
+      document.querySelector('.checkout-btn').style.display = 'flex';
+
+    } catch (error) {
+      console.error('Cart loading error:', error);
+      showNotification(window.cartMessages?.errorOccurred || 'Bir hata oluştu!', 'error');
+    }
+  }
+
+  // Sepet öğesi HTML'i oluştur
+  function generateCartItemHTML(item) {
+    return `
+      <div class="upezvListChile" data-item-id="${item.id}">
+        <div class="upezvListChileImg">
+          <img src="${item.image || '/img/no-image.png'}" alt="${item.name}" />
+        </div>
+        <div class="upezvListChileBody">
+          <div class="upezvListChileBodyTitle">
+            <span>${item.name}</span>
+          </div>
+          <div class="upezvListChileBodySpot">${item.category || 'Genel'}</div>
+          <div class="upezvListChileBodyPrice">
+            <div class="upezvListChileBodyPriceBody">${formatPrice(item.price)} ₺</div>
+            <div class="upezvListChileBodyNumber">
+              <button class="quantity-btn" onclick="updateQuantity('${item.id}', ${item.quantity - 1})">
+                <span class="material-symbols-outlined">remove</span>
+              </button>
+              <div class="quantity">${item.quantity}</div>
+              <button class="quantity-btn" onclick="updateQuantity('${item.id}', ${item.quantity + 1})">
+                <span class="material-symbols-outlined">add</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <button class="remove-item" onclick="removeFromCart('${item.id}')" title="${window.cartMessages?.removeItem || 'Ürünü Kaldır'}">
+          <span class="material-symbols-outlined">delete</span>
+        </button>
+      </div>
+    `;
+  }
+
+  // Sepet özetini güncelle
+  function updateCartSummary(cartItems) {
+    let subtotal = 0;
+    cartItems.forEach(item => {
+      subtotal += item.price * item.quantity;
+    });
+
+    const tax = subtotal * 0.18; // 18% KDV
+    const total = subtotal + tax;
+
+    document.getElementById('subtotalAmount').textContent = formatPrice(subtotal) + ' ₺';
+    document.getElementById('taxAmount').textContent = formatPrice(tax) + ' ₺';
+    document.getElementById('totalAmount').textContent = formatPrice(total) + ' ₺';
+  }
+
+  // Fiyat formatlama
+  function formatPrice(price) {
+    return parseFloat(price).toLocaleString('tr-TR', {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2
+    });
+  }
+
+  // Miktar güncelleme
+  async function updateQuantity(itemId, newQuantity) {
+    if (!user.isLoggedIn || !user.id) {
+      showNotification(window.cartMessages?.loginRequired || 'Giriş yapmanız gerekiyor.', 'error');
+      return;
+    }
+
+    try {
+      if (newQuantity <= 0) {
+        await removeFromCart(itemId);
+        return;
+      }
+
+      await dataUpdateWeb(`users/${user.id}/cart`, itemId, { quantity: newQuantity });
+      showNotification(window.cartMessages?.quantityUpdated || 'Miktar güncellendi!', 'success');
+      loadCart(); // Sepeti yeniden yükle
+    } catch (error) {
+      console.error('Quantity update error:', error);
+      showNotification(window.cartMessages?.errorOccurred || 'Bir hata oluştu!', 'error');
+    }
+  }
+
+  // Sepetten kaldır
+  async function removeFromCart(itemId) {
+    if (!user.isLoggedIn || !user.id) {
+      showNotification(window.cartMessages?.loginRequired || 'Giriş yapmanız gerekiyor.', 'error');
+      return;
+    }
+
+    try {
+      await dataDeleteWeb(`users/${user.id}/cart`, itemId);
+      showNotification(window.cartMessages?.itemRemoved || 'Ürün sepetten kaldırıldı!', 'success');
+      loadCart(); // Sepeti yeniden yükle
+    } catch (error) {
+      console.error('Remove item error:', error);
+      showNotification(window.cartMessages?.errorOccurred || 'Bir hata oluştu!', 'error');
+    }
+  }
+
+  // Sepeti temizle
+  async function clearCart() {
+    if (!user.isLoggedIn || !user.id) {
+      showNotification(window.cartMessages?.loginRequired || 'Giriş yapmanız gerekiyor.', 'error');
+      return;
+    }
+
+    if (!confirm('Sepetinizi tamamen temizlemek istediğinizden emin misiniz?')) {
+      return;
+    }
+
+    try {
+      const cartSnapshot = await dataListWeb(`users/${user.id}/cart`);
+      const deletePromises = [];
+
+      cartSnapshot.forEach((doc) => {
+        deletePromises.push(dataDeleteWeb(`users/${user.id}/cart`, doc.id));
+      });
+
+      await Promise.all(deletePromises);
+      showNotification(window.cartMessages?.cartCleared || 'Sepet temizlendi!', 'success');
+      loadCart(); // Sepeti yeniden yükle
+    } catch (error) {
+      console.error('Clear cart error:', error);
+      showNotification(window.cartMessages?.errorOccurred || 'Bir hata oluştu!', 'error');
+    }
+  }
+
+  // Alışverişe devam et
+  function continueShopping() {
+    window.location.href = '/en/urunler/'; // Ürünler sayfasına yönlendir
+  }
+
+  // Ödemeye geç
+  async function proceedToCheckout() {
+    if (!user.isLoggedIn || !user.id) {
+      showNotification(window.cartMessages?.loginRequired || 'Giriş yapmanız gerekiyor.', 'error');
+      return;
+    }
+
+    try {
+      // Sepet boş mu kontrol et
+      const cartSnapshot = await dataListWeb(`users/${user.id}/cart`);
+      if (cartSnapshot.empty) {
+        showNotification('Sepetinizde ürün bulunmuyor!', 'error');
+        return;
+      }
+
+      showNotification(window.cartMessages?.proceedingToPayment || 'Ödeme sayfasına yönlendiriliyorsunuz...', 'info');
+
+      // Ödeme sayfasına yönlendir
+      setTimeout(() => {
+        window.location.href = '/en/odeme/';
+      }, 1500);
+    } catch (error) {
+      console.error('Checkout error:', error);
+      showNotification(window.cartMessages?.errorOccurred || 'Bir hata oluştu!', 'error');
+    }
+  }
+
+  // Demo sepet öğeleri ekleme
+  async function addDemoCartItems() {
+    if (!user.isLoggedIn || !user.id) {
+      showNotification('Demo sepet öğeleri eklemek için giriş yapmanız gerekiyor.', 'error');
+      return;
+    }
+
+    const demoItems = [
+      {
+        name: "Nike Air Max 270",
+        price: 1299.99,
+        quantity: 2,
+        category: "Spor Ayakkabı",
+        image: "https://cdn.dsmcdn.com/ty967/product/media/images/20230717/17/394487857/972401512/1/1_org_zoom.jpg",
+        addedAt: new Date()
+      },
+      {
+        name: "Samsung Galaxy S23",
+        price: 25999.99,
+        quantity: 1,
+        category: "Telefon",
+        image: "https://images.samsung.com/is/image/samsung/p6pim/tr/2302/gallery/tr-galaxy-s23-s911-sm-s911bzadtur-534851764",
+        addedAt: new Date()
+      },
+      {
+        name: "Mechanical Gaming Keyboard",
+        price: 899.99,
+        quantity: 1,
+        category: "Bilgisayar",
+        image: "https://cdn.dsmcdn.com/ty485/product/media/images/20220630/15/136943469/490013059/1/1_org_zoom.jpg",
+        addedAt: new Date()
+      }
+    ];
+
+    try {
+      for (const item of demoItems) {
+        await dataAddWeb(`users/${user.id}/cart`, item);
+      }
+
+      showNotification('Demo sepet öğeleri başarıyla eklendi!', 'success');
+      loadCart(); // Sepeti yeniden yükle
+    } catch (error) {
+      console.error('Demo items add error:', error);
+      showNotification('Demo öğeler eklenirken hata oluştu!', 'error');
+    }
+  }
+
+  // Bildirim sistemi
+  function showNotification(message, type = 'info') {
+    // Mevcut bildirimi kaldır
+    const existingNotification = document.querySelector('.cart-notification');
+    if (existingNotification) {
+      existingNotification.remove();
+    }
+
+    // Yeni bildirim oluştur
+    const notification = document.createElement('div');
+    notification.className = `cart-notification ${type}`;
+    notification.innerHTML = `
+      <span class="material-symbols-outlined">
+        ${type === 'success' ? 'check_circle' : type === 'error' ? 'error' : 'info'}
+      </span>
+      ${message}
+    `;
+
+    // Bildirim stilini ekle
+    notification.style.cssText = `
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: ${type === 'success' ? '#22c55e' : type === 'error' ? '#ef4444' : '#3b82f6'};
+      color: white;
+      padding: 12px 16px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      z-index: 1000;
+    display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 500;
+      animation: slideIn 0.3s ease-out;
+    `;
+
+    document.body.appendChild(notification);
+
+    // 3 saniye sonra kaldır
+    setTimeout(() => {
+      notification.style.animation = 'slideOut 0.3s ease-in';
+      setTimeout(() => {
+        if (notification.parentNode) {
+          notification.remove();
+        }
+      }, 300);
+    }, 3000);
+  }
+
+  // Authentication state değişikliklerini dinle
+  authStateListenerWeb((firebaseUser) => {
+    if (firebaseUser) {
+      // Kullanıcı giriş yapmış, sepeti yükle
+      setTimeout(() => {
+        loadCart();
+      }, 500); // Firebase user objesi güncellenmesi için biraz bekle
+    } else {
+      // Kullanıcı giriş yapmamış
+      document.getElementById('cartList').innerHTML =
+        '<div class="no-cart">Sepetinizi görmek için giriş yapmanız gerekiyor.</div>';
+    }
+  });
+</script>
+
+
+</div>
   <div id="footer"><!-- Google Material Icons -->
 <link
   href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -109,28 +476,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="shjhl-trust-boxes">
-      <div class="shjhl-trust-item">
+<div class="z2kzp-trust-boxes">
+      <div class="z2kzp-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="shjhl-trust-text">
-          <div class="shjhl-trust-title">100% Secure Payment</div>
-          <div class="shjhl-trust-desc">Secure Payment with 3D Secure</div>
+        <div class="z2kzp-trust-text">
+          <div class="z2kzp-trust-title">100% Secure Payment</div>
+          <div class="z2kzp-trust-desc">Secure Payment with 3D Secure</div>
         </div>
       </div>
     
-      <div class="shjhl-trust-item">
+      <div class="z2kzp-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="shjhl-trust-text">
-          <div class="shjhl-trust-title">100% Original Product</div>
-          <div class="shjhl-trust-desc">Activation with 100% Licensed Original Product</div>
+        <div class="z2kzp-trust-text">
+          <div class="z2kzp-trust-title">100% Original Product</div>
+          <div class="z2kzp-trust-desc">Activation with 100% Licensed Original Product</div>
         </div>
       </div>
     
-      <div class="shjhl-trust-item">
+      <div class="z2kzp-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="shjhl-trust-text">
-          <div class="shjhl-trust-title">Fast Delivery</div>
-          <div class="shjhl-trust-desc">Online Fast Delivery for All Your Shopping</div>
+        <div class="z2kzp-trust-text">
+          <div class="z2kzp-trust-title">Fast Delivery</div>
+          <div class="z2kzp-trust-desc">Online Fast Delivery for All Your Shopping</div>
         </div>
       </div>
     </div>
@@ -203,11 +570,11 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=xw6mw"></script>
+<script type="text/javascript" src="/src/js.js?v=ffb9q"></script>
 
 
 
 
-<script src="/src/cookie.js?v=xw6mw"></script>
+<script src="/src/cookie.js?v=ffb9q"></script>
 
 </html>

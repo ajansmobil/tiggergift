@@ -12,7 +12,7 @@
       "category": "",
       "id": "w081f8hwbq",
       "url": "",
-      "path": "bakir-4",
+      "path": "bakir4",
       "index": 0,
       "desing": {
         "header": [],
@@ -20,8 +20,6 @@
         "footer": []
       },
       "pathnext": "",
-      "icon": "home",
-      "img": "b2kfo.png",
       "desc": {}
     },
     {
@@ -33,7 +31,7 @@
       "category": "",
       "id": "q2sq7c0knd",
       "url": "",
-      "path": "bakir-3",
+      "path": "bakir3",
       "index": 1,
       "desing": {
         "header": [],
@@ -41,8 +39,6 @@
         "footer": []
       },
       "pathnext": "",
-      "icon": "home",
-      "img": "bxn7s.png",
       "desc": {}
     },
     {
@@ -54,7 +50,7 @@
       "category": "",
       "id": "y2ysbavd0q",
       "url": "",
-      "path": "bakir-2",
+      "path": "bakir2",
       "index": 2,
       "desing": {
         "header": [],
@@ -62,13 +58,11 @@
         "footer": []
       },
       "pathnext": "",
-      "icon": "home",
-      "img": "hoak3.png",
       "desc": {}
     },
     {
       "name": {
-        "tr": "Bakır",
+        "tr": "Bakır 1",
         "en": ""
       },
       "status": "play",
@@ -83,8 +77,6 @@
         "footer": []
       },
       "pathnext": "",
-      "icon": "home",
-      "img": "janqm.png",
       "desc": {}
     }
   ],

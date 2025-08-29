@@ -9,19 +9,18 @@
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <title>Customers</title>
-  <meta name="description" content="[object Object]" />
-  <meta name="keywords" content="[object Object]" />
+  <meta name="description" content="undefined" />
+  <meta name="keywords" content="undefined" />
   <meta property="og:title" content="Customers" />
-  <meta property="og:description" content="[object Object]" />
+  <meta property="og:description" content="undefined" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=jnjfr" />
-  <link rel="shortcut icon" href="/img/icon.png?v=jnjfr" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=hlf01" />
+  <link rel="shortcut icon" href="/img/icon.png?v=hlf01" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
     rel="stylesheet" />
-  <script type="text/javascript" src="/src/firebase.js?v=jnjfr"></script>
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -48,28 +47,29 @@
   const db = firebase.firestore();
 </script>
 
-<link rel="stylesheet" href="style.css?v=jnjfr">
+
+
+  <script type="text/javascript" src="/src/firebase.js?v=hlf01"></script>
+
+
+<link rel="stylesheet" href="style.css?v=hlf01">
 </head>
 
 <body>
-  <div id="header"><header class="gu8ka-header-wrapper">
-  <div class="gu8ka-header">
-    <div class="gu8ka-header-top">
-      <a href="/en/" class="gu8ka-header-left">
-        <img
-          src="/img/logo.png?v=jnjfr"
-          alt="Tiggergift Logo"
-          class="gu8ka-logo"
-        />
+  <div id="header"><header class="ez9dw-header-wrapper">
+  <div class="ez9dw-header">
+    <div class="ez9dw-header-top">
+      <a href="/en/" class="ez9dw-header-left">
+        <img src="/img/logo.png?v=hlf01" alt="Tiggergift Logo" class="ez9dw-logo" />
       </a>
 
-      <div class="gu8ka-search-box">
+      <div class="ez9dw-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="gu8ka-support-info">
+      <div class="ez9dw-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
@@ -77,182 +77,775 @@
         </div>
       </div>
 
-      <div class="gu8ka-icons">
-        <a href="/en/user/" class="material-symbols-outlined">person</a>
-        <a href="/en/favori/" class="material-symbols-outlined"
-          >favorite</a
-        >
-        <a href="/en/basket/" class="material-symbols-outlined"
-          >shopping_cart</a
-        >
+      <div class="ez9dw-icons">
+        <a href="/en/login/" class="material-symbols-outlined">person</a>
+        <a href="/en/favorilerim/" class="material-symbols-outlined">favorite</a>
+        <a href="/en/basket/" class="material-symbols-outlined">shopping_cart</a>
       </div>
     </div>
   </div>
 
-  <div class="gu8ka-header-bottom">
-    <div class="gu8ka-header-bottom-inner">
-      <button class="gu8ka-category-btn">
+  <div class="ez9dw-header-bottom">
+    <div class="ez9dw-header-bottom-inner">
+      <button class="ez9dw-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="gu8ka-main-menu"><a href="/en/urunlerimiz/"></a><a href="/en/baklava/"></a><a href="/en/kurumsal/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
+      <nav class="ez9dw-main-menu"><a href="/en/urunlerimiz/"></a><a href="/en/baklava/"></a><a href="/en/kurumsal/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
     </div>
   </div>
 </header>
 
 
 </div>
-  <div id="content"><div class="wu1r2">
-  <div class="wu1r2-menu">
-    <a href="/en/admin/" class="wu1r2-profile">
-      <div class="wu1r2-user-img"></div>
-      <div>Üye Adı Soyadı</div>
-    </a>
-    
- <div class="wu1r2-menu-category">
-  
-    <a href="/en/admin/" >
-      <span class="material-symbols-outlined">home</span>
-      <div> Admin </div>
-    </a>
-    
-    <a href="/en/siparisler/" >
-      <span class="material-symbols-outlined">shopping_cart</span>
-      <div> Siparişler </div>
-    </a>
-    
-    <a href="/en/urunler/" >
-      <span class="material-symbols-outlined">inventory</span>
-      <div> Ürünler </div>
-    </a>
-    
-    <a href="/en/kategoriler/" >
-      <span class="material-symbols-outlined">category</span>
-      <div> Kategoriler </div>
-    </a>
-    
-    <a class="wu1r2-menu-active" href="/en/musteriler/" >
-      <span class="material-symbols-outlined">people</span>
-      <div> Müşteriler </div>
-    </a>
-    
-    <a href="/en/kampanyalar/" >
-      <span class="material-symbols-outlined">campaign</span>
-      <div> Kampanyalar </div>
-    </a>
-    
-    <a href="/en/odemeler/" >
-      <span class="material-symbols-outlined">payment</span>
-      <div> Ödemeler </div>
-    </a>
-    
-    <a href="/en/raporlar/" >
-      <span class="material-symbols-outlined">analytics</span>
-      <div> Raporlar </div>
-    </a>
-    
-    <a href="/en/moduller/" >
-      <span class="material-symbols-outlined">extension</span>
-      <div> Moduller </div>
-    </a>
-    
-    <a href="/en/uyeler/" >
-      <span class="material-symbols-outlined">admin_panel_settings</span>
-      <div> Üyeler </div>
-    </a>
-    
-    <a href="/en/ayarlar/" >
-      <span class="material-symbols-outlined">settings</span>
-      <div> Ayarlar </div>
-    </a>
-    
-    <a href="/en/loglar/" >
-      <span class="material-symbols-outlined">history</span>
-      <div> Loglar </div>
-    </a>
-    </div>
-  </div>
-  <div class="wu1r2-body"><div class="y2o0q">
-  <div class="y2o0q-body">
-    <div class="y2o0q-login-menu">
-      <div id="y2o0q-login-menu-left">Login</div>
-      <div id="y2o0q-login-menu-right">Üye Ol</div>
-    </div>
-    <div class="y2o0q-body-form" id="y2o0q-login">
-      <div class="input-container">
-        <input type="text" class="inputmatrix1" placeholder="Mail Adresiniz" />
-        <label for="input" class="placeholder">Mail Adresiniz</label>
-      </div>
-      <div class="input-container">
-        <input type="text" class="inputmatrix1" placeholder="Şifre" />
-        <label for="input" class="placeholder">Şifre</label>
-      </div>
-      <div class="y2o0q-null">Şifremi Unuttum</div>
-      <a href="/en/user/" class="y2o0q-button">Giriş Yap</a>
-    </div>
-    <div class="y2o0q-body-form" id="y2o0q-memberol">
-      <div class="input-container">
-        <input
-          type="text"
-          class="inputmatrix1"
-          placeholder="Your Name and Surname"
-        />
-        <label for="input" class="placeholder">Your Name and Surname</label>
-      </div>
-      <div class="input-container">
-        <input type="text" class="inputmatrix1" placeholder="Mail Adresiniz" />
-        <label for="input" class="placeholder">Mail Adresiniz</label>
-      </div>
-      <div class="input-container">
-        <input type="text" class="inputmatrix1" placeholder="Şifre" />
-        <label for="input" class="placeholder">Şifre</label>
-      </div>
-      <div class="input-container">
-        <input type="text" class="inputmatrix1" placeholder="Şifre Tekrar" />
-        <label for="input" class="placeholder">Şifre Tekrar</label>
-      </div>
-      <div class="y2o0q-button">Üye Ol</div>
-      <div class="y2o0q-null">Üye misin?</div>
-    </div>
-    <div class="media-login">
-      <div>
-        <img src="/src/icon/google.png" height="35" alt="Google ile Giriş" />
-        <div>Google İle Giriş Yap</div>
-      </div>
-      <div>
-        <img src="/src/icon/apple.png" height="35" alt="Apple ile Giriş" />
-        <div>Apple ile Giriş Yap</div>
-      </div>
-    </div>
+  <div id="content"><!-- Loading Screen -->
+<div class="admin-loading-overlay" id="adminLoadingOverlay">
+  <div class="admin-loading-content">
+    <div class="admin-loading-spinner"></div>
+    <div class="admin-loading-text">Giriş kontrol ediliyor...</div>
   </div>
 </div>
 
+<!-- Main Content -->
+<div class="p3u12" id="adminMainContent" style="display: none;">
+  <div class="p3u12-menu">
+    <a href="/en/admin/" class="p3u12-profile">
+      <div class="p3u12-user-img" id="userAvatar"></div>
+      <div id="userName">Yükleniyor...</div>
+    </a>
+    <div class="p3u12-menu-category">
+    <a href="/en/admin/" >
+      <span class="material-symbols-outlined">home</span>
+      <div>Admin</div>
+    </a>
+    <a href="/en/admin-urunler/" >
+      <span class="material-symbols-outlined">home</span>
+      <div>Ürünler</div>
+    </a>
+    <a href="/en/admin-siparisler/" >
+      <span class="material-symbols-outlined">shopping_cart</span>
+      <div>Orders</div>
+    </a>
+    <a href="/en/adminkategoriler/" >
+      <span class="material-symbols-outlined">home</span>
+      <div>Kategoriler</div>
+    </a>
+    <a class="p3u12-menu-active" href="/en/musteriler/" >
+      <span class="material-symbols-outlined">people</span>
+      <div>Customers</div>
+    </a>
+    <a href="/en/moduller/" >
+      <span class="material-symbols-outlined">home</span>
+      <div>Moduller</div>
+    </a>
+    <a href="/en/kampanyalar/" >
+      <span class="material-symbols-outlined">campaign</span>
+      <div>Campaigns</div>
+    </a>
+    <a href="/en/odemeler/" >
+      <span class="material-symbols-outlined">payment</span>
+      <div>Payments</div>
+    </a>
+    <a href="/en/raporlar/" >
+      <span class="material-symbols-outlined">analytics</span>
+      <div>Reports</div>
+    </a>
+    <a href="/en/adminayarlar/" >
+      <span class="material-symbols-outlined">settings</span>
+      <div>Settings</div>
+    </a>
+    <a href="/en/loglar/" >
+      <span class="material-symbols-outlined">history</span>
+      <div>Logs</div>
+    </a></div>
+  </div>
+  <div class="p3u12-body"><div class="ly9du-admin-musteriler">
+    <!-- Sayfa Başlığı -->
+    <div class="ly9du-page-header">
+        <div class="ly9du-header-left">
+            <h1>{{pageTitle}}</h1>
+            <p class="ly9du-header-subtitle">
+                <span class="material-symbols-outlined">people</span>
+                {{pageSubtitle}}
+            </p>
+        </div>
+        <div class="ly9du-header-right">
+            <div class="ly9du-header-actions">
+                <button class="ly9du-btn ly9du-btn-primary" onclick="loadCustomers()">
+                    <span class="material-symbols-outlined">refresh</span>
+                    {{refreshButton}}
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Müşteri İstatistikleri -->
+    <div class="ly9du-customers-stats">
+        <div class="ly9du-stat-item ly9du-stat-total">
+            <div class="ly9du-stat-icon">
+                <span class="material-symbols-outlined">people</span>
+            </div>
+            <div class="ly9du-stat-content">
+                <div class="ly9du-stat-number" id="total_customers">0</div>
+                <div class="ly9du-stat-label">Toplam Müşteri</div>
+            </div>
+        </div>
+
+        <div class="ly9du-stat-item ly9du-stat-active">
+            <div class="ly9du-stat-icon">
+                <span class="material-symbols-outlined">verified</span>
+            </div>
+            <div class="ly9du-stat-content">
+                <div class="ly9du-stat-number" id="active_customers">0</div>
+                <div class="ly9du-stat-label">Aktif Müşteriler</div>
+            </div>
+        </div>
+
+        <div class="ly9du-stat-item ly9du-stat-new">
+            <div class="ly9du-stat-icon">
+                <span class="material-symbols-outlined">person_add</span>
+            </div>
+            <div class="ly9du-stat-content">
+                <div class="ly9du-stat-number" id="new_customers">0</div>
+                <div class="ly9du-stat-label">Bu Ay Yeni</div>
+            </div>
+        </div>
+
+        <div class="ly9du-stat-item ly9du-stat-orders">
+            <div class="ly9du-stat-icon">
+                <span class="material-symbols-outlined">shopping_cart</span>
+            </div>
+            <div class="ly9du-stat-content">
+                <div class="ly9du-stat-number" id="customers_with_orders">0</div>
+                <div class="ly9du-stat-label">Sipariş Veren</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Filtreleme ve Arama -->
+    <div class="ly9du-search-filters">
+        <div class="ly9du-filter-options">
+            <div class="ly9du-search-box">
+                <span class="material-symbols-outlined">search</span>
+                <input type="text" id="searchInput" placeholder="Ad, soyad, email ara..." onkeyup="filterCustomers()">
+            </div>
+            <select id="statusFilter" onchange="filterCustomers()">
+                <option value="">Tüm Durumlar</option>
+                <option value="active">Aktif</option>
+                <option value="inactive">Pasif</option>
+            </select>
+            <input type="date" id="dateFilter" onchange="filterCustomers()" placeholder="Kayıt tarihi">
+        </div>
+    </div>
+
+    <!-- Müşteri Tablosu -->
+    <div class="ly9du-customers-table-container">
+        <div class="ly9du-customers-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="ly9du-th-avatar">Avatar</th>
+                        <th class="ly9du-th-name">Ad Soyad</th>
+                        <th class="ly9du-th-email">Email</th>
+                        <th class="ly9du-th-phone">Telefon</th>
+                        <th class="ly9du-th-orders">Sipariş</th>
+                        <th class="ly9du-th-total">Toplam</th>
+                        <th class="ly9du-th-date">Kayıt Tarihi</th>
+                        <th class="ly9du-th-status">Durum</th>
+                        <th class="ly9du-th-actions">İşlemler</th>
+                    </tr>
+                </thead>
+                <tbody id="customers-table-body">
+                    <!-- Müşteriler JavaScript ile buraya yüklenecek -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Sayfalama -->
+        <div class="ly9du-pagination">
+            <button class="ly9du-btn ly9du-btn-secondary" id="prevPage" onclick="changePage(-1)">
+                <span class="material-symbols-outlined">chevron_left</span>
+                Önceki
+            </button>
+            <span class="ly9du-page-info">
+                Sayfa <span id="currentPage">1</span> / <span id="totalPages">1</span>
+            </span>
+            <button class="ly9du-btn ly9du-btn-secondary" id="nextPage" onclick="changePage(1)">
+                Sonraki
+                <span class="material-symbols-outlined">chevron_right</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Müşteri Detay Modalı -->
+    <div id="customerDetailModal" class="ly9du-modal">
+        <div class="ly9du-modal-content">
+            <div class="ly9du-modal-header">
+                <h3>Müşteri Detayı</h3>
+                <span class="ly9du-modal-close" onclick="closeModal('customerDetailModal')">&times;</span>
+            </div>
+            <div class="ly9du-modal-body" id="customerDetailContent">
+                <!-- Müşteri detayları buraya yüklenecek -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 <script>
-  document
-    .getElementById("y2o0q-login-menu-left")
-    .addEventListener("click", function () {
-      document.getElementById("y2o0q-login-menu-left").style.backgroundColor =
-        "#101010";
-      document.getElementById(
-        "y2o0q-login-menu-right",
-      ).style.backgroundColor = "#7b560d";
-      document.getElementById("y2o0q-login").style.display = "flex";
-      document.getElementById("y2o0q-memberol").style.display = "none";
+    // Global değişkenler
+    let allCustomers = [];
+    let filteredCustomers = [];
+    let currentPage = 1;
+    const ITEMS_PER_PAGE = 10;
+
+    // Sayfa yüklendiğinde çalış
+    document.addEventListener('DOMContentLoaded', function () {
+        loadCustomers();
     });
-  document
-    .getElementById("y2o0q-login-menu-right")
-    .addEventListener("click", function () {
-      document.getElementById(
-        "y2o0q-login-menu-right",
-      ).style.backgroundColor = "#101010";
-      document.getElementById("y2o0q-login-menu-left").style.backgroundColor =
-        "#7b560d";
-      document.getElementById("y2o0q-login").style.display = "none";
-      document.getElementById("y2o0q-memberol").style.display = "flex";
-    });
+
+    // Müşterileri yükle
+    async function loadCustomers() {
+        const tableBody = document.getElementById("customers-table-body");
+        tableBody.innerHTML = '<tr><td colspan="9" style="text-align: center; padding: 40px;">Müşteriler yükleniyor...</td></tr>';
+
+        try {
+            const customersSnapshot = await dataListWeb('users');
+            allCustomers = [];
+
+            customersSnapshot.forEach(doc => {
+                const customer = doc.data();
+                customer.id = doc.id;
+                allCustomers.push(customer);
+            });
+
+            // İstatistikleri güncelle
+            updateStatistics();
+
+            // Filtrelenmiş müşterileri ayarla
+            filteredCustomers = [...allCustomers];
+
+            // Sayfalama ve tabloyu güncelle
+            updatePagination();
+            renderCurrentPage();
+
+            if (allCustomers.length === 0) {
+                tableBody.innerHTML = `
+                    <tr>
+                        <td colspan="9" style="text-align: center; padding: 40px; color: #6c757d;">
+                            <div style="font-size: 16px;">Henüz müşteri bulunmuyor</div>
+                        </td>
+                    </tr>
+                `;
+            }
+        } catch (error) {
+            console.error('Müşteriler yüklenirken hata:', error);
+            tableBody.innerHTML = `
+                <tr>
+                    <td colspan="9" style="text-align: center; padding: 40px; color: #dc3545;">
+                        <div style="font-size: 16px; margin-bottom: 10px;">Veriler yüklenirken hata oluştu</div>
+                        <button class="ly9du-btn ly9du-btn-primary" onclick="loadCustomers()">
+                            <span class="material-symbols-outlined">refresh</span>
+                            Tekrar Dene
+                        </button>
+                    </td>
+                </tr>
+            `;
+        }
+    }
+
+    // İstatistikleri güncelle
+    function updateStatistics() {
+        const totalCustomers = allCustomers.length;
+        const activeCustomers = allCustomers.filter(c => c.isActive !== false).length;
+        const thisMonth = new Date();
+        thisMonth.setMonth(thisMonth.getMonth() - 1);
+        const newCustomers = allCustomers.filter(c => {
+            const createdAt = c.createdAt ? new Date(c.createdAt.seconds * 1000) : new Date();
+            return createdAt > thisMonth;
+        }).length;
+
+        document.getElementById('total_customers').textContent = totalCustomers;
+        document.getElementById('active_customers').textContent = activeCustomers;
+        document.getElementById('new_customers').textContent = newCustomers;
+        document.getElementById('customers_with_orders').textContent = '0'; // TODO: Sipariş sayısı hesaplanacak
+    }
+
+    // Müşterileri filtrele
+    function filterCustomers() {
+        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+        const statusFilter = document.getElementById('statusFilter').value;
+        const dateFilter = document.getElementById('dateFilter').value;
+
+        filteredCustomers = allCustomers.filter(customer => {
+            // Arama filtresi
+            const searchMatch = !searchTerm ||
+                (customer.firstName && customer.firstName.toLowerCase().includes(searchTerm)) ||
+                (customer.lastName && customer.lastName.toLowerCase().includes(searchTerm)) ||
+                (customer.email && customer.email.toLowerCase().includes(searchTerm));
+
+            // Durum filtresi
+            const statusMatch = !statusFilter ||
+                (statusFilter === 'active' && customer.isActive !== false) ||
+                (statusFilter === 'inactive' && customer.isActive === false);
+
+            // Tarih filtresi
+            let dateMatch = true;
+            if (dateFilter && customer.createdAt) {
+                const customerDate = new Date(customer.createdAt.seconds * 1000).toISOString().split('T')[0];
+                dateMatch = customerDate === dateFilter;
+            }
+
+            return searchMatch && statusMatch && dateMatch;
+        });
+
+        // Sayfalama ve tabloyu güncelle
+        currentPage = 1;
+        updatePagination();
+        renderCurrentPage();
+    }
+
+    // Sayfalama güncelle
+    function updatePagination() {
+        const totalPages = Math.ceil(filteredCustomers.length / ITEMS_PER_PAGE);
+        document.getElementById('totalPages').textContent = totalPages;
+        document.getElementById('currentPage').textContent = currentPage;
+
+        document.getElementById('prevPage').disabled = currentPage <= 1;
+        document.getElementById('nextPage').disabled = currentPage >= totalPages;
+    }
+
+    // Sayfa değiştir
+    function changePage(direction) {
+        const newPage = currentPage + direction;
+        const totalPages = Math.ceil(filteredCustomers.length / ITEMS_PER_PAGE);
+
+        if (newPage >= 1 && newPage <= totalPages) {
+            currentPage = newPage;
+            updatePagination();
+            renderCurrentPage();
+        }
+    }
+
+    // Mevcut sayfayı render et
+    function renderCurrentPage() {
+        const tableBody = document.getElementById("customers-table-body");
+        tableBody.innerHTML = "";
+
+        const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+        const endIndex = startIndex + ITEMS_PER_PAGE;
+        const pageCustomers = filteredCustomers.slice(startIndex, endIndex);
+
+        if (pageCustomers.length === 0) {
+            tableBody.innerHTML = `
+                <tr>
+                    <td colspan="9" style="text-align: center; padding: 40px; color: #6c757d;">
+                        <div style="font-size: 16px;">Filtrelenen kriterlere uygun müşteri bulunamadı</div>
+                    </td>
+                </tr>
+            `;
+            return;
+        }
+
+        pageCustomers.forEach(customer => {
+            const row = createCustomerRow(customer);
+            tableBody.appendChild(row);
+        });
+    }
+
+    // Müşteri satırı oluştur
+    function createCustomerRow(customer) {
+        const row = document.createElement("tr");
+
+        const fullName = `${customer.firstName || ''} ${customer.lastName || ''}`.trim() || 'İsimsiz';
+        const statusBadge = `<span class="ly9du-status-badge ly9du-status-${customer.isActive !== false ? 'active' : 'inactive'}">${customer.isActive !== false ? 'Aktif' : 'Pasif'}</span>`;
+        const createdDate = customer.createdAt ? new Date(customer.createdAt.seconds * 1000).toLocaleDateString('tr-TR') : 'Bilinmiyor';
+        const avatarUrl = customer.photoURL || `https://ui-avatars.com/api/?name=${encodeURIComponent(fullName)}&background=random&color=fff&size=40`;
+
+        row.innerHTML = `
+            <td>
+                <img src="${avatarUrl}" alt="${fullName}" class="ly9du-customer-avatar" onerror="this.src='https://ui-avatars.com/api/?name=U&background=ddd&color=999&size=40'">
+            </td>
+            <td>
+                <div class="ly9du-customer-info">
+                    <div class="ly9du-customer-name">${fullName}</div>
+                </div>
+            </td>
+            <td>${customer.email || 'Belirtilmemiş'}</td>
+            <td>${customer.phone || 'Belirtilmemiş'}</td>
+            <td style="text-align: center; font-weight: 600;">0</td>
+            <td style="font-weight: 600; color: var(--color, #007bff);">0₺</td>
+            <td>${createdDate}</td>
+            <td>${statusBadge}</td>
+            <td>
+                <div class="ly9du-action-buttons">
+                    <button class="ly9du-btn ly9du-btn-sm ly9du-btn-info" onclick="viewCustomer('${customer.id}')">
+                        <span class="material-symbols-outlined">visibility</span>
+                    </button>
+                    <button class="ly9du-btn ly9du-btn-sm ly9du-btn-danger" onclick="toggleCustomerStatus('${customer.id}')">
+                        <span class="material-symbols-outlined">${customer.isActive !== false ? 'block' : 'check'}</span>
+                    </button>
+                </div>
+            </td>
+        `;
+
+        return row;
+    }
+
+    // Müşteri görüntüle
+    function viewCustomer(customerId) {
+        const customer = allCustomers.find(c => c.id === customerId);
+        if (!customer) return;
+
+        const content = createCustomerDetailHTML(customer);
+        document.getElementById('customerDetailContent').innerHTML = content;
+        openModal('customerDetailModal');
+    }
+
+    // Müşteri detay HTML'i oluştur
+    function createCustomerDetailHTML(customer) {
+        const fullName = `${customer.firstName || ''} ${customer.lastName || ''}`.trim() || 'İsimsiz';
+        const createdDate = customer.createdAt ? new Date(customer.createdAt.seconds * 1000).toLocaleString('tr-TR') : 'Bilinmiyor';
+        const lastLoginDate = customer.lastLoginAt ? new Date(customer.lastLoginAt.seconds * 1000).toLocaleString('tr-TR') : 'Hiç giriş yapmamış';
+
+        return `
+            <div class="ly9du-customer-detail">
+                <div class="ly9du-detail-section">
+                    <h4>Kişisel Bilgiler</h4>
+                    <div class="ly9du-detail-grid">
+                        <div class="ly9du-detail-item">
+                            <label>Ad Soyad:</label>
+                            <span>${fullName}</span>
+                        </div>
+                        <div class="ly9du-detail-item">
+                            <label>Email:</label>
+                            <span>${customer.email || 'Belirtilmemiş'}</span>
+                        </div>
+                        <div class="ly9du-detail-item">
+                            <label>Telefon:</label>
+                            <span>${customer.phone || 'Belirtilmemiş'}</span>
+                        </div>
+                        <div class="ly9du-detail-item">
+                            <label>Durum:</label>
+                            <span>${customer.isActive !== false ? 'Aktif' : 'Pasif'}</span>
+                        </div>
+                        <div class="ly9du-detail-item">
+                            <label>Kayıt Tarihi:</label>
+                            <span>${createdDate}</span>
+                        </div>
+                        <div class="ly9du-detail-item">
+                            <label>Son Giriş:</label>
+                            <span>${lastLoginDate}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    // Müşteri durumunu değiştir
+    async function toggleCustomerStatus(customerId) {
+        const customer = allCustomers.find(c => c.id === customerId);
+        if (!customer) return;
+
+        const newStatus = customer.isActive !== false ? false : true;
+        const actionText = newStatus ? 'aktif hale getirmek' : 'pasif hale getirmek';
+
+        if (!confirm(`Bu müşteriyi ${actionText} istediğinizden emin misiniz?`)) return;
+
+        try {
+            await dataUpdateWeb('users', customerId, { isActive: newStatus });
+            showNotification(`Müşteri başarıyla ${newStatus ? 'aktif' : 'pasif'} hale getirildi!`, 'success');
+            loadCustomers();
+        } catch (error) {
+            console.error('Müşteri durumu güncellenirken hata:', error);
+            showNotification('Müşteri durumu güncellenirken hata oluştu!', 'error');
+        }
+    }
+
+    // Modal aç/kapat
+    function openModal(modalId) {
+        document.getElementById(modalId).style.display = 'block';
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal(modalId) {
+        document.getElementById(modalId).style.display = 'none';
+        document.body.style.overflow = 'auto';
+    }
+
+    // Bildirim göster
+    function showNotification(message, type = 'info') {
+        const notification = document.createElement('div');
+        notification.className = `ly9du-notification ly9du-notification-${type}`;
+        notification.textContent = message;
+        notification.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 12px 20px;
+            border-radius: 8px;
+            color: white;
+            font-weight: 500;
+            z-index: 1001;
+            animation: slideInRight 0.3s ease;
+            max-width: 300px;
+            background: ${type === 'success' ? '#28a745' : type === 'error' ? '#dc3545' : '#17a2b8'};
+        `;
+
+        document.body.appendChild(notification);
+
+        setTimeout(() => {
+            notification.remove();
+        }, 3000);
+    }
+
+    // Modal dışına tıklandığında kapat
+    window.onclick = function (event) {
+        const modals = document.querySelectorAll('.ly9du-modal');
+        modals.forEach(modal => {
+            if (event.target === modal) {
+                closeModal(modal.id);
+            }
+        });
+    }
 </script>
 </div>
 </div>
 
+
+<script>
+  // Firebase'den kullanıcı bilgilerini yükle
+  async function loadUserProfile() {
+    try {
+      // Global user objesini kontrol et
+      const currentUser = window.user || {};
+
+      if (!currentUser.isLoggedIn || !currentUser.id) {
+        document.getElementById('userName').textContent = 'Admin Kullanıcı';
+
+        // Varsayılan avatar
+        const avatarUrl = `https://ui-avatars.com/api/?name=Admin&background=007bff&color=fff&size=40`;
+        document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+        document.getElementById('userAvatar').style.backgroundSize = 'cover';
+        document.getElementById('userAvatar').style.backgroundPosition = 'center';
+        return;
+      }
+
+      // Firebase'den kullanıcı bilgilerini almaya çalış
+      if (typeof dataListWeb === 'function') {
+        try {
+          const userSnapshot = await dataListWeb(`users`);
+          let userData = null;
+
+          // Kullanıcıyı ID ile bul
+          userSnapshot.forEach(doc => {
+            if (doc.id === currentUser.id) {
+              userData = doc.data();
+            }
+          });
+
+          if (userData) {
+            // Kullanıcı adını güncelle
+            const fullName = `${userData.firstName || ''} ${userData.lastName || ''}`.trim();
+            document.getElementById('userName').textContent = fullName || userData.email || currentUser.email || 'Kullanıcı';
+
+            // Profil fotoğrafını güncelle
+            const avatarElement = document.getElementById('userAvatar');
+            if (userData.photoURL) {
+              avatarElement.style.backgroundImage = `url(${userData.photoURL})`;
+              avatarElement.style.backgroundSize = 'cover';
+              avatarElement.style.backgroundPosition = 'center';
+            } else {
+              // UI Avatars ile otomatik avatar oluştur
+              const displayName = fullName || userData.email || currentUser.email || 'U';
+              const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&background=random&color=fff&size=40`;
+              avatarElement.style.backgroundImage = `url(${avatarUrl})`;
+              avatarElement.style.backgroundSize = 'cover';
+              avatarElement.style.backgroundPosition = 'center';
+            }
+          } else {
+            // Kullanıcı verisi bulunamazsa email'den isim çıkar
+            const displayName = currentUser.email ? currentUser.email.split('@')[0] : currentUser.name || 'Kullanıcı';
+            document.getElementById('userName').textContent = displayName;
+
+            // Varsayılan avatar
+            const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&background=random&color=fff&size=40`;
+            document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+            document.getElementById('userAvatar').style.backgroundSize = 'cover';
+            document.getElementById('userAvatar').style.backgroundPosition = 'center';
+          }
+        } catch (fbError) {
+          console.log('Firebase veri çekme hatası:', fbError);
+          // Firebase hatası varsa localStorage'daki bilgileri kullan
+          const displayName = currentUser.email ? currentUser.email.split('@')[0] : currentUser.name || 'Kullanıcı';
+          document.getElementById('userName').textContent = displayName;
+
+          const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&background=007bff&color=fff&size=40`;
+          document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+          document.getElementById('userAvatar').style.backgroundSize = 'cover';
+          document.getElementById('userAvatar').style.backgroundPosition = 'center';
+        }
+      } else {
+        // dataListWeb fonksiyonu yoksa localStorage bilgilerini kullan
+        const displayName = currentUser.email ? currentUser.email.split('@')[0] : currentUser.name || 'Kullanıcı';
+        document.getElementById('userName').textContent = displayName;
+
+        const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&background=007bff&color=fff&size=40`;
+        document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+        document.getElementById('userAvatar').style.backgroundSize = 'cover';
+        document.getElementById('userAvatar').style.backgroundPosition = 'center';
+      }
+
+    } catch (error) {
+      console.error('Kullanıcı profili yüklenirken hata:', error);
+      document.getElementById('userName').textContent = 'Admin Kullanıcı';
+
+      const avatarUrl = `https://ui-avatars.com/api/?name=Admin&background=dc3545&color=fff&size=40`;
+      document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+      document.getElementById('userAvatar').style.backgroundSize = 'cover';
+      document.getElementById('userAvatar').style.backgroundPosition = 'center';
+    }
+  }
+
+  // Admin sayfası için authentication kontrolü
+  function checkAdminAccess() {
+    const loadingOverlay = document.getElementById('adminLoadingOverlay');
+    const mainContent = document.getElementById('adminMainContent');
+
+    // Önce localStorage'dan user bilgisini kontrol et
+    try {
+      const storedUser = localStorage.getItem('user');
+      if (storedUser) {
+        const userData = JSON.parse(storedUser);
+        if (userData.isLoggedIn && userData.id) {
+          console.log('User authenticated from localStorage:', userData.id);
+
+          // Loading ekranını gizle ve ana içeriği göster
+          setTimeout(() => {
+            loadingOverlay.style.display = 'none';
+            mainContent.style.display = 'flex';
+
+            // Global user objesini güncelle
+            if (typeof window.user === 'undefined') {
+              window.user = userData;
+            }
+
+            // Profil bilgilerini yükle
+            loadUserProfile();
+          }, 500);
+          return;
+        }
+      }
+    } catch (error) {
+      console.log('localStorage user kontrolü hatası:', error);
+    }
+
+    // Firebase authentication kontrolü (eğer authStateListenerWeb fonksiyonu varsa)
+    if (typeof authStateListenerWeb === 'function') {
+      authStateListenerWeb((firebaseUser) => {
+        if (firebaseUser) {
+          // Kullanıcı giriş yapmış
+          console.log('User authenticated for admin panel:', firebaseUser.uid);
+
+          // Loading ekranını gizle ve ana içeriği göster
+          setTimeout(() => {
+            loadingOverlay.style.display = 'none';
+            mainContent.style.display = 'flex';
+
+            // Global user objesini güncelle
+            if (typeof window.user === 'undefined') {
+              window.user = {
+                id: firebaseUser.uid,
+                email: firebaseUser.email,
+                isLoggedIn: true
+              };
+            }
+
+            // Profil bilgilerini yükle
+            loadUserProfile();
+          }, 1000);
+
+        } else {
+          // Kullanıcı giriş yapmamış - login sayfasına yönlendir
+          console.log('User not authenticated, redirecting to login...');
+
+          setTimeout(() => {
+            window.location.href = '/en/login/';
+          }, 1500);
+        }
+      });
+    } else {
+      // authStateListenerWeb fonksiyonu yoksa, doğrudan ana içeriği göster
+      console.log('authStateListenerWeb not available, showing admin content directly');
+
+      setTimeout(() => {
+        loadingOverlay.style.display = 'none';
+        mainContent.style.display = 'flex';
+
+        // Varsayılan user objesi
+        if (typeof window.user === 'undefined') {
+          window.user = {
+            id: 'demo_user',
+            email: 'admin@demo.com',
+            isLoggedIn: true
+          };
+        }
+
+        loadUserProfile();
+      }, 500);
+    }
+  }
+
+  // Firebase fonksiyonları mock'ları (eğer yüklü değilse)
+  function initializeFirebaseMocks() {
+    if (typeof dataListWeb === 'undefined') {
+      console.log('Firebase fonksiyonları bulunamadı, mock fonksiyonlar oluşturuluyor...');
+
+      window.dataListWeb = async function (collection) {
+        console.log('Mock dataListWeb çağrıldı:', collection);
+        return {
+          empty: true,
+          forEach: function (callback) {
+            // Boş collection
+          }
+        };
+      };
+
+      window.dataAddWeb = async function (collection, data) {
+        console.log('Mock dataAddWeb çağrıldı:', collection, data);
+        return { id: 'mock_' + Date.now() };
+      };
+
+      window.dataUpdateWeb = async function (collection, id, data) {
+        console.log('Mock dataUpdateWeb çağrıldı:', collection, id, data);
+        return true;
+      };
+
+      window.dataDeleteWeb = async function (collection, id) {
+        console.log('Mock dataDeleteWeb çağrıldı:', collection, id);
+        return true;
+      };
+
+      window.authStateListenerWeb = function (callback) {
+        console.log('Mock authStateListenerWeb çağrıldı');
+        // Varsayılan olarak giriş yapmış user döndür
+        setTimeout(() => {
+          callback({
+            uid: 'mock_user_id',
+            email: 'admin@demo.com'
+          });
+        }, 100);
+      };
+    }
+  }
+
+  // Mock fonksiyonları başlat
+  initializeFirebaseMocks();
+
+  // Sayfa yüklendiğinde admin erişim kontrolü yap
+  checkAdminAccess();
+</script>
 </div>
   <div id="footer"><!-- Google Material Icons -->
 <link
@@ -261,28 +854,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="ruluf-trust-boxes">
-      <div class="ruluf-trust-item">
+<div class="g4t10-trust-boxes">
+      <div class="g4t10-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="ruluf-trust-text">
-          <div class="ruluf-trust-title">100% Secure Payment</div>
-          <div class="ruluf-trust-desc">Secure Payment with 3D Secure</div>
+        <div class="g4t10-trust-text">
+          <div class="g4t10-trust-title">100% Secure Payment</div>
+          <div class="g4t10-trust-desc">Secure Payment with 3D Secure</div>
         </div>
       </div>
     
-      <div class="ruluf-trust-item">
+      <div class="g4t10-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="ruluf-trust-text">
-          <div class="ruluf-trust-title">100% Original Product</div>
-          <div class="ruluf-trust-desc">Activation with 100% Licensed Original Product</div>
+        <div class="g4t10-trust-text">
+          <div class="g4t10-trust-title">100% Original Product</div>
+          <div class="g4t10-trust-desc">Activation with 100% Licensed Original Product</div>
         </div>
       </div>
     
-      <div class="ruluf-trust-item">
+      <div class="g4t10-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="ruluf-trust-text">
-          <div class="ruluf-trust-title">Fast Delivery</div>
-          <div class="ruluf-trust-desc">Online Fast Delivery for All Your Shopping</div>
+        <div class="g4t10-trust-text">
+          <div class="g4t10-trust-title">Fast Delivery</div>
+          <div class="g4t10-trust-desc">Online Fast Delivery for All Your Shopping</div>
         </div>
       </div>
     </div>
@@ -355,11 +948,11 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=jnjfr"></script>
+<script type="text/javascript" src="/src/js.js?v=hlf01"></script>
 
 
 
 
-<script src="/src/cookie.js?v=jnjfr"></script>
+<script src="/src/cookie.js?v=hlf01"></script>
 
 </html>

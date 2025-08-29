@@ -1,0 +1,36 @@
+{
+  "name": {
+    "tr": "Mesajlar",
+    "en": ""
+  },
+  "status": "play",
+  "category": "",
+  "id": "o1fm3yldtl",
+  "url": "",
+  "path": "mesajlar",
+  "index": 4,
+  "icon": "message",
+  "desing": {
+    "header": [],
+    "body": [
+      "uc8pqi"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "desc": {},
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "text": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "update": "2025-08-28T17:52:03.279Z",
+  "date": "2025-08-28T17:51:34.111Z"
+}

@@ -1,0 +1,35 @@
+{
+  "name": {
+    "tr": "Kredi Kartlarım",
+    "en": ""
+  },
+  "status": "play",
+  "category": "",
+  "id": "ejegvugg93",
+  "url": "",
+  "path": "kredikartlarim",
+  "keyword": {
+    "tr": ""
+  },
+  "description": {
+    "tr": ""
+  },
+  "text": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "desc": {},
+  "index": 7,
+  "icon": "credit_card",
+  "desing": {
+    "header": [],
+    "body": [
+      "hp120i"
+    ],
+    "footer": []
+  },
+  "update": "2025-08-28T17:51:25.590Z",
+  "date": "2025-08-28T17:51:25.590Z"
+}

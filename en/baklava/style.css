@@ -1,10 +1,10 @@
 
-  .p0nfl-header-wrapper {
+  .n36y3-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .p0nfl-header {
+  .n36y3-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .p0nfl-logo {
+  .n36y3-logo {
     height: 80px;
   }
 
-  .p0nfl-header-top {
+  .n36y3-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .p0nfl-search-box {
+  .n36y3-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .p0nfl-search-box span {
+  .n36y3-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .p0nfl-search-box input {
+  .n36y3-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .p0nfl-search-box button {
+  .n36y3-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .p0nfl-search-box button:hover {
+  .n36y3-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .p0nfl-support-info {
+  .n36y3-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .p0nfl-support-info span {
+  .n36y3-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .p0nfl-support-info small {
+  .n36y3-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .p0nfl-support-info strong {
+  .n36y3-support-info strong {
     font-size: 16px;
   }
 
-  .p0nfl-icons {
+  .n36y3-icons {
     display: flex;
     gap: 10px;
   }
 
-  .p0nfl-icons span {
+  .n36y3-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .p0nfl-icons span:hover {
+  .n36y3-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .p0nfl-header-bottom {
+  .n36y3-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .p0nfl-header-bottom-inner {
+  .n36y3-header-bottom-inner {
     max-width: 1200px;
     margin: auto;
     padding: 14px 30px;
@@ -124,7 +124,7 @@
     align-items: center;
   }
 
-  .p0nfl-category-btn {
+  .n36y3-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +136,72 @@
     font-weight: 500;
   }
 
-  .p0nfl-main-menu {
+  .n36y3-main-menu {
     display: flex;
     gap: 20px;
     margin-left: 30px;
   }
 
-  .p0nfl-main-menu a {
+  .n36y3-main-menu a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
   }
 
-  .p0nfl-main-menu a:hover {
+  .n36y3-main-menu a:hover {
     color: #238b23;
   }
 
-  .p0nfl-menulistactive {
+  .n36y3-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .p0nfl-header-top {
+    .n36y3-header-top {
       gap: 20px;
     }
 
-    .p0nfl-search-box {
+    .n36y3-search-box {
       margin: 0 10px;
     }
 
-    .p0nfl-support-info strong {
+    .n36y3-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .p0nfl-header {
+    .n36y3-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .p0nfl-header-top {
+    .n36y3-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .p0nfl-search-box {
+    .n36y3-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .p0nfl-support-info {
+    .n36y3-support-info {
       display: none;
     }
 
-    .p0nfl-header-bottom-inner {
+    .n36y3-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .p0nfl-main-menu {
+    .n36y3-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,22 +210,22 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .p0nfl-logo {
+    .n36y3-logo {
       height: 60px;
     }
 
-    .p0nfl-search-box {
+    .n36y3-search-box {
       flex: 0 1 150px;
     }
 
-    .p0nfl-icons span {
+    .n36y3-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .bntzw-trust-boxes {
+  .cfund-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -235,7 +235,7 @@
     gap: 0;
   }
 
-  .bntzw-trust-item {
+  .cfund-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -246,57 +246,57 @@
     gap: 16px;
   }
 
-  .bntzw-trust-item .material-icons {
+  .cfund-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .bntzw-trust-text {
+  .cfund-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .bntzw-trust-title {
+  .cfund-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .bntzw-trust-desc {
+  .cfund-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .bntzw-trust-boxes {
+    .cfund-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .bntzw-trust-item {
+    .cfund-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .bntzw-trust-boxes {
+    .cfund-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .bntzw-trust-item {
+    .cfund-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .bntzw-trust-title {
+    .cfund-trust-title {
       font-size: 16px;
     }
 
-    .bntzw-trust-desc {
+    .cfund-trust-desc {
       font-size: 13px;
     }
   }

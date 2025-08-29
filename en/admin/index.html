@@ -15,13 +15,12 @@
   <meta property="og:description" content="undefined" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=snep4" />
-  <link rel="shortcut icon" href="/img/icon.png?v=snep4" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=dxdeu" />
+  <link rel="shortcut icon" href="/img/icon.png?v=dxdeu" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
     rel="stylesheet" />
-  <script type="text/javascript" src="/src/firebase.js?v=snep4"></script>
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -48,28 +47,29 @@
   const db = firebase.firestore();
 </script>
 
-<link rel="stylesheet" href="style.css?v=snep4">
+
+
+  <script type="text/javascript" src="/src/firebase.js?v=dxdeu"></script>
+
+
+<link rel="stylesheet" href="style.css?v=dxdeu">
 </head>
 
 <body>
-  <div id="header"><header class="mr95x-header-wrapper">
-  <div class="mr95x-header">
-    <div class="mr95x-header-top">
-      <a href="/en/" class="mr95x-header-left">
-        <img
-          src="/img/logo.png?v=snep4"
-          alt="Tiggergift Logo"
-          class="mr95x-logo"
-        />
+  <div id="header"><header class="rzcop-header-wrapper">
+  <div class="rzcop-header">
+    <div class="rzcop-header-top">
+      <a href="/en/" class="rzcop-header-left">
+        <img src="/img/logo.png?v=dxdeu" alt="Tiggergift Logo" class="rzcop-logo" />
       </a>
 
-      <div class="mr95x-search-box">
+      <div class="rzcop-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="mr95x-support-info">
+      <div class="rzcop-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
@@ -77,199 +77,186 @@
         </div>
       </div>
 
-      <div class="mr95x-icons">
-        <a href="/en/user/" class="material-symbols-outlined">person</a>
-        <a href="/en/favori/" class="material-symbols-outlined"
-          >favorite</a
-        >
-        <a href="/en/basket/" class="material-symbols-outlined"
-          >shopping_cart</a
-        >
+      <div class="rzcop-icons">
+        <a href="/en/login/" class="material-symbols-outlined">person</a>
+        <a href="/en/favorilerim/" class="material-symbols-outlined">favorite</a>
+        <a href="/en/basket/" class="material-symbols-outlined">shopping_cart</a>
       </div>
     </div>
   </div>
 
-  <div class="mr95x-header-bottom">
-    <div class="mr95x-header-bottom-inner">
-      <button class="mr95x-category-btn">
+  <div class="rzcop-header-bottom">
+    <div class="rzcop-header-bottom-inner">
+      <button class="rzcop-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="mr95x-main-menu"><a href="/en/urunlerimiz/"></a><a href="/en/baklava/"></a><a href="/en/kurumsal/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
+      <nav class="rzcop-main-menu"><a href="/en/urunlerimiz/"></a><a href="/en/baklava/"></a><a href="/en/kurumsal/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
     </div>
   </div>
 </header>
 
 
 </div>
-  <div id="content"><div class="axdye">
-  <div class="axdye-menu">
-    <a href="/en/admin/" class="axdye-profile">
-      <div class="axdye-user-img"></div>
-      <div>Üye Adı Soyadı</div>
+  <div id="content"><!-- Loading Screen -->
+<div class="admin-loading-overlay" id="adminLoadingOverlay">
+  <div class="admin-loading-content">
+    <div class="admin-loading-spinner"></div>
+    <div class="admin-loading-text">Giriş kontrol ediliyor...</div>
+  </div>
+</div>
+
+<!-- Main Content -->
+<div class="qsxsl" id="adminMainContent" style="display: none;">
+  <div class="qsxsl-menu">
+    <a href="/en/admin/" class="qsxsl-profile">
+      <div class="qsxsl-user-img" id="userAvatar"></div>
+      <div id="userName">Yükleniyor...</div>
     </a>
-    
- <div class="axdye-menu-category">
-  
-    <a class="axdye-menu-active" href="/en/admin/" >
+    <div class="qsxsl-menu-category">
+    <a class="qsxsl-menu-active" href="/en/admin/" >
       <span class="material-symbols-outlined">home</span>
-      <div> Admin </div>
+      <div>Admin</div>
     </a>
-    
-    <a href="/en/siparisler/" >
+    <a href="/en/admin-urunler/" >
+      <span class="material-symbols-outlined">home</span>
+      <div>Ürünler</div>
+    </a>
+    <a href="/en/admin-siparisler/" >
       <span class="material-symbols-outlined">shopping_cart</span>
-      <div> Siparişler </div>
+      <div>Orders</div>
     </a>
-    
-    <a href="/en/urunler/" >
-      <span class="material-symbols-outlined">inventory</span>
-      <div> Ürünler </div>
+    <a href="/en/adminkategoriler/" >
+      <span class="material-symbols-outlined">home</span>
+      <div>Kategoriler</div>
     </a>
-    
-    <a href="/en/kategoriler/" >
-      <span class="material-symbols-outlined">category</span>
-      <div> Kategoriler </div>
-    </a>
-    
     <a href="/en/musteriler/" >
       <span class="material-symbols-outlined">people</span>
-      <div> Müşteriler </div>
+      <div>Customers</div>
     </a>
-    
+    <a href="/en/moduller/" >
+      <span class="material-symbols-outlined">home</span>
+      <div>Moduller</div>
+    </a>
     <a href="/en/kampanyalar/" >
       <span class="material-symbols-outlined">campaign</span>
-      <div> Kampanyalar </div>
+      <div>Campaigns</div>
     </a>
-    
     <a href="/en/odemeler/" >
       <span class="material-symbols-outlined">payment</span>
-      <div> Ödemeler </div>
+      <div>Payments</div>
     </a>
-    
     <a href="/en/raporlar/" >
       <span class="material-symbols-outlined">analytics</span>
-      <div> Raporlar </div>
+      <div>Reports</div>
     </a>
-    
-    <a href="/en/moduller/" >
-      <span class="material-symbols-outlined">extension</span>
-      <div> Moduller </div>
-    </a>
-    
-    <a href="/en/uyeler/" >
-      <span class="material-symbols-outlined">admin_panel_settings</span>
-      <div> Üyeler </div>
-    </a>
-    
-    <a href="/en/ayarlar/" >
+    <a href="/en/adminayarlar/" >
       <span class="material-symbols-outlined">settings</span>
-      <div> Ayarlar </div>
+      <div>Settings</div>
     </a>
-    
     <a href="/en/loglar/" >
       <span class="material-symbols-outlined">history</span>
-      <div> Loglar </div>
-    </a>
-    </div>
+      <div>Logs</div>
+    </a></div>
   </div>
-  <div class="axdye-body"><div class="fqouy-admin-page">
-    <div class="fqouy-header">
-        <div class="fqouy-welcome">
+  <div class="qsxsl-body"><div class="edoxc-admin-page">
+    <div class="edoxc-header">
+        <div class="edoxc-welcome">
             <h1>Hoş Geldiniz, {{username}}</h1>
             <p>2025-08-09T06:10:38.005Z</p>
         </div>
-        <div class="fqouy-quick-actions">
-            <button class="fqouy-btn fqouy-btn-primary" data-action="add_product">
+        <div class="edoxc-quick-actions">
+            <button class="edoxc-btn edoxc-btn-primary" data-action="add_product">
                 <span class="material-symbols-outlined">add</span>
                 Yeni Ürün
             </button>
-            <button class="fqouy-btn fqouy-btn-secondary" data-action="view_orders">
+            <button class="edoxc-btn edoxc-btn-secondary" data-action="view_orders">
                 <span class="material-symbols-outlined">shopping_cart</span>
                 Siparişleri Gör
             </button>
         </div>
     </div>
 
-    <div class="fqouy-stats-grid">
-        <div class="fqouy-stat-card fqouy-stat-orders">
-            <div class="fqouy-stat-icon">
+    <div class="edoxc-stats-grid">
+        <div class="edoxc-stat-card edoxc-stat-orders">
+            <div class="edoxc-stat-icon">
                 <span class="material-symbols-outlined">shopping_bag</span>
             </div>
-            <div class="fqouy-stat-content">
-                <div class="fqouy-stat-number" data-stat="new_orders">{{new_orders}}</div>
-                <div class="fqouy-stat-label">Yeni Siparişler</div>
-                <div class="fqouy-stat-change fqouy-stat-positive" data-stat="orders_change">+{{orders_change}}%
+            <div class="edoxc-stat-content">
+                <div class="edoxc-stat-number" data-stat="new_orders">{{new_orders}}</div>
+                <div class="edoxc-stat-label">Yeni Siparişler</div>
+                <div class="edoxc-stat-change edoxc-stat-positive" data-stat="orders_change">+{{orders_change}}%
                 </div>
             </div>
         </div>
 
-        <div class="fqouy-stat-card fqouy-stat-revenue">
-            <div class="fqouy-stat-icon">
+        <div class="edoxc-stat-card edoxc-stat-revenue">
+            <div class="edoxc-stat-icon">
                 <span class="material-symbols-outlined">trending_up</span>
             </div>
-            <div class="fqouy-stat-content">
-                <div class="fqouy-stat-number" data-stat="today_revenue">₺{{today_revenue}}</div>
-                <div class="fqouy-stat-label">Bugünkü Gelir</div>
-                <div class="fqouy-stat-change fqouy-stat-positive" data-stat="revenue_change">+{{revenue_change}}%
+            <div class="edoxc-stat-content">
+                <div class="edoxc-stat-number" data-stat="today_revenue">₺{{today_revenue}}</div>
+                <div class="edoxc-stat-label">Bugünkü Gelir</div>
+                <div class="edoxc-stat-change edoxc-stat-positive" data-stat="revenue_change">+{{revenue_change}}%
                 </div>
             </div>
         </div>
 
-        <div class="fqouy-stat-card fqouy-stat-stock">
-            <div class="fqouy-stat-icon">
+        <div class="edoxc-stat-card edoxc-stat-stock">
+            <div class="edoxc-stat-icon">
                 <span class="material-symbols-outlined">inventory</span>
             </div>
-            <div class="fqouy-stat-content">
-                <div class="fqouy-stat-number" data-stat="low_stock_count">{{low_stock_count}}</div>
-                <div class="fqouy-stat-label">Düşük Stok</div>
-                <div class="fqouy-stat-change fqouy-stat-warning">Dikkat</div>
+            <div class="edoxc-stat-content">
+                <div class="edoxc-stat-number" data-stat="low_stock_count">{{low_stock_count}}</div>
+                <div class="edoxc-stat-label">Düşük Stok</div>
+                <div class="edoxc-stat-change edoxc-stat-warning">Dikkat</div>
             </div>
         </div>
 
-        <div class="fqouy-stat-card fqouy-stat-customers">
-            <div class="fqouy-stat-icon">
+        <div class="edoxc-stat-card edoxc-stat-customers">
+            <div class="edoxc-stat-icon">
                 <span class="material-symbols-outlined">group</span>
             </div>
-            <div class="fqouy-stat-content">
-                <div class="fqouy-stat-number" data-stat="new_customers">{{new_customers}}</div>
-                <div class="fqouy-stat-label">Yeni Müşteriler</div>
-                <div class="fqouy-stat-change fqouy-stat-positive" data-stat="customers_change">
+            <div class="edoxc-stat-content">
+                <div class="edoxc-stat-number" data-stat="new_customers">{{new_customers}}</div>
+                <div class="edoxc-stat-label">Yeni Müşteriler</div>
+                <div class="edoxc-stat-change edoxc-stat-positive" data-stat="customers_change">
                     +{{customers_change}}%</div>
             </div>
         </div>
     </div>
 
-    <div class="fqouy-content-grid">
-        <div class="fqouy-recent-orders">
-            <div class="fqouy-section-header">
+    <div class="edoxc-content-grid">
+        <div class="edoxc-recent-orders">
+            <div class="edoxc-section-header">
                 <h3>Son Siparişler</h3>
-                <a href="#" class="fqouy-view-all" data-section="orders">Tümünü Gör</a>
+                <a href="#" class="edoxc-view-all" data-section="orders">Tümünü Gör</a>
             </div>
-            <div class="fqouy-orders-list">
+            <div class="edoxc-orders-list">
                 {{recent_orders}}
             </div>
         </div>
 
-        <div class="fqouy-stock-alerts">
-            <div class="fqouy-section-header">
+        <div class="edoxc-stock-alerts">
+            <div class="edoxc-section-header">
                 <h3>Stok Uyarıları</h3>
-                <a href="#" class="fqouy-view-all" data-section="stock">Tümünü Gör</a>
+                <a href="#" class="edoxc-view-all" data-section="stock">Tümünü Gör</a>
             </div>
-            <div class="fqouy-stock-list">
+            <div class="edoxc-stock-list">
                 {{stock_alerts}}
             </div>
         </div>
     </div>
 
-    <div class="fqouy-chart-section">
-        <div class="fqouy-section-header">
+    <div class="edoxc-chart-section">
+        <div class="edoxc-section-header">
             <h3>Satış Grafiği</h3>
-            <div class="fqouy-chart-periods">
-                <button class="fqouy-period-btn fqouy-period-active" data-period="7">7 Gün</button>
-                <button class="fqouy-period-btn" data-period="30">30 Gün</button>
-                <button class="fqouy-period-btn" data-period="90">3 Ay</button>
+            <div class="edoxc-chart-periods">
+                <button class="edoxc-period-btn edoxc-period-active" data-period="7">7 Gün</button>
+                <button class="edoxc-period-btn" data-period="30">30 Gün</button>
+                <button class="edoxc-period-btn" data-period="90">3 Ay</button>
             </div>
         </div>
-        <div class="fqouy-chart-container">
+        <div class="edoxc-chart-container">
             <canvas id="salesChart" width="400" height="200"></canvas>
         </div>
     </div>
@@ -306,6 +293,239 @@
 </div>
 </div>
 
+
+<script>
+  // Firebase'den kullanıcı bilgilerini yükle
+  async function loadUserProfile() {
+    try {
+      // Global user objesini kontrol et
+      const currentUser = window.user || {};
+
+      if (!currentUser.isLoggedIn || !currentUser.id) {
+        document.getElementById('userName').textContent = 'Admin Kullanıcı';
+
+        // Varsayılan avatar
+        const avatarUrl = `https://ui-avatars.com/api/?name=Admin&background=007bff&color=fff&size=40`;
+        document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+        document.getElementById('userAvatar').style.backgroundSize = 'cover';
+        document.getElementById('userAvatar').style.backgroundPosition = 'center';
+        return;
+      }
+
+      // Firebase'den kullanıcı bilgilerini almaya çalış
+      if (typeof dataListWeb === 'function') {
+        try {
+          const userSnapshot = await dataListWeb(`users`);
+          let userData = null;
+
+          // Kullanıcıyı ID ile bul
+          userSnapshot.forEach(doc => {
+            if (doc.id === currentUser.id) {
+              userData = doc.data();
+            }
+          });
+
+          if (userData) {
+            // Kullanıcı adını güncelle
+            const fullName = `${userData.firstName || ''} ${userData.lastName || ''}`.trim();
+            document.getElementById('userName').textContent = fullName || userData.email || currentUser.email || 'Kullanıcı';
+
+            // Profil fotoğrafını güncelle
+            const avatarElement = document.getElementById('userAvatar');
+            if (userData.photoURL) {
+              avatarElement.style.backgroundImage = `url(${userData.photoURL})`;
+              avatarElement.style.backgroundSize = 'cover';
+              avatarElement.style.backgroundPosition = 'center';
+            } else {
+              // UI Avatars ile otomatik avatar oluştur
+              const displayName = fullName || userData.email || currentUser.email || 'U';
+              const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&background=random&color=fff&size=40`;
+              avatarElement.style.backgroundImage = `url(${avatarUrl})`;
+              avatarElement.style.backgroundSize = 'cover';
+              avatarElement.style.backgroundPosition = 'center';
+            }
+          } else {
+            // Kullanıcı verisi bulunamazsa email'den isim çıkar
+            const displayName = currentUser.email ? currentUser.email.split('@')[0] : currentUser.name || 'Kullanıcı';
+            document.getElementById('userName').textContent = displayName;
+
+            // Varsayılan avatar
+            const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&background=random&color=fff&size=40`;
+            document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+            document.getElementById('userAvatar').style.backgroundSize = 'cover';
+            document.getElementById('userAvatar').style.backgroundPosition = 'center';
+          }
+        } catch (fbError) {
+          console.log('Firebase veri çekme hatası:', fbError);
+          // Firebase hatası varsa localStorage'daki bilgileri kullan
+          const displayName = currentUser.email ? currentUser.email.split('@')[0] : currentUser.name || 'Kullanıcı';
+          document.getElementById('userName').textContent = displayName;
+
+          const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&background=007bff&color=fff&size=40`;
+          document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+          document.getElementById('userAvatar').style.backgroundSize = 'cover';
+          document.getElementById('userAvatar').style.backgroundPosition = 'center';
+        }
+      } else {
+        // dataListWeb fonksiyonu yoksa localStorage bilgilerini kullan
+        const displayName = currentUser.email ? currentUser.email.split('@')[0] : currentUser.name || 'Kullanıcı';
+        document.getElementById('userName').textContent = displayName;
+
+        const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&background=007bff&color=fff&size=40`;
+        document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+        document.getElementById('userAvatar').style.backgroundSize = 'cover';
+        document.getElementById('userAvatar').style.backgroundPosition = 'center';
+      }
+
+    } catch (error) {
+      console.error('Kullanıcı profili yüklenirken hata:', error);
+      document.getElementById('userName').textContent = 'Admin Kullanıcı';
+
+      const avatarUrl = `https://ui-avatars.com/api/?name=Admin&background=dc3545&color=fff&size=40`;
+      document.getElementById('userAvatar').style.backgroundImage = `url(${avatarUrl})`;
+      document.getElementById('userAvatar').style.backgroundSize = 'cover';
+      document.getElementById('userAvatar').style.backgroundPosition = 'center';
+    }
+  }
+
+  // Admin sayfası için authentication kontrolü
+  function checkAdminAccess() {
+    const loadingOverlay = document.getElementById('adminLoadingOverlay');
+    const mainContent = document.getElementById('adminMainContent');
+
+    // Önce localStorage'dan user bilgisini kontrol et
+    try {
+      const storedUser = localStorage.getItem('user');
+      if (storedUser) {
+        const userData = JSON.parse(storedUser);
+        if (userData.isLoggedIn && userData.id) {
+          console.log('User authenticated from localStorage:', userData.id);
+
+          // Loading ekranını gizle ve ana içeriği göster
+          setTimeout(() => {
+            loadingOverlay.style.display = 'none';
+            mainContent.style.display = 'flex';
+
+            // Global user objesini güncelle
+            if (typeof window.user === 'undefined') {
+              window.user = userData;
+            }
+
+            // Profil bilgilerini yükle
+            loadUserProfile();
+          }, 500);
+          return;
+        }
+      }
+    } catch (error) {
+      console.log('localStorage user kontrolü hatası:', error);
+    }
+
+    // Firebase authentication kontrolü (eğer authStateListenerWeb fonksiyonu varsa)
+    if (typeof authStateListenerWeb === 'function') {
+      authStateListenerWeb((firebaseUser) => {
+        if (firebaseUser) {
+          // Kullanıcı giriş yapmış
+          console.log('User authenticated for admin panel:', firebaseUser.uid);
+
+          // Loading ekranını gizle ve ana içeriği göster
+          setTimeout(() => {
+            loadingOverlay.style.display = 'none';
+            mainContent.style.display = 'flex';
+
+            // Global user objesini güncelle
+            if (typeof window.user === 'undefined') {
+              window.user = {
+                id: firebaseUser.uid,
+                email: firebaseUser.email,
+                isLoggedIn: true
+              };
+            }
+
+            // Profil bilgilerini yükle
+            loadUserProfile();
+          }, 1000);
+
+        } else {
+          // Kullanıcı giriş yapmamış - login sayfasına yönlendir
+          console.log('User not authenticated, redirecting to login...');
+
+          setTimeout(() => {
+            window.location.href = '/en/login/';
+          }, 1500);
+        }
+      });
+    } else {
+      // authStateListenerWeb fonksiyonu yoksa, doğrudan ana içeriği göster
+      console.log('authStateListenerWeb not available, showing admin content directly');
+
+      setTimeout(() => {
+        loadingOverlay.style.display = 'none';
+        mainContent.style.display = 'flex';
+
+        // Varsayılan user objesi
+        if (typeof window.user === 'undefined') {
+          window.user = {
+            id: 'demo_user',
+            email: 'admin@demo.com',
+            isLoggedIn: true
+          };
+        }
+
+        loadUserProfile();
+      }, 500);
+    }
+  }
+
+  // Firebase fonksiyonları mock'ları (eğer yüklü değilse)
+  function initializeFirebaseMocks() {
+    if (typeof dataListWeb === 'undefined') {
+      console.log('Firebase fonksiyonları bulunamadı, mock fonksiyonlar oluşturuluyor...');
+
+      window.dataListWeb = async function (collection) {
+        console.log('Mock dataListWeb çağrıldı:', collection);
+        return {
+          empty: true,
+          forEach: function (callback) {
+            // Boş collection
+          }
+        };
+      };
+
+      window.dataAddWeb = async function (collection, data) {
+        console.log('Mock dataAddWeb çağrıldı:', collection, data);
+        return { id: 'mock_' + Date.now() };
+      };
+
+      window.dataUpdateWeb = async function (collection, id, data) {
+        console.log('Mock dataUpdateWeb çağrıldı:', collection, id, data);
+        return true;
+      };
+
+      window.dataDeleteWeb = async function (collection, id) {
+        console.log('Mock dataDeleteWeb çağrıldı:', collection, id);
+        return true;
+      };
+
+      window.authStateListenerWeb = function (callback) {
+        console.log('Mock authStateListenerWeb çağrıldı');
+        // Varsayılan olarak giriş yapmış user döndür
+        setTimeout(() => {
+          callback({
+            uid: 'mock_user_id',
+            email: 'admin@demo.com'
+          });
+        }, 100);
+      };
+    }
+  }
+
+  // Mock fonksiyonları başlat
+  initializeFirebaseMocks();
+
+  // Sayfa yüklendiğinde admin erişim kontrolü yap
+  checkAdminAccess();
+</script>
 </div>
   <div id="footer"><!-- Google Material Icons -->
 <link
@@ -314,28 +534,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="syp7u-trust-boxes">
-      <div class="syp7u-trust-item">
+<div class="pr0ly-trust-boxes">
+      <div class="pr0ly-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="syp7u-trust-text">
-          <div class="syp7u-trust-title">100% Secure Payment</div>
-          <div class="syp7u-trust-desc">Secure Payment with 3D Secure</div>
+        <div class="pr0ly-trust-text">
+          <div class="pr0ly-trust-title">100% Secure Payment</div>
+          <div class="pr0ly-trust-desc">Secure Payment with 3D Secure</div>
         </div>
       </div>
     
-      <div class="syp7u-trust-item">
+      <div class="pr0ly-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="syp7u-trust-text">
-          <div class="syp7u-trust-title">100% Original Product</div>
-          <div class="syp7u-trust-desc">Activation with 100% Licensed Original Product</div>
+        <div class="pr0ly-trust-text">
+          <div class="pr0ly-trust-title">100% Original Product</div>
+          <div class="pr0ly-trust-desc">Activation with 100% Licensed Original Product</div>
         </div>
       </div>
     
-      <div class="syp7u-trust-item">
+      <div class="pr0ly-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="syp7u-trust-text">
-          <div class="syp7u-trust-title">Fast Delivery</div>
-          <div class="syp7u-trust-desc">Online Fast Delivery for All Your Shopping</div>
+        <div class="pr0ly-trust-text">
+          <div class="pr0ly-trust-title">Fast Delivery</div>
+          <div class="pr0ly-trust-desc">Online Fast Delivery for All Your Shopping</div>
         </div>
       </div>
     </div>
@@ -408,11 +628,11 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=snep4"></script>
+<script type="text/javascript" src="/src/js.js?v=dxdeu"></script>
 
 
 
 
-<script src="/src/cookie.js?v=snep4"></script>
+<script src="/src/cookie.js?v=dxdeu"></script>
 
 </html>

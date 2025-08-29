@@ -1,0 +1,35 @@
+{
+  "name": {
+    "tr": "Siparişlerim",
+    "en": ""
+  },
+  "status": "play",
+  "category": "",
+  "id": "y10c0m3nlj",
+  "url": "",
+  "path": "siparislerim",
+  "keyword": {
+    "tr": ""
+  },
+  "description": {
+    "tr": ""
+  },
+  "text": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "desc": {},
+  "index": 1,
+  "icon": "shopping_cart",
+  "desing": {
+    "header": [],
+    "body": [
+      "bmfzrv"
+    ],
+    "footer": []
+  },
+  "update": "2025-08-28T17:51:25.556Z",
+  "date": "2025-08-28T17:51:25.556Z"
+}
