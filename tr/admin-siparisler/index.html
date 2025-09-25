@@ -15,8 +15,8 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=ruq3c" />
-  <link rel="shortcut icon" href="/img/icon.png?v=ruq3c" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=v22wv" />
+  <link rel="shortcut icon" href="/img/icon.png?v=v22wv" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -48,28 +48,25 @@
 </script>
 
 
-
-  <script type="text/javascript" src="/src/firebase.js?v=ruq3c"></script>
-
-
-<link rel="stylesheet" href="style.css?v=ruq3c">
+  <script type="text/javascript" src="/src/firebase.js?v=v22wv"></script>
+<link rel="stylesheet" href="style.css?v=v22wv">
 </head>
 
 <body>
-  <div id="header"><header class="oplxe-header-wrapper">
-  <div class="oplxe-header">
-    <div class="oplxe-header-top">
-      <a href="/tr/" class="oplxe-header-left">
-        <img src="/img/logo.png?v=ruq3c" alt="Tiggergift Logo" class="oplxe-logo" />
+  <div id="header"><header class="a4dcz-header-wrapper">
+  <div class="a4dcz-header">
+    <div class="a4dcz-header-top">
+      <a href="/tr/" class="a4dcz-header-left">
+        <img src="/img/logo.png?v=v22wv" alt="Tiggergift Logo" class="a4dcz-logo" />
       </a>
 
-      <div class="oplxe-search-box">
+      <div class="a4dcz-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="oplxe-support-info">
+      <div class="a4dcz-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
@@ -77,7 +74,7 @@
         </div>
       </div>
 
-      <div class="oplxe-icons">
+      <div class="a4dcz-icons">
         <a href="/tr/login/" class="material-symbols-outlined">person</a>
         <a href="/tr/favorilerim/" class="material-symbols-outlined">favorite</a>
         <a href="/tr/basket/" class="material-symbols-outlined">shopping_cart</a>
@@ -85,12 +82,12 @@
     </div>
   </div>
 
-  <div class="oplxe-header-bottom">
-    <div class="oplxe-header-bottom-inner">
-      <button class="oplxe-category-btn">
+  <div class="a4dcz-header-bottom">
+    <div class="a4dcz-header-bottom-inner">
+      <button class="a4dcz-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="oplxe-main-menu"><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/baklava/">Baklava</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/iletisim/">İletişim</a></nav>
+      <nav class="a4dcz-main-menu"><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/baklava/">Baklava</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/iletisim/">İletişim</a></nav>
     </div>
   </div>
 </header>
@@ -106,13 +103,13 @@
 </div>
 
 <!-- Main Content -->
-<div class="is198" id="adminMainContent" style="display: none;">
-  <div class="is198-menu">
-    <a href="/tr/admin/" class="is198-profile">
-      <div class="is198-user-img" id="userAvatar"></div>
+<div class="hpziu" id="adminMainContent" style="display: none;">
+  <div class="hpziu-menu">
+    <a href="/tr/admin/" class="hpziu-profile">
+      <div class="hpziu-user-img" id="userAvatar"></div>
       <div id="userName">Yükleniyor...</div>
     </a>
-    <div class="is198-menu-category">
+    <div class="hpziu-menu-category">
     <a href="/tr/admin/" >
       <span class="material-symbols-outlined">home</span>
       <div>Admin</div>
@@ -158,22 +155,22 @@
       <div>Loglar</div>
     </a></div>
   </div>
-  <div class="is198-body"><div class="iezga-admin-siparisler">
+  <div class="hpziu-body"><div class="xdz8h-admin-siparisler">
     <!-- Sayfa Başlığı ve Filtreler -->
-    <div class="iezga-page-header">
-        <div class="iezga-header-left">
-            <h1>{{pageTitle}}</h1>
-            <p class="iezga-header-subtitle">
+    <div class="xdz8h-page-header">
+        <div class="xdz8h-header-left">
+            <h1>Sipariş Yönetimi</h1>
+            <p class="xdz8h-header-subtitle">
                 <span class="material-symbols-outlined">shopping_cart</span>
-                {{pageSubtitle}}
+                Siparişleri yönetin ve takip edin
             </p>
 
         </div>
-        <div class="iezga-header-right">
-            <div class="iezga-header-actions">
-                <button class="iezga-btn iezga-btn-primary" onclick="get_siparisler_getir()">
+        <div class="xdz8h-header-right">
+            <div class="xdz8h-header-actions">
+                <button class="xdz8h-btn xdz8h-btn-primary" onclick="get_siparisler_getir()">
                     <span class="material-symbols-outlined">refresh</span>
-                    {{refreshButton}}
+                    Yenile
                 </button>
             </div>
         </div>
@@ -182,84 +179,84 @@
 
 
     <!-- Sipariş İstatistikleri -->
-    <div class="iezga-orders-stats">
-        <div class="iezga-stat-item iezga-stat-all" data-filter="tum" style="cursor: pointer;">
-            <div class="iezga-stat-icon">
+    <div class="xdz8h-orders-stats">
+        <div class="xdz8h-stat-item xdz8h-stat-all" data-filter="tum" style="cursor: pointer;">
+            <div class="xdz8h-stat-icon">
                 <span class="material-symbols-outlined">list</span>
             </div>
-            <div class="iezga-stat-content">
-                <div class="iezga-stat-number" id="tum_sayisi">0</div>
-                <div class="iezga-stat-label">Tüm Siparişler</div>
+            <div class="xdz8h-stat-content">
+                <div class="xdz8h-stat-number" id="tum_sayisi">0</div>
+                <div class="xdz8h-stat-label">Tüm Siparişler</div>
             </div>
         </div>
 
-        <div class="iezga-stat-item iezga-stat-pending" data-filter="bekleyen" style="cursor: pointer;">
-            <div class="iezga-stat-icon">
+        <div class="xdz8h-stat-item xdz8h-stat-pending" data-filter="bekleyen" style="cursor: pointer;">
+            <div class="xdz8h-stat-icon">
                 <span class="material-symbols-outlined">schedule</span>
             </div>
-            <div class="iezga-stat-content">
-                <div class="iezga-stat-number" id="bekleyen_sayisi">0</div>
-                <div class="iezga-stat-label">Bekleyen</div>
+            <div class="xdz8h-stat-content">
+                <div class="xdz8h-stat-number" id="bekleyen_sayisi">0</div>
+                <div class="xdz8h-stat-label">Bekleyen</div>
             </div>
         </div>
 
-        <div class="iezga-stat-item iezga-stat-approved" data-filter="onaylandi" style="cursor: pointer;">
-            <div class="iezga-stat-icon">
+        <div class="xdz8h-stat-item xdz8h-stat-approved" data-filter="onaylandi" style="cursor: pointer;">
+            <div class="xdz8h-stat-icon">
                 <span class="material-symbols-outlined">check_circle</span>
             </div>
-            <div class="iezga-stat-content">
-                <div class="iezga-stat-number" id="onaylandi_sayisi">0</div>
-                <div class="iezga-stat-label">Onaylandı</div>
+            <div class="xdz8h-stat-content">
+                <div class="xdz8h-stat-number" id="onaylandi_sayisi">0</div>
+                <div class="xdz8h-stat-label">Onaylandı</div>
             </div>
         </div>
 
-        <div class="iezga-stat-item iezga-stat-processing" data-filter="hazirlaniyor" style="cursor: pointer;">
-            <div class="iezga-stat-icon">
+        <div class="xdz8h-stat-item xdz8h-stat-processing" data-filter="hazirlaniyor" style="cursor: pointer;">
+            <div class="xdz8h-stat-icon">
                 <span class="material-symbols-outlined">local_shipping</span>
             </div>
-            <div class="iezga-stat-content">
-                <div class="iezga-stat-number" id="hazirlaniyor_sayisi">0</div>
-                <div class="iezga-stat-label">Hazırlanan</div>
+            <div class="xdz8h-stat-content">
+                <div class="xdz8h-stat-number" id="hazirlaniyor_sayisi">0</div>
+                <div class="xdz8h-stat-label">Hazırlanan</div>
             </div>
         </div>
 
-        <div class="iezga-stat-item iezga-stat-shipped" data-filter="kargoda" style="cursor: pointer;">
-            <div class="iezga-stat-icon">
+        <div class="xdz8h-stat-item xdz8h-stat-shipped" data-filter="kargoda" style="cursor: pointer;">
+            <div class="xdz8h-stat-icon">
                 <span class="material-symbols-outlined">local_shipping</span>
             </div>
-            <div class="iezga-stat-content">
-                <div class="iezga-stat-number" id="kargoda_sayisi">0</div>
-                <div class="iezga-stat-label">Kargoda</div>
+            <div class="xdz8h-stat-content">
+                <div class="xdz8h-stat-number" id="kargoda_sayisi">0</div>
+                <div class="xdz8h-stat-label">Kargoda</div>
             </div>
         </div>
 
-        <div class="iezga-stat-item iezga-stat-completed" data-filter="tamamlandi" style="cursor: pointer;">
-            <div class="iezga-stat-icon">
+        <div class="xdz8h-stat-item xdz8h-stat-completed" data-filter="tamamlandi" style="cursor: pointer;">
+            <div class="xdz8h-stat-icon">
                 <span class="material-symbols-outlined">check_circle</span>
             </div>
-            <div class="iezga-stat-content">
-                <div class="iezga-stat-number" id="tamamlandi_sayisi">0</div>
-                <div class="iezga-stat-label">Tamamlanan</div>
+            <div class="xdz8h-stat-content">
+                <div class="xdz8h-stat-number" id="tamamlandi_sayisi">0</div>
+                <div class="xdz8h-stat-label">Tamamlanan</div>
             </div>
         </div>
 
-        <div class="iezga-stat-item iezga-stat-cancelled" data-filter="iptal" style="cursor: pointer;">
-            <div class="iezga-stat-icon">
+        <div class="xdz8h-stat-item xdz8h-stat-cancelled" data-filter="iptal" style="cursor: pointer;">
+            <div class="xdz8h-stat-icon">
                 <span class="material-symbols-outlined">cancel</span>
             </div>
-            <div class="iezga-stat-content">
-                <div class="iezga-stat-number" id="iptal_sayisi">0</div>
-                <div class="iezga-stat-label">İptal</div>
+            <div class="xdz8h-stat-content">
+                <div class="xdz8h-stat-number" id="iptal_sayisi">0</div>
+                <div class="xdz8h-stat-label">İptal</div>
             </div>
         </div>
 
-        <div class="iezga-stat-item iezga-stat-returned" data-filter="iade" style="cursor: pointer;">
-            <div class="iezga-stat-icon">
+        <div class="xdz8h-stat-item xdz8h-stat-returned" data-filter="iade" style="cursor: pointer;">
+            <div class="xdz8h-stat-icon">
                 <span class="material-symbols-outlined">assignment_return</span>
             </div>
-            <div class="iezga-stat-content">
-                <div class="iezga-stat-number" id="iade_sayisi">0</div>
-                <div class="iezga-stat-label">İade</div>
+            <div class="xdz8h-stat-content">
+                <div class="xdz8h-stat-number" id="iade_sayisi">0</div>
+                <div class="xdz8h-stat-label">İade</div>
             </div>
         </div>
     </div>
@@ -268,10 +265,10 @@
 
 
     <!-- Sipariş Tablosu -->
-    <div class="iezga-orders-table-container">
-        <div class="iezga-search-filters">
-            <div class="iezga-filter-options">
-                <div class="iezga-search-box">
+    <div class="xdz8h-orders-table-container">
+        <div class="xdz8h-search-filters">
+            <div class="xdz8h-filter-options">
+                <div class="xdz8h-search-box">
                     <span class="material-symbols-outlined">search</span>
                     <input type="text" id="searchInput" placeholder="Sipariş no, müşteri adı veya email ara..."
                         onkeyup="filterSiparisler()">
@@ -296,18 +293,18 @@
             </div>
         </div>
 
-        <div class="iezga-orders-table">
+        <div class="xdz8h-orders-table">
             <table>
                 <thead>
                     <tr>
-                        <th class="iezga-th-order">Sipariş No</th>
-                        <th class="iezga-th-date">Tarih</th>
-                        <th class="iezga-th-customer">Müşteri</th>
-                        <th class="iezga-th-products">Ürünler</th>
-                        <th class="iezga-th-total">Toplam</th>
-                        <th class="iezga-th-status">Durum</th>
-                        <th class="iezga-th-payment">Ödeme</th>
-                        <th class="iezga-th-actions">İşlemler</th>
+                        <th class="xdz8h-th-order">Sipariş No</th>
+                        <th class="xdz8h-th-date">Tarih</th>
+                        <th class="xdz8h-th-customer">Müşteri</th>
+                        <th class="xdz8h-th-products">Ürünler</th>
+                        <th class="xdz8h-th-total">Toplam</th>
+                        <th class="xdz8h-th-status">Durum</th>
+                        <th class="xdz8h-th-payment">Ödeme</th>
+                        <th class="xdz8h-th-actions">İşlemler</th>
                     </tr>
                 </thead>
                 <tbody id="orders-table-body">
@@ -317,15 +314,15 @@
         </div>
 
         <!-- Sayfalama -->
-        <div class="iezga-pagination">
-            <button class="iezga-btn iezga-btn-secondary" id="prevPage" onclick="changePage(-1)">
+        <div class="xdz8h-pagination">
+            <button class="xdz8h-btn xdz8h-btn-secondary" id="prevPage" onclick="changePage(-1)">
                 <span class="material-symbols-outlined">chevron_left</span>
                 Önceki
             </button>
-            <span class="iezga-page-info">
+            <span class="xdz8h-page-info">
                 Sayfa <span id="currentPage">1</span> / <span id="totalPages">1</span>
             </span>
-            <button class="iezga-btn iezga-btn-secondary" id="nextPage" onclick="changePage(1)">
+            <button class="xdz8h-btn xdz8h-btn-secondary" id="nextPage" onclick="changePage(1)">
                 Sonraki
                 <span class="material-symbols-outlined">chevron_right</span>
             </button>
@@ -333,28 +330,28 @@
     </div>
 
     <!-- Sipariş Detay Modalı -->
-    <div id="siparisDetailModal" class="iezga-modal">
-        <div class="iezga-modal-content">
-            <div class="iezga-modal-header">
+    <div id="siparisDetailModal" class="xdz8h-modal">
+        <div class="xdz8h-modal-content">
+            <div class="xdz8h-modal-header">
                 <h3>Sipariş Detayı</h3>
-                <span class="iezga-modal-close" onclick="closeModal('siparisDetailModal')">&times;</span>
+                <span class="xdz8h-modal-close" onclick="closeModal('siparisDetailModal')">&times;</span>
             </div>
-            <div class="iezga-modal-body" id="siparisDetailContent">
+            <div class="xdz8h-modal-body" id="siparisDetailContent">
                 <!-- Sipariş detayları buraya yüklenecek -->
             </div>
         </div>
     </div>
 
     <!-- Sipariş Düzenleme Modalı -->
-    <div id="siparisEditModal" class="iezga-modal">
-        <div class="iezga-modal-content">
-            <div class="iezga-modal-header">
+    <div id="siparisEditModal" class="xdz8h-modal">
+        <div class="xdz8h-modal-content">
+            <div class="xdz8h-modal-header">
                 <h3>Sipariş Düzenle</h3>
-                <span class="iezga-modal-close" onclick="closeModal('siparisEditModal')">&times;</span>
+                <span class="xdz8h-modal-close" onclick="closeModal('siparisEditModal')">&times;</span>
             </div>
-            <div class="iezga-modal-body">
+            <div class="xdz8h-modal-body">
                 <form id="siparisEditForm">
-                    <div class="iezga-form-group">
+                    <div class="xdz8h-form-group">
                         <label>Sipariş Durumu:</label>
                         <select id="editSiparisDurum" required>
                             <option value="bekleyen">Bekleyen</option>
@@ -366,21 +363,21 @@
                             <option value="iade">İade</option>
                         </select>
                     </div>
-                    <div class="iezga-form-group">
+                    <div class="xdz8h-form-group">
                         <label>Kargo Firması:</label>
                         <input type="text" id="editKargoFirma" placeholder="Kargo firması">
                     </div>
-                    <div class="iezga-form-group">
+                    <div class="xdz8h-form-group">
                         <label>Kargo Takip No:</label>
                         <input type="text" id="editKargoTakip" placeholder="Kargo takip numarası">
                     </div>
-                    <div class="iezga-form-group">
+                    <div class="xdz8h-form-group">
                         <label>Not:</label>
                         <textarea id="editSiparisNot" placeholder="Sipariş notu"></textarea>
                     </div>
-                    <div class="iezga-form-actions">
-                        <button type="submit" class="iezga-btn iezga-btn-success">Güncelle</button>
-                        <button type="button" class="iezga-btn iezga-btn-secondary"
+                    <div class="xdz8h-form-actions">
+                        <button type="submit" class="xdz8h-btn xdz8h-btn-success">Güncelle</button>
+                        <button type="button" class="xdz8h-btn xdz8h-btn-secondary"
                             onclick="closeModal('siparisEditModal')">İptal</button>
                     </div>
                 </form>
@@ -431,7 +428,7 @@
 
     // İstatistik kartlarına tıklama olayı ekle
     function setupStatItemListeners() {
-        const statItems = document.querySelectorAll('.iezga-stat-item[data-filter]');
+        const statItems = document.querySelectorAll('.xdz8h-stat-item[data-filter]');
 
         statItems.forEach(item => {
             item.addEventListener('click', function () {
@@ -519,7 +516,7 @@
                     <tr>
                         <td colspan="8" style="text-align: center; padding: 40px; color: #6c757d;">
                             <div style="font-size: 16px; margin-bottom: 10px;">Henüz sipariş bulunmuyor</div>
-                            <button class="iezga-btn iezga-btn-primary" onclick="testVerisiEkle()">
+                            <button class="xdz8h-btn xdz8h-btn-primary" onclick="testVerisiEkle()">
                                 <span class="material-symbols-outlined">add</span>
                                 Test Verisi Ekle
                             </button>
@@ -533,7 +530,7 @@
                 <tr>
                     <td colspan="8" style="text-align: center; padding: 40px; color: #dc3545;">
                         <div style="font-size: 16px; margin-bottom: 10px;">Veriler yüklenirken hata oluştu</div>
-                        <button class="iezga-btn iezga-btn-primary" onclick="get_siparisler_getir()">
+                        <button class="xdz8h-btn xdz8h-btn-primary" onclick="get_siparisler_getir()">
                             <span class="material-symbols-outlined">refresh</span>
                             Tekrar Dene
                         </button>
@@ -672,7 +669,7 @@
 
     // Modal dışına tıklandığında kapat
     window.onclick = function (event) {
-        const modals = document.querySelectorAll('.iezga-modal');
+        const modals = document.querySelectorAll('.xdz8h-modal');
         modals.forEach(modal => {
             if (event.target === modal) {
                 closeModal(modal.id);
@@ -812,80 +809,80 @@
     // Sipariş detay HTML'i oluştur
     function createSiparisDetailHTML(siparis) {
         return `
-            <div class="iezga-siparis-detail">
-                <div class="iezga-detail-section">
+            <div class="xdz8h-siparis-detail">
+                <div class="xdz8h-detail-section">
                     <h4>Sipariş Bilgileri</h4>
-                    <div class="iezga-detail-grid">
-                        <div class="iezga-detail-item">
+                    <div class="xdz8h-detail-grid">
+                        <div class="xdz8h-detail-item">
                             <label>Sipariş No:</label>
                             <span>#${siparis.id.substring(0, 8)}</span>
                         </div>
-                        <div class="iezga-detail-item">
+                        <div class="xdz8h-detail-item">
                             <label>Tarih:</label>
                             <span>${siparis.tarih}</span>
                         </div>
-                        <div class="iezga-detail-item">
+                        <div class="xdz8h-detail-item">
                             <label>Durum:</label>
                             <span>${createDurumBadge(siparis.durum)}</span>
                         </div>
-                        <div class="iezga-detail-item">
+                        <div class="xdz8h-detail-item">
                             <label>Toplam:</label>
                             <span>${siparis.toplam}₺</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="iezga-detail-section">
+                <div class="xdz8h-detail-section">
                     <h4>Müşteri Bilgileri</h4>
-                    <div class="iezga-detail-grid">
-                        <div class="iezga-detail-item">
+                    <div class="xdz8h-detail-grid">
+                        <div class="xdz8h-detail-item">
                             <label>Ad Soyad:</label>
                             <span>${siparis.user.name}</span>
                         </div>
-                        <div class="iezga-detail-item">
+                        <div class="xdz8h-detail-item">
                             <label>Email:</label>
                             <span>${siparis.user.email}</span>
                         </div>
-                        <div class="iezga-detail-item">
+                        <div class="xdz8h-detail-item">
                             <label>Telefon:</label>
                             <span>${siparis.user.phone || 'Belirtilmemiş'}</span>
                         </div>
-                        <div class="iezga-detail-item">
+                        <div class="xdz8h-detail-item">
                             <label>Adres:</label>
                             <span>${siparis.user.address || 'Belirtilmemiş'}</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="iezga-detail-section">
+                <div class="xdz8h-detail-section">
                     <h4>Ürünler</h4>
-                    <div class="iezga-products-list">
+                    <div class="xdz8h-products-list">
                         ${siparis.urunler.map(urun => `
-                            <div class="iezga-product-item">
-                                <span class="iezga-product-name">${urun.adi}</span>
-                                <span class="iezga-product-quantity">${urun.adet} adet</span>
-                                <span class="iezga-product-price">${urun.fiyat}₺</span>
+                            <div class="xdz8h-product-item">
+                                <span class="xdz8h-product-name">${urun.adi}</span>
+                                <span class="xdz8h-product-quantity">${urun.adet} adet</span>
+                                <span class="xdz8h-product-price">${urun.fiyat}₺</span>
                             </div>
                         `).join('')}
                     </div>
                 </div>
 
                 ${siparis.kargo ? `
-                <div class="iezga-detail-section">
+                <div class="xdz8h-detail-section">
                     <h4>Kargo Bilgileri</h4>
-                    <div class="iezga-detail-grid">
-                        <div class="iezga-detail-item">
+                    <div class="xdz8h-detail-grid">
+                        <div class="xdz8h-detail-item">
                             <label>Kargo Firması:</label>
                             <span>${siparis.kargo}</span>
                         </div>
                         ${siparis.kargo_takip ? `
-                        <div class="iezga-detail-item">
+                        <div class="xdz8h-detail-item">
                             <label>Takip No:</label>
                             <span>${siparis.kargo_takip}</span>
                         </div>
                         ` : ''}
                         ${siparis.kargo_tarih ? `
-                        <div class="iezga-detail-item">
+                        <div class="xdz8h-detail-item">
                             <label>Kargo Tarihi:</label>
                             <span>${siparis.kargo_tarih}</span>
                         </div>
@@ -895,7 +892,7 @@
                 ` : ''}
 
                 ${siparis.not ? `
-                <div class="iezga-detail-section">
+                <div class="xdz8h-detail-section">
                     <h4>Not</h4>
                     <p>${siparis.not}</p>
                 </div>
@@ -908,7 +905,7 @@
     function showNotification(message, type = 'info') {
         // Basit bildirim sistemi
         const notification = document.createElement('div');
-        notification.className = `iezga-notification iezga-notification-${type}`;
+        notification.className = `xdz8h-notification xdz8h-notification-${type}`;
         notification.textContent = message;
 
         document.body.appendChild(notification);
@@ -1045,21 +1042,21 @@
             <td>#${id.substring(0, 8)}</td>
             <td>${siparis.tarih}</td>
             <td>
-                <div class="iezga-customer-info">
-                    <div class="iezga-customer-name">${siparis.user.name}</div>
-                    <div class="iezga-customer-email">${siparis.user.email}</div>
+                <div class="xdz8h-customer-info">
+                    <div class="xdz8h-customer-name">${siparis.user.name}</div>
+                    <div class="xdz8h-customer-email">${siparis.user.email}</div>
                 </div>
             </td>
-            <td class="iezga-products-cell">${urunlerList}</td>
-            <td class="iezga-total-cell">${siparis.toplam}₺</td>
+            <td class="xdz8h-products-cell">${urunlerList}</td>
+            <td class="xdz8h-total-cell">${siparis.toplam}₺</td>
             <td>${durumBadge}</td>
             <td>${createOdemeBadge(siparis.odeme)}</td>
             <td>
-                <div class="iezga-action-buttons">
-                    <button class="iezga-btn iezga-btn-sm iezga-btn-info" onclick="viewSiparis('${id}', '${durum}')">
+                <div class="xdz8h-action-buttons">
+                    <button class="xdz8h-btn xdz8h-btn-sm xdz8h-btn-info" onclick="viewSiparis('${id}', '${durum}')">
                         <span class="material-symbols-outlined">visibility</span>
                     </button>
-                    <button class="iezga-btn iezga-btn-sm iezga-btn-warning" onclick="editSiparis('${id}', '${durum}')">
+                    <button class="xdz8h-btn xdz8h-btn-sm xdz8h-btn-warning" onclick="editSiparis('${id}', '${durum}')">
                         <span class="material-symbols-outlined">edit</span>
                     </button>
                 </div>
@@ -1069,12 +1066,12 @@
 
     // Durum badge'i oluştur
     function createDurumBadge(durum) {
-        return `<span class="iezga-status-badge iezga-status-${durum}">${getDurumText(durum)}</span>`;
+        return `<span class="xdz8h-status-badge xdz8h-status-${durum}">${getDurumText(durum)}</span>`;
     }
 
     // Ödeme badge'i oluştur
     function createOdemeBadge(odeme) {
-        return `<span class="iezga-payment-badge">${getOdemeText(odeme)}</span>`;
+        return `<span class="xdz8h-payment-badge">${getOdemeText(odeme)}</span>`;
     }
 
     // Ürün listesi oluştur
@@ -1363,28 +1360,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="mv1gc-trust-boxes">
-      <div class="mv1gc-trust-item">
+<div class="qmqpt-trust-boxes">
+      <div class="qmqpt-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="mv1gc-trust-text">
-          <div class="mv1gc-trust-title">100% Güvenli Ödeme</div>
-          <div class="mv1gc-trust-desc">3D Secure ile Güvenli Ödeme</div>
+        <div class="qmqpt-trust-text">
+          <div class="qmqpt-trust-title">100% Güvenli Ödeme</div>
+          <div class="qmqpt-trust-desc">3D Secure ile Güvenli Ödeme</div>
         </div>
       </div>
     
-      <div class="mv1gc-trust-item">
+      <div class="qmqpt-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="mv1gc-trust-text">
-          <div class="mv1gc-trust-title">%100 Orijinal Ürün</div>
-          <div class="mv1gc-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
+        <div class="qmqpt-trust-text">
+          <div class="qmqpt-trust-title">%100 Orijinal Ürün</div>
+          <div class="qmqpt-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
         </div>
       </div>
     
-      <div class="mv1gc-trust-item">
+      <div class="qmqpt-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="mv1gc-trust-text">
-          <div class="mv1gc-trust-title">Hızlı Teslimat</div>
-          <div class="mv1gc-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
+        <div class="qmqpt-trust-text">
+          <div class="qmqpt-trust-title">Hızlı Teslimat</div>
+          <div class="qmqpt-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
         </div>
       </div>
     </div>
@@ -1399,6 +1396,15 @@
     <div class="wave" id="wave4"></div>
   </div>
   <ul class="social-icon">
+
+
+
+    
+    
+
+ 
+
+
     <li class="social-icon__item">
       <a class="social-icon__link" href="#">
         <ion-icon name="logo-facebook"></ion-icon>
@@ -1451,17 +1457,13 @@
 
 </div>
 </body>
+
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
 
-
-<script type="text/javascript" src="/src/js.js?v=ruq3c"></script>
-
-
-
-
-<script src="/src/cookie.js?v=ruq3c"></script>
+<script type="text/javascript" src="/src/js.js?v=v22wv"></script>
+<script src="/src/cookie.js?v=v22wv"></script>
 
 </html>

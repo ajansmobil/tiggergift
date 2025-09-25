@@ -15,8 +15,8 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=bc7a6" />
-  <link rel="shortcut icon" href="/img/icon.png?v=bc7a6" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=kfjvr" />
+  <link rel="shortcut icon" href="/img/icon.png?v=kfjvr" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -48,28 +48,25 @@
 </script>
 
 
-
-  <script type="text/javascript" src="/src/firebase.js?v=bc7a6"></script>
-
-
-<link rel="stylesheet" href="style.css?v=bc7a6">
+  <script type="text/javascript" src="/src/firebase.js?v=kfjvr"></script>
+<link rel="stylesheet" href="style.css?v=kfjvr">
 </head>
 
 <body>
-  <div id="header"><header class="cltri-header-wrapper">
-  <div class="cltri-header">
-    <div class="cltri-header-top">
-      <a href="/tr/" class="cltri-header-left">
-        <img src="/img/logo.png?v=bc7a6" alt="Tiggergift Logo" class="cltri-logo" />
+  <div id="header"><header class="wd2yb-header-wrapper">
+  <div class="wd2yb-header">
+    <div class="wd2yb-header-top">
+      <a href="/tr/" class="wd2yb-header-left">
+        <img src="/img/logo.png?v=kfjvr" alt="Tiggergift Logo" class="wd2yb-logo" />
       </a>
 
-      <div class="cltri-search-box">
+      <div class="wd2yb-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="cltri-support-info">
+      <div class="wd2yb-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
@@ -77,7 +74,7 @@
         </div>
       </div>
 
-      <div class="cltri-icons">
+      <div class="wd2yb-icons">
         <a href="/tr/login/" class="material-symbols-outlined">person</a>
         <a href="/tr/favorilerim/" class="material-symbols-outlined">favorite</a>
         <a href="/tr/basket/" class="material-symbols-outlined">shopping_cart</a>
@@ -85,12 +82,12 @@
     </div>
   </div>
 
-  <div class="cltri-header-bottom">
-    <div class="cltri-header-bottom-inner">
-      <button class="cltri-category-btn">
+  <div class="wd2yb-header-bottom">
+    <div class="wd2yb-header-bottom-inner">
+      <button class="wd2yb-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="cltri-main-menu"><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/baklava/">Baklava</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/iletisim/">İletişim</a></nav>
+      <nav class="wd2yb-main-menu"><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/baklava/">Baklava</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/iletisim/">İletişim</a></nav>
     </div>
   </div>
 </header>
@@ -106,13 +103,13 @@
 </div>
 
 <!-- Main Content -->
-<div class="a8doc" id="adminMainContent" style="display: none;">
-  <div class="a8doc-menu">
-    <a href="/tr/admin/" class="a8doc-profile">
-      <div class="a8doc-user-img" id="userAvatar"></div>
+<div class="li36t" id="adminMainContent" style="display: none;">
+  <div class="li36t-menu">
+    <a href="/tr/admin/" class="li36t-profile">
+      <div class="li36t-user-img" id="userAvatar"></div>
       <div id="userName">Yükleniyor...</div>
     </a>
-    <div class="a8doc-menu-category">
+    <div class="li36t-menu-category">
     <a href="/tr/admin/" >
       <span class="material-symbols-outlined">home</span>
       <div>Admin</div>
@@ -158,77 +155,77 @@
       <div>Loglar</div>
     </a></div>
   </div>
-  <div class="a8doc-body"><div class="okvk3-admin-urunler">
+  <div class="li36t-body"><div class="aoahj-admin-urunler">
     <!-- Sayfa Başlığı -->
-    <div class="okvk3-page-header">
-        <div class="okvk3-header-left">
-            <h1>{{pageTitle}}</h1>
-            <p class="okvk3-header-subtitle">
+    <div class="aoahj-page-header">
+        <div class="aoahj-header-left">
+            <h1>Ürün Yönetimi</h1>
+            <p class="aoahj-header-subtitle">
                 <span class="material-symbols-outlined">inventory_2</span>
-                {{pageSubtitle}}
+                Ürünleri yönetin ve düzenleyin
             </p>
         </div>
-        <div class="okvk3-header-right">
-            <div class="okvk3-header-actions">
-                <button class="okvk3-btn okvk3-btn-success" onclick="openAddProductModal()">
+        <div class="aoahj-header-right">
+            <div class="aoahj-header-actions">
+                <button class="aoahj-btn aoahj-btn-success" onclick="openAddProductModal()">
                     <span class="material-symbols-outlined">add</span>
-                    {{addButton}}
+                    Yeni Ürün Ekle
                 </button>
-                <button class="okvk3-btn okvk3-btn-primary" onclick="loadProducts()">
+                <button class="aoahj-btn aoahj-btn-primary" onclick="loadProducts()">
                     <span class="material-symbols-outlined">refresh</span>
-                    {{refreshButton}}
+                    Yenile
                 </button>
             </div>
         </div>
     </div>
 
     <!-- Ürün İstatistikleri -->
-    <div class="okvk3-products-stats">
-        <div class="okvk3-stat-item okvk3-stat-all">
-            <div class="okvk3-stat-icon">
+    <div class="aoahj-products-stats">
+        <div class="aoahj-stat-item aoahj-stat-all">
+            <div class="aoahj-stat-icon">
                 <span class="material-symbols-outlined">inventory_2</span>
             </div>
-            <div class="okvk3-stat-content">
-                <div class="okvk3-stat-number" id="total_products">0</div>
-                <div class="okvk3-stat-label">Toplam Ürün</div>
+            <div class="aoahj-stat-content">
+                <div class="aoahj-stat-number" id="total_products">0</div>
+                <div class="aoahj-stat-label">Toplam Ürün</div>
             </div>
         </div>
 
-        <div class="okvk3-stat-item okvk3-stat-active">
-            <div class="okvk3-stat-icon">
+        <div class="aoahj-stat-item aoahj-stat-active">
+            <div class="aoahj-stat-icon">
                 <span class="material-symbols-outlined">check_circle</span>
             </div>
-            <div class="okvk3-stat-content">
-                <div class="okvk3-stat-number" id="active_products">0</div>
-                <div class="okvk3-stat-label">Aktif Ürünler</div>
+            <div class="aoahj-stat-content">
+                <div class="aoahj-stat-number" id="active_products">0</div>
+                <div class="aoahj-stat-label">Aktif Ürünler</div>
             </div>
         </div>
 
-        <div class="okvk3-stat-item okvk3-stat-low-stock">
-            <div class="okvk3-stat-icon">
+        <div class="aoahj-stat-item aoahj-stat-low-stock">
+            <div class="aoahj-stat-icon">
                 <span class="material-symbols-outlined">warning</span>
             </div>
-            <div class="okvk3-stat-content">
-                <div class="okvk3-stat-number" id="low_stock_products">0</div>
-                <div class="okvk3-stat-label">Düşük Stok</div>
+            <div class="aoahj-stat-content">
+                <div class="aoahj-stat-number" id="low_stock_products">0</div>
+                <div class="aoahj-stat-label">Düşük Stok</div>
             </div>
         </div>
 
-        <div class="okvk3-stat-item okvk3-stat-out-of-stock">
-            <div class="okvk3-stat-icon">
+        <div class="aoahj-stat-item aoahj-stat-out-of-stock">
+            <div class="aoahj-stat-icon">
                 <span class="material-symbols-outlined">remove_circle</span>
             </div>
-            <div class="okvk3-stat-content">
-                <div class="okvk3-stat-number" id="out_of_stock_products">0</div>
-                <div class="okvk3-stat-label">Stokta Yok</div>
+            <div class="aoahj-stat-content">
+                <div class="aoahj-stat-number" id="out_of_stock_products">0</div>
+                <div class="aoahj-stat-label">Stokta Yok</div>
             </div>
         </div>
     </div>
 
     <!-- Filtreleme ve Arama -->
-    <div class="okvk3-search-filters">
-        <div class="okvk3-filter-options">
-            <div class="okvk3-search-box">
+    <div class="aoahj-search-filters">
+        <div class="aoahj-filter-options">
+            <div class="aoahj-search-box">
                 <span class="material-symbols-outlined">search</span>
                 <input type="text" id="searchInput" placeholder="Ürün adı, kodu veya açıklama ara..."
                     onkeyup="filterProducts()">
@@ -252,19 +249,19 @@
     </div>
 
     <!-- Ürün Tablosu -->
-    <div class="okvk3-products-table-container">
-        <div class="okvk3-products-table">
+    <div class="aoahj-products-table-container">
+        <div class="aoahj-products-table">
             <table>
                 <thead>
                     <tr>
-                        <th class="okvk3-th-image">Görsel</th>
-                        <th class="okvk3-th-name">Ürün Adı</th>
-                        <th class="okvk3-th-code">Kod</th>
-                        <th class="okvk3-th-category">Kategori</th>
-                        <th class="okvk3-th-price">Fiyat</th>
-                        <th class="okvk3-th-stock">Stok</th>
-                        <th class="okvk3-th-status">Durum</th>
-                        <th class="okvk3-th-actions">İşlemler</th>
+                        <th class="aoahj-th-image">Görsel</th>
+                        <th class="aoahj-th-name">Ürün Adı</th>
+                        <th class="aoahj-th-code">Kod</th>
+                        <th class="aoahj-th-category">Kategori</th>
+                        <th class="aoahj-th-price">Fiyat</th>
+                        <th class="aoahj-th-stock">Stok</th>
+                        <th class="aoahj-th-status">Durum</th>
+                        <th class="aoahj-th-actions">İşlemler</th>
                     </tr>
                 </thead>
                 <tbody id="products-table-body">
@@ -274,15 +271,15 @@
         </div>
 
         <!-- Sayfalama -->
-        <div class="okvk3-pagination">
-            <button class="okvk3-btn okvk3-btn-secondary" id="prevPage" onclick="changePage(-1)">
+        <div class="aoahj-pagination">
+            <button class="aoahj-btn aoahj-btn-secondary" id="prevPage" onclick="changePage(-1)">
                 <span class="material-symbols-outlined">chevron_left</span>
                 Önceki
             </button>
-            <span class="okvk3-page-info">
+            <span class="aoahj-page-info">
                 Sayfa <span id="currentPage">1</span> / <span id="totalPages">1</span>
             </span>
-            <button class="okvk3-btn okvk3-btn-secondary" id="nextPage" onclick="changePage(1)">
+            <button class="aoahj-btn aoahj-btn-secondary" id="nextPage" onclick="changePage(1)">
                 Sonraki
                 <span class="material-symbols-outlined">chevron_right</span>
             </button>
@@ -290,47 +287,47 @@
     </div>
 
     <!-- Ürün Ekleme/Düzenleme Modalı -->
-    <div id="productModal" class="okvk3-modal">
-        <div class="okvk3-modal-content okvk3-modal-large">
-            <div class="okvk3-modal-header">
+    <div id="productModal" class="aoahj-modal">
+        <div class="aoahj-modal-content aoahj-modal-large">
+            <div class="aoahj-modal-header">
                 <h3 id="modalTitle">Yeni Ürün Ekle</h3>
-                <span class="okvk3-modal-close" onclick="closeModal('productModal')">&times;</span>
+                <span class="aoahj-modal-close" onclick="closeModal('productModal')">&times;</span>
             </div>
-            <div class="okvk3-modal-body">
+            <div class="aoahj-modal-body">
                 <form id="productForm">
-                    <div class="okvk3-form-grid">
-                        <div class="okvk3-form-group">
+                    <div class="aoahj-form-grid">
+                        <div class="aoahj-form-group">
                             <label>Ürün Adı *</label>
                             <input type="text" id="productName" required>
                         </div>
-                        <div class="okvk3-form-group">
+                        <div class="aoahj-form-group">
                             <label>Ürün Kodu *</label>
                             <input type="text" id="productCode" required>
                         </div>
-                        <div class="okvk3-form-group">
+                        <div class="aoahj-form-group">
                             <label>Kategori *</label>
                             <select id="productCategory" required>
                                 <option value="">Kategori Seçin</option>
                                 <!-- Kategoriler dinamik olarak yüklenecek -->
                             </select>
                         </div>
-                        <div class="okvk3-form-group">
+                        <div class="aoahj-form-group">
                             <label>Fiyat (₺) *</label>
                             <input type="number" id="productPrice" step="0.01" min="0" required>
                         </div>
-                        <div class="okvk3-form-group">
+                        <div class="aoahj-form-group">
                             <label>İndirimli Fiyat (₺)</label>
                             <input type="number" id="productDiscountPrice" step="0.01" min="0">
                         </div>
-                        <div class="okvk3-form-group">
+                        <div class="aoahj-form-group">
                             <label>Stok Adedi *</label>
                             <input type="number" id="productStock" min="0" required>
                         </div>
-                        <div class="okvk3-form-group">
+                        <div class="aoahj-form-group">
                             <label>Minimum Stok</label>
                             <input type="number" id="productMinStock" min="0" value="5">
                         </div>
-                        <div class="okvk3-form-group">
+                        <div class="aoahj-form-group">
                             <label>Durum</label>
                             <select id="productStatus">
                                 <option value="active">Aktif</option>
@@ -339,29 +336,29 @@
                         </div>
                     </div>
 
-                    <div class="okvk3-form-group okvk3-form-full">
+                    <div class="aoahj-form-group aoahj-form-full">
                         <label>Kısa Açıklama</label>
                         <textarea id="productShortDescription" rows="3"></textarea>
                     </div>
 
-                    <div class="okvk3-form-group okvk3-form-full">
+                    <div class="aoahj-form-group aoahj-form-full">
                         <label>Detaylı Açıklama</label>
                         <textarea id="productDescription" rows="5"></textarea>
                     </div>
 
-                    <div class="okvk3-form-group okvk3-form-full">
+                    <div class="aoahj-form-group aoahj-form-full">
                         <label>Ürün Görseli URL</label>
                         <input type="url" id="productImage" placeholder="https://example.com/image.jpg">
                     </div>
 
-                    <div class="okvk3-form-group okvk3-form-full">
+                    <div class="aoahj-form-group aoahj-form-full">
                         <label>Etiketler (virgülle ayırın)</label>
                         <input type="text" id="productTags" placeholder="örn: elektronik, telefon, samsung">
                     </div>
 
-                    <div class="okvk3-form-actions">
-                        <button type="submit" class="okvk3-btn okvk3-btn-success">Kaydet</button>
-                        <button type="button" class="okvk3-btn okvk3-btn-secondary"
+                    <div class="aoahj-form-actions">
+                        <button type="submit" class="aoahj-btn aoahj-btn-success">Kaydet</button>
+                        <button type="button" class="aoahj-btn aoahj-btn-secondary"
                             onclick="closeModal('productModal')">İptal</button>
                     </div>
                 </form>
@@ -459,7 +456,7 @@
                     <tr>
                         <td colspan="8" style="text-align: center; padding: 40px; color: #6c757d;">
                             <div style="font-size: 16px; margin-bottom: 10px;">Henüz ürün bulunmuyor</div>
-                            <button class="okvk3-btn okvk3-btn-success" onclick="openAddProductModal()">
+                            <button class="aoahj-btn aoahj-btn-success" onclick="openAddProductModal()">
                                 <span class="material-symbols-outlined">add</span>
                                 İlk Ürünü Ekle
                             </button>
@@ -473,7 +470,7 @@
                 <tr>
                     <td colspan="8" style="text-align: center; padding: 40px; color: #dc3545;">
                         <div style="font-size: 16px; margin-bottom: 10px;">Veriler yüklenirken hata oluştu</div>
-                        <button class="okvk3-btn okvk3-btn-primary" onclick="loadProducts()">
+                        <button class="aoahj-btn aoahj-btn-primary" onclick="loadProducts()">
                             <span class="material-symbols-outlined">refresh</span>
                             Tekrar Dene
                         </button>
@@ -588,12 +585,12 @@
         const row = document.createElement("tr");
 
         const stockStatus = getStockStatus(product.stock, product.minStock || 5);
-        const statusBadge = `<span class="okvk3-status-badge okvk3-status-${product.status}">${product.status === 'active' ? 'Aktif' : 'Pasif'}</span>`;
-        const stockBadge = `<span class="okvk3-stock-badge okvk3-stock-${stockStatus.class}">${stockStatus.text}</span>`;
+        const statusBadge = `<span class="aoahj-status-badge aoahj-status-${product.status}">${product.status === 'active' ? 'Aktif' : 'Pasif'}</span>`;
+        const stockBadge = `<span class="aoahj-stock-badge aoahj-stock-${stockStatus.class}">${stockStatus.text}</span>`;
 
         row.innerHTML = `
             <td>
-                <img src="${product.image || '/placeholder.jpg'}" alt="${product.name}" class="okvk3-product-image" onerror="this.src='/placeholder.jpg'">
+                <img src="${product.image || '/placeholder.jpg'}" alt="${product.name}" class="aoahj-product-image" onerror="this.src='/placeholder.jpg'">
             </td>
             <td>
                 <div style="font-weight: 500;">${product.name}</div>
@@ -611,11 +608,11 @@
             </td>
             <td>${statusBadge}</td>
             <td>
-                <div class="okvk3-action-buttons">
-                    <button class="okvk3-btn okvk3-btn-sm okvk3-btn-warning" onclick="editProduct('${product.id}')">
+                <div class="aoahj-action-buttons">
+                    <button class="aoahj-btn aoahj-btn-sm aoahj-btn-warning" onclick="editProduct('${product.id}')">
                         <span class="material-symbols-outlined">edit</span>
                     </button>
-                    <button class="okvk3-btn okvk3-btn-sm okvk3-btn-danger" onclick="deleteProduct('${product.id}')">
+                    <button class="aoahj-btn aoahj-btn-sm aoahj-btn-danger" onclick="deleteProduct('${product.id}')">
                         <span class="material-symbols-outlined">delete</span>
                     </button>
                 </div>
@@ -747,7 +744,7 @@
     // Bildirim göster
     function showNotification(message, type = 'info') {
         const notification = document.createElement('div');
-        notification.className = `okvk3-notification okvk3-notification-${type}`;
+        notification.className = `aoahj-notification aoahj-notification-${type}`;
         notification.textContent = message;
         notification.style.cssText = `
             position: fixed;
@@ -772,7 +769,7 @@
 
     // Modal dışına tıklandığında kapat
     window.onclick = function (event) {
-        const modals = document.querySelectorAll('.okvk3-modal');
+        const modals = document.querySelectorAll('.aoahj-modal');
         modals.forEach(modal => {
             if (event.target === modal) {
                 closeModal(modal.id);
@@ -1024,28 +1021,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="bd8se-trust-boxes">
-      <div class="bd8se-trust-item">
+<div class="ue1vh-trust-boxes">
+      <div class="ue1vh-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="bd8se-trust-text">
-          <div class="bd8se-trust-title">100% Güvenli Ödeme</div>
-          <div class="bd8se-trust-desc">3D Secure ile Güvenli Ödeme</div>
+        <div class="ue1vh-trust-text">
+          <div class="ue1vh-trust-title">100% Güvenli Ödeme</div>
+          <div class="ue1vh-trust-desc">3D Secure ile Güvenli Ödeme</div>
         </div>
       </div>
     
-      <div class="bd8se-trust-item">
+      <div class="ue1vh-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="bd8se-trust-text">
-          <div class="bd8se-trust-title">%100 Orijinal Ürün</div>
-          <div class="bd8se-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
+        <div class="ue1vh-trust-text">
+          <div class="ue1vh-trust-title">%100 Orijinal Ürün</div>
+          <div class="ue1vh-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
         </div>
       </div>
     
-      <div class="bd8se-trust-item">
+      <div class="ue1vh-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="bd8se-trust-text">
-          <div class="bd8se-trust-title">Hızlı Teslimat</div>
-          <div class="bd8se-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
+        <div class="ue1vh-trust-text">
+          <div class="ue1vh-trust-title">Hızlı Teslimat</div>
+          <div class="ue1vh-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
         </div>
       </div>
     </div>
@@ -1060,6 +1057,15 @@
     <div class="wave" id="wave4"></div>
   </div>
   <ul class="social-icon">
+
+
+
+    
+    
+
+ 
+
+
     <li class="social-icon__item">
       <a class="social-icon__link" href="#">
         <ion-icon name="logo-facebook"></ion-icon>
@@ -1112,17 +1118,13 @@
 
 </div>
 </body>
+
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
 
-
-<script type="text/javascript" src="/src/js.js?v=bc7a6"></script>
-
-
-
-
-<script src="/src/cookie.js?v=bc7a6"></script>
+<script type="text/javascript" src="/src/js.js?v=kfjvr"></script>
+<script src="/src/cookie.js?v=kfjvr"></script>
 
 </html>

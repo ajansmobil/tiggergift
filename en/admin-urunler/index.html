@@ -15,8 +15,8 @@
   <meta property="og:description" content="undefined" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=n9lf0" />
-  <link rel="shortcut icon" href="/img/icon.png?v=n9lf0" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=bx2p0" />
+  <link rel="shortcut icon" href="/img/icon.png?v=bx2p0" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -48,28 +48,25 @@
 </script>
 
 
-
-  <script type="text/javascript" src="/src/firebase.js?v=n9lf0"></script>
-
-
-<link rel="stylesheet" href="style.css?v=n9lf0">
+  <script type="text/javascript" src="/src/firebase.js?v=bx2p0"></script>
+<link rel="stylesheet" href="style.css?v=bx2p0">
 </head>
 
 <body>
-  <div id="header"><header class="y4nmc-header-wrapper">
-  <div class="y4nmc-header">
-    <div class="y4nmc-header-top">
-      <a href="/en/" class="y4nmc-header-left">
-        <img src="/img/logo.png?v=n9lf0" alt="Tiggergift Logo" class="y4nmc-logo" />
+  <div id="header"><header class="yzjt9-header-wrapper">
+  <div class="yzjt9-header">
+    <div class="yzjt9-header-top">
+      <a href="/en/" class="yzjt9-header-left">
+        <img src="/img/logo.png?v=bx2p0" alt="Tiggergift Logo" class="yzjt9-logo" />
       </a>
 
-      <div class="y4nmc-search-box">
+      <div class="yzjt9-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="y4nmc-support-info">
+      <div class="yzjt9-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
@@ -77,7 +74,7 @@
         </div>
       </div>
 
-      <div class="y4nmc-icons">
+      <div class="yzjt9-icons">
         <a href="/en/login/" class="material-symbols-outlined">person</a>
         <a href="/en/favorilerim/" class="material-symbols-outlined">favorite</a>
         <a href="/en/basket/" class="material-symbols-outlined">shopping_cart</a>
@@ -85,12 +82,12 @@
     </div>
   </div>
 
-  <div class="y4nmc-header-bottom">
-    <div class="y4nmc-header-bottom-inner">
-      <button class="y4nmc-category-btn">
+  <div class="yzjt9-header-bottom">
+    <div class="yzjt9-header-bottom-inner">
+      <button class="yzjt9-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="y4nmc-main-menu"><a href="/en/urunlerimiz/"></a><a href="/en/baklava/"></a><a href="/en/kurumsal/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
+      <nav class="yzjt9-main-menu"><a href="/en/urunlerimiz/"></a><a href="/en/baklava/"></a><a href="/en/kurumsal/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
     </div>
   </div>
 </header>
@@ -106,13 +103,13 @@
 </div>
 
 <!-- Main Content -->
-<div class="bwlon" id="adminMainContent" style="display: none;">
-  <div class="bwlon-menu">
-    <a href="/en/admin/" class="bwlon-profile">
-      <div class="bwlon-user-img" id="userAvatar"></div>
+<div class="ylfad" id="adminMainContent" style="display: none;">
+  <div class="ylfad-menu">
+    <a href="/en/admin/" class="ylfad-profile">
+      <div class="ylfad-user-img" id="userAvatar"></div>
       <div id="userName">Yükleniyor...</div>
     </a>
-    <div class="bwlon-menu-category">
+    <div class="ylfad-menu-category">
     <a href="/en/admin/" >
       <span class="material-symbols-outlined">home</span>
       <div>Admin</div>
@@ -158,77 +155,77 @@
       <div>Logs</div>
     </a></div>
   </div>
-  <div class="bwlon-body"><div class="xejan-admin-urunler">
+  <div class="ylfad-body"><div class="nek8r-admin-urunler">
     <!-- Sayfa Başlığı -->
-    <div class="xejan-page-header">
-        <div class="xejan-header-left">
-            <h1>{{pageTitle}}</h1>
-            <p class="xejan-header-subtitle">
+    <div class="nek8r-page-header">
+        <div class="nek8r-header-left">
+            <h1>Product Management</h1>
+            <p class="nek8r-header-subtitle">
                 <span class="material-symbols-outlined">inventory_2</span>
-                {{pageSubtitle}}
+                Manage and organize products
             </p>
         </div>
-        <div class="xejan-header-right">
-            <div class="xejan-header-actions">
-                <button class="xejan-btn xejan-btn-success" onclick="openAddProductModal()">
+        <div class="nek8r-header-right">
+            <div class="nek8r-header-actions">
+                <button class="nek8r-btn nek8r-btn-success" onclick="openAddProductModal()">
                     <span class="material-symbols-outlined">add</span>
-                    {{addButton}}
+                    Add New Product
                 </button>
-                <button class="xejan-btn xejan-btn-primary" onclick="loadProducts()">
+                <button class="nek8r-btn nek8r-btn-primary" onclick="loadProducts()">
                     <span class="material-symbols-outlined">refresh</span>
-                    {{refreshButton}}
+                    Refresh
                 </button>
             </div>
         </div>
     </div>
 
     <!-- Ürün İstatistikleri -->
-    <div class="xejan-products-stats">
-        <div class="xejan-stat-item xejan-stat-all">
-            <div class="xejan-stat-icon">
+    <div class="nek8r-products-stats">
+        <div class="nek8r-stat-item nek8r-stat-all">
+            <div class="nek8r-stat-icon">
                 <span class="material-symbols-outlined">inventory_2</span>
             </div>
-            <div class="xejan-stat-content">
-                <div class="xejan-stat-number" id="total_products">0</div>
-                <div class="xejan-stat-label">Toplam Ürün</div>
+            <div class="nek8r-stat-content">
+                <div class="nek8r-stat-number" id="total_products">0</div>
+                <div class="nek8r-stat-label">Toplam Ürün</div>
             </div>
         </div>
 
-        <div class="xejan-stat-item xejan-stat-active">
-            <div class="xejan-stat-icon">
+        <div class="nek8r-stat-item nek8r-stat-active">
+            <div class="nek8r-stat-icon">
                 <span class="material-symbols-outlined">check_circle</span>
             </div>
-            <div class="xejan-stat-content">
-                <div class="xejan-stat-number" id="active_products">0</div>
-                <div class="xejan-stat-label">Aktif Ürünler</div>
+            <div class="nek8r-stat-content">
+                <div class="nek8r-stat-number" id="active_products">0</div>
+                <div class="nek8r-stat-label">Aktif Ürünler</div>
             </div>
         </div>
 
-        <div class="xejan-stat-item xejan-stat-low-stock">
-            <div class="xejan-stat-icon">
+        <div class="nek8r-stat-item nek8r-stat-low-stock">
+            <div class="nek8r-stat-icon">
                 <span class="material-symbols-outlined">warning</span>
             </div>
-            <div class="xejan-stat-content">
-                <div class="xejan-stat-number" id="low_stock_products">0</div>
-                <div class="xejan-stat-label">Düşük Stok</div>
+            <div class="nek8r-stat-content">
+                <div class="nek8r-stat-number" id="low_stock_products">0</div>
+                <div class="nek8r-stat-label">Düşük Stok</div>
             </div>
         </div>
 
-        <div class="xejan-stat-item xejan-stat-out-of-stock">
-            <div class="xejan-stat-icon">
+        <div class="nek8r-stat-item nek8r-stat-out-of-stock">
+            <div class="nek8r-stat-icon">
                 <span class="material-symbols-outlined">remove_circle</span>
             </div>
-            <div class="xejan-stat-content">
-                <div class="xejan-stat-number" id="out_of_stock_products">0</div>
-                <div class="xejan-stat-label">Stokta Yok</div>
+            <div class="nek8r-stat-content">
+                <div class="nek8r-stat-number" id="out_of_stock_products">0</div>
+                <div class="nek8r-stat-label">Stokta Yok</div>
             </div>
         </div>
     </div>
 
     <!-- Filtreleme ve Arama -->
-    <div class="xejan-search-filters">
-        <div class="xejan-filter-options">
-            <div class="xejan-search-box">
+    <div class="nek8r-search-filters">
+        <div class="nek8r-filter-options">
+            <div class="nek8r-search-box">
                 <span class="material-symbols-outlined">search</span>
                 <input type="text" id="searchInput" placeholder="Ürün adı, kodu veya açıklama ara..."
                     onkeyup="filterProducts()">
@@ -252,19 +249,19 @@
     </div>
 
     <!-- Ürün Tablosu -->
-    <div class="xejan-products-table-container">
-        <div class="xejan-products-table">
+    <div class="nek8r-products-table-container">
+        <div class="nek8r-products-table">
             <table>
                 <thead>
                     <tr>
-                        <th class="xejan-th-image">Görsel</th>
-                        <th class="xejan-th-name">Ürün Adı</th>
-                        <th class="xejan-th-code">Kod</th>
-                        <th class="xejan-th-category">Kategori</th>
-                        <th class="xejan-th-price">Fiyat</th>
-                        <th class="xejan-th-stock">Stok</th>
-                        <th class="xejan-th-status">Durum</th>
-                        <th class="xejan-th-actions">İşlemler</th>
+                        <th class="nek8r-th-image">Görsel</th>
+                        <th class="nek8r-th-name">Ürün Adı</th>
+                        <th class="nek8r-th-code">Kod</th>
+                        <th class="nek8r-th-category">Kategori</th>
+                        <th class="nek8r-th-price">Fiyat</th>
+                        <th class="nek8r-th-stock">Stok</th>
+                        <th class="nek8r-th-status">Durum</th>
+                        <th class="nek8r-th-actions">İşlemler</th>
                     </tr>
                 </thead>
                 <tbody id="products-table-body">
@@ -274,15 +271,15 @@
         </div>
 
         <!-- Sayfalama -->
-        <div class="xejan-pagination">
-            <button class="xejan-btn xejan-btn-secondary" id="prevPage" onclick="changePage(-1)">
+        <div class="nek8r-pagination">
+            <button class="nek8r-btn nek8r-btn-secondary" id="prevPage" onclick="changePage(-1)">
                 <span class="material-symbols-outlined">chevron_left</span>
                 Önceki
             </button>
-            <span class="xejan-page-info">
+            <span class="nek8r-page-info">
                 Sayfa <span id="currentPage">1</span> / <span id="totalPages">1</span>
             </span>
-            <button class="xejan-btn xejan-btn-secondary" id="nextPage" onclick="changePage(1)">
+            <button class="nek8r-btn nek8r-btn-secondary" id="nextPage" onclick="changePage(1)">
                 Sonraki
                 <span class="material-symbols-outlined">chevron_right</span>
             </button>
@@ -290,47 +287,47 @@
     </div>
 
     <!-- Ürün Ekleme/Düzenleme Modalı -->
-    <div id="productModal" class="xejan-modal">
-        <div class="xejan-modal-content xejan-modal-large">
-            <div class="xejan-modal-header">
+    <div id="productModal" class="nek8r-modal">
+        <div class="nek8r-modal-content nek8r-modal-large">
+            <div class="nek8r-modal-header">
                 <h3 id="modalTitle">Yeni Ürün Ekle</h3>
-                <span class="xejan-modal-close" onclick="closeModal('productModal')">&times;</span>
+                <span class="nek8r-modal-close" onclick="closeModal('productModal')">&times;</span>
             </div>
-            <div class="xejan-modal-body">
+            <div class="nek8r-modal-body">
                 <form id="productForm">
-                    <div class="xejan-form-grid">
-                        <div class="xejan-form-group">
+                    <div class="nek8r-form-grid">
+                        <div class="nek8r-form-group">
                             <label>Ürün Adı *</label>
                             <input type="text" id="productName" required>
                         </div>
-                        <div class="xejan-form-group">
+                        <div class="nek8r-form-group">
                             <label>Ürün Kodu *</label>
                             <input type="text" id="productCode" required>
                         </div>
-                        <div class="xejan-form-group">
+                        <div class="nek8r-form-group">
                             <label>Kategori *</label>
                             <select id="productCategory" required>
                                 <option value="">Kategori Seçin</option>
                                 <!-- Kategoriler dinamik olarak yüklenecek -->
                             </select>
                         </div>
-                        <div class="xejan-form-group">
+                        <div class="nek8r-form-group">
                             <label>Fiyat (₺) *</label>
                             <input type="number" id="productPrice" step="0.01" min="0" required>
                         </div>
-                        <div class="xejan-form-group">
+                        <div class="nek8r-form-group">
                             <label>İndirimli Fiyat (₺)</label>
                             <input type="number" id="productDiscountPrice" step="0.01" min="0">
                         </div>
-                        <div class="xejan-form-group">
+                        <div class="nek8r-form-group">
                             <label>Stok Adedi *</label>
                             <input type="number" id="productStock" min="0" required>
                         </div>
-                        <div class="xejan-form-group">
+                        <div class="nek8r-form-group">
                             <label>Minimum Stok</label>
                             <input type="number" id="productMinStock" min="0" value="5">
                         </div>
-                        <div class="xejan-form-group">
+                        <div class="nek8r-form-group">
                             <label>Durum</label>
                             <select id="productStatus">
                                 <option value="active">Aktif</option>
@@ -339,29 +336,29 @@
                         </div>
                     </div>
 
-                    <div class="xejan-form-group xejan-form-full">
+                    <div class="nek8r-form-group nek8r-form-full">
                         <label>Kısa Açıklama</label>
                         <textarea id="productShortDescription" rows="3"></textarea>
                     </div>
 
-                    <div class="xejan-form-group xejan-form-full">
+                    <div class="nek8r-form-group nek8r-form-full">
                         <label>Detaylı Açıklama</label>
                         <textarea id="productDescription" rows="5"></textarea>
                     </div>
 
-                    <div class="xejan-form-group xejan-form-full">
+                    <div class="nek8r-form-group nek8r-form-full">
                         <label>Ürün Görseli URL</label>
                         <input type="url" id="productImage" placeholder="https://example.com/image.jpg">
                     </div>
 
-                    <div class="xejan-form-group xejan-form-full">
+                    <div class="nek8r-form-group nek8r-form-full">
                         <label>Etiketler (virgülle ayırın)</label>
                         <input type="text" id="productTags" placeholder="örn: elektronik, telefon, samsung">
                     </div>
 
-                    <div class="xejan-form-actions">
-                        <button type="submit" class="xejan-btn xejan-btn-success">Kaydet</button>
-                        <button type="button" class="xejan-btn xejan-btn-secondary"
+                    <div class="nek8r-form-actions">
+                        <button type="submit" class="nek8r-btn nek8r-btn-success">Kaydet</button>
+                        <button type="button" class="nek8r-btn nek8r-btn-secondary"
                             onclick="closeModal('productModal')">İptal</button>
                     </div>
                 </form>
@@ -459,7 +456,7 @@
                     <tr>
                         <td colspan="8" style="text-align: center; padding: 40px; color: #6c757d;">
                             <div style="font-size: 16px; margin-bottom: 10px;">Henüz ürün bulunmuyor</div>
-                            <button class="xejan-btn xejan-btn-success" onclick="openAddProductModal()">
+                            <button class="nek8r-btn nek8r-btn-success" onclick="openAddProductModal()">
                                 <span class="material-symbols-outlined">add</span>
                                 İlk Ürünü Ekle
                             </button>
@@ -473,7 +470,7 @@
                 <tr>
                     <td colspan="8" style="text-align: center; padding: 40px; color: #dc3545;">
                         <div style="font-size: 16px; margin-bottom: 10px;">Veriler yüklenirken hata oluştu</div>
-                        <button class="xejan-btn xejan-btn-primary" onclick="loadProducts()">
+                        <button class="nek8r-btn nek8r-btn-primary" onclick="loadProducts()">
                             <span class="material-symbols-outlined">refresh</span>
                             Tekrar Dene
                         </button>
@@ -588,12 +585,12 @@
         const row = document.createElement("tr");
 
         const stockStatus = getStockStatus(product.stock, product.minStock || 5);
-        const statusBadge = `<span class="xejan-status-badge xejan-status-${product.status}">${product.status === 'active' ? 'Aktif' : 'Pasif'}</span>`;
-        const stockBadge = `<span class="xejan-stock-badge xejan-stock-${stockStatus.class}">${stockStatus.text}</span>`;
+        const statusBadge = `<span class="nek8r-status-badge nek8r-status-${product.status}">${product.status === 'active' ? 'Aktif' : 'Pasif'}</span>`;
+        const stockBadge = `<span class="nek8r-stock-badge nek8r-stock-${stockStatus.class}">${stockStatus.text}</span>`;
 
         row.innerHTML = `
             <td>
-                <img src="${product.image || '/placeholder.jpg'}" alt="${product.name}" class="xejan-product-image" onerror="this.src='/placeholder.jpg'">
+                <img src="${product.image || '/placeholder.jpg'}" alt="${product.name}" class="nek8r-product-image" onerror="this.src='/placeholder.jpg'">
             </td>
             <td>
                 <div style="font-weight: 500;">${product.name}</div>
@@ -611,11 +608,11 @@
             </td>
             <td>${statusBadge}</td>
             <td>
-                <div class="xejan-action-buttons">
-                    <button class="xejan-btn xejan-btn-sm xejan-btn-warning" onclick="editProduct('${product.id}')">
+                <div class="nek8r-action-buttons">
+                    <button class="nek8r-btn nek8r-btn-sm nek8r-btn-warning" onclick="editProduct('${product.id}')">
                         <span class="material-symbols-outlined">edit</span>
                     </button>
-                    <button class="xejan-btn xejan-btn-sm xejan-btn-danger" onclick="deleteProduct('${product.id}')">
+                    <button class="nek8r-btn nek8r-btn-sm nek8r-btn-danger" onclick="deleteProduct('${product.id}')">
                         <span class="material-symbols-outlined">delete</span>
                     </button>
                 </div>
@@ -747,7 +744,7 @@
     // Bildirim göster
     function showNotification(message, type = 'info') {
         const notification = document.createElement('div');
-        notification.className = `xejan-notification xejan-notification-${type}`;
+        notification.className = `nek8r-notification nek8r-notification-${type}`;
         notification.textContent = message;
         notification.style.cssText = `
             position: fixed;
@@ -772,7 +769,7 @@
 
     // Modal dışına tıklandığında kapat
     window.onclick = function (event) {
-        const modals = document.querySelectorAll('.xejan-modal');
+        const modals = document.querySelectorAll('.nek8r-modal');
         modals.forEach(modal => {
             if (event.target === modal) {
                 closeModal(modal.id);
@@ -1024,28 +1021,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="ikb08-trust-boxes">
-      <div class="ikb08-trust-item">
+<div class="zj39t-trust-boxes">
+      <div class="zj39t-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="ikb08-trust-text">
-          <div class="ikb08-trust-title">100% Secure Payment</div>
-          <div class="ikb08-trust-desc">Secure Payment with 3D Secure</div>
+        <div class="zj39t-trust-text">
+          <div class="zj39t-trust-title">100% Secure Payment</div>
+          <div class="zj39t-trust-desc">Secure Payment with 3D Secure</div>
         </div>
       </div>
     
-      <div class="ikb08-trust-item">
+      <div class="zj39t-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="ikb08-trust-text">
-          <div class="ikb08-trust-title">100% Original Product</div>
-          <div class="ikb08-trust-desc">Activation with 100% Licensed Original Product</div>
+        <div class="zj39t-trust-text">
+          <div class="zj39t-trust-title">100% Original Product</div>
+          <div class="zj39t-trust-desc">Activation with 100% Licensed Original Product</div>
         </div>
       </div>
     
-      <div class="ikb08-trust-item">
+      <div class="zj39t-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="ikb08-trust-text">
-          <div class="ikb08-trust-title">Fast Delivery</div>
-          <div class="ikb08-trust-desc">Online Fast Delivery for All Your Shopping</div>
+        <div class="zj39t-trust-text">
+          <div class="zj39t-trust-title">Fast Delivery</div>
+          <div class="zj39t-trust-desc">Online Fast Delivery for All Your Shopping</div>
         </div>
       </div>
     </div>
@@ -1060,6 +1057,15 @@
     <div class="wave" id="wave4"></div>
   </div>
   <ul class="social-icon">
+
+
+
+    
+    
+
+ 
+
+
     <li class="social-icon__item">
       <a class="social-icon__link" href="#">
         <ion-icon name="logo-facebook"></ion-icon>
@@ -1112,17 +1118,13 @@
 
 </div>
 </body>
+
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
 
-
-<script type="text/javascript" src="/src/js.js?v=n9lf0"></script>
-
-
-
-
-<script src="/src/cookie.js?v=n9lf0"></script>
+<script type="text/javascript" src="/src/js.js?v=bx2p0"></script>
+<script src="/src/cookie.js?v=bx2p0"></script>
 
 </html>

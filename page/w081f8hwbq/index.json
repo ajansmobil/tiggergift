@@ -5,7 +5,7 @@
   "status": "play",
   "category": "",
   "id": "w081f8hwbq",
-  "url": "",
+  "externalUrl": "",
   "path": "bakir4",
   "index": 2,
   "desing": {
@@ -27,5 +27,6 @@
     "tr": ""
   },
   "update": "2025-08-28T17:51:25.480Z",
-  "date": "2025-07-25T12:52:47.206Z"
+  "date": "2025-07-25T12:52:47.206Z",
+  "img": "b2kfo.png"
 }

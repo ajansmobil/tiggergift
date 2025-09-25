@@ -15,8 +15,8 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=jac1k" />
-  <link rel="shortcut icon" href="/img/icon.png?v=jac1k" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=xzxhl" />
+  <link rel="shortcut icon" href="/img/icon.png?v=xzxhl" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -48,28 +48,25 @@
 </script>
 
 
-
-  <script type="text/javascript" src="/src/firebase.js?v=jac1k"></script>
-
-
-<link rel="stylesheet" href="style.css?v=jac1k">
+  <script type="text/javascript" src="/src/firebase.js?v=xzxhl"></script>
+<link rel="stylesheet" href="style.css?v=xzxhl">
 </head>
 
 <body>
-  <div id="header"><header class="in7ff-header-wrapper">
-  <div class="in7ff-header">
-    <div class="in7ff-header-top">
-      <a href="/tr/" class="in7ff-header-left">
-        <img src="/img/logo.png?v=jac1k" alt="Tiggergift Logo" class="in7ff-logo" />
+  <div id="header"><header class="tlnea-header-wrapper">
+  <div class="tlnea-header">
+    <div class="tlnea-header-top">
+      <a href="/tr/" class="tlnea-header-left">
+        <img src="/img/logo.png?v=xzxhl" alt="Tiggergift Logo" class="tlnea-logo" />
       </a>
 
-      <div class="in7ff-search-box">
+      <div class="tlnea-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="in7ff-support-info">
+      <div class="tlnea-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
@@ -77,7 +74,7 @@
         </div>
       </div>
 
-      <div class="in7ff-icons">
+      <div class="tlnea-icons">
         <a href="/tr/login/" class="material-symbols-outlined">person</a>
         <a href="/tr/favorilerim/" class="material-symbols-outlined">favorite</a>
         <a href="/tr/basket/" class="material-symbols-outlined">shopping_cart</a>
@@ -85,12 +82,12 @@
     </div>
   </div>
 
-  <div class="in7ff-header-bottom">
-    <div class="in7ff-header-bottom-inner">
-      <button class="in7ff-category-btn">
+  <div class="tlnea-header-bottom">
+    <div class="tlnea-header-bottom-inner">
+      <button class="tlnea-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="in7ff-main-menu"><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/baklava/">Baklava</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/iletisim/">İletişim</a></nav>
+      <nav class="tlnea-main-menu"><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/baklava/">Baklava</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/iletisim/">İletişim</a></nav>
     </div>
   </div>
 </header>
@@ -106,14 +103,14 @@
 </div>
 
 <!-- Main Content -->
-<div class="pz9l8" id="adminMainContent" style="display: none;">
-  <div class="pz9l8-menu">
-    <a href="/tr/user/" class="pz9l8-profile">
-      <div class="pz9l8-user-img" id="userAvatar"></div>
+<div class="l9hme" id="adminMainContent" style="display: none;">
+  <div class="l9hme-menu">
+    <a href="/tr/user/" class="l9hme-profile">
+      <div class="l9hme-user-img" id="userAvatar"></div>
       <div id="userName">Yükleniyor...</div>
     </a>
-    <div class="pz9l8-menu-category">
-    <a class="pz9l8-menu-active" href="/tr/sepetim/" >
+    <div class="l9hme-menu-category">
+    <a class="l9hme-menu-active" href="/tr/sepetim/" >
       <span class="material-symbols-outlined">shopping_basket</span>
       <div>Sepetim</div>
     </a>
@@ -182,20 +179,20 @@
       <div>Ödeme</div>
     </a></div>
   </div>
-  <div class="pz9l8-body"><div class="jyqz0">
-  <div class="jyqz0Title">
+  <div class="l9hme-body"><div class="bntso">
+  <div class="bntsoTitle">
     <span class="material-symbols-outlined">shopping_cart</span>
     Sepetim
   </div>
-  <div class="jyqz0Body">
+  <div class="bntsoBody">
     <!-- Cart Items List -->
-    <div class="jyqz0List" id="cartItemsList">
+    <div class="bntsoList" id="cartItemsList">
       <!-- Dynamic cart items will be loaded here -->
     </div>
 
     <!-- Cart Summary -->
-    <div class="jyqz0Total">
-      <div class="jyqz0TotalBody">
+    <div class="bntsoTotal">
+      <div class="bntsoTotalBody">
         <div class="cart-summary">
           <div class="summary-item">
             <span>Ara Toplam:</span>
@@ -232,8 +229,6 @@
 </div>
 
 <script>
-        // Cart messages for tr
-        window.cartMessages = {"title":"Sepetim","subtotal":"Ara Toplam","tax":"KDV","total":"Toplam","checkout":"Ödemeye Geç","emptyCart":"Sepetinizde ürün bulunmuyor","removeItem":"Ürünü Kaldır","loginRequired":"Sepetinizi görmek için giriş yapmanız gerekiyor.","itemRemoved":"Ürün sepetten kaldırıldı!","quantityUpdated":"Miktar güncellendi!","cartCleared":"Sepet temizlendi!","proceedingToPayment":"Ödeme sayfasına yönlendiriliyorsunuz...","errorOccurred":"Bir hata oluştu!","clearCart":"Sepeti Temizle","continueShopping":"Alışverişe Devam Et","quantity":"Adet"};
   // Firebase'den sepet verilerini çek
   async function loadCart() {
     try {
@@ -290,18 +285,18 @@
   // Sepet öğesi HTML'i oluştur
   function generateCartItemHTML(item) {
     return `
-      <div class="jyqz0ListChile" data-item-id="${item.id}">
-        <div class="jyqz0ListChileImg">
+      <div class="bntsoListChile" data-item-id="${item.id}">
+        <div class="bntsoListChileImg">
           <img src="${item.image || '/img/no-image.png'}" alt="${item.name}" />
         </div>
-        <div class="jyqz0ListChileBody">
-          <div class="jyqz0ListChileBodyTitle">
+        <div class="bntsoListChileBody">
+          <div class="bntsoListChileBodyTitle">
             <span>${item.name}</span>
           </div>
-          <div class="jyqz0ListChileBodySpot">${item.category || 'Genel'}</div>
-          <div class="jyqz0ListChileBodyPrice">
-            <div class="jyqz0ListChileBodyPriceBody">${formatPrice(item.price)} ₺</div>
-            <div class="jyqz0ListChileBodyNumber">
+          <div class="bntsoListChileBodySpot">${item.category || 'Genel'}</div>
+          <div class="bntsoListChileBodyPrice">
+            <div class="bntsoListChileBodyPriceBody">${formatPrice(item.price)} ₺</div>
+            <div class="bntsoListChileBodyNumber">
               <button class="quantity-btn" onclick="updateQuantity('${item.id}', ${item.quantity - 1})">
                 <span class="material-symbols-outlined">remove</span>
               </button>
@@ -797,28 +792,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="welhj-trust-boxes">
-      <div class="welhj-trust-item">
+<div class="gl68h-trust-boxes">
+      <div class="gl68h-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="welhj-trust-text">
-          <div class="welhj-trust-title">100% Güvenli Ödeme</div>
-          <div class="welhj-trust-desc">3D Secure ile Güvenli Ödeme</div>
+        <div class="gl68h-trust-text">
+          <div class="gl68h-trust-title">100% Güvenli Ödeme</div>
+          <div class="gl68h-trust-desc">3D Secure ile Güvenli Ödeme</div>
         </div>
       </div>
     
-      <div class="welhj-trust-item">
+      <div class="gl68h-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="welhj-trust-text">
-          <div class="welhj-trust-title">%100 Orijinal Ürün</div>
-          <div class="welhj-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
+        <div class="gl68h-trust-text">
+          <div class="gl68h-trust-title">%100 Orijinal Ürün</div>
+          <div class="gl68h-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
         </div>
       </div>
     
-      <div class="welhj-trust-item">
+      <div class="gl68h-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="welhj-trust-text">
-          <div class="welhj-trust-title">Hızlı Teslimat</div>
-          <div class="welhj-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
+        <div class="gl68h-trust-text">
+          <div class="gl68h-trust-title">Hızlı Teslimat</div>
+          <div class="gl68h-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
         </div>
       </div>
     </div>
@@ -833,6 +828,15 @@
     <div class="wave" id="wave4"></div>
   </div>
   <ul class="social-icon">
+
+
+
+    
+    
+
+ 
+
+
     <li class="social-icon__item">
       <a class="social-icon__link" href="#">
         <ion-icon name="logo-facebook"></ion-icon>
@@ -885,17 +889,13 @@
 
 </div>
 </body>
+
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
 
-
-<script type="text/javascript" src="/src/js.js?v=jac1k"></script>
-
-
-
-
-<script src="/src/cookie.js?v=jac1k"></script>
+<script type="text/javascript" src="/src/js.js?v=xzxhl"></script>
+<script src="/src/cookie.js?v=xzxhl"></script>
 
 </html>

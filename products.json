@@ -11,7 +11,7 @@
       "status": "play",
       "category": "",
       "id": "w081f8hwbq",
-      "url": "",
+      "externalUrl": "",
       "path": "bakir4",
       "index": 0,
       "desing": {
@@ -20,6 +20,21 @@
         "footer": []
       },
       "pathnext": "",
+      "description": {
+        "tr": ""
+      },
+      "keyword": {
+        "tr": ""
+      },
+      "text": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "update": "2025-08-28T17:51:25.480Z",
+      "date": "2025-07-25T12:52:47.206Z",
+      "img": "b2kfo.png",
       "desc": {}
     },
     {
@@ -30,7 +45,7 @@
       "status": "play",
       "category": "",
       "id": "q2sq7c0knd",
-      "url": "",
+      "externalUrl": "",
       "path": "bakir3",
       "index": 1,
       "desing": {
@@ -49,7 +64,7 @@
       "status": "play",
       "category": "",
       "id": "y2ysbavd0q",
-      "url": "",
+      "externalUrl": "",
       "path": "bakir2",
       "index": 2,
       "desing": {
@@ -68,7 +83,7 @@
       "status": "play",
       "category": "",
       "id": "j9pu3bp7y7",
-      "url": "",
+      "externalUrl": "",
       "path": "newpage",
       "index": 3,
       "desing": {

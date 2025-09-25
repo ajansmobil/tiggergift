@@ -1,10 +1,10 @@
 
-  .c5qyi-header-wrapper {
+  .fyk4i-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .c5qyi-header {
+  .fyk4i-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .c5qyi-logo {
+  .fyk4i-logo {
     height: 80px;
   }
 
-  .c5qyi-header-top {
+  .fyk4i-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .c5qyi-search-box {
+  .fyk4i-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .c5qyi-search-box span {
+  .fyk4i-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .c5qyi-search-box input {
+  .fyk4i-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .c5qyi-search-box button {
+  .fyk4i-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .c5qyi-search-box button:hover {
+  .fyk4i-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .c5qyi-support-info {
+  .fyk4i-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .c5qyi-support-info span {
+  .fyk4i-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .c5qyi-support-info small {
+  .fyk4i-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .c5qyi-support-info strong {
+  .fyk4i-support-info strong {
     font-size: 16px;
   }
 
-  .c5qyi-icons {
+  .fyk4i-icons {
     display: flex;
     gap: 10px;
   }
 
-  .c5qyi-icons span {
+  .fyk4i-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .c5qyi-icons span:hover {
+  .fyk4i-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .c5qyi-header-bottom {
+  .fyk4i-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .c5qyi-header-bottom-inner {
+  .fyk4i-header-bottom-inner {
     max-width: 1200px;
     margin: auto;
     padding: 14px 30px;
@@ -124,7 +124,7 @@
     align-items: center;
   }
 
-  .c5qyi-category-btn {
+  .fyk4i-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +136,72 @@
     font-weight: 500;
   }
 
-  .c5qyi-main-menu {
+  .fyk4i-main-menu {
     display: flex;
     gap: 20px;
     margin-left: 30px;
   }
 
-  .c5qyi-main-menu a {
+  .fyk4i-main-menu a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
   }
 
-  .c5qyi-main-menu a:hover {
+  .fyk4i-main-menu a:hover {
     color: #238b23;
   }
 
-  .c5qyi-menulistactive {
+  .fyk4i-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .c5qyi-header-top {
+    .fyk4i-header-top {
       gap: 20px;
     }
 
-    .c5qyi-search-box {
+    .fyk4i-search-box {
       margin: 0 10px;
     }
 
-    .c5qyi-support-info strong {
+    .fyk4i-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .c5qyi-header {
+    .fyk4i-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .c5qyi-header-top {
+    .fyk4i-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .c5qyi-search-box {
+    .fyk4i-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .c5qyi-support-info {
+    .fyk4i-support-info {
       display: none;
     }
 
-    .c5qyi-header-bottom-inner {
+    .fyk4i-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .c5qyi-main-menu {
+    .fyk4i-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,22 +210,22 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .c5qyi-logo {
+    .fyk4i-logo {
       height: 60px;
     }
 
-    .c5qyi-search-box {
+    .fyk4i-search-box {
       flex: 0 1 150px;
     }
 
-    .c5qyi-icons span {
+    .fyk4i-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .hlzhu-trust-boxes {
+  .rnusx-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -235,7 +235,7 @@
     gap: 0;
   }
 
-  .hlzhu-trust-item {
+  .rnusx-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -246,61 +246,72 @@
     gap: 16px;
   }
 
-  .hlzhu-trust-item .material-icons {
+  .rnusx-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .hlzhu-trust-text {
+  .rnusx-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .hlzhu-trust-title {
+  .rnusx-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .hlzhu-trust-desc {
+  .rnusx-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .hlzhu-trust-boxes {
+    .rnusx-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .hlzhu-trust-item {
+    .rnusx-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .hlzhu-trust-boxes {
+    .rnusx-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .hlzhu-trust-item {
+    .rnusx-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .hlzhu-trust-title {
+    .rnusx-trust-title {
       font-size: 16px;
     }
 
-    .hlzhu-trust-desc {
+    .rnusx-trust-desc {
       font-size: 13px;
     }
   }
 
+
+  .moduleimg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .moduleimg > img {
+    width: 100%;
+    max-width: 250px;
+  }
 
   .footer {
     position: relative;
@@ -338,7 +349,7 @@
 
   .social-icon__link:hover {
     transform: translateY(-10px);
-  }
+  } 
 
   .menu__link {
     font-size: 1.2rem;
@@ -355,7 +366,7 @@
     opacity: 1;
   }
 
-  .footer p {
+  .footer p { 
     color: #fff;
     margin: 15px 0 10px 0;
     font-size: 1rem;

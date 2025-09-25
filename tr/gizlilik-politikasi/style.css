@@ -1,10 +1,10 @@
 
-  .ghjpx-header-wrapper {
+  .zk0ab-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .ghjpx-header {
+  .zk0ab-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .ghjpx-logo {
+  .zk0ab-logo {
     height: 80px;
   }
 
-  .ghjpx-header-top {
+  .zk0ab-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .ghjpx-search-box {
+  .zk0ab-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .ghjpx-search-box span {
+  .zk0ab-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .ghjpx-search-box input {
+  .zk0ab-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .ghjpx-search-box button {
+  .zk0ab-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .ghjpx-search-box button:hover {
+  .zk0ab-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .ghjpx-support-info {
+  .zk0ab-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .ghjpx-support-info span {
+  .zk0ab-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .ghjpx-support-info small {
+  .zk0ab-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .ghjpx-support-info strong {
+  .zk0ab-support-info strong {
     font-size: 16px;
   }
 
-  .ghjpx-icons {
+  .zk0ab-icons {
     display: flex;
     gap: 10px;
   }
 
-  .ghjpx-icons span {
+  .zk0ab-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .ghjpx-icons span:hover {
+  .zk0ab-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .ghjpx-header-bottom {
+  .zk0ab-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .ghjpx-header-bottom-inner {
+  .zk0ab-header-bottom-inner {
     max-width: 1200px;
     margin: auto;
     padding: 14px 30px;
@@ -124,7 +124,7 @@
     align-items: center;
   }
 
-  .ghjpx-category-btn {
+  .zk0ab-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +136,72 @@
     font-weight: 500;
   }
 
-  .ghjpx-main-menu {
+  .zk0ab-main-menu {
     display: flex;
     gap: 20px;
     margin-left: 30px;
   }
 
-  .ghjpx-main-menu a {
+  .zk0ab-main-menu a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
   }
 
-  .ghjpx-main-menu a:hover {
+  .zk0ab-main-menu a:hover {
     color: #238b23;
   }
 
-  .ghjpx-menulistactive {
+  .zk0ab-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .ghjpx-header-top {
+    .zk0ab-header-top {
       gap: 20px;
     }
 
-    .ghjpx-search-box {
+    .zk0ab-search-box {
       margin: 0 10px;
     }
 
-    .ghjpx-support-info strong {
+    .zk0ab-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .ghjpx-header {
+    .zk0ab-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .ghjpx-header-top {
+    .zk0ab-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .ghjpx-search-box {
+    .zk0ab-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .ghjpx-support-info {
+    .zk0ab-support-info {
       display: none;
     }
 
-    .ghjpx-header-bottom-inner {
+    .zk0ab-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .ghjpx-main-menu {
+    .zk0ab-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,15 +210,15 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .ghjpx-logo {
+    .zk0ab-logo {
       height: 60px;
     }
 
-    .ghjpx-search-box {
+    .zk0ab-search-box {
       flex: 0 1 150px;
     }
 
-    .ghjpx-icons span {
+    .zk0ab-icons span {
       padding: 8px;
       font-size: 18px;
     }
@@ -228,13 +228,13 @@
   #content {
     justify-content: start;
   }
-  .pzdvu {
+  .eii3e {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .pzdvu-menu {
+  .eii3e-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -244,7 +244,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .pzdvu-menu > a {
+  .eii3e-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -252,18 +252,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .pzdvu-menu > a:hover,
-  .pzdvu-menu > .active {
+  .eii3e-menu > a:hover,
+  .eii3e-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .pzdvu-body {
+  .eii3e-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .pzdvu-title {
+  .eii3e-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -275,7 +275,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .pzdvu-title::before {
+  .eii3e-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -289,27 +289,27 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .pzdvu-title span {
+  .eii3e-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .pzdvu {
+    .eii3e {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .pzdvu-menu {
+    .eii3e-menu {
       display: none;
     }
-    .pzdvu-body {
+    .eii3e-body {
       width: 100%;
     }
   }
 
 
-  .l33tq-trust-boxes {
+  .zr10l-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -319,7 +319,7 @@
     gap: 0;
   }
 
-  .l33tq-trust-item {
+  .zr10l-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -330,61 +330,72 @@
     gap: 16px;
   }
 
-  .l33tq-trust-item .material-icons {
+  .zr10l-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .l33tq-trust-text {
+  .zr10l-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .l33tq-trust-title {
+  .zr10l-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .l33tq-trust-desc {
+  .zr10l-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .l33tq-trust-boxes {
+    .zr10l-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .l33tq-trust-item {
+    .zr10l-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .l33tq-trust-boxes {
+    .zr10l-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .l33tq-trust-item {
+    .zr10l-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .l33tq-trust-title {
+    .zr10l-trust-title {
       font-size: 16px;
     }
 
-    .l33tq-trust-desc {
+    .zr10l-trust-desc {
       font-size: 13px;
     }
   }
 
+
+  .moduleimg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .moduleimg > img {
+    width: 100%;
+    max-width: 250px;
+  }
 
   .footer {
     position: relative;
@@ -422,7 +433,7 @@
 
   .social-icon__link:hover {
     transform: translateY(-10px);
-  }
+  } 
 
   .menu__link {
     font-size: 1.2rem;
@@ -439,7 +450,7 @@
     opacity: 1;
   }
 
-  .footer p {
+  .footer p { 
     color: #fff;
     margin: 15px 0 10px 0;
     font-size: 1rem;

@@ -1,10 +1,10 @@
 
-  .n36y3-header-wrapper {
+  .suycw-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .n36y3-header {
+  .suycw-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .n36y3-logo {
+  .suycw-logo {
     height: 80px;
   }
 
-  .n36y3-header-top {
+  .suycw-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .n36y3-search-box {
+  .suycw-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .n36y3-search-box span {
+  .suycw-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .n36y3-search-box input {
+  .suycw-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .n36y3-search-box button {
+  .suycw-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .n36y3-search-box button:hover {
+  .suycw-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .n36y3-support-info {
+  .suycw-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .n36y3-support-info span {
+  .suycw-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .n36y3-support-info small {
+  .suycw-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .n36y3-support-info strong {
+  .suycw-support-info strong {
     font-size: 16px;
   }
 
-  .n36y3-icons {
+  .suycw-icons {
     display: flex;
     gap: 10px;
   }
 
-  .n36y3-icons span {
+  .suycw-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .n36y3-icons span:hover {
+  .suycw-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .n36y3-header-bottom {
+  .suycw-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .n36y3-header-bottom-inner {
+  .suycw-header-bottom-inner {
     max-width: 1200px;
     margin: auto;
     padding: 14px 30px;
@@ -124,7 +124,7 @@
     align-items: center;
   }
 
-  .n36y3-category-btn {
+  .suycw-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +136,72 @@
     font-weight: 500;
   }
 
-  .n36y3-main-menu {
+  .suycw-main-menu {
     display: flex;
     gap: 20px;
     margin-left: 30px;
   }
 
-  .n36y3-main-menu a {
+  .suycw-main-menu a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
   }
 
-  .n36y3-main-menu a:hover {
+  .suycw-main-menu a:hover {
     color: #238b23;
   }
 
-  .n36y3-menulistactive {
+  .suycw-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .n36y3-header-top {
+    .suycw-header-top {
       gap: 20px;
     }
 
-    .n36y3-search-box {
+    .suycw-search-box {
       margin: 0 10px;
     }
 
-    .n36y3-support-info strong {
+    .suycw-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .n36y3-header {
+    .suycw-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .n36y3-header-top {
+    .suycw-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .n36y3-search-box {
+    .suycw-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .n36y3-support-info {
+    .suycw-support-info {
       display: none;
     }
 
-    .n36y3-header-bottom-inner {
+    .suycw-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .n36y3-main-menu {
+    .suycw-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,22 +210,22 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .n36y3-logo {
+    .suycw-logo {
       height: 60px;
     }
 
-    .n36y3-search-box {
+    .suycw-search-box {
       flex: 0 1 150px;
     }
 
-    .n36y3-icons span {
+    .suycw-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .cfund-trust-boxes {
+  .j7ae3-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -235,7 +235,7 @@
     gap: 0;
   }
 
-  .cfund-trust-item {
+  .j7ae3-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -246,61 +246,72 @@
     gap: 16px;
   }
 
-  .cfund-trust-item .material-icons {
+  .j7ae3-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .cfund-trust-text {
+  .j7ae3-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .cfund-trust-title {
+  .j7ae3-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .cfund-trust-desc {
+  .j7ae3-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .cfund-trust-boxes {
+    .j7ae3-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .cfund-trust-item {
+    .j7ae3-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .cfund-trust-boxes {
+    .j7ae3-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .cfund-trust-item {
+    .j7ae3-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .cfund-trust-title {
+    .j7ae3-trust-title {
       font-size: 16px;
     }
 
-    .cfund-trust-desc {
+    .j7ae3-trust-desc {
       font-size: 13px;
     }
   }
 
+
+  .moduleimg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .moduleimg > img {
+    width: 100%;
+    max-width: 250px;
+  }
 
   .footer {
     position: relative;
@@ -338,7 +349,7 @@
 
   .social-icon__link:hover {
     transform: translateY(-10px);
-  }
+  } 
 
   .menu__link {
     font-size: 1.2rem;
@@ -355,7 +366,7 @@
     opacity: 1;
   }
 
-  .footer p {
+  .footer p { 
     color: #fff;
     margin: 15px 0 10px 0;
     font-size: 1rem;

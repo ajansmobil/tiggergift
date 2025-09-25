@@ -8,7 +8,7 @@
       "status": "play",
       "category": "",
       "id": "jjk7k6kpxp",
-      "url": "",
+      "externalUrl": "",
       "path": "user",
       "index": 0,
       "desing": {
@@ -28,7 +28,7 @@
       "status": "play",
       "category": "",
       "id": "hgzzlchjtg",
-      "url": "",
+      "externalUrl": "",
       "path": "login",
       "index": 1,
       "desing": {
@@ -48,7 +48,7 @@
       "status": "play",
       "category": "",
       "id": "am0rkifzhz",
-      "url": "",
+      "externalUrl": "",
       "path": "basket",
       "index": 2,
       "icon": "home",

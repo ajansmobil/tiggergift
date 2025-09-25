@@ -15,8 +15,8 @@
   <meta property="og:description" content="undefined" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=redc5" />
-  <link rel="shortcut icon" href="/img/icon.png?v=redc5" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=nn39d" />
+  <link rel="shortcut icon" href="/img/icon.png?v=nn39d" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -48,28 +48,25 @@
 </script>
 
 
-
-  <script type="text/javascript" src="/src/firebase.js?v=redc5"></script>
-
-
-<link rel="stylesheet" href="style.css?v=redc5">
+  <script type="text/javascript" src="/src/firebase.js?v=nn39d"></script>
+<link rel="stylesheet" href="style.css?v=nn39d">
 </head>
 
 <body>
-  <div id="header"><header class="bo3wj-header-wrapper">
-  <div class="bo3wj-header">
-    <div class="bo3wj-header-top">
-      <a href="/en/" class="bo3wj-header-left">
-        <img src="/img/logo.png?v=redc5" alt="Tiggergift Logo" class="bo3wj-logo" />
+  <div id="header"><header class="enkjx-header-wrapper">
+  <div class="enkjx-header">
+    <div class="enkjx-header-top">
+      <a href="/en/" class="enkjx-header-left">
+        <img src="/img/logo.png?v=nn39d" alt="Tiggergift Logo" class="enkjx-logo" />
       </a>
 
-      <div class="bo3wj-search-box">
+      <div class="enkjx-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="bo3wj-support-info">
+      <div class="enkjx-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
@@ -77,7 +74,7 @@
         </div>
       </div>
 
-      <div class="bo3wj-icons">
+      <div class="enkjx-icons">
         <a href="/en/login/" class="material-symbols-outlined">person</a>
         <a href="/en/favorilerim/" class="material-symbols-outlined">favorite</a>
         <a href="/en/basket/" class="material-symbols-outlined">shopping_cart</a>
@@ -85,12 +82,12 @@
     </div>
   </div>
 
-  <div class="bo3wj-header-bottom">
-    <div class="bo3wj-header-bottom-inner">
-      <button class="bo3wj-category-btn">
+  <div class="enkjx-header-bottom">
+    <div class="enkjx-header-bottom-inner">
+      <button class="enkjx-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="bo3wj-main-menu"><a href="/en/urunlerimiz/"></a><a href="/en/baklava/"></a><a href="/en/kurumsal/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
+      <nav class="enkjx-main-menu"><a href="/en/urunlerimiz/"></a><a href="/en/baklava/"></a><a href="/en/kurumsal/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
     </div>
   </div>
 </header>
@@ -106,13 +103,13 @@
 </div>
 
 <!-- Main Content -->
-<div class="eeqhu" id="adminMainContent" style="display: none;">
-  <div class="eeqhu-menu">
-    <a href="/en/user/" class="eeqhu-profile">
-      <div class="eeqhu-user-img" id="userAvatar"></div>
+<div class="zmca6" id="adminMainContent" style="display: none;">
+  <div class="zmca6-menu">
+    <a href="/en/user/" class="zmca6-profile">
+      <div class="zmca6-user-img" id="userAvatar"></div>
       <div id="userName">Yükleniyor...</div>
     </a>
-    <div class="eeqhu-menu-category">
+    <div class="zmca6-menu-category">
     <a href="/en/sepetim/" >
       <span class="material-symbols-outlined">shopping_basket</span>
       <div>Sepetim</div>
@@ -121,7 +118,7 @@
       <span class="material-symbols-outlined">shopping_cart</span>
       <div>Siparişlerim</div>
     </a>
-    <a class="eeqhu-menu-active" href="/en/favorilerim/" >
+    <a class="zmca6-menu-active" href="/en/favorilerim/" >
       <span class="material-symbols-outlined">favorite</span>
       <div>Favorilerim</div>
     </a>
@@ -182,13 +179,13 @@
       <div>Ödeme</div>
     </a></div>
   </div>
-  <div class="eeqhu-body"><div class="rvlo6">
-  <div class="rvlo6Title">
+  <div class="zmca6-body"><div class="mztqi">
+  <div class="mztqiTitle">
     <span class="material-symbols-outlined">favorite</span>
-    {{moduleTitle}}
+    My Favorites
   </div>
-  <div class="rvlo6Body">
-    <div class="rvlo6Grid" id="rvlo6Grid">
+  <div class="mztqiBody">
+    <div class="mztqiGrid" id="mztqiGrid">
       <!-- Favori ürünler Firebase'den yüklenecek -->
     </div>
   </div>
@@ -201,13 +198,13 @@
   async function loadFavorites() {
     try {
       if (!user.isLoggedIn || !user.id) {
-        const favoritesGrid = document.getElementById('rvlo6Grid');
+        const favoritesGrid = document.getElementById('mztqiGrid');
         favoritesGrid.innerHTML = '<div class="no-favorites">Favori ürünlerinizi görmek için giriş yapmanız gerekiyor.</div>';
         return;
       }
 
       const favoritesSnapshot = await dataListWeb(`users/${user.id}/favorites`);
-      const favoritesGrid = document.getElementById('rvlo6Grid');
+      const favoritesGrid = document.getElementById('mztqiGrid');
 
       favoritesGrid.innerHTML = '';
 
@@ -222,17 +219,17 @@
         const favoriteId = doc.id;
 
         const favoriteHTML = `
-          <div class="rvlo6GridItem" data-favorite-id="${favoriteId}">
+          <div class="mztqiGridItem" data-favorite-id="${favoriteId}">
             <div class="favorite-badge" onclick="removeFromFavorites('${favoriteId}')">
               <span class="material-symbols-outlined">favorite</span>
             </div>
-            <div class="rvlo6GridItemImg">
+            <div class="mztqiGridItemImg">
               <img src="${favorite.image || 'https://via.placeholder.com/200x200'}" alt="${favorite.name}" />
             </div>
-            <div class="rvlo6GridItemBody">
-              <div class="rvlo6GridItemTitle">${favorite.name}</div>
-              <div class="rvlo6GridItemSpot">${favorite.category || 'Genel'}</div>
-              <div class="rvlo6GridItemPrice">
+            <div class="mztqiGridItemBody">
+              <div class="mztqiGridItemTitle">${favorite.name}</div>
+              <div class="mztqiGridItemSpot">${favorite.category || 'Genel'}</div>
+              <div class="mztqiGridItemPrice">
                 <div class="price">${formatPrice(favorite.price)} ₺</div>
                 <button class="add-to-cart" onclick="addToCart('${favoriteId}', '${favorite.productId}')">
                   <span class="material-symbols-outlined">shopping_cart</span>
@@ -247,7 +244,7 @@
 
     } catch (error) {
       console.error('Favoriler yüklenirken hata:', error);
-      document.getElementById('rvlo6Grid').innerHTML =
+      document.getElementById('mztqiGrid').innerHTML =
         '<div style="text-align: center; padding: 50px; color: #e74c3c; grid-column: 1/-1;">Favoriler yüklenirken bir hata oluştu.</div>';
     }
   }
@@ -399,7 +396,7 @@
       }, 500); // Firebase user objesi güncellenmesi için biraz bekle
     } else {
       // Kullanıcı giriş yapmamış
-      document.getElementById('rvlo6Grid').innerHTML =
+      document.getElementById('mztqiGrid').innerHTML =
         '<div class="no-favorites">Favori ürünlerinizi görmek için giriş yapmanız gerekiyor.</div>';
     }
   });
@@ -648,28 +645,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="fo2yj-trust-boxes">
-      <div class="fo2yj-trust-item">
+<div class="oynv5-trust-boxes">
+      <div class="oynv5-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="fo2yj-trust-text">
-          <div class="fo2yj-trust-title">100% Secure Payment</div>
-          <div class="fo2yj-trust-desc">Secure Payment with 3D Secure</div>
+        <div class="oynv5-trust-text">
+          <div class="oynv5-trust-title">100% Secure Payment</div>
+          <div class="oynv5-trust-desc">Secure Payment with 3D Secure</div>
         </div>
       </div>
     
-      <div class="fo2yj-trust-item">
+      <div class="oynv5-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="fo2yj-trust-text">
-          <div class="fo2yj-trust-title">100% Original Product</div>
-          <div class="fo2yj-trust-desc">Activation with 100% Licensed Original Product</div>
+        <div class="oynv5-trust-text">
+          <div class="oynv5-trust-title">100% Original Product</div>
+          <div class="oynv5-trust-desc">Activation with 100% Licensed Original Product</div>
         </div>
       </div>
     
-      <div class="fo2yj-trust-item">
+      <div class="oynv5-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="fo2yj-trust-text">
-          <div class="fo2yj-trust-title">Fast Delivery</div>
-          <div class="fo2yj-trust-desc">Online Fast Delivery for All Your Shopping</div>
+        <div class="oynv5-trust-text">
+          <div class="oynv5-trust-title">Fast Delivery</div>
+          <div class="oynv5-trust-desc">Online Fast Delivery for All Your Shopping</div>
         </div>
       </div>
     </div>
@@ -684,6 +681,15 @@
     <div class="wave" id="wave4"></div>
   </div>
   <ul class="social-icon">
+
+
+
+    
+    
+
+ 
+
+
     <li class="social-icon__item">
       <a class="social-icon__link" href="#">
         <ion-icon name="logo-facebook"></ion-icon>
@@ -736,17 +742,13 @@
 
 </div>
 </body>
+
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
 
-
-<script type="text/javascript" src="/src/js.js?v=redc5"></script>
-
-
-
-
-<script src="/src/cookie.js?v=redc5"></script>
+<script type="text/javascript" src="/src/js.js?v=nn39d"></script>
+<script src="/src/cookie.js?v=nn39d"></script>
 
 </html>

@@ -1,10 +1,10 @@
 
-  .r21ka-header-wrapper {
+  .r4czj-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .r21ka-header {
+  .r4czj-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .r21ka-logo {
+  .r4czj-logo {
     height: 80px;
   }
 
-  .r21ka-header-top {
+  .r4czj-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .r21ka-search-box {
+  .r4czj-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .r21ka-search-box span {
+  .r4czj-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .r21ka-search-box input {
+  .r4czj-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .r21ka-search-box button {
+  .r4czj-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .r21ka-search-box button:hover {
+  .r4czj-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .r21ka-support-info {
+  .r4czj-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .r21ka-support-info span {
+  .r4czj-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .r21ka-support-info small {
+  .r4czj-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .r21ka-support-info strong {
+  .r4czj-support-info strong {
     font-size: 16px;
   }
 
-  .r21ka-icons {
+  .r4czj-icons {
     display: flex;
     gap: 10px;
   }
 
-  .r21ka-icons span {
+  .r4czj-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .r21ka-icons span:hover {
+  .r4czj-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .r21ka-header-bottom {
+  .r4czj-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .r21ka-header-bottom-inner {
+  .r4czj-header-bottom-inner {
     max-width: 1200px;
     margin: auto;
     padding: 14px 30px;
@@ -124,7 +124,7 @@
     align-items: center;
   }
 
-  .r21ka-category-btn {
+  .r4czj-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +136,72 @@
     font-weight: 500;
   }
 
-  .r21ka-main-menu {
+  .r4czj-main-menu {
     display: flex;
     gap: 20px;
     margin-left: 30px;
   }
 
-  .r21ka-main-menu a {
+  .r4czj-main-menu a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
   }
 
-  .r21ka-main-menu a:hover {
+  .r4czj-main-menu a:hover {
     color: #238b23;
   }
 
-  .r21ka-menulistactive {
+  .r4czj-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .r21ka-header-top {
+    .r4czj-header-top {
       gap: 20px;
     }
 
-    .r21ka-search-box {
+    .r4czj-search-box {
       margin: 0 10px;
     }
 
-    .r21ka-support-info strong {
+    .r4czj-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .r21ka-header {
+    .r4czj-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .r21ka-header-top {
+    .r4czj-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .r21ka-search-box {
+    .r4czj-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .r21ka-support-info {
+    .r4czj-support-info {
       display: none;
     }
 
-    .r21ka-header-bottom-inner {
+    .r4czj-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .r21ka-main-menu {
+    .r4czj-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,22 +210,22 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .r21ka-logo {
+    .r4czj-logo {
       height: 60px;
     }
 
-    .r21ka-search-box {
+    .r4czj-search-box {
       flex: 0 1 150px;
     }
 
-    .r21ka-icons span {
+    .r4czj-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .gfyus-trust-boxes {
+  .sbfeu-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -235,7 +235,7 @@
     gap: 0;
   }
 
-  .gfyus-trust-item {
+  .sbfeu-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -246,61 +246,72 @@
     gap: 16px;
   }
 
-  .gfyus-trust-item .material-icons {
+  .sbfeu-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .gfyus-trust-text {
+  .sbfeu-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .gfyus-trust-title {
+  .sbfeu-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .gfyus-trust-desc {
+  .sbfeu-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .gfyus-trust-boxes {
+    .sbfeu-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .gfyus-trust-item {
+    .sbfeu-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .gfyus-trust-boxes {
+    .sbfeu-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .gfyus-trust-item {
+    .sbfeu-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .gfyus-trust-title {
+    .sbfeu-trust-title {
       font-size: 16px;
     }
 
-    .gfyus-trust-desc {
+    .sbfeu-trust-desc {
       font-size: 13px;
     }
   }
 
+
+  .moduleimg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .moduleimg > img {
+    width: 100%;
+    max-width: 250px;
+  }
 
   .footer {
     position: relative;
@@ -338,7 +349,7 @@
 
   .social-icon__link:hover {
     transform: translateY(-10px);
-  }
+  } 
 
   .menu__link {
     font-size: 1.2rem;
@@ -355,7 +366,7 @@
     opacity: 1;
   }
 
-  .footer p {
+  .footer p { 
     color: #fff;
     margin: 15px 0 10px 0;
     font-size: 1rem;

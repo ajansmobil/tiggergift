@@ -1,10 +1,10 @@
 
-  .vhedw-header-wrapper {
+  .ys7fo-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .vhedw-header {
+  .ys7fo-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .vhedw-logo {
+  .ys7fo-logo {
     height: 80px;
   }
 
-  .vhedw-header-top {
+  .ys7fo-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .vhedw-search-box {
+  .ys7fo-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .vhedw-search-box span {
+  .ys7fo-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .vhedw-search-box input {
+  .ys7fo-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .vhedw-search-box button {
+  .ys7fo-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .vhedw-search-box button:hover {
+  .ys7fo-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .vhedw-support-info {
+  .ys7fo-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .vhedw-support-info span {
+  .ys7fo-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .vhedw-support-info small {
+  .ys7fo-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .vhedw-support-info strong {
+  .ys7fo-support-info strong {
     font-size: 16px;
   }
 
-  .vhedw-icons {
+  .ys7fo-icons {
     display: flex;
     gap: 10px;
   }
 
-  .vhedw-icons span {
+  .ys7fo-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .vhedw-icons span:hover {
+  .ys7fo-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .vhedw-header-bottom {
+  .ys7fo-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .vhedw-header-bottom-inner {
+  .ys7fo-header-bottom-inner {
     max-width: 1200px;
     margin: auto;
     padding: 14px 30px;
@@ -124,7 +124,7 @@
     align-items: center;
   }
 
-  .vhedw-category-btn {
+  .ys7fo-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +136,72 @@
     font-weight: 500;
   }
 
-  .vhedw-main-menu {
+  .ys7fo-main-menu {
     display: flex;
     gap: 20px;
     margin-left: 30px;
   }
 
-  .vhedw-main-menu a {
+  .ys7fo-main-menu a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
   }
 
-  .vhedw-main-menu a:hover {
+  .ys7fo-main-menu a:hover {
     color: #238b23;
   }
 
-  .vhedw-menulistactive {
+  .ys7fo-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .vhedw-header-top {
+    .ys7fo-header-top {
       gap: 20px;
     }
 
-    .vhedw-search-box {
+    .ys7fo-search-box {
       margin: 0 10px;
     }
 
-    .vhedw-support-info strong {
+    .ys7fo-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .vhedw-header {
+    .ys7fo-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .vhedw-header-top {
+    .ys7fo-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .vhedw-search-box {
+    .ys7fo-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .vhedw-support-info {
+    .ys7fo-support-info {
       display: none;
     }
 
-    .vhedw-header-bottom-inner {
+    .ys7fo-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .vhedw-main-menu {
+    .ys7fo-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,15 +210,15 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .vhedw-logo {
+    .ys7fo-logo {
       height: 60px;
     }
 
-    .vhedw-search-box {
+    .ys7fo-search-box {
       flex: 0 1 150px;
     }
 
-    .vhedw-icons span {
+    .ys7fo-icons span {
       padding: 8px;
       font-size: 18px;
     }
@@ -228,13 +228,13 @@
   #content {
     justify-content: start;
   }
-  .j1r48 {
+  .rrbvy {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .j1r48-menu {
+  .rrbvy-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -244,7 +244,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .j1r48-menu > a {
+  .rrbvy-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -252,18 +252,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .j1r48-menu > a:hover,
-  .j1r48-menu > .active {
+  .rrbvy-menu > a:hover,
+  .rrbvy-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .j1r48-body {
+  .rrbvy-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .j1r48-title {
+  .rrbvy-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -275,7 +275,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .j1r48-title::before {
+  .rrbvy-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -289,27 +289,27 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .j1r48-title span {
+  .rrbvy-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .j1r48 {
+    .rrbvy {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .j1r48-menu {
+    .rrbvy-menu {
       display: none;
     }
-    .j1r48-body {
+    .rrbvy-body {
       width: 100%;
     }
   }
 
 
-  .cp22o-trust-boxes {
+  .u4e4h-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -319,7 +319,7 @@
     gap: 0;
   }
 
-  .cp22o-trust-item {
+  .u4e4h-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -330,61 +330,72 @@
     gap: 16px;
   }
 
-  .cp22o-trust-item .material-icons {
+  .u4e4h-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .cp22o-trust-text {
+  .u4e4h-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .cp22o-trust-title {
+  .u4e4h-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .cp22o-trust-desc {
+  .u4e4h-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .cp22o-trust-boxes {
+    .u4e4h-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .cp22o-trust-item {
+    .u4e4h-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .cp22o-trust-boxes {
+    .u4e4h-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .cp22o-trust-item {
+    .u4e4h-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .cp22o-trust-title {
+    .u4e4h-trust-title {
       font-size: 16px;
     }
 
-    .cp22o-trust-desc {
+    .u4e4h-trust-desc {
       font-size: 13px;
     }
   }
 
+
+  .moduleimg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .moduleimg > img {
+    width: 100%;
+    max-width: 250px;
+  }
 
   .footer {
     position: relative;
@@ -422,7 +433,7 @@
 
   .social-icon__link:hover {
     transform: translateY(-10px);
-  }
+  } 
 
   .menu__link {
     font-size: 1.2rem;
@@ -439,7 +450,7 @@
     opacity: 1;
   }
 
-  .footer p {
+  .footer p { 
     color: #fff;
     margin: 15px 0 10px 0;
     font-size: 1rem;

@@ -15,8 +15,8 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=dj9j2" />
-  <link rel="shortcut icon" href="/img/icon.png?v=dj9j2" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=ozf4w" />
+  <link rel="shortcut icon" href="/img/icon.png?v=ozf4w" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -48,28 +48,25 @@
 </script>
 
 
-
-  <script type="text/javascript" src="/src/firebase.js?v=dj9j2"></script>
-
-
-<link rel="stylesheet" href="style.css?v=dj9j2">
+  <script type="text/javascript" src="/src/firebase.js?v=ozf4w"></script>
+<link rel="stylesheet" href="style.css?v=ozf4w">
 </head>
 
 <body>
-  <div id="header"><header class="jc8ka-header-wrapper">
-  <div class="jc8ka-header">
-    <div class="jc8ka-header-top">
-      <a href="/tr/" class="jc8ka-header-left">
-        <img src="/img/logo.png?v=dj9j2" alt="Tiggergift Logo" class="jc8ka-logo" />
+  <div id="header"><header class="rb1uq-header-wrapper">
+  <div class="rb1uq-header">
+    <div class="rb1uq-header-top">
+      <a href="/tr/" class="rb1uq-header-left">
+        <img src="/img/logo.png?v=ozf4w" alt="Tiggergift Logo" class="rb1uq-logo" />
       </a>
 
-      <div class="jc8ka-search-box">
+      <div class="rb1uq-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="jc8ka-support-info">
+      <div class="rb1uq-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
@@ -77,7 +74,7 @@
         </div>
       </div>
 
-      <div class="jc8ka-icons">
+      <div class="rb1uq-icons">
         <a href="/tr/login/" class="material-symbols-outlined">person</a>
         <a href="/tr/favorilerim/" class="material-symbols-outlined">favorite</a>
         <a href="/tr/basket/" class="material-symbols-outlined">shopping_cart</a>
@@ -85,12 +82,12 @@
     </div>
   </div>
 
-  <div class="jc8ka-header-bottom">
-    <div class="jc8ka-header-bottom-inner">
-      <button class="jc8ka-category-btn">
+  <div class="rb1uq-header-bottom">
+    <div class="rb1uq-header-bottom-inner">
+      <button class="rb1uq-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="jc8ka-main-menu"><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/baklava/">Baklava</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/iletisim/">İletişim</a></nav>
+      <nav class="rb1uq-main-menu"><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/baklava/">Baklava</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/iletisim/">İletişim</a></nav>
     </div>
   </div>
 </header>
@@ -106,13 +103,13 @@
 </div>
 
 <!-- Main Content -->
-<div class="dwx28" id="adminMainContent" style="display: none;">
-  <div class="dwx28-menu">
-    <a href="/tr/user/" class="dwx28-profile">
-      <div class="dwx28-user-img" id="userAvatar"></div>
+<div class="suyq1" id="adminMainContent" style="display: none;">
+  <div class="suyq1-menu">
+    <a href="/tr/user/" class="suyq1-profile">
+      <div class="suyq1-user-img" id="userAvatar"></div>
       <div id="userName">Yükleniyor...</div>
     </a>
-    <div class="dwx28-menu-category">
+    <div class="suyq1-menu-category">
     <a href="/tr/sepetim/" >
       <span class="material-symbols-outlined">shopping_basket</span>
       <div>Sepetim</div>
@@ -121,7 +118,7 @@
       <span class="material-symbols-outlined">shopping_cart</span>
       <div>Siparişlerim</div>
     </a>
-    <a class="dwx28-menu-active" href="/tr/favorilerim/" >
+    <a class="suyq1-menu-active" href="/tr/favorilerim/" >
       <span class="material-symbols-outlined">favorite</span>
       <div>Favorilerim</div>
     </a>
@@ -182,13 +179,13 @@
       <div>Ödeme</div>
     </a></div>
   </div>
-  <div class="dwx28-body"><div class="g1h69">
-  <div class="g1h69Title">
+  <div class="suyq1-body"><div class="ur5j0">
+  <div class="ur5j0Title">
     <span class="material-symbols-outlined">favorite</span>
-    {{moduleTitle}}
+    Favorilerim
   </div>
-  <div class="g1h69Body">
-    <div class="g1h69Grid" id="g1h69Grid">
+  <div class="ur5j0Body">
+    <div class="ur5j0Grid" id="ur5j0Grid">
       <!-- Favori ürünler Firebase'den yüklenecek -->
     </div>
   </div>
@@ -201,13 +198,13 @@
   async function loadFavorites() {
     try {
       if (!user.isLoggedIn || !user.id) {
-        const favoritesGrid = document.getElementById('g1h69Grid');
+        const favoritesGrid = document.getElementById('ur5j0Grid');
         favoritesGrid.innerHTML = '<div class="no-favorites">Favori ürünlerinizi görmek için giriş yapmanız gerekiyor.</div>';
         return;
       }
 
       const favoritesSnapshot = await dataListWeb(`users/${user.id}/favorites`);
-      const favoritesGrid = document.getElementById('g1h69Grid');
+      const favoritesGrid = document.getElementById('ur5j0Grid');
 
       favoritesGrid.innerHTML = '';
 
@@ -222,17 +219,17 @@
         const favoriteId = doc.id;
 
         const favoriteHTML = `
-          <div class="g1h69GridItem" data-favorite-id="${favoriteId}">
+          <div class="ur5j0GridItem" data-favorite-id="${favoriteId}">
             <div class="favorite-badge" onclick="removeFromFavorites('${favoriteId}')">
               <span class="material-symbols-outlined">favorite</span>
             </div>
-            <div class="g1h69GridItemImg">
+            <div class="ur5j0GridItemImg">
               <img src="${favorite.image || 'https://via.placeholder.com/200x200'}" alt="${favorite.name}" />
             </div>
-            <div class="g1h69GridItemBody">
-              <div class="g1h69GridItemTitle">${favorite.name}</div>
-              <div class="g1h69GridItemSpot">${favorite.category || 'Genel'}</div>
-              <div class="g1h69GridItemPrice">
+            <div class="ur5j0GridItemBody">
+              <div class="ur5j0GridItemTitle">${favorite.name}</div>
+              <div class="ur5j0GridItemSpot">${favorite.category || 'Genel'}</div>
+              <div class="ur5j0GridItemPrice">
                 <div class="price">${formatPrice(favorite.price)} ₺</div>
                 <button class="add-to-cart" onclick="addToCart('${favoriteId}', '${favorite.productId}')">
                   <span class="material-symbols-outlined">shopping_cart</span>
@@ -247,7 +244,7 @@
 
     } catch (error) {
       console.error('Favoriler yüklenirken hata:', error);
-      document.getElementById('g1h69Grid').innerHTML =
+      document.getElementById('ur5j0Grid').innerHTML =
         '<div style="text-align: center; padding: 50px; color: #e74c3c; grid-column: 1/-1;">Favoriler yüklenirken bir hata oluştu.</div>';
     }
   }
@@ -399,7 +396,7 @@
       }, 500); // Firebase user objesi güncellenmesi için biraz bekle
     } else {
       // Kullanıcı giriş yapmamış
-      document.getElementById('g1h69Grid').innerHTML =
+      document.getElementById('ur5j0Grid').innerHTML =
         '<div class="no-favorites">Favori ürünlerinizi görmek için giriş yapmanız gerekiyor.</div>';
     }
   });
@@ -648,28 +645,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="q3ykm-trust-boxes">
-      <div class="q3ykm-trust-item">
+<div class="pqq93-trust-boxes">
+      <div class="pqq93-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="q3ykm-trust-text">
-          <div class="q3ykm-trust-title">100% Güvenli Ödeme</div>
-          <div class="q3ykm-trust-desc">3D Secure ile Güvenli Ödeme</div>
+        <div class="pqq93-trust-text">
+          <div class="pqq93-trust-title">100% Güvenli Ödeme</div>
+          <div class="pqq93-trust-desc">3D Secure ile Güvenli Ödeme</div>
         </div>
       </div>
     
-      <div class="q3ykm-trust-item">
+      <div class="pqq93-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="q3ykm-trust-text">
-          <div class="q3ykm-trust-title">%100 Orijinal Ürün</div>
-          <div class="q3ykm-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
+        <div class="pqq93-trust-text">
+          <div class="pqq93-trust-title">%100 Orijinal Ürün</div>
+          <div class="pqq93-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
         </div>
       </div>
     
-      <div class="q3ykm-trust-item">
+      <div class="pqq93-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="q3ykm-trust-text">
-          <div class="q3ykm-trust-title">Hızlı Teslimat</div>
-          <div class="q3ykm-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
+        <div class="pqq93-trust-text">
+          <div class="pqq93-trust-title">Hızlı Teslimat</div>
+          <div class="pqq93-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
         </div>
       </div>
     </div>
@@ -684,6 +681,15 @@
     <div class="wave" id="wave4"></div>
   </div>
   <ul class="social-icon">
+
+
+
+    
+    
+
+ 
+
+
     <li class="social-icon__item">
       <a class="social-icon__link" href="#">
         <ion-icon name="logo-facebook"></ion-icon>
@@ -736,17 +742,13 @@
 
 </div>
 </body>
+
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
 
-
-<script type="text/javascript" src="/src/js.js?v=dj9j2"></script>
-
-
-
-
-<script src="/src/cookie.js?v=dj9j2"></script>
+<script type="text/javascript" src="/src/js.js?v=ozf4w"></script>
+<script src="/src/cookie.js?v=ozf4w"></script>
 
 </html>

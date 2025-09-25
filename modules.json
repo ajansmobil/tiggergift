@@ -23,7 +23,10 @@
       "local": "footer",
       "category": "footer",
       "desing": {
-        "color": "#CD9624"
+        "bgcolor": "#CD9624",
+        "color": "#fff",
+        "img": "",
+        "imgwidth": "250px"
       },
       "data": [],
       "id": "neapu8"
@@ -144,12 +147,18 @@
       "path": "slider",
       "local": "header",
       "category": "slider",
+      "desing": {
+        "delay": 3000
+      },
       "data": [
         {
-          "img": "v1.png"
+          "img": "01.jpg"
         },
         {
-          "img": "v2.png"
+          "img": "02.jpg"
+        },
+        {
+          "img": "03.jpg"
         }
       ],
       "id": "libe6f"
@@ -214,6 +223,74 @@
         "backToLogin": {
           "tr": "Giriş Sayfasına Dön",
           "en": "Back to Login"
+        },
+        "nameRequired": {
+          "tr": "Ad soyad giriniz!",
+          "en": "Please enter your full name!"
+        },
+        "validEmailRequired": {
+          "tr": "Geçerli bir email adresi giriniz!",
+          "en": "Please enter a valid email address!"
+        },
+        "passwordMinLength": {
+          "tr": "Şifre en az 6 karakter olmalıdır!",
+          "en": "Password must be at least 6 characters!"
+        },
+        "passwordsNotMatch": {
+          "tr": "Şifreler eşleşmiyor!",
+          "en": "Passwords do not match!"
+        },
+        "emailAlreadyExists": {
+          "tr": "Bu email adresi zaten kullanımda!",
+          "en": "This email address is already in use!"
+        },
+        "registrationSuccess": {
+          "tr": "Üyelik başarıyla oluşturuldu!",
+          "en": "Registration successful!"
+        },
+        "registrationError": {
+          "tr": "Üyelik oluşturulurken bir hata oluştu!",
+          "en": "An error occurred during registration!"
+        },
+        "passwordRequired": {
+          "tr": "Şifre giriniz!",
+          "en": "Please enter your password!"
+        },
+        "invalidCredentials": {
+          "tr": "Email adresi veya şifre hatalı!",
+          "en": "Invalid email or password!"
+        },
+        "accountDeactivated": {
+          "tr": "Hesabınız deaktif durumda!",
+          "en": "Your account is deactivated!"
+        },
+        "loginSuccess": {
+          "tr": "Giriş başarılı!",
+          "en": "Login successful!"
+        },
+        "loginError": {
+          "tr": "Giriş yapılırken bir hata oluştu!",
+          "en": "An error occurred during login!"
+        },
+        "userNotFound": {
+          "tr": "Bu email adresine kayıtlı kullanıcı bulunamadı!",
+          "en": "No user found with this email address!"
+        },
+        "resetEmailSent": {
+          "tr": "Şifre sıfırlama maili gönderildi!",
+          "en": "Password reset email sent!"
+        },
+        "resetEmailError": {
+          "tr": "Şifre sıfırlama maili gönderilirken bir hata oluştu!",
+          "en": "An error occurred while sending reset email!"
+        },
+        "googleLoginDevelopment": {
+          "tr": "Google login özelliği geliştiriliyor...",
+          "en": "Google login feature is under development..."
+        },
+        "alreadyLoggedIn": {
+          "tr": "Zaten giriş yapmışsınız!",
+          "en": "You are already logged in!"
         }
       },
       "id": "d28lp7"
@@ -351,7 +428,8 @@
         "bgcolor": "#601515",
         "colortitle": "#fff",
         "coloractive": "#202020",
-        "url": "admin"
+        "url": "admin",
+        "page": "admin"
       },
       "data": [
         {
@@ -377,7 +455,28 @@
         "coloractive": "#28a745",
         "header_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
         "card_shadow": "0 4px 20px rgba(0, 0, 0, 0.08)",
-        "border_radius": "15px"
+        "border_radius": "15px",
+        "pageTitle": {
+          "tr": "Yönetim Paneli",
+          "en": "Admin Dashboard"
+        },
+        "username": {
+          "tr": "Admin",
+          "en": "Admin"
+        },
+        "date": {
+          "tr": "Bugün",
+          "en": "Today"
+        },
+        "new_orders": "12",
+        "orders_change": "8",
+        "today_revenue": "15,420",
+        "revenue_change": "12",
+        "low_stock_count": "3",
+        "new_customers": "8",
+        "customers_change": "15",
+        "recent_orders": "<!-- Dinamik içerik -->",
+        "stock_alerts": "<!-- Dinamik içerik -->"
       },
       "data": {
         "stats": {
@@ -455,7 +554,19 @@
         "coloractive": "#28a745",
         "header_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
         "card_shadow": "0 4px 20px rgba(0, 0, 0, 0.08)",
-        "border_radius": "15px"
+        "border_radius": "15px",
+        "pageTitle": {
+          "tr": "Sipariş Yönetimi",
+          "en": "Order Management"
+        },
+        "pageSubtitle": {
+          "tr": "Siparişleri yönetin ve takip edin",
+          "en": "Manage and track orders"
+        },
+        "refreshButton": {
+          "tr": "Yenile",
+          "en": "Refresh"
+        }
       },
       "data": {
         "order_statuses": [
@@ -748,10 +859,6 @@
         "bordercolor": "#e0e0e0",
         "primarycolor": "#007bff",
         "successcolor": "#28a745",
-        "title": {
-          "tr": "Adreslerim",
-          "en": "My Addresses"
-        },
         "addButton": {
           "tr": "Yeni Adres Ekle",
           "en": "Add New Address"
@@ -775,6 +882,10 @@
         "setDefaultButton": {
           "tr": "Varsayılan Yap",
           "en": "Set as Default"
+        },
+        "moduleTitle": {
+          "tr": "Adreslerim",
+          "en": "My Addresses"
         }
       }
     },
@@ -796,10 +907,6 @@
         "bordercolor": "#e0e0e0",
         "notificationcolor": "#17a2b8",
         "unreadcolor": "#ffc107",
-        "title": {
-          "tr": "Bildirimlerim",
-          "en": "My Notifications"
-        },
         "markAllRead": {
           "tr": "Tümünü Okundu İşaretle",
           "en": "Mark All as Read"
@@ -815,6 +922,10 @@
         "noNotifications": {
           "tr": "Henüz bildiriminiz bulunmuyor",
           "en": "No notifications yet"
+        },
+        "moduleTitle": {
+          "tr": "Bildirimlerim",
+          "en": "My Notifications"
         }
       }
     },
@@ -836,10 +947,6 @@
         "bordercolor": "#e0e0e0",
         "starcolor": "#ffc107",
         "primarycolor": "#007bff",
-        "title": {
-          "tr": "Değerlendirmelerim",
-          "en": "My Reviews"
-        },
         "reviewButton": {
           "tr": "Değerlendir",
           "en": "Review"
@@ -859,6 +966,10 @@
         "pendingReview": {
           "tr": "Değerlendirme Bekleniyor",
           "en": "Pending Review"
+        },
+        "moduleTitle": {
+          "tr": "Değerlendirmelerim",
+          "en": "My Reviews"
         }
       }
     },
@@ -880,10 +991,6 @@
         "bordercolor": "#e0e0e0",
         "invoicecolor": "#28a745",
         "primarycolor": "#007bff",
-        "title": {
-          "tr": "Faturalarım",
-          "en": "My Invoices"
-        },
         "viewButton": {
           "tr": "Görüntüle",
           "en": "View"
@@ -899,6 +1006,10 @@
         "noInvoices": {
           "tr": "Henüz faturanız bulunmuyor",
           "en": "No invoices yet"
+        },
+        "moduleTitle": {
+          "tr": "Faturalarım",
+          "en": "My Invoices"
         }
       }
     },
@@ -920,10 +1031,6 @@
         "bordercolor": "#e0e0e0",
         "favoritecolor": "#dc3545",
         "primarycolor": "#007bff",
-        "title": {
-          "tr": "Favorilerim",
-          "en": "My Favorites"
-        },
         "addToCart": {
           "tr": "Sepete Ekle",
           "en": "Add to Cart"
@@ -935,6 +1042,10 @@
         "noFavorites": {
           "tr": "Henüz favori ürününüz bulunmuyor",
           "en": "No favorite products yet"
+        },
+        "moduleTitle": {
+          "tr": "Favorilerim",
+          "en": "My Favorites"
         }
       }
     },
@@ -956,10 +1067,6 @@
         "bordercolor": "#e0e0e0",
         "returncolor": "#17a2b8",
         "warningcolor": "#ffc107",
-        "title": {
-          "tr": "İade ve Değişim",
-          "en": "Returns & Exchanges"
-        },
         "returnRequest": {
           "tr": "İade Talebi",
           "en": "Return Request"
@@ -987,6 +1094,10 @@
         "rejected": {
           "tr": "Reddedildi",
           "en": "Rejected"
+        },
+        "moduleTitle": {
+          "tr": "İade ve Değişim",
+          "en": "Returns & Exchanges"
         }
       }
     },
@@ -1008,10 +1119,6 @@
         "bordercolor": "#e0e0e0",
         "cardcolor": "#6c757d",
         "primarycolor": "#007bff",
-        "title": {
-          "tr": "Kredi Kartlarım",
-          "en": "My Credit Cards"
-        },
         "addNewCard": {
           "tr": "Yeni Kart Ekle",
           "en": "Add New Card"
@@ -1031,6 +1138,10 @@
         "defaultBadge": {
           "tr": "Varsayılan",
           "en": "Default"
+        },
+        "moduleTitle": {
+          "tr": "Kredi Kartlarım",
+          "en": "My Credit Cards"
         }
       }
     },
@@ -1052,10 +1163,6 @@
         "bordercolor": "#e0e0e0",
         "messagecolor": "#007bff",
         "onlinecolor": "#28a745",
-        "title": {
-          "tr": "Mesajlarım",
-          "en": "My Messages"
-        },
         "selectChat": {
           "tr": "Sohbet Seçin",
           "en": "Select Chat"
@@ -1075,6 +1182,10 @@
         "noMessages": {
           "tr": "Henüz mesajınız bulunmuyor",
           "en": "No messages yet"
+        },
+        "moduleTitle": {
+          "tr": "Mesajlarım",
+          "en": "My Messages"
         }
       }
     },
@@ -1096,10 +1207,6 @@
         "bordercolor": "#e0e0e0",
         "ordercolor": "#17a2b8",
         "successcolor": "#28a745",
-        "title": {
-          "tr": "Siparişlerim",
-          "en": "My Orders"
-        },
         "preparing": {
           "tr": "Hazırlanıyor",
           "en": "Preparing"
@@ -1135,6 +1242,10 @@
         "noOrders": {
           "tr": "Henüz siparişiniz bulunmuyor",
           "en": "No orders yet"
+        },
+        "moduleTitle": {
+          "tr": "Siparişlerim",
+          "en": "My Orders"
         }
       }
     },
@@ -1156,10 +1267,6 @@
         "bordercolor": "#e0e0e0",
         "inputcolor": "#6c757d",
         "primarycolor": "#007bff",
-        "title": {
-          "tr": "Kullanıcı Bilgilerim",
-          "en": "My Profile"
-        },
         "profileInfo": {
           "tr": "Profil Bilgileri",
           "en": "Profile Information"
@@ -1187,6 +1294,10 @@
         "changePassword": {
           "tr": "Şifre Değiştir",
           "en": "Change Password"
+        },
+        "moduleTitle": {
+          "tr": "Kullanıcı Bilgilerim",
+          "en": "My Profile"
         }
       }
     },
@@ -1208,10 +1319,6 @@
         "bordercolor": "#e0e0e0",
         "couponcolor": "#28a745",
         "expiredcolor": "#6c757d",
-        "title": {
-          "tr": "Kuponlarım",
-          "en": "My Coupons"
-        },
         "copyCode": {
           "tr": "Kodu Kopyala",
           "en": "Copy Code"
@@ -1231,6 +1338,10 @@
         "noCoupons": {
           "tr": "Henüz kuponunuz bulunmuyor",
           "en": "No coupons available"
+        },
+        "moduleTitle": {
+          "tr": "Kuponlarım",
+          "en": "My Coupons"
         }
       }
     },
@@ -1252,10 +1363,6 @@
         "bordercolor": "#e0e0e0",
         "switchcolor": "#007bff",
         "primarycolor": "#007bff",
-        "title": {
-          "tr": "İletişim Tercihlerim",
-          "en": "Communication Preferences"
-        },
         "emailNotifications": {
           "tr": "E-posta Bildirimleri",
           "en": "Email Notifications"
@@ -1279,6 +1386,10 @@
         "promotions": {
           "tr": "Kampanya ve Promosyonlar",
           "en": "Campaigns & Promotions"
+        },
+        "moduleTitle": {
+          "tr": "İletişim Tercihlerim",
+          "en": "Communication Preferences"
         }
       }
     },
@@ -1301,10 +1412,6 @@
         "primarycolor": "#007bff",
         "successcolor": "#28a745",
         "dangercolor": "#dc3545",
-        "title": {
-          "tr": "Cüzdanım",
-          "en": "My Wallet"
-        },
         "balanceHeader": {
           "tr": "Toplam Bakiye",
           "en": "Total Balance"
@@ -1336,6 +1443,10 @@
         "payments": {
           "tr": "Ödemeler",
           "en": "Payments"
+        },
+        "moduleTitle": {
+          "tr": "Cüzdanım",
+          "en": "My Wallet"
         }
       }
     },
@@ -1357,10 +1468,6 @@
         "bordercolor": "#e0e0e0",
         "helpcolor": "#ffc107",
         "primarycolor": "#007bff",
-        "title": {
-          "tr": "Çözüm Merkezi",
-          "en": "Help Center"
-        },
         "supportTickets": {
           "tr": "Destek Taleplerim",
           "en": "My Support Tickets"
@@ -1376,6 +1483,10 @@
         "noTickets": {
           "tr": "Henüz destek talebiniz bulunmuyor",
           "en": "No support tickets yet"
+        },
+        "moduleTitle": {
+          "tr": "Çözüm Merkezi",
+          "en": "Help Center"
         }
       }
     },
@@ -1569,14 +1680,131 @@
         "coloractive": "#28a745",
         "header_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
         "card_shadow": "0 4px 20px rgba(0, 0, 0, 0.08)",
-        "border_radius": "15px"
+        "border_radius": "15px",
+        "pageTitle": {
+          "tr": "Ürün Yönetimi",
+          "en": "Product Management"
+        },
+        "pageSubtitle": {
+          "tr": "Ürünleri yönetin ve düzenleyin",
+          "en": "Manage and organize products"
+        },
+        "addButton": {
+          "tr": "Yeni Ürün Ekle",
+          "en": "Add New Product"
+        },
+        "refreshButton": {
+          "tr": "Yenile",
+          "en": "Refresh"
+        }
       },
       "id": "admin_urunler_31",
       "description": "E-ticaret admin paneli ürün yönetimi modülü",
       "version": "1.0.0",
       "icon": "inventory_2",
       "type": "module",
-      "author": "Code Matrix"
+      "author": "Code Matrix",
+      "data": {
+        "product_statuses": [
+          {
+            "value": "active",
+            "label": "Aktif",
+            "color": "#d4edda",
+            "text_color": "#155724",
+            "icon": "check_circle"
+          },
+          {
+            "value": "inactive",
+            "label": "Pasif",
+            "color": "#f8d7da",
+            "text_color": "#721c24",
+            "icon": "cancel"
+          }
+        ],
+        "stock_statuses": [
+          {
+            "value": "in_stock",
+            "label": "Stokta Var",
+            "color": "#d4edda",
+            "text_color": "#155724",
+            "icon": "check_circle"
+          },
+          {
+            "value": "low_stock",
+            "label": "Düşük Stok",
+            "color": "#fff3cd",
+            "text_color": "#856404",
+            "icon": "warning"
+          },
+          {
+            "value": "out_of_stock",
+            "label": "Stokta Yok",
+            "color": "#f8d7da",
+            "text_color": "#721c24",
+            "icon": "remove_circle"
+          }
+        ],
+        "table_columns": [
+          {
+            "key": "image",
+            "label": "Görsel",
+            "width": "80px",
+            "type": "image"
+          },
+          {
+            "key": "name",
+            "label": "Ürün Adı",
+            "width": "200px",
+            "type": "text",
+            "sortable": true
+          },
+          {
+            "key": "code",
+            "label": "Kod",
+            "width": "120px",
+            "type": "text",
+            "sortable": true
+          },
+          {
+            "key": "category",
+            "label": "Kategori",
+            "width": "120px",
+            "type": "text",
+            "sortable": true
+          },
+          {
+            "key": "price",
+            "label": "Fiyat",
+            "width": "100px",
+            "type": "currency",
+            "sortable": true
+          },
+          {
+            "key": "stock",
+            "label": "Stok",
+            "width": "80px",
+            "type": "number",
+            "sortable": true
+          },
+          {
+            "key": "status",
+            "label": "Durum",
+            "width": "100px",
+            "type": "status",
+            "sortable": true
+          },
+          {
+            "key": "actions",
+            "label": "İşlemler",
+            "width": "120px",
+            "type": "actions"
+          }
+        ],
+        "pagination": {
+          "items_per_page": 10,
+          "max_pages_shown": 5
+        }
+      }
     },
     {
       "index": 32,
@@ -1714,7 +1942,19 @@
         "coloractive": "#28a745",
         "header_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
         "card_shadow": "0 4px 20px rgba(0, 0, 0, 0.08)",
-        "border_radius": "15px"
+        "border_radius": "15px",
+        "pageTitle": {
+          "tr": "Müşteri Yönetimi",
+          "en": "Customer Management"
+        },
+        "pageSubtitle": {
+          "tr": "Müşterileri görüntüleyin ve yönetin",
+          "en": "View and manage customers"
+        },
+        "refreshButton": {
+          "tr": "Yenile",
+          "en": "Refresh"
+        }
       },
       "id": "admin_musteriler_33",
       "description": "E-ticaret admin paneli müşteri yönetimi modülü",
@@ -1980,6 +2220,10 @@
         "tableActions": {
           "tr": "İşlemler",
           "en": "Actions"
+        },
+        "demoButton": {
+          "tr": "Demo Veri Ekle",
+          "en": "Add Demo Data"
         }
       },
       "id": "admin_odemeler_35",
@@ -2035,6 +2279,10 @@
         "tableActions": {
           "tr": "İşlemler",
           "en": "Actions"
+        },
+        "demoButton": {
+          "tr": "Demo Veri Ekle",
+          "en": "Add Demo Data"
         }
       },
       "id": "admin_raporlar_36",
@@ -2090,6 +2338,10 @@
         "tableActions": {
           "tr": "İşlemler",
           "en": "Actions"
+        },
+        "demoButton": {
+          "tr": "Demo Veri Ekle",
+          "en": "Add Demo Data"
         }
       },
       "id": "admin_moduller_37",
@@ -2149,6 +2401,10 @@
         "tableActions": {
           "tr": "İşlemler",
           "en": "Actions"
+        },
+        "demoButton": {
+          "tr": "Demo Veri Ekle",
+          "en": "Add Demo Data"
         }
       },
       "id": "admin_uyeler_38",
@@ -2200,6 +2456,10 @@
         "tableActions": {
           "tr": "İşlemler",
           "en": "Actions"
+        },
+        "demoButton": {
+          "tr": "Demo Veri Ekle",
+          "en": "Add Demo Data"
         }
       },
       "id": "admin_ayarlar_39",
@@ -2255,6 +2515,10 @@
         "tableActions": {
           "tr": "İşlemler",
           "en": "Actions"
+        },
+        "demoButton": {
+          "tr": "Demo Veri Ekle",
+          "en": "Add Demo Data"
         }
       },
       "id": "admin_loglar_40",

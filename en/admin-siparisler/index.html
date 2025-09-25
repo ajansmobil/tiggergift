@@ -15,8 +15,8 @@
   <meta property="og:description" content="undefined" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=isnbt" />
-  <link rel="shortcut icon" href="/img/icon.png?v=isnbt" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=rb9zx" />
+  <link rel="shortcut icon" href="/img/icon.png?v=rb9zx" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -48,28 +48,25 @@
 </script>
 
 
-
-  <script type="text/javascript" src="/src/firebase.js?v=isnbt"></script>
-
-
-<link rel="stylesheet" href="style.css?v=isnbt">
+  <script type="text/javascript" src="/src/firebase.js?v=rb9zx"></script>
+<link rel="stylesheet" href="style.css?v=rb9zx">
 </head>
 
 <body>
-  <div id="header"><header class="v8x15-header-wrapper">
-  <div class="v8x15-header">
-    <div class="v8x15-header-top">
-      <a href="/en/" class="v8x15-header-left">
-        <img src="/img/logo.png?v=isnbt" alt="Tiggergift Logo" class="v8x15-logo" />
+  <div id="header"><header class="aw0ja-header-wrapper">
+  <div class="aw0ja-header">
+    <div class="aw0ja-header-top">
+      <a href="/en/" class="aw0ja-header-left">
+        <img src="/img/logo.png?v=rb9zx" alt="Tiggergift Logo" class="aw0ja-logo" />
       </a>
 
-      <div class="v8x15-search-box">
+      <div class="aw0ja-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="v8x15-support-info">
+      <div class="aw0ja-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
@@ -77,7 +74,7 @@
         </div>
       </div>
 
-      <div class="v8x15-icons">
+      <div class="aw0ja-icons">
         <a href="/en/login/" class="material-symbols-outlined">person</a>
         <a href="/en/favorilerim/" class="material-symbols-outlined">favorite</a>
         <a href="/en/basket/" class="material-symbols-outlined">shopping_cart</a>
@@ -85,12 +82,12 @@
     </div>
   </div>
 
-  <div class="v8x15-header-bottom">
-    <div class="v8x15-header-bottom-inner">
-      <button class="v8x15-category-btn">
+  <div class="aw0ja-header-bottom">
+    <div class="aw0ja-header-bottom-inner">
+      <button class="aw0ja-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="v8x15-main-menu"><a href="/en/urunlerimiz/"></a><a href="/en/baklava/"></a><a href="/en/kurumsal/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
+      <nav class="aw0ja-main-menu"><a href="/en/urunlerimiz/"></a><a href="/en/baklava/"></a><a href="/en/kurumsal/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
     </div>
   </div>
 </header>
@@ -106,13 +103,13 @@
 </div>
 
 <!-- Main Content -->
-<div class="o33tj" id="adminMainContent" style="display: none;">
-  <div class="o33tj-menu">
-    <a href="/en/admin/" class="o33tj-profile">
-      <div class="o33tj-user-img" id="userAvatar"></div>
+<div class="lf6jq" id="adminMainContent" style="display: none;">
+  <div class="lf6jq-menu">
+    <a href="/en/admin/" class="lf6jq-profile">
+      <div class="lf6jq-user-img" id="userAvatar"></div>
       <div id="userName">Yükleniyor...</div>
     </a>
-    <div class="o33tj-menu-category">
+    <div class="lf6jq-menu-category">
     <a href="/en/admin/" >
       <span class="material-symbols-outlined">home</span>
       <div>Admin</div>
@@ -158,22 +155,22 @@
       <div>Logs</div>
     </a></div>
   </div>
-  <div class="o33tj-body"><div class="f2lvx-admin-siparisler">
+  <div class="lf6jq-body"><div class="trhye-admin-siparisler">
     <!-- Sayfa Başlığı ve Filtreler -->
-    <div class="f2lvx-page-header">
-        <div class="f2lvx-header-left">
-            <h1>{{pageTitle}}</h1>
-            <p class="f2lvx-header-subtitle">
+    <div class="trhye-page-header">
+        <div class="trhye-header-left">
+            <h1>Order Management</h1>
+            <p class="trhye-header-subtitle">
                 <span class="material-symbols-outlined">shopping_cart</span>
-                {{pageSubtitle}}
+                Manage and track orders
             </p>
 
         </div>
-        <div class="f2lvx-header-right">
-            <div class="f2lvx-header-actions">
-                <button class="f2lvx-btn f2lvx-btn-primary" onclick="get_siparisler_getir()">
+        <div class="trhye-header-right">
+            <div class="trhye-header-actions">
+                <button class="trhye-btn trhye-btn-primary" onclick="get_siparisler_getir()">
                     <span class="material-symbols-outlined">refresh</span>
-                    {{refreshButton}}
+                    Refresh
                 </button>
             </div>
         </div>
@@ -182,84 +179,84 @@
 
 
     <!-- Sipariş İstatistikleri -->
-    <div class="f2lvx-orders-stats">
-        <div class="f2lvx-stat-item f2lvx-stat-all" data-filter="tum" style="cursor: pointer;">
-            <div class="f2lvx-stat-icon">
+    <div class="trhye-orders-stats">
+        <div class="trhye-stat-item trhye-stat-all" data-filter="tum" style="cursor: pointer;">
+            <div class="trhye-stat-icon">
                 <span class="material-symbols-outlined">list</span>
             </div>
-            <div class="f2lvx-stat-content">
-                <div class="f2lvx-stat-number" id="tum_sayisi">0</div>
-                <div class="f2lvx-stat-label">Tüm Siparişler</div>
+            <div class="trhye-stat-content">
+                <div class="trhye-stat-number" id="tum_sayisi">0</div>
+                <div class="trhye-stat-label">Tüm Siparişler</div>
             </div>
         </div>
 
-        <div class="f2lvx-stat-item f2lvx-stat-pending" data-filter="bekleyen" style="cursor: pointer;">
-            <div class="f2lvx-stat-icon">
+        <div class="trhye-stat-item trhye-stat-pending" data-filter="bekleyen" style="cursor: pointer;">
+            <div class="trhye-stat-icon">
                 <span class="material-symbols-outlined">schedule</span>
             </div>
-            <div class="f2lvx-stat-content">
-                <div class="f2lvx-stat-number" id="bekleyen_sayisi">0</div>
-                <div class="f2lvx-stat-label">Bekleyen</div>
+            <div class="trhye-stat-content">
+                <div class="trhye-stat-number" id="bekleyen_sayisi">0</div>
+                <div class="trhye-stat-label">Bekleyen</div>
             </div>
         </div>
 
-        <div class="f2lvx-stat-item f2lvx-stat-approved" data-filter="onaylandi" style="cursor: pointer;">
-            <div class="f2lvx-stat-icon">
+        <div class="trhye-stat-item trhye-stat-approved" data-filter="onaylandi" style="cursor: pointer;">
+            <div class="trhye-stat-icon">
                 <span class="material-symbols-outlined">check_circle</span>
             </div>
-            <div class="f2lvx-stat-content">
-                <div class="f2lvx-stat-number" id="onaylandi_sayisi">0</div>
-                <div class="f2lvx-stat-label">Onaylandı</div>
+            <div class="trhye-stat-content">
+                <div class="trhye-stat-number" id="onaylandi_sayisi">0</div>
+                <div class="trhye-stat-label">Onaylandı</div>
             </div>
         </div>
 
-        <div class="f2lvx-stat-item f2lvx-stat-processing" data-filter="hazirlaniyor" style="cursor: pointer;">
-            <div class="f2lvx-stat-icon">
+        <div class="trhye-stat-item trhye-stat-processing" data-filter="hazirlaniyor" style="cursor: pointer;">
+            <div class="trhye-stat-icon">
                 <span class="material-symbols-outlined">local_shipping</span>
             </div>
-            <div class="f2lvx-stat-content">
-                <div class="f2lvx-stat-number" id="hazirlaniyor_sayisi">0</div>
-                <div class="f2lvx-stat-label">Hazırlanan</div>
+            <div class="trhye-stat-content">
+                <div class="trhye-stat-number" id="hazirlaniyor_sayisi">0</div>
+                <div class="trhye-stat-label">Hazırlanan</div>
             </div>
         </div>
 
-        <div class="f2lvx-stat-item f2lvx-stat-shipped" data-filter="kargoda" style="cursor: pointer;">
-            <div class="f2lvx-stat-icon">
+        <div class="trhye-stat-item trhye-stat-shipped" data-filter="kargoda" style="cursor: pointer;">
+            <div class="trhye-stat-icon">
                 <span class="material-symbols-outlined">local_shipping</span>
             </div>
-            <div class="f2lvx-stat-content">
-                <div class="f2lvx-stat-number" id="kargoda_sayisi">0</div>
-                <div class="f2lvx-stat-label">Kargoda</div>
+            <div class="trhye-stat-content">
+                <div class="trhye-stat-number" id="kargoda_sayisi">0</div>
+                <div class="trhye-stat-label">Kargoda</div>
             </div>
         </div>
 
-        <div class="f2lvx-stat-item f2lvx-stat-completed" data-filter="tamamlandi" style="cursor: pointer;">
-            <div class="f2lvx-stat-icon">
+        <div class="trhye-stat-item trhye-stat-completed" data-filter="tamamlandi" style="cursor: pointer;">
+            <div class="trhye-stat-icon">
                 <span class="material-symbols-outlined">check_circle</span>
             </div>
-            <div class="f2lvx-stat-content">
-                <div class="f2lvx-stat-number" id="tamamlandi_sayisi">0</div>
-                <div class="f2lvx-stat-label">Tamamlanan</div>
+            <div class="trhye-stat-content">
+                <div class="trhye-stat-number" id="tamamlandi_sayisi">0</div>
+                <div class="trhye-stat-label">Tamamlanan</div>
             </div>
         </div>
 
-        <div class="f2lvx-stat-item f2lvx-stat-cancelled" data-filter="iptal" style="cursor: pointer;">
-            <div class="f2lvx-stat-icon">
+        <div class="trhye-stat-item trhye-stat-cancelled" data-filter="iptal" style="cursor: pointer;">
+            <div class="trhye-stat-icon">
                 <span class="material-symbols-outlined">cancel</span>
             </div>
-            <div class="f2lvx-stat-content">
-                <div class="f2lvx-stat-number" id="iptal_sayisi">0</div>
-                <div class="f2lvx-stat-label">İptal</div>
+            <div class="trhye-stat-content">
+                <div class="trhye-stat-number" id="iptal_sayisi">0</div>
+                <div class="trhye-stat-label">İptal</div>
             </div>
         </div>
 
-        <div class="f2lvx-stat-item f2lvx-stat-returned" data-filter="iade" style="cursor: pointer;">
-            <div class="f2lvx-stat-icon">
+        <div class="trhye-stat-item trhye-stat-returned" data-filter="iade" style="cursor: pointer;">
+            <div class="trhye-stat-icon">
                 <span class="material-symbols-outlined">assignment_return</span>
             </div>
-            <div class="f2lvx-stat-content">
-                <div class="f2lvx-stat-number" id="iade_sayisi">0</div>
-                <div class="f2lvx-stat-label">İade</div>
+            <div class="trhye-stat-content">
+                <div class="trhye-stat-number" id="iade_sayisi">0</div>
+                <div class="trhye-stat-label">İade</div>
             </div>
         </div>
     </div>
@@ -268,10 +265,10 @@
 
 
     <!-- Sipariş Tablosu -->
-    <div class="f2lvx-orders-table-container">
-        <div class="f2lvx-search-filters">
-            <div class="f2lvx-filter-options">
-                <div class="f2lvx-search-box">
+    <div class="trhye-orders-table-container">
+        <div class="trhye-search-filters">
+            <div class="trhye-filter-options">
+                <div class="trhye-search-box">
                     <span class="material-symbols-outlined">search</span>
                     <input type="text" id="searchInput" placeholder="Sipariş no, müşteri adı veya email ara..."
                         onkeyup="filterSiparisler()">
@@ -296,18 +293,18 @@
             </div>
         </div>
 
-        <div class="f2lvx-orders-table">
+        <div class="trhye-orders-table">
             <table>
                 <thead>
                     <tr>
-                        <th class="f2lvx-th-order">Sipariş No</th>
-                        <th class="f2lvx-th-date">Tarih</th>
-                        <th class="f2lvx-th-customer">Müşteri</th>
-                        <th class="f2lvx-th-products">Ürünler</th>
-                        <th class="f2lvx-th-total">Toplam</th>
-                        <th class="f2lvx-th-status">Durum</th>
-                        <th class="f2lvx-th-payment">Ödeme</th>
-                        <th class="f2lvx-th-actions">İşlemler</th>
+                        <th class="trhye-th-order">Sipariş No</th>
+                        <th class="trhye-th-date">Tarih</th>
+                        <th class="trhye-th-customer">Müşteri</th>
+                        <th class="trhye-th-products">Ürünler</th>
+                        <th class="trhye-th-total">Toplam</th>
+                        <th class="trhye-th-status">Durum</th>
+                        <th class="trhye-th-payment">Ödeme</th>
+                        <th class="trhye-th-actions">İşlemler</th>
                     </tr>
                 </thead>
                 <tbody id="orders-table-body">
@@ -317,15 +314,15 @@
         </div>
 
         <!-- Sayfalama -->
-        <div class="f2lvx-pagination">
-            <button class="f2lvx-btn f2lvx-btn-secondary" id="prevPage" onclick="changePage(-1)">
+        <div class="trhye-pagination">
+            <button class="trhye-btn trhye-btn-secondary" id="prevPage" onclick="changePage(-1)">
                 <span class="material-symbols-outlined">chevron_left</span>
                 Önceki
             </button>
-            <span class="f2lvx-page-info">
+            <span class="trhye-page-info">
                 Sayfa <span id="currentPage">1</span> / <span id="totalPages">1</span>
             </span>
-            <button class="f2lvx-btn f2lvx-btn-secondary" id="nextPage" onclick="changePage(1)">
+            <button class="trhye-btn trhye-btn-secondary" id="nextPage" onclick="changePage(1)">
                 Sonraki
                 <span class="material-symbols-outlined">chevron_right</span>
             </button>
@@ -333,28 +330,28 @@
     </div>
 
     <!-- Sipariş Detay Modalı -->
-    <div id="siparisDetailModal" class="f2lvx-modal">
-        <div class="f2lvx-modal-content">
-            <div class="f2lvx-modal-header">
+    <div id="siparisDetailModal" class="trhye-modal">
+        <div class="trhye-modal-content">
+            <div class="trhye-modal-header">
                 <h3>Sipariş Detayı</h3>
-                <span class="f2lvx-modal-close" onclick="closeModal('siparisDetailModal')">&times;</span>
+                <span class="trhye-modal-close" onclick="closeModal('siparisDetailModal')">&times;</span>
             </div>
-            <div class="f2lvx-modal-body" id="siparisDetailContent">
+            <div class="trhye-modal-body" id="siparisDetailContent">
                 <!-- Sipariş detayları buraya yüklenecek -->
             </div>
         </div>
     </div>
 
     <!-- Sipariş Düzenleme Modalı -->
-    <div id="siparisEditModal" class="f2lvx-modal">
-        <div class="f2lvx-modal-content">
-            <div class="f2lvx-modal-header">
+    <div id="siparisEditModal" class="trhye-modal">
+        <div class="trhye-modal-content">
+            <div class="trhye-modal-header">
                 <h3>Sipariş Düzenle</h3>
-                <span class="f2lvx-modal-close" onclick="closeModal('siparisEditModal')">&times;</span>
+                <span class="trhye-modal-close" onclick="closeModal('siparisEditModal')">&times;</span>
             </div>
-            <div class="f2lvx-modal-body">
+            <div class="trhye-modal-body">
                 <form id="siparisEditForm">
-                    <div class="f2lvx-form-group">
+                    <div class="trhye-form-group">
                         <label>Sipariş Durumu:</label>
                         <select id="editSiparisDurum" required>
                             <option value="bekleyen">Bekleyen</option>
@@ -366,21 +363,21 @@
                             <option value="iade">İade</option>
                         </select>
                     </div>
-                    <div class="f2lvx-form-group">
+                    <div class="trhye-form-group">
                         <label>Kargo Firması:</label>
                         <input type="text" id="editKargoFirma" placeholder="Kargo firması">
                     </div>
-                    <div class="f2lvx-form-group">
+                    <div class="trhye-form-group">
                         <label>Kargo Takip No:</label>
                         <input type="text" id="editKargoTakip" placeholder="Kargo takip numarası">
                     </div>
-                    <div class="f2lvx-form-group">
+                    <div class="trhye-form-group">
                         <label>Not:</label>
                         <textarea id="editSiparisNot" placeholder="Sipariş notu"></textarea>
                     </div>
-                    <div class="f2lvx-form-actions">
-                        <button type="submit" class="f2lvx-btn f2lvx-btn-success">Güncelle</button>
-                        <button type="button" class="f2lvx-btn f2lvx-btn-secondary"
+                    <div class="trhye-form-actions">
+                        <button type="submit" class="trhye-btn trhye-btn-success">Güncelle</button>
+                        <button type="button" class="trhye-btn trhye-btn-secondary"
                             onclick="closeModal('siparisEditModal')">İptal</button>
                     </div>
                 </form>
@@ -431,7 +428,7 @@
 
     // İstatistik kartlarına tıklama olayı ekle
     function setupStatItemListeners() {
-        const statItems = document.querySelectorAll('.f2lvx-stat-item[data-filter]');
+        const statItems = document.querySelectorAll('.trhye-stat-item[data-filter]');
 
         statItems.forEach(item => {
             item.addEventListener('click', function () {
@@ -519,7 +516,7 @@
                     <tr>
                         <td colspan="8" style="text-align: center; padding: 40px; color: #6c757d;">
                             <div style="font-size: 16px; margin-bottom: 10px;">Henüz sipariş bulunmuyor</div>
-                            <button class="f2lvx-btn f2lvx-btn-primary" onclick="testVerisiEkle()">
+                            <button class="trhye-btn trhye-btn-primary" onclick="testVerisiEkle()">
                                 <span class="material-symbols-outlined">add</span>
                                 Test Verisi Ekle
                             </button>
@@ -533,7 +530,7 @@
                 <tr>
                     <td colspan="8" style="text-align: center; padding: 40px; color: #dc3545;">
                         <div style="font-size: 16px; margin-bottom: 10px;">Veriler yüklenirken hata oluştu</div>
-                        <button class="f2lvx-btn f2lvx-btn-primary" onclick="get_siparisler_getir()">
+                        <button class="trhye-btn trhye-btn-primary" onclick="get_siparisler_getir()">
                             <span class="material-symbols-outlined">refresh</span>
                             Tekrar Dene
                         </button>
@@ -672,7 +669,7 @@
 
     // Modal dışına tıklandığında kapat
     window.onclick = function (event) {
-        const modals = document.querySelectorAll('.f2lvx-modal');
+        const modals = document.querySelectorAll('.trhye-modal');
         modals.forEach(modal => {
             if (event.target === modal) {
                 closeModal(modal.id);
@@ -812,80 +809,80 @@
     // Sipariş detay HTML'i oluştur
     function createSiparisDetailHTML(siparis) {
         return `
-            <div class="f2lvx-siparis-detail">
-                <div class="f2lvx-detail-section">
+            <div class="trhye-siparis-detail">
+                <div class="trhye-detail-section">
                     <h4>Sipariş Bilgileri</h4>
-                    <div class="f2lvx-detail-grid">
-                        <div class="f2lvx-detail-item">
+                    <div class="trhye-detail-grid">
+                        <div class="trhye-detail-item">
                             <label>Sipariş No:</label>
                             <span>#${siparis.id.substring(0, 8)}</span>
                         </div>
-                        <div class="f2lvx-detail-item">
+                        <div class="trhye-detail-item">
                             <label>Tarih:</label>
                             <span>${siparis.tarih}</span>
                         </div>
-                        <div class="f2lvx-detail-item">
+                        <div class="trhye-detail-item">
                             <label>Durum:</label>
                             <span>${createDurumBadge(siparis.durum)}</span>
                         </div>
-                        <div class="f2lvx-detail-item">
+                        <div class="trhye-detail-item">
                             <label>Toplam:</label>
                             <span>${siparis.toplam}₺</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="f2lvx-detail-section">
+                <div class="trhye-detail-section">
                     <h4>Müşteri Bilgileri</h4>
-                    <div class="f2lvx-detail-grid">
-                        <div class="f2lvx-detail-item">
+                    <div class="trhye-detail-grid">
+                        <div class="trhye-detail-item">
                             <label>Ad Soyad:</label>
                             <span>${siparis.user.name}</span>
                         </div>
-                        <div class="f2lvx-detail-item">
+                        <div class="trhye-detail-item">
                             <label>Email:</label>
                             <span>${siparis.user.email}</span>
                         </div>
-                        <div class="f2lvx-detail-item">
+                        <div class="trhye-detail-item">
                             <label>Telefon:</label>
                             <span>${siparis.user.phone || 'Belirtilmemiş'}</span>
                         </div>
-                        <div class="f2lvx-detail-item">
+                        <div class="trhye-detail-item">
                             <label>Adres:</label>
                             <span>${siparis.user.address || 'Belirtilmemiş'}</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="f2lvx-detail-section">
+                <div class="trhye-detail-section">
                     <h4>Ürünler</h4>
-                    <div class="f2lvx-products-list">
+                    <div class="trhye-products-list">
                         ${siparis.urunler.map(urun => `
-                            <div class="f2lvx-product-item">
-                                <span class="f2lvx-product-name">${urun.adi}</span>
-                                <span class="f2lvx-product-quantity">${urun.adet} adet</span>
-                                <span class="f2lvx-product-price">${urun.fiyat}₺</span>
+                            <div class="trhye-product-item">
+                                <span class="trhye-product-name">${urun.adi}</span>
+                                <span class="trhye-product-quantity">${urun.adet} adet</span>
+                                <span class="trhye-product-price">${urun.fiyat}₺</span>
                             </div>
                         `).join('')}
                     </div>
                 </div>
 
                 ${siparis.kargo ? `
-                <div class="f2lvx-detail-section">
+                <div class="trhye-detail-section">
                     <h4>Kargo Bilgileri</h4>
-                    <div class="f2lvx-detail-grid">
-                        <div class="f2lvx-detail-item">
+                    <div class="trhye-detail-grid">
+                        <div class="trhye-detail-item">
                             <label>Kargo Firması:</label>
                             <span>${siparis.kargo}</span>
                         </div>
                         ${siparis.kargo_takip ? `
-                        <div class="f2lvx-detail-item">
+                        <div class="trhye-detail-item">
                             <label>Takip No:</label>
                             <span>${siparis.kargo_takip}</span>
                         </div>
                         ` : ''}
                         ${siparis.kargo_tarih ? `
-                        <div class="f2lvx-detail-item">
+                        <div class="trhye-detail-item">
                             <label>Kargo Tarihi:</label>
                             <span>${siparis.kargo_tarih}</span>
                         </div>
@@ -895,7 +892,7 @@
                 ` : ''}
 
                 ${siparis.not ? `
-                <div class="f2lvx-detail-section">
+                <div class="trhye-detail-section">
                     <h4>Not</h4>
                     <p>${siparis.not}</p>
                 </div>
@@ -908,7 +905,7 @@
     function showNotification(message, type = 'info') {
         // Basit bildirim sistemi
         const notification = document.createElement('div');
-        notification.className = `f2lvx-notification f2lvx-notification-${type}`;
+        notification.className = `trhye-notification trhye-notification-${type}`;
         notification.textContent = message;
 
         document.body.appendChild(notification);
@@ -1045,21 +1042,21 @@
             <td>#${id.substring(0, 8)}</td>
             <td>${siparis.tarih}</td>
             <td>
-                <div class="f2lvx-customer-info">
-                    <div class="f2lvx-customer-name">${siparis.user.name}</div>
-                    <div class="f2lvx-customer-email">${siparis.user.email}</div>
+                <div class="trhye-customer-info">
+                    <div class="trhye-customer-name">${siparis.user.name}</div>
+                    <div class="trhye-customer-email">${siparis.user.email}</div>
                 </div>
             </td>
-            <td class="f2lvx-products-cell">${urunlerList}</td>
-            <td class="f2lvx-total-cell">${siparis.toplam}₺</td>
+            <td class="trhye-products-cell">${urunlerList}</td>
+            <td class="trhye-total-cell">${siparis.toplam}₺</td>
             <td>${durumBadge}</td>
             <td>${createOdemeBadge(siparis.odeme)}</td>
             <td>
-                <div class="f2lvx-action-buttons">
-                    <button class="f2lvx-btn f2lvx-btn-sm f2lvx-btn-info" onclick="viewSiparis('${id}', '${durum}')">
+                <div class="trhye-action-buttons">
+                    <button class="trhye-btn trhye-btn-sm trhye-btn-info" onclick="viewSiparis('${id}', '${durum}')">
                         <span class="material-symbols-outlined">visibility</span>
                     </button>
-                    <button class="f2lvx-btn f2lvx-btn-sm f2lvx-btn-warning" onclick="editSiparis('${id}', '${durum}')">
+                    <button class="trhye-btn trhye-btn-sm trhye-btn-warning" onclick="editSiparis('${id}', '${durum}')">
                         <span class="material-symbols-outlined">edit</span>
                     </button>
                 </div>
@@ -1069,12 +1066,12 @@
 
     // Durum badge'i oluştur
     function createDurumBadge(durum) {
-        return `<span class="f2lvx-status-badge f2lvx-status-${durum}">${getDurumText(durum)}</span>`;
+        return `<span class="trhye-status-badge trhye-status-${durum}">${getDurumText(durum)}</span>`;
     }
 
     // Ödeme badge'i oluştur
     function createOdemeBadge(odeme) {
-        return `<span class="f2lvx-payment-badge">${getOdemeText(odeme)}</span>`;
+        return `<span class="trhye-payment-badge">${getOdemeText(odeme)}</span>`;
     }
 
     // Ürün listesi oluştur
@@ -1363,28 +1360,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="syxk8-trust-boxes">
-      <div class="syxk8-trust-item">
+<div class="n5jxi-trust-boxes">
+      <div class="n5jxi-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="syxk8-trust-text">
-          <div class="syxk8-trust-title">100% Secure Payment</div>
-          <div class="syxk8-trust-desc">Secure Payment with 3D Secure</div>
+        <div class="n5jxi-trust-text">
+          <div class="n5jxi-trust-title">100% Secure Payment</div>
+          <div class="n5jxi-trust-desc">Secure Payment with 3D Secure</div>
         </div>
       </div>
     
-      <div class="syxk8-trust-item">
+      <div class="n5jxi-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="syxk8-trust-text">
-          <div class="syxk8-trust-title">100% Original Product</div>
-          <div class="syxk8-trust-desc">Activation with 100% Licensed Original Product</div>
+        <div class="n5jxi-trust-text">
+          <div class="n5jxi-trust-title">100% Original Product</div>
+          <div class="n5jxi-trust-desc">Activation with 100% Licensed Original Product</div>
         </div>
       </div>
     
-      <div class="syxk8-trust-item">
+      <div class="n5jxi-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="syxk8-trust-text">
-          <div class="syxk8-trust-title">Fast Delivery</div>
-          <div class="syxk8-trust-desc">Online Fast Delivery for All Your Shopping</div>
+        <div class="n5jxi-trust-text">
+          <div class="n5jxi-trust-title">Fast Delivery</div>
+          <div class="n5jxi-trust-desc">Online Fast Delivery for All Your Shopping</div>
         </div>
       </div>
     </div>
@@ -1399,6 +1396,15 @@
     <div class="wave" id="wave4"></div>
   </div>
   <ul class="social-icon">
+
+
+
+    
+    
+
+ 
+
+
     <li class="social-icon__item">
       <a class="social-icon__link" href="#">
         <ion-icon name="logo-facebook"></ion-icon>
@@ -1451,17 +1457,13 @@
 
 </div>
 </body>
+
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
 
-
-<script type="text/javascript" src="/src/js.js?v=isnbt"></script>
-
-
-
-
-<script src="/src/cookie.js?v=isnbt"></script>
+<script type="text/javascript" src="/src/js.js?v=rb9zx"></script>
+<script src="/src/cookie.js?v=rb9zx"></script>
 
 </html>
