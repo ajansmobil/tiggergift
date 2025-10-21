@@ -8,6 +8,9 @@
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <meta http-equiv="Cache-Control" content="max-age=3600, public" />
+  <meta http-equiv="Pragma" content="cache" />
+  <meta http-equiv="Expires" content="3600" />
   <title>Login</title>
   <meta name="description" content="" />
   <meta name="keywords" content="" />
@@ -15,12 +18,11 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=sbmos" />
-  <link rel="shortcut icon" href="/img/icon.png?v=sbmos" type="image/png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-    rel="stylesheet" />
+
+
+  <link rel="stylesheet" href="/src/rubik.css" />
+  <link rel="stylesheet" href="/src/css.css?v=srk1i" />
+  <link rel="shortcut icon" href="/img/icon.png?v=srk1i" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -48,33 +50,33 @@
 </script>
 
 
-  <script type="text/javascript" src="/src/firebase.js?v=sbmos"></script>
-<link rel="stylesheet" href="style.css?v=sbmos">
+  <script type="text/javascript" src="/src/firebase.js?v=srk1i"></script>
+<link rel="stylesheet" href="style.css?v=srk1i">
 </head>
 
 <body>
-  <div id="header"><header class="zqt1d-header-wrapper">
-  <div class="zqt1d-header">
-    <div class="zqt1d-header-top">
-      <a href="/tr/" class="zqt1d-header-left">
-        <img src="/img/logo.png?v=sbmos" alt="Tiggergift Logo" class="zqt1d-logo" />
+  <div id="header"><header class="i0cwt-header-wrapper">
+  <div class="i0cwt-header">
+    <div class="i0cwt-header-top">
+      <a href="/tr/" class="i0cwt-header-left">
+        <img src="/img/logo.png?v=srk1i" alt="Tiggergift Logo" class="i0cwt-logo" />
       </a>
 
-      <div class="zqt1d-search-box">
+      <div class="i0cwt-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="zqt1d-support-info">
+      <div class="i0cwt-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
-          <strong>+90 342 221 00 02</strong>
+          <strong>0342 343 82 12</strong>
         </div>
       </div>
 
-      <div class="zqt1d-icons">
+      <div class="i0cwt-icons">
         <a href="/tr/login/" class="material-symbols-outlined">person</a>
         <a href="/tr/favorilerim/" class="material-symbols-outlined">favorite</a>
         <a href="/tr/basket/" class="material-symbols-outlined">shopping_cart</a>
@@ -82,25 +84,25 @@
     </div>
   </div>
 
-  <div class="zqt1d-header-bottom">
-    <div class="zqt1d-header-bottom-inner">
-      <button class="zqt1d-category-btn">
+  <div class="i0cwt-header-bottom">
+    <div class="i0cwt-header-bottom-inner">
+      <button class="i0cwt-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="zqt1d-main-menu"><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/baklava/">Baklava</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/iletisim/">İletişim</a></nav>
+      <nav class="i0cwt-main-menu"><a href="/tr/bakir-mutfak-esyalari/">Bakır Mutfak Eşyaları</a><a href="/tr/bakir-aksesuarlar/">Bakır Aksesuarlar</a><a href="/tr/ehli-keyf/">Ehli Keyf</a><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/iletisim/">İletişim</a></nav>
     </div>
   </div>
 </header>
 
 
 </div>
-  <div id="content"><div class="kd63h">
-  <div class="kd63h-body">
-    <div class="kd63h-login-menu">
-      <div id="kd63h-login-menu-left">Giriş Yap</div>
-      <div id="kd63h-login-menu-right">Üye Ol</div>
+  <div id="content"><div class="e8nry">
+  <div class="e8nry-body">
+    <div class="e8nry-login-menu">
+      <div id="e8nry-login-menu-left">Giriş Yap</div>
+      <div id="e8nry-login-menu-right">Üye Ol</div>
     </div>
-    <div class="kd63h-body-form" id="kd63h-login">
+    <div class="e8nry-body-form" id="e8nry-login">
       <div class="input-container">
         <input type="email" id="login-email" class="inputmatrix1" placeholder="Mail Adresiniz" />
         <label for="input" class="placeholder">Mail Adresiniz</label>
@@ -109,10 +111,10 @@
         <input type="password" id="login-password" class="inputmatrix1" placeholder="Şifre" />
         <label for="input" class="placeholder">Şifre</label>
       </div>
-      <div class="kd63h-null" onclick="showForgotPassword()">Şifremi Unuttum</div>
-      <div class="kd63h-button" onclick="loginUser()">Giriş Yap</div>
+      <div class="e8nry-null" onclick="showForgotPassword()">Şifremi Unuttum</div>
+      <div class="e8nry-button" onclick="loginUser()">Giriş Yap</div>
     </div>
-    <div class="kd63h-body-form" id="kd63h-memberol">
+    <div class="e8nry-body-form" id="e8nry-memberol">
       <div class="input-container">
         <input type="text" id="register-name" class="inputmatrix1" placeholder="Ad Soyad" />
         <label for="input" class="placeholder">Ad Soyad</label>
@@ -130,18 +132,18 @@
           placeholder="Şifre Tekrar" />
         <label for="input" class="placeholder">Şifre Tekrar</label>
       </div>
-      <div class="kd63h-button" onclick="registerUser()">Üye Ol</div>
-      <div class="kd63h-null" onclick="switchToLogin()">Üye misin?</div>
+      <div class="e8nry-button" onclick="registerUser()">Üye Ol</div>
+      <div class="e8nry-null" onclick="switchToLogin()">Üye misin?</div>
     </div>
 
     <!-- Şifre Unutma Formu -->
-    <div class="kd63h-body-form" id="kd63h-forgot-password" style="display: none;">
+    <div class="e8nry-body-form" id="e8nry-forgot-password" style="display: none;">
       <div class="input-container">
         <input type="email" id="forgot-email" class="inputmatrix1" placeholder="Mail Adresiniz" />
         <label for="input" class="placeholder">Mail Adresiniz</label>
       </div>
-      <div class="kd63h-button" onclick="resetPassword()">Şifre Sıfırlama Maili Gönder</div>
-      <div class="kd63h-null" onclick="backToLogin()">Giriş Sayfasına Dön</div>
+      <div class="e8nry-button" onclick="resetPassword()">Şifre Sıfırlama Maili Gönder</div>
+      <div class="e8nry-null" onclick="backToLogin()">Giriş Sayfasına Dön</div>
     </div>
     <div class="media-login">
       <div onclick="googleLogin()">
@@ -159,25 +161,25 @@
 
   // Menu navigation functions
   function switchToLogin() {
-    document.getElementById("kd63h-login-menu-left").style.backgroundColor = "#101010";
-    document.getElementById("kd63h-login-menu-right").style.backgroundColor = "#7b560d";
-      document.getElementById("kd63h-login").style.display = "flex";
-      document.getElementById("kd63h-memberol").style.display = "none";
-    document.getElementById("kd63h-forgot-password").style.display = "none";
+    document.getElementById("e8nry-login-menu-left").style.backgroundColor = "#101010";
+    document.getElementById("e8nry-login-menu-right").style.backgroundColor = "#7b560d";
+      document.getElementById("e8nry-login").style.display = "flex";
+      document.getElementById("e8nry-memberol").style.display = "none";
+    document.getElementById("e8nry-forgot-password").style.display = "none";
   }
 
   function switchToRegister() {
-    document.getElementById("kd63h-login-menu-right").style.backgroundColor = "#101010";
-    document.getElementById("kd63h-login-menu-left").style.backgroundColor = "#7b560d";
-      document.getElementById("kd63h-login").style.display = "none";
-      document.getElementById("kd63h-memberol").style.display = "flex";
-    document.getElementById("kd63h-forgot-password").style.display = "none";
+    document.getElementById("e8nry-login-menu-right").style.backgroundColor = "#101010";
+    document.getElementById("e8nry-login-menu-left").style.backgroundColor = "#7b560d";
+      document.getElementById("e8nry-login").style.display = "none";
+      document.getElementById("e8nry-memberol").style.display = "flex";
+    document.getElementById("e8nry-forgot-password").style.display = "none";
   }
 
   function showForgotPassword() {
-    document.getElementById("kd63h-login").style.display = "none";
-    document.getElementById("kd63h-memberol").style.display = "none";
-    document.getElementById("kd63h-forgot-password").style.display = "flex";
+    document.getElementById("e8nry-login").style.display = "none";
+    document.getElementById("e8nry-memberol").style.display = "none";
+    document.getElementById("e8nry-forgot-password").style.display = "flex";
   }
 
   function backToLogin() {
@@ -469,8 +471,8 @@
 
   // Initialize menu event listeners
   setTimeout(() => {
-    const loginMenuLeft = document.getElementById("kd63h-login-menu-left");
-    const loginMenuRight = document.getElementById("kd63h-login-menu-right");
+    const loginMenuLeft = document.getElementById("e8nry-login-menu-left");
+    const loginMenuRight = document.getElementById("e8nry-login-menu-right");
 
     if (loginMenuLeft) {
       loginMenuLeft.addEventListener("click", switchToLogin);
@@ -489,28 +491,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="kxn1m-trust-boxes">
-      <div class="kxn1m-trust-item">
+<div class="is0lf-trust-boxes">
+      <div class="is0lf-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="kxn1m-trust-text">
-          <div class="kxn1m-trust-title">100% Güvenli Ödeme</div>
-          <div class="kxn1m-trust-desc">3D Secure ile Güvenli Ödeme</div>
+        <div class="is0lf-trust-text">
+          <div class="is0lf-trust-title">100% Güvenli Ödeme</div>
+          <div class="is0lf-trust-desc">3D Secure ile Güvenli Ödeme</div>
         </div>
       </div>
     
-      <div class="kxn1m-trust-item">
+      <div class="is0lf-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="kxn1m-trust-text">
-          <div class="kxn1m-trust-title">%100 Orijinal Ürün</div>
-          <div class="kxn1m-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
+        <div class="is0lf-trust-text">
+          <div class="is0lf-trust-title">%100 Orijinal Ürün</div>
+          <div class="is0lf-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
         </div>
       </div>
     
-      <div class="kxn1m-trust-item">
+      <div class="is0lf-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="kxn1m-trust-text">
-          <div class="kxn1m-trust-title">Hızlı Teslimat</div>
-          <div class="kxn1m-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
+        <div class="is0lf-trust-text">
+          <div class="is0lf-trust-title">Hızlı Teslimat</div>
+          <div class="is0lf-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
         </div>
       </div>
     </div>
@@ -556,7 +558,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/urunlerimiz">Kampanyalı</a></li><li class="menu__item"><a class="menu__link" href="/tr/baklava">Baklava</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/yerelurunler">Yerel Ürünler</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
+    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/bakir-mutfak-esyalari">Bakır Mutfak Eşyaları</a></li><li class="menu__item"><a class="menu__link" href="/tr/bakir-aksesuarlar">Bakır Aksesuarlar</a></li><li class="menu__item"><a class="menu__link" href="/tr/ehli-keyf">Ehli Keyf</a></li><li class="menu__item"><a class="menu__link" href="/tr/urunlerimiz">Kampanyalı</a></li><li class="menu__item"><a class="menu__link" href="/tr/yerelurunler">Yerel Ürünler</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
   </ul>
   <p>Tiggergift 2025 cognite. &copy;</p>
 </footer>
@@ -592,7 +594,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=sbmos"></script>
-<script src="/src/cookie.js?v=sbmos"></script>
+<script type="text/javascript" src="/src/js.js?v=srk1i"></script>
+<script src="/src/cookie.js?v=srk1i"></script>
 
 </html>

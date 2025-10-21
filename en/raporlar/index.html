@@ -8,6 +8,9 @@
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <meta http-equiv="Cache-Control" content="max-age=3600, public" />
+  <meta http-equiv="Pragma" content="cache" />
+  <meta http-equiv="Expires" content="3600" />
   <title>Reports</title>
   <meta name="description" content="undefined" />
   <meta name="keywords" content="undefined" />
@@ -15,12 +18,11 @@
   <meta property="og:description" content="undefined" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=q5lwl" />
-  <link rel="shortcut icon" href="/img/icon.png?v=q5lwl" type="image/png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-    rel="stylesheet" />
+
+
+  <link rel="stylesheet" href="/src/rubik.css" />
+  <link rel="stylesheet" href="/src/css.css?v=qlnab" />
+  <link rel="shortcut icon" href="/img/icon.png?v=qlnab" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -48,33 +50,33 @@
 </script>
 
 
-  <script type="text/javascript" src="/src/firebase.js?v=q5lwl"></script>
-<link rel="stylesheet" href="style.css?v=q5lwl">
+  <script type="text/javascript" src="/src/firebase.js?v=qlnab"></script>
+<link rel="stylesheet" href="style.css?v=qlnab">
 </head>
 
 <body>
-  <div id="header"><header class="xwblq-header-wrapper">
-  <div class="xwblq-header">
-    <div class="xwblq-header-top">
-      <a href="/en/" class="xwblq-header-left">
-        <img src="/img/logo.png?v=q5lwl" alt="Tiggergift Logo" class="xwblq-logo" />
+  <div id="header"><header class="gsvc5-header-wrapper">
+  <div class="gsvc5-header">
+    <div class="gsvc5-header-top">
+      <a href="/en/" class="gsvc5-header-left">
+        <img src="/img/logo.png?v=qlnab" alt="Tiggergift Logo" class="gsvc5-logo" />
       </a>
 
-      <div class="xwblq-search-box">
+      <div class="gsvc5-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="xwblq-support-info">
+      <div class="gsvc5-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
-          <strong>+90 342 221 00 02</strong>
+          <strong>0342 343 82 12</strong>
         </div>
       </div>
 
-      <div class="xwblq-icons">
+      <div class="gsvc5-icons">
         <a href="/en/login/" class="material-symbols-outlined">person</a>
         <a href="/en/favorilerim/" class="material-symbols-outlined">favorite</a>
         <a href="/en/basket/" class="material-symbols-outlined">shopping_cart</a>
@@ -82,12 +84,12 @@
     </div>
   </div>
 
-  <div class="xwblq-header-bottom">
-    <div class="xwblq-header-bottom-inner">
-      <button class="xwblq-category-btn">
+  <div class="gsvc5-header-bottom">
+    <div class="gsvc5-header-bottom-inner">
+      <button class="gsvc5-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="xwblq-main-menu"><a href="/en/urunlerimiz/"></a><a href="/en/baklava/"></a><a href="/en/kurumsal/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
+      <nav class="gsvc5-main-menu"><a href="/en/bakir-mutfak-esyalari/"></a><a href="/en/bakir-aksesuarlar/"></a><a href="/en/ehli-keyf/"></a><a href="/en/urunlerimiz/"></a><a href="/en/yerelurunler/"></a><a href="/en/kurumsal/"></a><a href="/en/iletisim/"></a></nav>
     </div>
   </div>
 </header>
@@ -103,13 +105,13 @@
 </div>
 
 <!-- Main Content -->
-<div class="artu7" id="adminMainContent" style="display: none;">
-  <div class="artu7-menu">
-    <a href="/en/admin/" class="artu7-profile">
-      <div class="artu7-user-img" id="userAvatar"></div>
+<div class="pvgtm" id="adminMainContent" style="display: none;">
+  <div class="pvgtm-menu">
+    <a href="/en/admin/" class="pvgtm-profile">
+      <div class="pvgtm-user-img" id="userAvatar"></div>
       <div id="userName">Yükleniyor...</div>
     </a>
-    <div class="artu7-menu-category">
+    <div class="pvgtm-menu-category">
     <a href="/en/admin/" >
       <span class="material-symbols-outlined">home</span>
       <div>Admin</div>
@@ -142,7 +144,7 @@
       <span class="material-symbols-outlined">payment</span>
       <div>Payments</div>
     </a>
-    <a class="artu7-menu-active" href="/en/raporlar/" >
+    <a class="pvgtm-menu-active" href="/en/raporlar/" >
       <span class="material-symbols-outlined">analytics</span>
       <div>Reports</div>
     </a>
@@ -155,19 +157,19 @@
       <div>Logs</div>
     </a></div>
   </div>
-  <div class="artu7-body"><div class="gx0d6-admin-raporlar">
+  <div class="pvgtm-body"><div class="paqcx-admin-raporlar">
     <!-- Sayfa Başlığı -->
-    <div class="gx0d6-page-header">
-        <div class="gx0d6-header-left">
+    <div class="paqcx-page-header">
+        <div class="paqcx-header-left">
             <h1>Report Management</h1>
-            <p class="gx0d6-header-subtitle">
+            <p class="paqcx-header-subtitle">
                 <span class="material-symbols-outlined">analytics</span>
                 View and analyze reports
             </p>
         </div>
-        <div class="gx0d6-header-right">
-            <div class="gx0d6-header-actions">
-                <button class="gx0d6-btn gx0d6-btn-primary" onclick="loadReports()">
+        <div class="paqcx-header-right">
+            <div class="paqcx-header-actions">
+                <button class="paqcx-btn paqcx-btn-primary" onclick="loadReports()">
                     <span class="material-symbols-outlined">refresh</span>
                     Refresh
                 </button>
@@ -176,8 +178,8 @@
     </div>
 
     <!-- Rapor Tablosu -->
-    <div class="gx0d6-reports-table-container">
-        <div class="gx0d6-reports-table">
+    <div class="paqcx-reports-table-container">
+        <div class="paqcx-reports-table">
             <table>
                 <thead>
                     <tr>
@@ -198,8 +200,8 @@
     </div>
 
     <!-- Demo Veri Ekleme Butonu -->
-    <div class="gx0d6-demo-section">
-        <button class="gx0d6-btn gx0d6-btn-success" onclick="addDemoReports()">
+    <div class="paqcx-demo-section">
+        <button class="paqcx-btn paqcx-btn-success" onclick="addDemoReports()">
             <span class="material-symbols-outlined">add</span>
             Add Demo Data
         </button>
@@ -244,8 +246,8 @@
                     <td>${report.period}</td>
                     <td><span class="status-badge">${report.status}</span></td>
                     <td>
-                        <button class="gx0d6-btn gx0d6-btn-sm" onclick="viewReport('${doc.id}')">Görüntüle</button>
-                        <button class="gx0d6-btn gx0d6-btn-sm" onclick="downloadReport('${doc.id}')">İndir</button>
+                        <button class="paqcx-btn paqcx-btn-sm" onclick="viewReport('${doc.id}')">Görüntüle</button>
+                        <button class="paqcx-btn paqcx-btn-sm" onclick="downloadReport('${doc.id}')">İndir</button>
                     </td>
                 `;
 
@@ -258,7 +260,7 @@
                 <tr>
                     <td colspan="5" style="text-align: center; padding: 40px; color: #dc3545;">
                         <div style="font-size: 16px; margin-bottom: 10px;">Veriler yüklenirken hata oluştu</div>
-                        <button class="gx0d6-btn gx0d6-btn-primary" onclick="loadReports()">
+                        <button class="paqcx-btn paqcx-btn-primary" onclick="loadReports()">
                             <span class="material-symbols-outlined">refresh</span>
                             Tekrar Dene
                         </button>
@@ -562,28 +564,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="hq0ti-trust-boxes">
-      <div class="hq0ti-trust-item">
+<div class="i7lun-trust-boxes">
+      <div class="i7lun-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="hq0ti-trust-text">
-          <div class="hq0ti-trust-title">100% Secure Payment</div>
-          <div class="hq0ti-trust-desc">Secure Payment with 3D Secure</div>
+        <div class="i7lun-trust-text">
+          <div class="i7lun-trust-title">100% Secure Payment</div>
+          <div class="i7lun-trust-desc">Secure Payment with 3D Secure</div>
         </div>
       </div>
     
-      <div class="hq0ti-trust-item">
+      <div class="i7lun-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="hq0ti-trust-text">
-          <div class="hq0ti-trust-title">100% Original Product</div>
-          <div class="hq0ti-trust-desc">Activation with 100% Licensed Original Product</div>
+        <div class="i7lun-trust-text">
+          <div class="i7lun-trust-title">100% Original Product</div>
+          <div class="i7lun-trust-desc">Activation with 100% Licensed Original Product</div>
         </div>
       </div>
     
-      <div class="hq0ti-trust-item">
+      <div class="i7lun-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="hq0ti-trust-text">
-          <div class="hq0ti-trust-title">Fast Delivery</div>
-          <div class="hq0ti-trust-desc">Online Fast Delivery for All Your Shopping</div>
+        <div class="i7lun-trust-text">
+          <div class="i7lun-trust-title">Fast Delivery</div>
+          <div class="i7lun-trust-desc">Online Fast Delivery for All Your Shopping</div>
         </div>
       </div>
     </div>
@@ -629,7 +631,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/urunlerimiz"></a></li><li class="menu__item"><a class="menu__link" href="/en/baklava"></a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/en/yerelurunler"></a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim"></a></li>
+    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/bakir-mutfak-esyalari"></a></li><li class="menu__item"><a class="menu__link" href="/en/bakir-aksesuarlar"></a></li><li class="menu__item"><a class="menu__link" href="/en/ehli-keyf"></a></li><li class="menu__item"><a class="menu__link" href="/en/urunlerimiz"></a></li><li class="menu__item"><a class="menu__link" href="/en/yerelurunler"></a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim"></a></li>
   </ul>
   <p>Tiggergift 2025 cognite. &copy;</p>
 </footer>
@@ -665,7 +667,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=q5lwl"></script>
-<script src="/src/cookie.js?v=q5lwl"></script>
+<script type="text/javascript" src="/src/js.js?v=qlnab"></script>
+<script src="/src/cookie.js?v=qlnab"></script>
 
 </html>

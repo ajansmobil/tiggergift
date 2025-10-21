@@ -8,6 +8,9 @@
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <meta http-equiv="Cache-Control" content="max-age=3600, public" />
+  <meta http-equiv="Pragma" content="cache" />
+  <meta http-equiv="Expires" content="3600" />
   <title></title>
   <meta name="description" content="undefined" />
   <meta name="keywords" content="undefined" />
@@ -15,12 +18,11 @@
   <meta property="og:description" content="undefined" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=iyyx4" />
-  <link rel="shortcut icon" href="/img/icon.png?v=iyyx4" type="image/png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-    rel="stylesheet" />
+
+
+  <link rel="stylesheet" href="/src/rubik.css" />
+  <link rel="stylesheet" href="/src/css.css?v=tsr1b" />
+  <link rel="shortcut icon" href="/img/icon.png?v=tsr1b" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -48,33 +50,33 @@
 </script>
 
 
-  <script type="text/javascript" src="/src/firebase.js?v=iyyx4"></script>
-<link rel="stylesheet" href="style.css?v=iyyx4">
+  <script type="text/javascript" src="/src/firebase.js?v=tsr1b"></script>
+<link rel="stylesheet" href="style.css?v=tsr1b">
 </head>
 
 <body>
-  <div id="header"><header class="bvdl3-header-wrapper">
-  <div class="bvdl3-header">
-    <div class="bvdl3-header-top">
-      <a href="/en/" class="bvdl3-header-left">
-        <img src="/img/logo.png?v=iyyx4" alt="Tiggergift Logo" class="bvdl3-logo" />
+  <div id="header"><header class="sz06n-header-wrapper">
+  <div class="sz06n-header">
+    <div class="sz06n-header-top">
+      <a href="/en/" class="sz06n-header-left">
+        <img src="/img/logo.png?v=tsr1b" alt="Tiggergift Logo" class="sz06n-logo" />
       </a>
 
-      <div class="bvdl3-search-box">
+      <div class="sz06n-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="bvdl3-support-info">
+      <div class="sz06n-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
-          <strong>+90 342 221 00 02</strong>
+          <strong>0342 343 82 12</strong>
         </div>
       </div>
 
-      <div class="bvdl3-icons">
+      <div class="sz06n-icons">
         <a href="/en/login/" class="material-symbols-outlined">person</a>
         <a href="/en/favorilerim/" class="material-symbols-outlined">favorite</a>
         <a href="/en/basket/" class="material-symbols-outlined">shopping_cart</a>
@@ -82,12 +84,12 @@
     </div>
   </div>
 
-  <div class="bvdl3-header-bottom">
-    <div class="bvdl3-header-bottom-inner">
-      <button class="bvdl3-category-btn">
+  <div class="sz06n-header-bottom">
+    <div class="sz06n-header-bottom-inner">
+      <button class="sz06n-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="bvdl3-main-menu"><a href="/en/urunlerimiz/"></a><a href="/en/baklava/"></a><a href="/en/kurumsal/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
+      <nav class="sz06n-main-menu"><a href="/en/bakir-mutfak-esyalari/"></a><a href="/en/bakir-aksesuarlar/"></a><a href="/en/ehli-keyf/"></a><a href="/en/urunlerimiz/"></a><a href="/en/yerelurunler/"></a><a href="/en/kurumsal/"></a><a href="/en/iletisim/"></a></nav>
     </div>
   </div>
 </header>
@@ -103,13 +105,13 @@
 </div>
 
 <!-- Main Content -->
-<div class="sd8v8" id="adminMainContent" style="display: none;">
-  <div class="sd8v8-menu">
-    <a href="/en/admin/" class="sd8v8-profile">
-      <div class="sd8v8-user-img" id="userAvatar"></div>
+<div class="og0xz" id="adminMainContent" style="display: none;">
+  <div class="og0xz-menu">
+    <a href="/en/admin/" class="og0xz-profile">
+      <div class="og0xz-user-img" id="userAvatar"></div>
       <div id="userName">Yükleniyor...</div>
     </a>
-    <div class="sd8v8-menu-category">
+    <div class="og0xz-menu-category">
     <a href="/en/admin/" >
       <span class="material-symbols-outlined">home</span>
       <div>Admin</div>
@@ -122,7 +124,7 @@
       <span class="material-symbols-outlined">shopping_cart</span>
       <div>Orders</div>
     </a>
-    <a class="sd8v8-menu-active" href="/en/adminkategoriler/" >
+    <a class="og0xz-menu-active" href="/en/adminkategoriler/" >
       <span class="material-symbols-outlined">home</span>
       <div>Kategoriler</div>
     </a>
@@ -155,23 +157,23 @@
       <div>Logs</div>
     </a></div>
   </div>
-  <div class="sd8v8-body"><div class="kil5u-admin-kategoriler">
+  <div class="og0xz-body"><div class="yhgyi-admin-kategoriler">
     <!-- Sayfa Başlığı -->
-    <div class="kil5u-page-header">
-        <div class="kil5u-header-left">
+    <div class="yhgyi-page-header">
+        <div class="yhgyi-header-left">
             <h1>Category Management</h1>
-            <p class="kil5u-header-subtitle">
+            <p class="yhgyi-header-subtitle">
                 <span class="material-symbols-outlined">category</span>
                 Manage and organize categories
             </p>
         </div>
-        <div class="kil5u-header-right">
-            <div class="kil5u-header-actions">
-                <button class="kil5u-btn kil5u-btn-success" onclick="openAddCategoryModal()">
+        <div class="yhgyi-header-right">
+            <div class="yhgyi-header-actions">
+                <button class="yhgyi-btn yhgyi-btn-success" onclick="openAddCategoryModal()">
                     <span class="material-symbols-outlined">add</span>
                     Add New Category
                 </button>
-                <button class="kil5u-btn kil5u-btn-primary" onclick="loadCategories()">
+                <button class="yhgyi-btn yhgyi-btn-primary" onclick="loadCategories()">
                     <span class="material-symbols-outlined">refresh</span>
                     Refresh
                 </button>
@@ -180,8 +182,8 @@
     </div>
 
     <!-- Kategori Tablosu -->
-    <div class="kil5u-categories-table-container">
-        <div class="kil5u-categories-table">
+    <div class="yhgyi-categories-table-container">
+        <div class="yhgyi-categories-table">
             <table>
                 <thead>
                     <tr>
@@ -200,32 +202,32 @@
     </div>
 
     <!-- Kategori Ekleme/Düzenleme Modalı -->
-    <div id="categoryModal" class="kil5u-modal">
-        <div class="kil5u-modal-content">
-            <div class="kil5u-modal-header">
+    <div id="categoryModal" class="yhgyi-modal">
+        <div class="yhgyi-modal-content">
+            <div class="yhgyi-modal-header">
                 <h3 id="modalTitle">Yeni Kategori Ekle</h3>
-                <span class="kil5u-modal-close" onclick="closeModal('categoryModal')">&times;</span>
+                <span class="yhgyi-modal-close" onclick="closeModal('categoryModal')">&times;</span>
             </div>
-            <div class="kil5u-modal-body">
+            <div class="yhgyi-modal-body">
                 <form id="categoryForm">
-                    <div class="kil5u-form-group">
+                    <div class="yhgyi-form-group">
                         <label>Kategori Adı *</label>
                         <input type="text" id="categoryName" required>
                     </div>
-                    <div class="kil5u-form-group">
+                    <div class="yhgyi-form-group">
                         <label>Açıklama</label>
                         <textarea id="categoryDescription" rows="3"></textarea>
                     </div>
-                    <div class="kil5u-form-group">
+                    <div class="yhgyi-form-group">
                         <label>Durum</label>
                         <select id="categoryStatus">
                             <option value="active">Aktif</option>
                             <option value="inactive">Pasif</option>
                         </select>
                     </div>
-                    <div class="kil5u-form-actions">
-                        <button type="submit" class="kil5u-btn kil5u-btn-success">Kaydet</button>
-                        <button type="button" class="kil5u-btn kil5u-btn-secondary"
+                    <div class="yhgyi-form-actions">
+                        <button type="submit" class="yhgyi-btn yhgyi-btn-success">Kaydet</button>
+                        <button type="button" class="yhgyi-btn yhgyi-btn-secondary"
                             onclick="closeModal('categoryModal')">İptal</button>
                     </div>
                 </form>
@@ -234,20 +236,20 @@
     </div>
 
     <!-- Popup Uyarı Sistemi -->
-    <div id="popupOverlay" class="kil5u-popup-overlay">
-        <div class="kil5u-popup-content">
-            <div class="kil5u-popup-header">
-                <div id="popupIcon" class="kil5u-popup-icon warning">
+    <div id="popupOverlay" class="yhgyi-popup-overlay">
+        <div class="yhgyi-popup-content">
+            <div class="yhgyi-popup-header">
+                <div id="popupIcon" class="yhgyi-popup-icon warning">
                     <span class="material-symbols-outlined">warning</span>
                 </div>
-                <h3 id="popupTitle" class="kil5u-popup-title">Dikkat!</h3>
-                <p id="popupMessage" class="kil5u-popup-message">Bu işlemi gerçekleştirmek istediğinizden emin
+                <h3 id="popupTitle" class="yhgyi-popup-title">Dikkat!</h3>
+                <p id="popupMessage" class="yhgyi-popup-message">Bu işlemi gerçekleştirmek istediğinizden emin
                     misiniz?</p>
             </div>
-            <div class="kil5u-popup-body">
-                <div class="kil5u-popup-actions">
-                    <button id="popupCancelBtn" class="kil5u-popup-btn kil5u-popup-btn-secondary">İptal</button>
-                    <button id="popupConfirmBtn" class="kil5u-popup-btn kil5u-popup-btn-danger">Sil</button>
+            <div class="yhgyi-popup-body">
+                <div class="yhgyi-popup-actions">
+                    <button id="popupCancelBtn" class="yhgyi-popup-btn yhgyi-popup-btn-secondary">İptal</button>
+                    <button id="popupConfirmBtn" class="yhgyi-popup-btn yhgyi-popup-btn-danger">Sil</button>
                 </div>
             </div>
         </div>
@@ -293,7 +295,7 @@
                     <tr>
                         <td colspan="5" style="text-align: center; padding: 40px; color: #6c757d;">
                             <div style="font-size: 16px; margin-bottom: 10px;">Henüz kategori bulunmuyor</div>
-                            <button class="kil5u-btn kil5u-btn-success" onclick="openAddCategoryModal()">
+                            <button class="yhgyi-btn yhgyi-btn-success" onclick="openAddCategoryModal()">
                                 <span class="material-symbols-outlined">add</span>
                                 İlk Kategoriyi Ekle
                             </button>
@@ -307,7 +309,7 @@
                 <tr>
                     <td colspan="5" style="text-align: center; padding: 40px; color: #dc3545;">
                         <div style="font-size: 16px; margin-bottom: 10px;">Veriler yüklenirken hata oluştu</div>
-                        <button class="kil5u-btn kil5u-btn-primary" onclick="loadCategories()">
+                        <button class="yhgyi-btn yhgyi-btn-primary" onclick="loadCategories()">
                             <span class="material-symbols-outlined">refresh</span>
                             Tekrar Dene
                         </button>
@@ -330,7 +332,7 @@
     function createCategoryRow(category) {
         const row = document.createElement("tr");
 
-        const statusBadge = `<span class="kil5u-status-badge kil5u-status-${category.status || 'active'}">${(category.status || 'active') === 'active' ? 'Aktif' : 'Pasif'}</span>`;
+        const statusBadge = `<span class="yhgyi-status-badge yhgyi-status-${category.status || 'active'}">${(category.status || 'active') === 'active' ? 'Aktif' : 'Pasif'}</span>`;
 
         row.innerHTML = `
             <td>
@@ -340,11 +342,11 @@
             <td style="text-align: center; font-weight: 600;">0</td>
             <td>${statusBadge}</td>
             <td>
-                <div class="kil5u-action-buttons">
-                    <button class="kil5u-btn kil5u-btn-sm kil5u-btn-warning" onclick="editCategory('${category.id}')">
+                <div class="yhgyi-action-buttons">
+                    <button class="yhgyi-btn yhgyi-btn-sm yhgyi-btn-warning" onclick="editCategory('${category.id}')">
                         <span class="material-symbols-outlined">edit</span>
                     </button>
-                    <button class="kil5u-btn kil5u-btn-sm kil5u-btn-danger" onclick="deleteCategory('${category.id}')">
+                    <button class="yhgyi-btn yhgyi-btn-sm yhgyi-btn-danger" onclick="deleteCategory('${category.id}')">
                         <span class="material-symbols-outlined">delete</span>
                     </button>
                 </div>
@@ -474,7 +476,7 @@
 
         const currentIcon = iconMap[type] || iconMap.warning;
 
-        icon.className = `kil5u-popup-icon ${currentIcon.class}`;
+        icon.className = `yhgyi-popup-icon ${currentIcon.class}`;
         icon.innerHTML = `<span class="material-symbols-outlined">${currentIcon.icon}</span>`;
 
         titleEl.textContent = title;
@@ -535,7 +537,7 @@
 
     function showNotification(message, type = 'info') {
         const notification = document.createElement('div');
-        notification.className = `kil5u-notification kil5u-notification-${type}`;
+        notification.className = `yhgyi-notification yhgyi-notification-${type}`;
         notification.textContent = message;
         notification.style.cssText = `
             position: fixed;
@@ -559,7 +561,7 @@
     }
 
     window.onclick = function (event) {
-        const modals = document.querySelectorAll('.kil5u-modal');
+        const modals = document.querySelectorAll('.yhgyi-modal');
         modals.forEach(modal => {
             if (event.target === modal) {
                 closeModal(modal.id);
@@ -811,28 +813,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="zqe3u-trust-boxes">
-      <div class="zqe3u-trust-item">
+<div class="e9cjt-trust-boxes">
+      <div class="e9cjt-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="zqe3u-trust-text">
-          <div class="zqe3u-trust-title">100% Secure Payment</div>
-          <div class="zqe3u-trust-desc">Secure Payment with 3D Secure</div>
+        <div class="e9cjt-trust-text">
+          <div class="e9cjt-trust-title">100% Secure Payment</div>
+          <div class="e9cjt-trust-desc">Secure Payment with 3D Secure</div>
         </div>
       </div>
     
-      <div class="zqe3u-trust-item">
+      <div class="e9cjt-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="zqe3u-trust-text">
-          <div class="zqe3u-trust-title">100% Original Product</div>
-          <div class="zqe3u-trust-desc">Activation with 100% Licensed Original Product</div>
+        <div class="e9cjt-trust-text">
+          <div class="e9cjt-trust-title">100% Original Product</div>
+          <div class="e9cjt-trust-desc">Activation with 100% Licensed Original Product</div>
         </div>
       </div>
     
-      <div class="zqe3u-trust-item">
+      <div class="e9cjt-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="zqe3u-trust-text">
-          <div class="zqe3u-trust-title">Fast Delivery</div>
-          <div class="zqe3u-trust-desc">Online Fast Delivery for All Your Shopping</div>
+        <div class="e9cjt-trust-text">
+          <div class="e9cjt-trust-title">Fast Delivery</div>
+          <div class="e9cjt-trust-desc">Online Fast Delivery for All Your Shopping</div>
         </div>
       </div>
     </div>
@@ -878,7 +880,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/urunlerimiz"></a></li><li class="menu__item"><a class="menu__link" href="/en/baklava"></a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/en/yerelurunler"></a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim"></a></li>
+    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/bakir-mutfak-esyalari"></a></li><li class="menu__item"><a class="menu__link" href="/en/bakir-aksesuarlar"></a></li><li class="menu__item"><a class="menu__link" href="/en/ehli-keyf"></a></li><li class="menu__item"><a class="menu__link" href="/en/urunlerimiz"></a></li><li class="menu__item"><a class="menu__link" href="/en/yerelurunler"></a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim"></a></li>
   </ul>
   <p>Tiggergift 2025 cognite. &copy;</p>
 </footer>
@@ -914,7 +916,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=iyyx4"></script>
-<script src="/src/cookie.js?v=iyyx4"></script>
+<script type="text/javascript" src="/src/js.js?v=tsr1b"></script>
+<script src="/src/cookie.js?v=tsr1b"></script>
 
 </html>

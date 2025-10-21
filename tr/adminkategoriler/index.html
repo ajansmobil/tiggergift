@@ -8,6 +8,9 @@
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <meta http-equiv="Cache-Control" content="max-age=3600, public" />
+  <meta http-equiv="Pragma" content="cache" />
+  <meta http-equiv="Expires" content="3600" />
   <title>Kategoriler</title>
   <meta name="description" content="" />
   <meta name="keywords" content="" />
@@ -15,12 +18,11 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=k2jow" />
-  <link rel="shortcut icon" href="/img/icon.png?v=k2jow" type="image/png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-    rel="stylesheet" />
+
+
+  <link rel="stylesheet" href="/src/rubik.css" />
+  <link rel="stylesheet" href="/src/css.css?v=su502" />
+  <link rel="shortcut icon" href="/img/icon.png?v=su502" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -48,33 +50,33 @@
 </script>
 
 
-  <script type="text/javascript" src="/src/firebase.js?v=k2jow"></script>
-<link rel="stylesheet" href="style.css?v=k2jow">
+  <script type="text/javascript" src="/src/firebase.js?v=su502"></script>
+<link rel="stylesheet" href="style.css?v=su502">
 </head>
 
 <body>
-  <div id="header"><header class="thsva-header-wrapper">
-  <div class="thsva-header">
-    <div class="thsva-header-top">
-      <a href="/tr/" class="thsva-header-left">
-        <img src="/img/logo.png?v=k2jow" alt="Tiggergift Logo" class="thsva-logo" />
+  <div id="header"><header class="swukv-header-wrapper">
+  <div class="swukv-header">
+    <div class="swukv-header-top">
+      <a href="/tr/" class="swukv-header-left">
+        <img src="/img/logo.png?v=su502" alt="Tiggergift Logo" class="swukv-logo" />
       </a>
 
-      <div class="thsva-search-box">
+      <div class="swukv-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="thsva-support-info">
+      <div class="swukv-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
-          <strong>+90 342 221 00 02</strong>
+          <strong>0342 343 82 12</strong>
         </div>
       </div>
 
-      <div class="thsva-icons">
+      <div class="swukv-icons">
         <a href="/tr/login/" class="material-symbols-outlined">person</a>
         <a href="/tr/favorilerim/" class="material-symbols-outlined">favorite</a>
         <a href="/tr/basket/" class="material-symbols-outlined">shopping_cart</a>
@@ -82,12 +84,12 @@
     </div>
   </div>
 
-  <div class="thsva-header-bottom">
-    <div class="thsva-header-bottom-inner">
-      <button class="thsva-category-btn">
+  <div class="swukv-header-bottom">
+    <div class="swukv-header-bottom-inner">
+      <button class="swukv-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="thsva-main-menu"><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/baklava/">Baklava</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/iletisim/">İletişim</a></nav>
+      <nav class="swukv-main-menu"><a href="/tr/bakir-mutfak-esyalari/">Bakır Mutfak Eşyaları</a><a href="/tr/bakir-aksesuarlar/">Bakır Aksesuarlar</a><a href="/tr/ehli-keyf/">Ehli Keyf</a><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/iletisim/">İletişim</a></nav>
     </div>
   </div>
 </header>
@@ -103,13 +105,13 @@
 </div>
 
 <!-- Main Content -->
-<div class="y2uww" id="adminMainContent" style="display: none;">
-  <div class="y2uww-menu">
-    <a href="/tr/admin/" class="y2uww-profile">
-      <div class="y2uww-user-img" id="userAvatar"></div>
+<div class="cj8um" id="adminMainContent" style="display: none;">
+  <div class="cj8um-menu">
+    <a href="/tr/admin/" class="cj8um-profile">
+      <div class="cj8um-user-img" id="userAvatar"></div>
       <div id="userName">Yükleniyor...</div>
     </a>
-    <div class="y2uww-menu-category">
+    <div class="cj8um-menu-category">
     <a href="/tr/admin/" >
       <span class="material-symbols-outlined">home</span>
       <div>Admin</div>
@@ -122,7 +124,7 @@
       <span class="material-symbols-outlined">shopping_cart</span>
       <div>Siparişler</div>
     </a>
-    <a class="y2uww-menu-active" href="/tr/adminkategoriler/" >
+    <a class="cj8um-menu-active" href="/tr/adminkategoriler/" >
       <span class="material-symbols-outlined">home</span>
       <div>Kategoriler</div>
     </a>
@@ -155,23 +157,23 @@
       <div>Loglar</div>
     </a></div>
   </div>
-  <div class="y2uww-body"><div class="t5roi-admin-kategoriler">
+  <div class="cj8um-body"><div class="a1koj-admin-kategoriler">
     <!-- Sayfa Başlığı -->
-    <div class="t5roi-page-header">
-        <div class="t5roi-header-left">
+    <div class="a1koj-page-header">
+        <div class="a1koj-header-left">
             <h1>Kategori Yönetimi</h1>
-            <p class="t5roi-header-subtitle">
+            <p class="a1koj-header-subtitle">
                 <span class="material-symbols-outlined">category</span>
                 Kategorileri yönetin ve düzenleyin
             </p>
         </div>
-        <div class="t5roi-header-right">
-            <div class="t5roi-header-actions">
-                <button class="t5roi-btn t5roi-btn-success" onclick="openAddCategoryModal()">
+        <div class="a1koj-header-right">
+            <div class="a1koj-header-actions">
+                <button class="a1koj-btn a1koj-btn-success" onclick="openAddCategoryModal()">
                     <span class="material-symbols-outlined">add</span>
                     Yeni Kategori Ekle
                 </button>
-                <button class="t5roi-btn t5roi-btn-primary" onclick="loadCategories()">
+                <button class="a1koj-btn a1koj-btn-primary" onclick="loadCategories()">
                     <span class="material-symbols-outlined">refresh</span>
                     Yenile
                 </button>
@@ -180,8 +182,8 @@
     </div>
 
     <!-- Kategori Tablosu -->
-    <div class="t5roi-categories-table-container">
-        <div class="t5roi-categories-table">
+    <div class="a1koj-categories-table-container">
+        <div class="a1koj-categories-table">
             <table>
                 <thead>
                     <tr>
@@ -200,32 +202,32 @@
     </div>
 
     <!-- Kategori Ekleme/Düzenleme Modalı -->
-    <div id="categoryModal" class="t5roi-modal">
-        <div class="t5roi-modal-content">
-            <div class="t5roi-modal-header">
+    <div id="categoryModal" class="a1koj-modal">
+        <div class="a1koj-modal-content">
+            <div class="a1koj-modal-header">
                 <h3 id="modalTitle">Yeni Kategori Ekle</h3>
-                <span class="t5roi-modal-close" onclick="closeModal('categoryModal')">&times;</span>
+                <span class="a1koj-modal-close" onclick="closeModal('categoryModal')">&times;</span>
             </div>
-            <div class="t5roi-modal-body">
+            <div class="a1koj-modal-body">
                 <form id="categoryForm">
-                    <div class="t5roi-form-group">
+                    <div class="a1koj-form-group">
                         <label>Kategori Adı *</label>
                         <input type="text" id="categoryName" required>
                     </div>
-                    <div class="t5roi-form-group">
+                    <div class="a1koj-form-group">
                         <label>Açıklama</label>
                         <textarea id="categoryDescription" rows="3"></textarea>
                     </div>
-                    <div class="t5roi-form-group">
+                    <div class="a1koj-form-group">
                         <label>Durum</label>
                         <select id="categoryStatus">
                             <option value="active">Aktif</option>
                             <option value="inactive">Pasif</option>
                         </select>
                     </div>
-                    <div class="t5roi-form-actions">
-                        <button type="submit" class="t5roi-btn t5roi-btn-success">Kaydet</button>
-                        <button type="button" class="t5roi-btn t5roi-btn-secondary"
+                    <div class="a1koj-form-actions">
+                        <button type="submit" class="a1koj-btn a1koj-btn-success">Kaydet</button>
+                        <button type="button" class="a1koj-btn a1koj-btn-secondary"
                             onclick="closeModal('categoryModal')">İptal</button>
                     </div>
                 </form>
@@ -234,20 +236,20 @@
     </div>
 
     <!-- Popup Uyarı Sistemi -->
-    <div id="popupOverlay" class="t5roi-popup-overlay">
-        <div class="t5roi-popup-content">
-            <div class="t5roi-popup-header">
-                <div id="popupIcon" class="t5roi-popup-icon warning">
+    <div id="popupOverlay" class="a1koj-popup-overlay">
+        <div class="a1koj-popup-content">
+            <div class="a1koj-popup-header">
+                <div id="popupIcon" class="a1koj-popup-icon warning">
                     <span class="material-symbols-outlined">warning</span>
                 </div>
-                <h3 id="popupTitle" class="t5roi-popup-title">Dikkat!</h3>
-                <p id="popupMessage" class="t5roi-popup-message">Bu işlemi gerçekleştirmek istediğinizden emin
+                <h3 id="popupTitle" class="a1koj-popup-title">Dikkat!</h3>
+                <p id="popupMessage" class="a1koj-popup-message">Bu işlemi gerçekleştirmek istediğinizden emin
                     misiniz?</p>
             </div>
-            <div class="t5roi-popup-body">
-                <div class="t5roi-popup-actions">
-                    <button id="popupCancelBtn" class="t5roi-popup-btn t5roi-popup-btn-secondary">İptal</button>
-                    <button id="popupConfirmBtn" class="t5roi-popup-btn t5roi-popup-btn-danger">Sil</button>
+            <div class="a1koj-popup-body">
+                <div class="a1koj-popup-actions">
+                    <button id="popupCancelBtn" class="a1koj-popup-btn a1koj-popup-btn-secondary">İptal</button>
+                    <button id="popupConfirmBtn" class="a1koj-popup-btn a1koj-popup-btn-danger">Sil</button>
                 </div>
             </div>
         </div>
@@ -293,7 +295,7 @@
                     <tr>
                         <td colspan="5" style="text-align: center; padding: 40px; color: #6c757d;">
                             <div style="font-size: 16px; margin-bottom: 10px;">Henüz kategori bulunmuyor</div>
-                            <button class="t5roi-btn t5roi-btn-success" onclick="openAddCategoryModal()">
+                            <button class="a1koj-btn a1koj-btn-success" onclick="openAddCategoryModal()">
                                 <span class="material-symbols-outlined">add</span>
                                 İlk Kategoriyi Ekle
                             </button>
@@ -307,7 +309,7 @@
                 <tr>
                     <td colspan="5" style="text-align: center; padding: 40px; color: #dc3545;">
                         <div style="font-size: 16px; margin-bottom: 10px;">Veriler yüklenirken hata oluştu</div>
-                        <button class="t5roi-btn t5roi-btn-primary" onclick="loadCategories()">
+                        <button class="a1koj-btn a1koj-btn-primary" onclick="loadCategories()">
                             <span class="material-symbols-outlined">refresh</span>
                             Tekrar Dene
                         </button>
@@ -330,7 +332,7 @@
     function createCategoryRow(category) {
         const row = document.createElement("tr");
 
-        const statusBadge = `<span class="t5roi-status-badge t5roi-status-${category.status || 'active'}">${(category.status || 'active') === 'active' ? 'Aktif' : 'Pasif'}</span>`;
+        const statusBadge = `<span class="a1koj-status-badge a1koj-status-${category.status || 'active'}">${(category.status || 'active') === 'active' ? 'Aktif' : 'Pasif'}</span>`;
 
         row.innerHTML = `
             <td>
@@ -340,11 +342,11 @@
             <td style="text-align: center; font-weight: 600;">0</td>
             <td>${statusBadge}</td>
             <td>
-                <div class="t5roi-action-buttons">
-                    <button class="t5roi-btn t5roi-btn-sm t5roi-btn-warning" onclick="editCategory('${category.id}')">
+                <div class="a1koj-action-buttons">
+                    <button class="a1koj-btn a1koj-btn-sm a1koj-btn-warning" onclick="editCategory('${category.id}')">
                         <span class="material-symbols-outlined">edit</span>
                     </button>
-                    <button class="t5roi-btn t5roi-btn-sm t5roi-btn-danger" onclick="deleteCategory('${category.id}')">
+                    <button class="a1koj-btn a1koj-btn-sm a1koj-btn-danger" onclick="deleteCategory('${category.id}')">
                         <span class="material-symbols-outlined">delete</span>
                     </button>
                 </div>
@@ -474,7 +476,7 @@
 
         const currentIcon = iconMap[type] || iconMap.warning;
 
-        icon.className = `t5roi-popup-icon ${currentIcon.class}`;
+        icon.className = `a1koj-popup-icon ${currentIcon.class}`;
         icon.innerHTML = `<span class="material-symbols-outlined">${currentIcon.icon}</span>`;
 
         titleEl.textContent = title;
@@ -535,7 +537,7 @@
 
     function showNotification(message, type = 'info') {
         const notification = document.createElement('div');
-        notification.className = `t5roi-notification t5roi-notification-${type}`;
+        notification.className = `a1koj-notification a1koj-notification-${type}`;
         notification.textContent = message;
         notification.style.cssText = `
             position: fixed;
@@ -559,7 +561,7 @@
     }
 
     window.onclick = function (event) {
-        const modals = document.querySelectorAll('.t5roi-modal');
+        const modals = document.querySelectorAll('.a1koj-modal');
         modals.forEach(modal => {
             if (event.target === modal) {
                 closeModal(modal.id);
@@ -811,28 +813,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="kcjpe-trust-boxes">
-      <div class="kcjpe-trust-item">
+<div class="lm642-trust-boxes">
+      <div class="lm642-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="kcjpe-trust-text">
-          <div class="kcjpe-trust-title">100% Güvenli Ödeme</div>
-          <div class="kcjpe-trust-desc">3D Secure ile Güvenli Ödeme</div>
+        <div class="lm642-trust-text">
+          <div class="lm642-trust-title">100% Güvenli Ödeme</div>
+          <div class="lm642-trust-desc">3D Secure ile Güvenli Ödeme</div>
         </div>
       </div>
     
-      <div class="kcjpe-trust-item">
+      <div class="lm642-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="kcjpe-trust-text">
-          <div class="kcjpe-trust-title">%100 Orijinal Ürün</div>
-          <div class="kcjpe-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
+        <div class="lm642-trust-text">
+          <div class="lm642-trust-title">%100 Orijinal Ürün</div>
+          <div class="lm642-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
         </div>
       </div>
     
-      <div class="kcjpe-trust-item">
+      <div class="lm642-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="kcjpe-trust-text">
-          <div class="kcjpe-trust-title">Hızlı Teslimat</div>
-          <div class="kcjpe-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
+        <div class="lm642-trust-text">
+          <div class="lm642-trust-title">Hızlı Teslimat</div>
+          <div class="lm642-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
         </div>
       </div>
     </div>
@@ -878,7 +880,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/urunlerimiz">Kampanyalı</a></li><li class="menu__item"><a class="menu__link" href="/tr/baklava">Baklava</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/yerelurunler">Yerel Ürünler</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
+    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/bakir-mutfak-esyalari">Bakır Mutfak Eşyaları</a></li><li class="menu__item"><a class="menu__link" href="/tr/bakir-aksesuarlar">Bakır Aksesuarlar</a></li><li class="menu__item"><a class="menu__link" href="/tr/ehli-keyf">Ehli Keyf</a></li><li class="menu__item"><a class="menu__link" href="/tr/urunlerimiz">Kampanyalı</a></li><li class="menu__item"><a class="menu__link" href="/tr/yerelurunler">Yerel Ürünler</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
   </ul>
   <p>Tiggergift 2025 cognite. &copy;</p>
 </footer>
@@ -914,7 +916,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=k2jow"></script>
-<script src="/src/cookie.js?v=k2jow"></script>
+<script type="text/javascript" src="/src/js.js?v=su502"></script>
+<script src="/src/cookie.js?v=su502"></script>
 
 </html>

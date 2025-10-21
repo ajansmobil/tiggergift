@@ -1,10 +1,10 @@
 
-  .ze3re-header-wrapper {
+  .oxiut-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .ze3re-header {
+  .oxiut-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .ze3re-logo {
+  .oxiut-logo {
     height: 80px;
   }
 
-  .ze3re-header-top {
+  .oxiut-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .ze3re-search-box {
+  .oxiut-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .ze3re-search-box span {
+  .oxiut-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .ze3re-search-box input {
+  .oxiut-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .ze3re-search-box button {
+  .oxiut-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .ze3re-search-box button:hover {
+  .oxiut-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .ze3re-support-info {
+  .oxiut-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .ze3re-support-info span {
+  .oxiut-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .ze3re-support-info small {
+  .oxiut-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .ze3re-support-info strong {
+  .oxiut-support-info strong {
     font-size: 16px;
   }
 
-  .ze3re-icons {
+  .oxiut-icons {
     display: flex;
     gap: 10px;
   }
 
-  .ze3re-icons span {
+  .oxiut-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .ze3re-icons span:hover {
+  .oxiut-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,20 +111,21 @@
     cursor: pointer;
   }
 
-  .ze3re-header-bottom {
+  .oxiut-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .ze3re-header-bottom-inner {
-    max-width: 1200px;
+  .oxiut-header-bottom-inner {
+    width: var(--max);
     margin: auto;
     padding: 14px 30px;
     display: flex;
     align-items: center;
+    gap: 20px;
   }
 
-  .ze3re-category-btn {
+  .oxiut-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +137,74 @@
     font-weight: 500;
   }
 
-  .ze3re-main-menu {
+  .oxiut-main-menu {
     display: flex;
-    gap: 20px;
-    margin-left: 30px;
+    gap: 10px;
   }
 
-  .ze3re-main-menu a {
-    color: white;
+  .oxiut-main-menu a {
+    color: black;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
   }
 
-  .ze3re-main-menu a:hover {
-    color: #238b23;
+  .oxiut-main-menu a:hover {
+    background-color: #238b23;
+    color: white;
   }
 
-  .ze3re-menulistactive {
+  .oxiut-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .ze3re-header-top {
+    .oxiut-header-top {
       gap: 20px;
     }
 
-    .ze3re-search-box {
+    .oxiut-search-box {
       margin: 0 10px;
     }
 
-    .ze3re-support-info strong {
+    .oxiut-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .ze3re-header {
+    .oxiut-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .ze3re-header-top {
+    .oxiut-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .ze3re-search-box {
+    .oxiut-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .ze3re-support-info {
+    .oxiut-support-info {
       display: none;
     }
 
-    .ze3re-header-bottom-inner {
+    .oxiut-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .ze3re-main-menu {
+    .oxiut-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,22 +213,22 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .ze3re-logo {
+    .oxiut-logo {
       height: 60px;
     }
 
-    .ze3re-search-box {
+    .oxiut-search-box {
       flex: 0 1 150px;
     }
 
-    .ze3re-icons span {
+    .oxiut-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .qy45m {
+  .izqjt {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -234,14 +237,14 @@
     position: relative;
   }
 
-  .qy45mcontainertitle {
+  .izqjtcontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
 
-  .qy45mcontainerlist {
+  .izqjtcontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -250,26 +253,26 @@
     transition: background-color 0.3s ease;
   }
 
-  .qy45mcontainerlist>div {
+  .izqjtcontainerlist>div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
 
-  .qy45mcontainerlist:hover {
+  .izqjtcontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
 
-  .qy45mcontainer {
+  .izqjtcontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
 
-  .qy45mcontainerbody {
+  .izqjtcontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -279,7 +282,7 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 
-  .qy45mbody {
+  .izqjtbody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
@@ -287,25 +290,25 @@
     padding: 20px;
   }
 
-  .qy45mcontainerlist>span {
+  .izqjtcontainerlist>span {
     font-size: 24px;
     color: #1e3046;
   }
 
   @media screen and (max-width: 1024px) {
-    .qy45mbody {
+    .izqjtbody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
 
-    .qy45mcontainerbody {
+    .izqjtcontainerbody {
       padding: 15px;
     }
   }
 
 
-  .oxsjv-trust-boxes {
+  .o402k-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -315,7 +318,7 @@
     gap: 0;
   }
 
-  .oxsjv-trust-item {
+  .o402k-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -326,57 +329,57 @@
     gap: 16px;
   }
 
-  .oxsjv-trust-item .material-icons {
+  .o402k-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .oxsjv-trust-text {
+  .o402k-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .oxsjv-trust-title {
+  .o402k-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .oxsjv-trust-desc {
+  .o402k-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .oxsjv-trust-boxes {
+    .o402k-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .oxsjv-trust-item {
+    .o402k-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .oxsjv-trust-boxes {
+    .o402k-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .oxsjv-trust-item {
+    .o402k-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .oxsjv-trust-title {
+    .o402k-trust-title {
       font-size: 16px;
     }
 
-    .oxsjv-trust-desc {
+    .o402k-trust-desc {
       font-size: 13px;
     }
   }

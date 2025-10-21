@@ -5,6 +5,84 @@
   "data": [
     {
       "name": {
+        "tr": "Bakır Mutfak Eşyaları",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "fhe9fgc5pw",
+      "url": "",
+      "path": "bakir-mutfak-esyalari",
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "desc": {},
+      "icon": "home"
+    },
+    {
+      "name": {
+        "tr": "Bakır Aksesuarlar",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "sv2v8mdwjh",
+      "url": "",
+      "path": "bakir-aksesuarlar",
+      "index": 1,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Ehli Keyf",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "fo1o2aq1r2",
+      "url": "",
+      "path": "ehli-keyf",
+      "index": 2,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "desc": {},
+      "icon": "home"
+    },
+    {
+      "name": {
         "tr": "Kampanyalı",
         "en": ""
       },
@@ -13,7 +91,7 @@
       "id": "tar4oohpyq",
       "externalUrl": "",
       "path": "urunlerimiz",
-      "index": 0,
+      "index": 3,
       "icon": "home",
       "desing": {
         "header": [],
@@ -25,15 +103,15 @@
     },
     {
       "name": {
-        "tr": "Baklava",
+        "tr": "Yerel Ürünler",
         "en": ""
       },
       "status": "play",
       "category": "",
-      "id": "vrg700i5zd",
+      "id": "qfr1exlrla",
       "externalUrl": "",
-      "path": "baklava",
-      "index": 1,
+      "path": "yerelurunler",
+      "index": 4,
       "icon": "home",
       "desing": {
         "header": [],
@@ -53,34 +131,15 @@
       "id": "rh20ipcfn1",
       "externalUrl": "",
       "path": "kurumsal",
-      "index": 2,
+      "index": 5,
       "desing": {
         "header": [],
         "body": [],
         "footer": []
       },
       "pathnext": "kurumsal",
-      "desc": {}
-    },
-    {
-      "name": {
-        "tr": "Yerel Ürünler",
-        "en": ""
-      },
-      "status": "play",
-      "category": "",
-      "id": "qfr1exlrla",
-      "externalUrl": "",
-      "path": "yerelurunler",
-      "index": 3,
-      "icon": "home",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "pathnext": "",
-      "desc": {}
+      "desc": {},
+      "icon": "home"
     },
     {
       "name": {
@@ -92,7 +151,7 @@
       "id": "ofpc9tnwx3",
       "externalUrl": "",
       "path": "iletisim",
-      "index": 4,
+      "index": 6,
       "icon": "home",
       "desing": {
         "header": [],

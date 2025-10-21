@@ -1,10 +1,10 @@
 
-  .shy8v-header-wrapper {
+  .fdyft-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .shy8v-header {
+  .fdyft-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .shy8v-logo {
+  .fdyft-logo {
     height: 80px;
   }
 
-  .shy8v-header-top {
+  .fdyft-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .shy8v-search-box {
+  .fdyft-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .shy8v-search-box span {
+  .fdyft-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .shy8v-search-box input {
+  .fdyft-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .shy8v-search-box button {
+  .fdyft-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .shy8v-search-box button:hover {
+  .fdyft-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .shy8v-support-info {
+  .fdyft-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .shy8v-support-info span {
+  .fdyft-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .shy8v-support-info small {
+  .fdyft-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .shy8v-support-info strong {
+  .fdyft-support-info strong {
     font-size: 16px;
   }
 
-  .shy8v-icons {
+  .fdyft-icons {
     display: flex;
     gap: 10px;
   }
 
-  .shy8v-icons span {
+  .fdyft-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .shy8v-icons span:hover {
+  .fdyft-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,20 +111,21 @@
     cursor: pointer;
   }
 
-  .shy8v-header-bottom {
+  .fdyft-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .shy8v-header-bottom-inner {
-    max-width: 1200px;
+  .fdyft-header-bottom-inner {
+    width: var(--max);
     margin: auto;
     padding: 14px 30px;
     display: flex;
     align-items: center;
+    gap: 20px;
   }
 
-  .shy8v-category-btn {
+  .fdyft-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +137,74 @@
     font-weight: 500;
   }
 
-  .shy8v-main-menu {
+  .fdyft-main-menu {
     display: flex;
-    gap: 20px;
-    margin-left: 30px;
+    gap: 10px;
   }
 
-  .shy8v-main-menu a {
-    color: white;
+  .fdyft-main-menu a {
+    color: black;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
   }
 
-  .shy8v-main-menu a:hover {
-    color: #238b23;
+  .fdyft-main-menu a:hover {
+    background-color: #238b23;
+    color: white;
   }
 
-  .shy8v-menulistactive {
+  .fdyft-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .shy8v-header-top {
+    .fdyft-header-top {
       gap: 20px;
     }
 
-    .shy8v-search-box {
+    .fdyft-search-box {
       margin: 0 10px;
     }
 
-    .shy8v-support-info strong {
+    .fdyft-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .shy8v-header {
+    .fdyft-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .shy8v-header-top {
+    .fdyft-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .shy8v-search-box {
+    .fdyft-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .shy8v-support-info {
+    .fdyft-support-info {
       display: none;
     }
 
-    .shy8v-header-bottom-inner {
+    .fdyft-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .shy8v-main-menu {
+    .fdyft-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,15 +213,15 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .shy8v-logo {
+    .fdyft-logo {
       height: 60px;
     }
 
-    .shy8v-search-box {
+    .fdyft-search-box {
       flex: 0 1 150px;
     }
 
-    .shy8v-icons span {
+    .fdyft-icons span {
       padding: 8px;
       font-size: 18px;
     }
@@ -467,7 +470,7 @@
   }
 
 
-  .zylmvbody {
+  .rlk5zbody {
     margin: 10px 0px 10px 0px;
     width: 100%;
     height: 100%;
@@ -475,14 +478,14 @@
     justify-content: center;
     align-items: center;
   }
-  .zylmv {
+  .rlk5z {
     width: var(--max);
   }
-  .zylmv > img {
+  .rlk5z > img {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .zylmv {
+    .rlk5z {
       width: 100%;
     }
   }
@@ -681,7 +684,7 @@
   }
 
 
-  .js1oh-trust-boxes {
+  .nhieb-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -691,7 +694,7 @@
     gap: 0;
   }
 
-  .js1oh-trust-item {
+  .nhieb-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -702,57 +705,57 @@
     gap: 16px;
   }
 
-  .js1oh-trust-item .material-icons {
+  .nhieb-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .js1oh-trust-text {
+  .nhieb-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .js1oh-trust-title {
+  .nhieb-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .js1oh-trust-desc {
+  .nhieb-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .js1oh-trust-boxes {
+    .nhieb-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .js1oh-trust-item {
+    .nhieb-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .js1oh-trust-boxes {
+    .nhieb-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .js1oh-trust-item {
+    .nhieb-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .js1oh-trust-title {
+    .nhieb-trust-title {
       font-size: 16px;
     }
 
-    .js1oh-trust-desc {
+    .nhieb-trust-desc {
       font-size: 13px;
     }
   }

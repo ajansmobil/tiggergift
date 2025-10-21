@@ -8,6 +8,9 @@
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <meta http-equiv="Cache-Control" content="max-age=3600, public" />
+  <meta http-equiv="Pragma" content="cache" />
+  <meta http-equiv="Expires" content="3600" />
   <title>Orders</title>
   <meta name="description" content="undefined" />
   <meta name="keywords" content="undefined" />
@@ -15,12 +18,11 @@
   <meta property="og:description" content="undefined" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=rb9zx" />
-  <link rel="shortcut icon" href="/img/icon.png?v=rb9zx" type="image/png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-    rel="stylesheet" />
+
+
+  <link rel="stylesheet" href="/src/rubik.css" />
+  <link rel="stylesheet" href="/src/css.css?v=won0g" />
+  <link rel="shortcut icon" href="/img/icon.png?v=won0g" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -48,33 +50,33 @@
 </script>
 
 
-  <script type="text/javascript" src="/src/firebase.js?v=rb9zx"></script>
-<link rel="stylesheet" href="style.css?v=rb9zx">
+  <script type="text/javascript" src="/src/firebase.js?v=won0g"></script>
+<link rel="stylesheet" href="style.css?v=won0g">
 </head>
 
 <body>
-  <div id="header"><header class="aw0ja-header-wrapper">
-  <div class="aw0ja-header">
-    <div class="aw0ja-header-top">
-      <a href="/en/" class="aw0ja-header-left">
-        <img src="/img/logo.png?v=rb9zx" alt="Tiggergift Logo" class="aw0ja-logo" />
+  <div id="header"><header class="m91b2-header-wrapper">
+  <div class="m91b2-header">
+    <div class="m91b2-header-top">
+      <a href="/en/" class="m91b2-header-left">
+        <img src="/img/logo.png?v=won0g" alt="Tiggergift Logo" class="m91b2-logo" />
       </a>
 
-      <div class="aw0ja-search-box">
+      <div class="m91b2-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="aw0ja-support-info">
+      <div class="m91b2-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
-          <strong>+90 342 221 00 02</strong>
+          <strong>0342 343 82 12</strong>
         </div>
       </div>
 
-      <div class="aw0ja-icons">
+      <div class="m91b2-icons">
         <a href="/en/login/" class="material-symbols-outlined">person</a>
         <a href="/en/favorilerim/" class="material-symbols-outlined">favorite</a>
         <a href="/en/basket/" class="material-symbols-outlined">shopping_cart</a>
@@ -82,12 +84,12 @@
     </div>
   </div>
 
-  <div class="aw0ja-header-bottom">
-    <div class="aw0ja-header-bottom-inner">
-      <button class="aw0ja-category-btn">
+  <div class="m91b2-header-bottom">
+    <div class="m91b2-header-bottom-inner">
+      <button class="m91b2-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="aw0ja-main-menu"><a href="/en/urunlerimiz/"></a><a href="/en/baklava/"></a><a href="/en/kurumsal/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
+      <nav class="m91b2-main-menu"><a href="/en/bakir-mutfak-esyalari/"></a><a href="/en/bakir-aksesuarlar/"></a><a href="/en/ehli-keyf/"></a><a href="/en/urunlerimiz/"></a><a href="/en/yerelurunler/"></a><a href="/en/kurumsal/"></a><a href="/en/iletisim/"></a></nav>
     </div>
   </div>
 </header>
@@ -103,13 +105,13 @@
 </div>
 
 <!-- Main Content -->
-<div class="lf6jq" id="adminMainContent" style="display: none;">
-  <div class="lf6jq-menu">
-    <a href="/en/admin/" class="lf6jq-profile">
-      <div class="lf6jq-user-img" id="userAvatar"></div>
+<div class="jee9c" id="adminMainContent" style="display: none;">
+  <div class="jee9c-menu">
+    <a href="/en/admin/" class="jee9c-profile">
+      <div class="jee9c-user-img" id="userAvatar"></div>
       <div id="userName">Yükleniyor...</div>
     </a>
-    <div class="lf6jq-menu-category">
+    <div class="jee9c-menu-category">
     <a href="/en/admin/" >
       <span class="material-symbols-outlined">home</span>
       <div>Admin</div>
@@ -155,20 +157,20 @@
       <div>Logs</div>
     </a></div>
   </div>
-  <div class="lf6jq-body"><div class="trhye-admin-siparisler">
+  <div class="jee9c-body"><div class="npc43-admin-siparisler">
     <!-- Sayfa Başlığı ve Filtreler -->
-    <div class="trhye-page-header">
-        <div class="trhye-header-left">
+    <div class="npc43-page-header">
+        <div class="npc43-header-left">
             <h1>Order Management</h1>
-            <p class="trhye-header-subtitle">
+            <p class="npc43-header-subtitle">
                 <span class="material-symbols-outlined">shopping_cart</span>
                 Manage and track orders
             </p>
 
         </div>
-        <div class="trhye-header-right">
-            <div class="trhye-header-actions">
-                <button class="trhye-btn trhye-btn-primary" onclick="get_siparisler_getir()">
+        <div class="npc43-header-right">
+            <div class="npc43-header-actions">
+                <button class="npc43-btn npc43-btn-primary" onclick="get_siparisler_getir()">
                     <span class="material-symbols-outlined">refresh</span>
                     Refresh
                 </button>
@@ -179,84 +181,84 @@
 
 
     <!-- Sipariş İstatistikleri -->
-    <div class="trhye-orders-stats">
-        <div class="trhye-stat-item trhye-stat-all" data-filter="tum" style="cursor: pointer;">
-            <div class="trhye-stat-icon">
+    <div class="npc43-orders-stats">
+        <div class="npc43-stat-item npc43-stat-all" data-filter="tum" style="cursor: pointer;">
+            <div class="npc43-stat-icon">
                 <span class="material-symbols-outlined">list</span>
             </div>
-            <div class="trhye-stat-content">
-                <div class="trhye-stat-number" id="tum_sayisi">0</div>
-                <div class="trhye-stat-label">Tüm Siparişler</div>
+            <div class="npc43-stat-content">
+                <div class="npc43-stat-number" id="tum_sayisi">0</div>
+                <div class="npc43-stat-label">Tüm Siparişler</div>
             </div>
         </div>
 
-        <div class="trhye-stat-item trhye-stat-pending" data-filter="bekleyen" style="cursor: pointer;">
-            <div class="trhye-stat-icon">
+        <div class="npc43-stat-item npc43-stat-pending" data-filter="bekleyen" style="cursor: pointer;">
+            <div class="npc43-stat-icon">
                 <span class="material-symbols-outlined">schedule</span>
             </div>
-            <div class="trhye-stat-content">
-                <div class="trhye-stat-number" id="bekleyen_sayisi">0</div>
-                <div class="trhye-stat-label">Bekleyen</div>
+            <div class="npc43-stat-content">
+                <div class="npc43-stat-number" id="bekleyen_sayisi">0</div>
+                <div class="npc43-stat-label">Bekleyen</div>
             </div>
         </div>
 
-        <div class="trhye-stat-item trhye-stat-approved" data-filter="onaylandi" style="cursor: pointer;">
-            <div class="trhye-stat-icon">
+        <div class="npc43-stat-item npc43-stat-approved" data-filter="onaylandi" style="cursor: pointer;">
+            <div class="npc43-stat-icon">
                 <span class="material-symbols-outlined">check_circle</span>
             </div>
-            <div class="trhye-stat-content">
-                <div class="trhye-stat-number" id="onaylandi_sayisi">0</div>
-                <div class="trhye-stat-label">Onaylandı</div>
+            <div class="npc43-stat-content">
+                <div class="npc43-stat-number" id="onaylandi_sayisi">0</div>
+                <div class="npc43-stat-label">Onaylandı</div>
             </div>
         </div>
 
-        <div class="trhye-stat-item trhye-stat-processing" data-filter="hazirlaniyor" style="cursor: pointer;">
-            <div class="trhye-stat-icon">
+        <div class="npc43-stat-item npc43-stat-processing" data-filter="hazirlaniyor" style="cursor: pointer;">
+            <div class="npc43-stat-icon">
                 <span class="material-symbols-outlined">local_shipping</span>
             </div>
-            <div class="trhye-stat-content">
-                <div class="trhye-stat-number" id="hazirlaniyor_sayisi">0</div>
-                <div class="trhye-stat-label">Hazırlanan</div>
+            <div class="npc43-stat-content">
+                <div class="npc43-stat-number" id="hazirlaniyor_sayisi">0</div>
+                <div class="npc43-stat-label">Hazırlanan</div>
             </div>
         </div>
 
-        <div class="trhye-stat-item trhye-stat-shipped" data-filter="kargoda" style="cursor: pointer;">
-            <div class="trhye-stat-icon">
+        <div class="npc43-stat-item npc43-stat-shipped" data-filter="kargoda" style="cursor: pointer;">
+            <div class="npc43-stat-icon">
                 <span class="material-symbols-outlined">local_shipping</span>
             </div>
-            <div class="trhye-stat-content">
-                <div class="trhye-stat-number" id="kargoda_sayisi">0</div>
-                <div class="trhye-stat-label">Kargoda</div>
+            <div class="npc43-stat-content">
+                <div class="npc43-stat-number" id="kargoda_sayisi">0</div>
+                <div class="npc43-stat-label">Kargoda</div>
             </div>
         </div>
 
-        <div class="trhye-stat-item trhye-stat-completed" data-filter="tamamlandi" style="cursor: pointer;">
-            <div class="trhye-stat-icon">
+        <div class="npc43-stat-item npc43-stat-completed" data-filter="tamamlandi" style="cursor: pointer;">
+            <div class="npc43-stat-icon">
                 <span class="material-symbols-outlined">check_circle</span>
             </div>
-            <div class="trhye-stat-content">
-                <div class="trhye-stat-number" id="tamamlandi_sayisi">0</div>
-                <div class="trhye-stat-label">Tamamlanan</div>
+            <div class="npc43-stat-content">
+                <div class="npc43-stat-number" id="tamamlandi_sayisi">0</div>
+                <div class="npc43-stat-label">Tamamlanan</div>
             </div>
         </div>
 
-        <div class="trhye-stat-item trhye-stat-cancelled" data-filter="iptal" style="cursor: pointer;">
-            <div class="trhye-stat-icon">
+        <div class="npc43-stat-item npc43-stat-cancelled" data-filter="iptal" style="cursor: pointer;">
+            <div class="npc43-stat-icon">
                 <span class="material-symbols-outlined">cancel</span>
             </div>
-            <div class="trhye-stat-content">
-                <div class="trhye-stat-number" id="iptal_sayisi">0</div>
-                <div class="trhye-stat-label">İptal</div>
+            <div class="npc43-stat-content">
+                <div class="npc43-stat-number" id="iptal_sayisi">0</div>
+                <div class="npc43-stat-label">İptal</div>
             </div>
         </div>
 
-        <div class="trhye-stat-item trhye-stat-returned" data-filter="iade" style="cursor: pointer;">
-            <div class="trhye-stat-icon">
+        <div class="npc43-stat-item npc43-stat-returned" data-filter="iade" style="cursor: pointer;">
+            <div class="npc43-stat-icon">
                 <span class="material-symbols-outlined">assignment_return</span>
             </div>
-            <div class="trhye-stat-content">
-                <div class="trhye-stat-number" id="iade_sayisi">0</div>
-                <div class="trhye-stat-label">İade</div>
+            <div class="npc43-stat-content">
+                <div class="npc43-stat-number" id="iade_sayisi">0</div>
+                <div class="npc43-stat-label">İade</div>
             </div>
         </div>
     </div>
@@ -265,10 +267,10 @@
 
 
     <!-- Sipariş Tablosu -->
-    <div class="trhye-orders-table-container">
-        <div class="trhye-search-filters">
-            <div class="trhye-filter-options">
-                <div class="trhye-search-box">
+    <div class="npc43-orders-table-container">
+        <div class="npc43-search-filters">
+            <div class="npc43-filter-options">
+                <div class="npc43-search-box">
                     <span class="material-symbols-outlined">search</span>
                     <input type="text" id="searchInput" placeholder="Sipariş no, müşteri adı veya email ara..."
                         onkeyup="filterSiparisler()">
@@ -293,18 +295,18 @@
             </div>
         </div>
 
-        <div class="trhye-orders-table">
+        <div class="npc43-orders-table">
             <table>
                 <thead>
                     <tr>
-                        <th class="trhye-th-order">Sipariş No</th>
-                        <th class="trhye-th-date">Tarih</th>
-                        <th class="trhye-th-customer">Müşteri</th>
-                        <th class="trhye-th-products">Ürünler</th>
-                        <th class="trhye-th-total">Toplam</th>
-                        <th class="trhye-th-status">Durum</th>
-                        <th class="trhye-th-payment">Ödeme</th>
-                        <th class="trhye-th-actions">İşlemler</th>
+                        <th class="npc43-th-order">Sipariş No</th>
+                        <th class="npc43-th-date">Tarih</th>
+                        <th class="npc43-th-customer">Müşteri</th>
+                        <th class="npc43-th-products">Ürünler</th>
+                        <th class="npc43-th-total">Toplam</th>
+                        <th class="npc43-th-status">Durum</th>
+                        <th class="npc43-th-payment">Ödeme</th>
+                        <th class="npc43-th-actions">İşlemler</th>
                     </tr>
                 </thead>
                 <tbody id="orders-table-body">
@@ -314,15 +316,15 @@
         </div>
 
         <!-- Sayfalama -->
-        <div class="trhye-pagination">
-            <button class="trhye-btn trhye-btn-secondary" id="prevPage" onclick="changePage(-1)">
+        <div class="npc43-pagination">
+            <button class="npc43-btn npc43-btn-secondary" id="prevPage" onclick="changePage(-1)">
                 <span class="material-symbols-outlined">chevron_left</span>
                 Önceki
             </button>
-            <span class="trhye-page-info">
+            <span class="npc43-page-info">
                 Sayfa <span id="currentPage">1</span> / <span id="totalPages">1</span>
             </span>
-            <button class="trhye-btn trhye-btn-secondary" id="nextPage" onclick="changePage(1)">
+            <button class="npc43-btn npc43-btn-secondary" id="nextPage" onclick="changePage(1)">
                 Sonraki
                 <span class="material-symbols-outlined">chevron_right</span>
             </button>
@@ -330,28 +332,28 @@
     </div>
 
     <!-- Sipariş Detay Modalı -->
-    <div id="siparisDetailModal" class="trhye-modal">
-        <div class="trhye-modal-content">
-            <div class="trhye-modal-header">
+    <div id="siparisDetailModal" class="npc43-modal">
+        <div class="npc43-modal-content">
+            <div class="npc43-modal-header">
                 <h3>Sipariş Detayı</h3>
-                <span class="trhye-modal-close" onclick="closeModal('siparisDetailModal')">&times;</span>
+                <span class="npc43-modal-close" onclick="closeModal('siparisDetailModal')">&times;</span>
             </div>
-            <div class="trhye-modal-body" id="siparisDetailContent">
+            <div class="npc43-modal-body" id="siparisDetailContent">
                 <!-- Sipariş detayları buraya yüklenecek -->
             </div>
         </div>
     </div>
 
     <!-- Sipariş Düzenleme Modalı -->
-    <div id="siparisEditModal" class="trhye-modal">
-        <div class="trhye-modal-content">
-            <div class="trhye-modal-header">
+    <div id="siparisEditModal" class="npc43-modal">
+        <div class="npc43-modal-content">
+            <div class="npc43-modal-header">
                 <h3>Sipariş Düzenle</h3>
-                <span class="trhye-modal-close" onclick="closeModal('siparisEditModal')">&times;</span>
+                <span class="npc43-modal-close" onclick="closeModal('siparisEditModal')">&times;</span>
             </div>
-            <div class="trhye-modal-body">
+            <div class="npc43-modal-body">
                 <form id="siparisEditForm">
-                    <div class="trhye-form-group">
+                    <div class="npc43-form-group">
                         <label>Sipariş Durumu:</label>
                         <select id="editSiparisDurum" required>
                             <option value="bekleyen">Bekleyen</option>
@@ -363,21 +365,21 @@
                             <option value="iade">İade</option>
                         </select>
                     </div>
-                    <div class="trhye-form-group">
+                    <div class="npc43-form-group">
                         <label>Kargo Firması:</label>
                         <input type="text" id="editKargoFirma" placeholder="Kargo firması">
                     </div>
-                    <div class="trhye-form-group">
+                    <div class="npc43-form-group">
                         <label>Kargo Takip No:</label>
                         <input type="text" id="editKargoTakip" placeholder="Kargo takip numarası">
                     </div>
-                    <div class="trhye-form-group">
+                    <div class="npc43-form-group">
                         <label>Not:</label>
                         <textarea id="editSiparisNot" placeholder="Sipariş notu"></textarea>
                     </div>
-                    <div class="trhye-form-actions">
-                        <button type="submit" class="trhye-btn trhye-btn-success">Güncelle</button>
-                        <button type="button" class="trhye-btn trhye-btn-secondary"
+                    <div class="npc43-form-actions">
+                        <button type="submit" class="npc43-btn npc43-btn-success">Güncelle</button>
+                        <button type="button" class="npc43-btn npc43-btn-secondary"
                             onclick="closeModal('siparisEditModal')">İptal</button>
                     </div>
                 </form>
@@ -428,7 +430,7 @@
 
     // İstatistik kartlarına tıklama olayı ekle
     function setupStatItemListeners() {
-        const statItems = document.querySelectorAll('.trhye-stat-item[data-filter]');
+        const statItems = document.querySelectorAll('.npc43-stat-item[data-filter]');
 
         statItems.forEach(item => {
             item.addEventListener('click', function () {
@@ -516,7 +518,7 @@
                     <tr>
                         <td colspan="8" style="text-align: center; padding: 40px; color: #6c757d;">
                             <div style="font-size: 16px; margin-bottom: 10px;">Henüz sipariş bulunmuyor</div>
-                            <button class="trhye-btn trhye-btn-primary" onclick="testVerisiEkle()">
+                            <button class="npc43-btn npc43-btn-primary" onclick="testVerisiEkle()">
                                 <span class="material-symbols-outlined">add</span>
                                 Test Verisi Ekle
                             </button>
@@ -530,7 +532,7 @@
                 <tr>
                     <td colspan="8" style="text-align: center; padding: 40px; color: #dc3545;">
                         <div style="font-size: 16px; margin-bottom: 10px;">Veriler yüklenirken hata oluştu</div>
-                        <button class="trhye-btn trhye-btn-primary" onclick="get_siparisler_getir()">
+                        <button class="npc43-btn npc43-btn-primary" onclick="get_siparisler_getir()">
                             <span class="material-symbols-outlined">refresh</span>
                             Tekrar Dene
                         </button>
@@ -669,7 +671,7 @@
 
     // Modal dışına tıklandığında kapat
     window.onclick = function (event) {
-        const modals = document.querySelectorAll('.trhye-modal');
+        const modals = document.querySelectorAll('.npc43-modal');
         modals.forEach(modal => {
             if (event.target === modal) {
                 closeModal(modal.id);
@@ -809,80 +811,80 @@
     // Sipariş detay HTML'i oluştur
     function createSiparisDetailHTML(siparis) {
         return `
-            <div class="trhye-siparis-detail">
-                <div class="trhye-detail-section">
+            <div class="npc43-siparis-detail">
+                <div class="npc43-detail-section">
                     <h4>Sipariş Bilgileri</h4>
-                    <div class="trhye-detail-grid">
-                        <div class="trhye-detail-item">
+                    <div class="npc43-detail-grid">
+                        <div class="npc43-detail-item">
                             <label>Sipariş No:</label>
                             <span>#${siparis.id.substring(0, 8)}</span>
                         </div>
-                        <div class="trhye-detail-item">
+                        <div class="npc43-detail-item">
                             <label>Tarih:</label>
                             <span>${siparis.tarih}</span>
                         </div>
-                        <div class="trhye-detail-item">
+                        <div class="npc43-detail-item">
                             <label>Durum:</label>
                             <span>${createDurumBadge(siparis.durum)}</span>
                         </div>
-                        <div class="trhye-detail-item">
+                        <div class="npc43-detail-item">
                             <label>Toplam:</label>
                             <span>${siparis.toplam}₺</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="trhye-detail-section">
+                <div class="npc43-detail-section">
                     <h4>Müşteri Bilgileri</h4>
-                    <div class="trhye-detail-grid">
-                        <div class="trhye-detail-item">
+                    <div class="npc43-detail-grid">
+                        <div class="npc43-detail-item">
                             <label>Ad Soyad:</label>
                             <span>${siparis.user.name}</span>
                         </div>
-                        <div class="trhye-detail-item">
+                        <div class="npc43-detail-item">
                             <label>Email:</label>
                             <span>${siparis.user.email}</span>
                         </div>
-                        <div class="trhye-detail-item">
+                        <div class="npc43-detail-item">
                             <label>Telefon:</label>
                             <span>${siparis.user.phone || 'Belirtilmemiş'}</span>
                         </div>
-                        <div class="trhye-detail-item">
+                        <div class="npc43-detail-item">
                             <label>Adres:</label>
                             <span>${siparis.user.address || 'Belirtilmemiş'}</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="trhye-detail-section">
+                <div class="npc43-detail-section">
                     <h4>Ürünler</h4>
-                    <div class="trhye-products-list">
+                    <div class="npc43-products-list">
                         ${siparis.urunler.map(urun => `
-                            <div class="trhye-product-item">
-                                <span class="trhye-product-name">${urun.adi}</span>
-                                <span class="trhye-product-quantity">${urun.adet} adet</span>
-                                <span class="trhye-product-price">${urun.fiyat}₺</span>
+                            <div class="npc43-product-item">
+                                <span class="npc43-product-name">${urun.adi}</span>
+                                <span class="npc43-product-quantity">${urun.adet} adet</span>
+                                <span class="npc43-product-price">${urun.fiyat}₺</span>
                             </div>
                         `).join('')}
                     </div>
                 </div>
 
                 ${siparis.kargo ? `
-                <div class="trhye-detail-section">
+                <div class="npc43-detail-section">
                     <h4>Kargo Bilgileri</h4>
-                    <div class="trhye-detail-grid">
-                        <div class="trhye-detail-item">
+                    <div class="npc43-detail-grid">
+                        <div class="npc43-detail-item">
                             <label>Kargo Firması:</label>
                             <span>${siparis.kargo}</span>
                         </div>
                         ${siparis.kargo_takip ? `
-                        <div class="trhye-detail-item">
+                        <div class="npc43-detail-item">
                             <label>Takip No:</label>
                             <span>${siparis.kargo_takip}</span>
                         </div>
                         ` : ''}
                         ${siparis.kargo_tarih ? `
-                        <div class="trhye-detail-item">
+                        <div class="npc43-detail-item">
                             <label>Kargo Tarihi:</label>
                             <span>${siparis.kargo_tarih}</span>
                         </div>
@@ -892,7 +894,7 @@
                 ` : ''}
 
                 ${siparis.not ? `
-                <div class="trhye-detail-section">
+                <div class="npc43-detail-section">
                     <h4>Not</h4>
                     <p>${siparis.not}</p>
                 </div>
@@ -905,7 +907,7 @@
     function showNotification(message, type = 'info') {
         // Basit bildirim sistemi
         const notification = document.createElement('div');
-        notification.className = `trhye-notification trhye-notification-${type}`;
+        notification.className = `npc43-notification npc43-notification-${type}`;
         notification.textContent = message;
 
         document.body.appendChild(notification);
@@ -1042,21 +1044,21 @@
             <td>#${id.substring(0, 8)}</td>
             <td>${siparis.tarih}</td>
             <td>
-                <div class="trhye-customer-info">
-                    <div class="trhye-customer-name">${siparis.user.name}</div>
-                    <div class="trhye-customer-email">${siparis.user.email}</div>
+                <div class="npc43-customer-info">
+                    <div class="npc43-customer-name">${siparis.user.name}</div>
+                    <div class="npc43-customer-email">${siparis.user.email}</div>
                 </div>
             </td>
-            <td class="trhye-products-cell">${urunlerList}</td>
-            <td class="trhye-total-cell">${siparis.toplam}₺</td>
+            <td class="npc43-products-cell">${urunlerList}</td>
+            <td class="npc43-total-cell">${siparis.toplam}₺</td>
             <td>${durumBadge}</td>
             <td>${createOdemeBadge(siparis.odeme)}</td>
             <td>
-                <div class="trhye-action-buttons">
-                    <button class="trhye-btn trhye-btn-sm trhye-btn-info" onclick="viewSiparis('${id}', '${durum}')">
+                <div class="npc43-action-buttons">
+                    <button class="npc43-btn npc43-btn-sm npc43-btn-info" onclick="viewSiparis('${id}', '${durum}')">
                         <span class="material-symbols-outlined">visibility</span>
                     </button>
-                    <button class="trhye-btn trhye-btn-sm trhye-btn-warning" onclick="editSiparis('${id}', '${durum}')">
+                    <button class="npc43-btn npc43-btn-sm npc43-btn-warning" onclick="editSiparis('${id}', '${durum}')">
                         <span class="material-symbols-outlined">edit</span>
                     </button>
                 </div>
@@ -1066,12 +1068,12 @@
 
     // Durum badge'i oluştur
     function createDurumBadge(durum) {
-        return `<span class="trhye-status-badge trhye-status-${durum}">${getDurumText(durum)}</span>`;
+        return `<span class="npc43-status-badge npc43-status-${durum}">${getDurumText(durum)}</span>`;
     }
 
     // Ödeme badge'i oluştur
     function createOdemeBadge(odeme) {
-        return `<span class="trhye-payment-badge">${getOdemeText(odeme)}</span>`;
+        return `<span class="npc43-payment-badge">${getOdemeText(odeme)}</span>`;
     }
 
     // Ürün listesi oluştur
@@ -1360,28 +1362,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="n5jxi-trust-boxes">
-      <div class="n5jxi-trust-item">
+<div class="t11zf-trust-boxes">
+      <div class="t11zf-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="n5jxi-trust-text">
-          <div class="n5jxi-trust-title">100% Secure Payment</div>
-          <div class="n5jxi-trust-desc">Secure Payment with 3D Secure</div>
+        <div class="t11zf-trust-text">
+          <div class="t11zf-trust-title">100% Secure Payment</div>
+          <div class="t11zf-trust-desc">Secure Payment with 3D Secure</div>
         </div>
       </div>
     
-      <div class="n5jxi-trust-item">
+      <div class="t11zf-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="n5jxi-trust-text">
-          <div class="n5jxi-trust-title">100% Original Product</div>
-          <div class="n5jxi-trust-desc">Activation with 100% Licensed Original Product</div>
+        <div class="t11zf-trust-text">
+          <div class="t11zf-trust-title">100% Original Product</div>
+          <div class="t11zf-trust-desc">Activation with 100% Licensed Original Product</div>
         </div>
       </div>
     
-      <div class="n5jxi-trust-item">
+      <div class="t11zf-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="n5jxi-trust-text">
-          <div class="n5jxi-trust-title">Fast Delivery</div>
-          <div class="n5jxi-trust-desc">Online Fast Delivery for All Your Shopping</div>
+        <div class="t11zf-trust-text">
+          <div class="t11zf-trust-title">Fast Delivery</div>
+          <div class="t11zf-trust-desc">Online Fast Delivery for All Your Shopping</div>
         </div>
       </div>
     </div>
@@ -1427,7 +1429,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/urunlerimiz"></a></li><li class="menu__item"><a class="menu__link" href="/en/baklava"></a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/en/yerelurunler"></a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim"></a></li>
+    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/bakir-mutfak-esyalari"></a></li><li class="menu__item"><a class="menu__link" href="/en/bakir-aksesuarlar"></a></li><li class="menu__item"><a class="menu__link" href="/en/ehli-keyf"></a></li><li class="menu__item"><a class="menu__link" href="/en/urunlerimiz"></a></li><li class="menu__item"><a class="menu__link" href="/en/yerelurunler"></a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim"></a></li>
   </ul>
   <p>Tiggergift 2025 cognite. &copy;</p>
 </footer>
@@ -1463,7 +1465,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=rb9zx"></script>
-<script src="/src/cookie.js?v=rb9zx"></script>
+<script type="text/javascript" src="/src/js.js?v=won0g"></script>
+<script src="/src/cookie.js?v=won0g"></script>
 
 </html>

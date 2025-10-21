@@ -8,6 +8,9 @@
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <meta http-equiv="Cache-Control" content="max-age=3600, public" />
+  <meta http-equiv="Pragma" content="cache" />
+  <meta http-equiv="Expires" content="3600" />
   <title>İletişim Tercihlerim</title>
   <meta name="description" content="" />
   <meta name="keywords" content="" />
@@ -15,12 +18,11 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=mdxgp" />
-  <link rel="shortcut icon" href="/img/icon.png?v=mdxgp" type="image/png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-    rel="stylesheet" />
+
+
+  <link rel="stylesheet" href="/src/rubik.css" />
+  <link rel="stylesheet" href="/src/css.css?v=nolt8" />
+  <link rel="shortcut icon" href="/img/icon.png?v=nolt8" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -48,33 +50,33 @@
 </script>
 
 
-  <script type="text/javascript" src="/src/firebase.js?v=mdxgp"></script>
-<link rel="stylesheet" href="style.css?v=mdxgp">
+  <script type="text/javascript" src="/src/firebase.js?v=nolt8"></script>
+<link rel="stylesheet" href="style.css?v=nolt8">
 </head>
 
 <body>
-  <div id="header"><header class="ofp1f-header-wrapper">
-  <div class="ofp1f-header">
-    <div class="ofp1f-header-top">
-      <a href="/tr/" class="ofp1f-header-left">
-        <img src="/img/logo.png?v=mdxgp" alt="Tiggergift Logo" class="ofp1f-logo" />
+  <div id="header"><header class="z6dnm-header-wrapper">
+  <div class="z6dnm-header">
+    <div class="z6dnm-header-top">
+      <a href="/tr/" class="z6dnm-header-left">
+        <img src="/img/logo.png?v=nolt8" alt="Tiggergift Logo" class="z6dnm-logo" />
       </a>
 
-      <div class="ofp1f-search-box">
+      <div class="z6dnm-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="ofp1f-support-info">
+      <div class="z6dnm-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
-          <strong>+90 342 221 00 02</strong>
+          <strong>0342 343 82 12</strong>
         </div>
       </div>
 
-      <div class="ofp1f-icons">
+      <div class="z6dnm-icons">
         <a href="/tr/login/" class="material-symbols-outlined">person</a>
         <a href="/tr/favorilerim/" class="material-symbols-outlined">favorite</a>
         <a href="/tr/basket/" class="material-symbols-outlined">shopping_cart</a>
@@ -82,12 +84,12 @@
     </div>
   </div>
 
-  <div class="ofp1f-header-bottom">
-    <div class="ofp1f-header-bottom-inner">
-      <button class="ofp1f-category-btn">
+  <div class="z6dnm-header-bottom">
+    <div class="z6dnm-header-bottom-inner">
+      <button class="z6dnm-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="ofp1f-main-menu"><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/baklava/">Baklava</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/iletisim/">İletişim</a></nav>
+      <nav class="z6dnm-main-menu"><a href="/tr/bakir-mutfak-esyalari/">Bakır Mutfak Eşyaları</a><a href="/tr/bakir-aksesuarlar/">Bakır Aksesuarlar</a><a href="/tr/ehli-keyf/">Ehli Keyf</a><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/iletisim/">İletişim</a></nav>
     </div>
   </div>
 </header>
@@ -103,13 +105,13 @@
 </div>
 
 <!-- Main Content -->
-<div class="u0uvy" id="adminMainContent" style="display: none;">
-  <div class="u0uvy-menu">
-    <a href="/tr/user/" class="u0uvy-profile">
-      <div class="u0uvy-user-img" id="userAvatar"></div>
+<div class="k0gw5" id="adminMainContent" style="display: none;">
+  <div class="k0gw5-menu">
+    <a href="/tr/user/" class="k0gw5-profile">
+      <div class="k0gw5-user-img" id="userAvatar"></div>
       <div id="userName">Yükleniyor...</div>
     </a>
-    <div class="u0uvy-menu-category">
+    <div class="k0gw5-menu-category">
     <a href="/tr/sepetim/" >
       <span class="material-symbols-outlined">shopping_basket</span>
       <div>Sepetim</div>
@@ -162,7 +164,7 @@
       <span class="material-symbols-outlined">local_offer</span>
       <div>Kuponlarım</div>
     </a>
-    <a class="u0uvy-menu-active" href="/tr/iletisimtercihlerim/" >
+    <a class="k0gw5-menu-active" href="/tr/iletisimtercihlerim/" >
       <span class="material-symbols-outlined">settings</span>
       <div>İletişim Tercihlerim</div>
     </a>
@@ -179,12 +181,12 @@
       <div>Ödeme</div>
     </a></div>
   </div>
-  <div class="u0uvy-body"><div class="k1gmu">
-  <div class="k1gmuTitle">
+  <div class="k0gw5-body"><div class="abdtt">
+  <div class="abdttTitle">
     <span class="material-symbols-outlined">notifications_active</span>
     İletişim Tercihlerim
   </div>
-  <div class="k1gmuBody">
+  <div class="abdttBody">
     <div class="preferences-container">
       <!-- E-posta Bildirimleri -->
       <div class="preference-section">
@@ -789,28 +791,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="ace1g-trust-boxes">
-      <div class="ace1g-trust-item">
+<div class="k4uj2-trust-boxes">
+      <div class="k4uj2-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="ace1g-trust-text">
-          <div class="ace1g-trust-title">100% Güvenli Ödeme</div>
-          <div class="ace1g-trust-desc">3D Secure ile Güvenli Ödeme</div>
+        <div class="k4uj2-trust-text">
+          <div class="k4uj2-trust-title">100% Güvenli Ödeme</div>
+          <div class="k4uj2-trust-desc">3D Secure ile Güvenli Ödeme</div>
         </div>
       </div>
     
-      <div class="ace1g-trust-item">
+      <div class="k4uj2-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="ace1g-trust-text">
-          <div class="ace1g-trust-title">%100 Orijinal Ürün</div>
-          <div class="ace1g-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
+        <div class="k4uj2-trust-text">
+          <div class="k4uj2-trust-title">%100 Orijinal Ürün</div>
+          <div class="k4uj2-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
         </div>
       </div>
     
-      <div class="ace1g-trust-item">
+      <div class="k4uj2-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="ace1g-trust-text">
-          <div class="ace1g-trust-title">Hızlı Teslimat</div>
-          <div class="ace1g-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
+        <div class="k4uj2-trust-text">
+          <div class="k4uj2-trust-title">Hızlı Teslimat</div>
+          <div class="k4uj2-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
         </div>
       </div>
     </div>
@@ -856,7 +858,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/urunlerimiz">Kampanyalı</a></li><li class="menu__item"><a class="menu__link" href="/tr/baklava">Baklava</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/yerelurunler">Yerel Ürünler</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
+    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/bakir-mutfak-esyalari">Bakır Mutfak Eşyaları</a></li><li class="menu__item"><a class="menu__link" href="/tr/bakir-aksesuarlar">Bakır Aksesuarlar</a></li><li class="menu__item"><a class="menu__link" href="/tr/ehli-keyf">Ehli Keyf</a></li><li class="menu__item"><a class="menu__link" href="/tr/urunlerimiz">Kampanyalı</a></li><li class="menu__item"><a class="menu__link" href="/tr/yerelurunler">Yerel Ürünler</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
   </ul>
   <p>Tiggergift 2025 cognite. &copy;</p>
 </footer>
@@ -892,7 +894,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=mdxgp"></script>
-<script src="/src/cookie.js?v=mdxgp"></script>
+<script type="text/javascript" src="/src/js.js?v=nolt8"></script>
+<script src="/src/cookie.js?v=nolt8"></script>
 
 </html>

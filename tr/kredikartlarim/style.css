@@ -1,10 +1,10 @@
 
-  .dl9n9-header-wrapper {
+  .ty5m0-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .dl9n9-header {
+  .ty5m0-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .dl9n9-logo {
+  .ty5m0-logo {
     height: 80px;
   }
 
-  .dl9n9-header-top {
+  .ty5m0-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .dl9n9-search-box {
+  .ty5m0-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .dl9n9-search-box span {
+  .ty5m0-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .dl9n9-search-box input {
+  .ty5m0-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .dl9n9-search-box button {
+  .ty5m0-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .dl9n9-search-box button:hover {
+  .ty5m0-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .dl9n9-support-info {
+  .ty5m0-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .dl9n9-support-info span {
+  .ty5m0-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .dl9n9-support-info small {
+  .ty5m0-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .dl9n9-support-info strong {
+  .ty5m0-support-info strong {
     font-size: 16px;
   }
 
-  .dl9n9-icons {
+  .ty5m0-icons {
     display: flex;
     gap: 10px;
   }
 
-  .dl9n9-icons span {
+  .ty5m0-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .dl9n9-icons span:hover {
+  .ty5m0-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,20 +111,21 @@
     cursor: pointer;
   }
 
-  .dl9n9-header-bottom {
+  .ty5m0-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .dl9n9-header-bottom-inner {
-    max-width: 1200px;
+  .ty5m0-header-bottom-inner {
+    width: var(--max);
     margin: auto;
     padding: 14px 30px;
     display: flex;
     align-items: center;
+    gap: 20px;
   }
 
-  .dl9n9-category-btn {
+  .ty5m0-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +137,74 @@
     font-weight: 500;
   }
 
-  .dl9n9-main-menu {
+  .ty5m0-main-menu {
     display: flex;
-    gap: 20px;
-    margin-left: 30px;
+    gap: 10px;
   }
 
-  .dl9n9-main-menu a {
-    color: white;
+  .ty5m0-main-menu a {
+    color: black;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
   }
 
-  .dl9n9-main-menu a:hover {
-    color: #238b23;
+  .ty5m0-main-menu a:hover {
+    background-color: #238b23;
+    color: white;
   }
 
-  .dl9n9-menulistactive {
+  .ty5m0-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .dl9n9-header-top {
+    .ty5m0-header-top {
       gap: 20px;
     }
 
-    .dl9n9-search-box {
+    .ty5m0-search-box {
       margin: 0 10px;
     }
 
-    .dl9n9-support-info strong {
+    .ty5m0-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .dl9n9-header {
+    .ty5m0-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .dl9n9-header-top {
+    .ty5m0-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .dl9n9-search-box {
+    .ty5m0-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .dl9n9-support-info {
+    .ty5m0-support-info {
       display: none;
     }
 
-    .dl9n9-header-bottom-inner {
+    .ty5m0-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .dl9n9-main-menu {
+    .ty5m0-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,22 +213,22 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .dl9n9-logo {
+    .ty5m0-logo {
       height: 60px;
     }
 
-    .dl9n9-search-box {
+    .ty5m0-search-box {
       flex: 0 1 150px;
     }
 
-    .dl9n9-icons span {
+    .ty5m0-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .e2tlp {
+  .txmzz {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -234,7 +237,7 @@
     width: 100%;
   }
 
-  .e2tlpTitle {
+  .txmzzTitle {
     background: linear-gradient(135deg, #333 0%, #4a4a4a 100%);
     border-radius: 8px;
     color: #fff;
@@ -246,7 +249,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .e2tlpBody {
+  .txmzzBody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -424,7 +427,7 @@
   }
 
 
-  .t42of-profile {
+  .xg74x-profile {
     background-color: #111;
     padding: 5px;
     border-radius: 5px;
@@ -434,26 +437,26 @@
     gap: 10px;
   }
 
-  .t42of-profile>* {
+  .xg74x-profile>* {
     display: flex;
     align-items: center;
   }
 
-  .t42of-user-img {
+  .xg74x-user-img {
     border-radius: 100%;
     width: 40px;
     height: 40px;
     background-color: #ffffff;
   }
 
-  .t42of {
+  .xg74x {
     width: var(--max);
     display: flex;
     gap: 15px;
     margin: 10px 0px 10px 0px;
   }
 
-  .t42of-menu {
+  .xg74x-menu {
     width: 220px;
     padding: 10px;
     background-color: #cd9624;
@@ -464,20 +467,20 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  .t42of-menu-title {
+  .xg74x-menu-title {
     font-size: 15px;
     opacity: 0.8;
     color: #fff;
     padding: 5px;
   }
 
-  .t42of-menu-category {
+  .xg74x-menu-category {
     display: flex;
     flex-direction: column;
     gap: 2px;
   }
 
-  .t42of-menu-category>a {
+  .xg74x-menu-category>a {
     color: #fff;
     padding: 10px;
     cursor: pointer;
@@ -492,13 +495,13 @@
     border-width: 0px 0px 1px 0px;
   }
 
-  .t42of-menu-category>a:hover {
+  .xg74x-menu-category>a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     background-color: #202020;
     border-radius: 10px;
   }
 
-  .t42of-body {
+  .xg74x-body {
     background-color: #ffffff;
     flex: 1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -509,7 +512,7 @@
     min-height: calc(100vh - 230px);
   }
 
-  .t42of-menu-active {
+  .xg74x-menu-active {
     background-color: #202020 !important;
   }
 
@@ -568,7 +571,7 @@
   }
 
 
-  .moirs-trust-boxes {
+  .valn2-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -578,7 +581,7 @@
     gap: 0;
   }
 
-  .moirs-trust-item {
+  .valn2-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -589,57 +592,57 @@
     gap: 16px;
   }
 
-  .moirs-trust-item .material-icons {
+  .valn2-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .moirs-trust-text {
+  .valn2-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .moirs-trust-title {
+  .valn2-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .moirs-trust-desc {
+  .valn2-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .moirs-trust-boxes {
+    .valn2-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .moirs-trust-item {
+    .valn2-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .moirs-trust-boxes {
+    .valn2-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .moirs-trust-item {
+    .valn2-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .moirs-trust-title {
+    .valn2-trust-title {
       font-size: 16px;
     }
 
-    .moirs-trust-desc {
+    .valn2-trust-desc {
       font-size: 13px;
     }
   }

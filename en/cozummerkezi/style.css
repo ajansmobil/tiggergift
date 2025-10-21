@@ -1,10 +1,10 @@
 
-  .nccru-header-wrapper {
+  .cfw2s-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .nccru-header {
+  .cfw2s-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .nccru-logo {
+  .cfw2s-logo {
     height: 80px;
   }
 
-  .nccru-header-top {
+  .cfw2s-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .nccru-search-box {
+  .cfw2s-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .nccru-search-box span {
+  .cfw2s-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .nccru-search-box input {
+  .cfw2s-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .nccru-search-box button {
+  .cfw2s-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .nccru-search-box button:hover {
+  .cfw2s-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .nccru-support-info {
+  .cfw2s-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .nccru-support-info span {
+  .cfw2s-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .nccru-support-info small {
+  .cfw2s-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .nccru-support-info strong {
+  .cfw2s-support-info strong {
     font-size: 16px;
   }
 
-  .nccru-icons {
+  .cfw2s-icons {
     display: flex;
     gap: 10px;
   }
 
-  .nccru-icons span {
+  .cfw2s-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .nccru-icons span:hover {
+  .cfw2s-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,20 +111,21 @@
     cursor: pointer;
   }
 
-  .nccru-header-bottom {
+  .cfw2s-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .nccru-header-bottom-inner {
-    max-width: 1200px;
+  .cfw2s-header-bottom-inner {
+    width: var(--max);
     margin: auto;
     padding: 14px 30px;
     display: flex;
     align-items: center;
+    gap: 20px;
   }
 
-  .nccru-category-btn {
+  .cfw2s-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +137,74 @@
     font-weight: 500;
   }
 
-  .nccru-main-menu {
+  .cfw2s-main-menu {
     display: flex;
-    gap: 20px;
-    margin-left: 30px;
+    gap: 10px;
   }
 
-  .nccru-main-menu a {
-    color: white;
+  .cfw2s-main-menu a {
+    color: black;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
   }
 
-  .nccru-main-menu a:hover {
-    color: #238b23;
+  .cfw2s-main-menu a:hover {
+    background-color: #238b23;
+    color: white;
   }
 
-  .nccru-menulistactive {
+  .cfw2s-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .nccru-header-top {
+    .cfw2s-header-top {
       gap: 20px;
     }
 
-    .nccru-search-box {
+    .cfw2s-search-box {
       margin: 0 10px;
     }
 
-    .nccru-support-info strong {
+    .cfw2s-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .nccru-header {
+    .cfw2s-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .nccru-header-top {
+    .cfw2s-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .nccru-search-box {
+    .cfw2s-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .nccru-support-info {
+    .cfw2s-support-info {
       display: none;
     }
 
-    .nccru-header-bottom-inner {
+    .cfw2s-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .nccru-main-menu {
+    .cfw2s-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,22 +213,22 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .nccru-logo {
+    .cfw2s-logo {
       height: 60px;
     }
 
-    .nccru-search-box {
+    .cfw2s-search-box {
       flex: 0 1 150px;
     }
 
-    .nccru-icons span {
+    .cfw2s-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .ngbyx {
+  .t597d {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -234,7 +237,7 @@
     width: 100%;
   }
 
-  .ngbyxTitle {
+  .t597dTitle {
     background: linear-gradient(135deg, #333 0%, #4a4a4a 100%);
     border-radius: 8px;
     color: #fff;
@@ -246,7 +249,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .ngbyxBody {
+  .t597dBody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -501,7 +504,7 @@
   }
 
 
-  .ag5l1-profile {
+  .a9qg6-profile {
     background-color: #111;
     padding: 5px;
     border-radius: 5px;
@@ -511,26 +514,26 @@
     gap: 10px;
   }
 
-  .ag5l1-profile>* {
+  .a9qg6-profile>* {
     display: flex;
     align-items: center;
   }
 
-  .ag5l1-user-img {
+  .a9qg6-user-img {
     border-radius: 100%;
     width: 40px;
     height: 40px;
     background-color: #ffffff;
   }
 
-  .ag5l1 {
+  .a9qg6 {
     width: var(--max);
     display: flex;
     gap: 15px;
     margin: 10px 0px 10px 0px;
   }
 
-  .ag5l1-menu {
+  .a9qg6-menu {
     width: 220px;
     padding: 10px;
     background-color: #cd9624;
@@ -541,20 +544,20 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  .ag5l1-menu-title {
+  .a9qg6-menu-title {
     font-size: 15px;
     opacity: 0.8;
     color: #fff;
     padding: 5px;
   }
 
-  .ag5l1-menu-category {
+  .a9qg6-menu-category {
     display: flex;
     flex-direction: column;
     gap: 2px;
   }
 
-  .ag5l1-menu-category>a {
+  .a9qg6-menu-category>a {
     color: #fff;
     padding: 10px;
     cursor: pointer;
@@ -569,13 +572,13 @@
     border-width: 0px 0px 1px 0px;
   }
 
-  .ag5l1-menu-category>a:hover {
+  .a9qg6-menu-category>a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     background-color: #202020;
     border-radius: 10px;
   }
 
-  .ag5l1-body {
+  .a9qg6-body {
     background-color: #ffffff;
     flex: 1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -586,7 +589,7 @@
     min-height: calc(100vh - 230px);
   }
 
-  .ag5l1-menu-active {
+  .a9qg6-menu-active {
     background-color: #202020 !important;
   }
 
@@ -645,7 +648,7 @@
   }
 
 
-  .qk97o-trust-boxes {
+  .rxh0h-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -655,7 +658,7 @@
     gap: 0;
   }
 
-  .qk97o-trust-item {
+  .rxh0h-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -666,57 +669,57 @@
     gap: 16px;
   }
 
-  .qk97o-trust-item .material-icons {
+  .rxh0h-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .qk97o-trust-text {
+  .rxh0h-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .qk97o-trust-title {
+  .rxh0h-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .qk97o-trust-desc {
+  .rxh0h-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .qk97o-trust-boxes {
+    .rxh0h-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .qk97o-trust-item {
+    .rxh0h-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .qk97o-trust-boxes {
+    .rxh0h-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .qk97o-trust-item {
+    .rxh0h-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .qk97o-trust-title {
+    .rxh0h-trust-title {
       font-size: 16px;
     }
 
-    .qk97o-trust-desc {
+    .rxh0h-trust-desc {
       font-size: 13px;
     }
   }

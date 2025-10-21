@@ -8,6 +8,9 @@
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <meta http-equiv="Cache-Control" content="max-age=3600, public" />
+  <meta http-equiv="Pragma" content="cache" />
+  <meta http-equiv="Expires" content="3600" />
   <title></title>
   <meta name="description" content="undefined" />
   <meta name="keywords" content="undefined" />
@@ -15,12 +18,11 @@
   <meta property="og:description" content="undefined" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=nn39d" />
-  <link rel="shortcut icon" href="/img/icon.png?v=nn39d" type="image/png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-    rel="stylesheet" />
+
+
+  <link rel="stylesheet" href="/src/rubik.css" />
+  <link rel="stylesheet" href="/src/css.css?v=pjw17" />
+  <link rel="shortcut icon" href="/img/icon.png?v=pjw17" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -48,33 +50,33 @@
 </script>
 
 
-  <script type="text/javascript" src="/src/firebase.js?v=nn39d"></script>
-<link rel="stylesheet" href="style.css?v=nn39d">
+  <script type="text/javascript" src="/src/firebase.js?v=pjw17"></script>
+<link rel="stylesheet" href="style.css?v=pjw17">
 </head>
 
 <body>
-  <div id="header"><header class="enkjx-header-wrapper">
-  <div class="enkjx-header">
-    <div class="enkjx-header-top">
-      <a href="/en/" class="enkjx-header-left">
-        <img src="/img/logo.png?v=nn39d" alt="Tiggergift Logo" class="enkjx-logo" />
+  <div id="header"><header class="blqfg-header-wrapper">
+  <div class="blqfg-header">
+    <div class="blqfg-header-top">
+      <a href="/en/" class="blqfg-header-left">
+        <img src="/img/logo.png?v=pjw17" alt="Tiggergift Logo" class="blqfg-logo" />
       </a>
 
-      <div class="enkjx-search-box">
+      <div class="blqfg-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="enkjx-support-info">
+      <div class="blqfg-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
-          <strong>+90 342 221 00 02</strong>
+          <strong>0342 343 82 12</strong>
         </div>
       </div>
 
-      <div class="enkjx-icons">
+      <div class="blqfg-icons">
         <a href="/en/login/" class="material-symbols-outlined">person</a>
         <a href="/en/favorilerim/" class="material-symbols-outlined">favorite</a>
         <a href="/en/basket/" class="material-symbols-outlined">shopping_cart</a>
@@ -82,12 +84,12 @@
     </div>
   </div>
 
-  <div class="enkjx-header-bottom">
-    <div class="enkjx-header-bottom-inner">
-      <button class="enkjx-category-btn">
+  <div class="blqfg-header-bottom">
+    <div class="blqfg-header-bottom-inner">
+      <button class="blqfg-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="enkjx-main-menu"><a href="/en/urunlerimiz/"></a><a href="/en/baklava/"></a><a href="/en/kurumsal/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
+      <nav class="blqfg-main-menu"><a href="/en/bakir-mutfak-esyalari/"></a><a href="/en/bakir-aksesuarlar/"></a><a href="/en/ehli-keyf/"></a><a href="/en/urunlerimiz/"></a><a href="/en/yerelurunler/"></a><a href="/en/kurumsal/"></a><a href="/en/iletisim/"></a></nav>
     </div>
   </div>
 </header>
@@ -103,13 +105,13 @@
 </div>
 
 <!-- Main Content -->
-<div class="zmca6" id="adminMainContent" style="display: none;">
-  <div class="zmca6-menu">
-    <a href="/en/user/" class="zmca6-profile">
-      <div class="zmca6-user-img" id="userAvatar"></div>
+<div class="hylnt" id="adminMainContent" style="display: none;">
+  <div class="hylnt-menu">
+    <a href="/en/user/" class="hylnt-profile">
+      <div class="hylnt-user-img" id="userAvatar"></div>
       <div id="userName">Yükleniyor...</div>
     </a>
-    <div class="zmca6-menu-category">
+    <div class="hylnt-menu-category">
     <a href="/en/sepetim/" >
       <span class="material-symbols-outlined">shopping_basket</span>
       <div>Sepetim</div>
@@ -118,7 +120,7 @@
       <span class="material-symbols-outlined">shopping_cart</span>
       <div>Siparişlerim</div>
     </a>
-    <a class="zmca6-menu-active" href="/en/favorilerim/" >
+    <a class="hylnt-menu-active" href="/en/favorilerim/" >
       <span class="material-symbols-outlined">favorite</span>
       <div>Favorilerim</div>
     </a>
@@ -179,13 +181,13 @@
       <div>Ödeme</div>
     </a></div>
   </div>
-  <div class="zmca6-body"><div class="mztqi">
-  <div class="mztqiTitle">
+  <div class="hylnt-body"><div class="mvre6">
+  <div class="mvre6Title">
     <span class="material-symbols-outlined">favorite</span>
     My Favorites
   </div>
-  <div class="mztqiBody">
-    <div class="mztqiGrid" id="mztqiGrid">
+  <div class="mvre6Body">
+    <div class="mvre6Grid" id="mvre6Grid">
       <!-- Favori ürünler Firebase'den yüklenecek -->
     </div>
   </div>
@@ -198,13 +200,13 @@
   async function loadFavorites() {
     try {
       if (!user.isLoggedIn || !user.id) {
-        const favoritesGrid = document.getElementById('mztqiGrid');
+        const favoritesGrid = document.getElementById('mvre6Grid');
         favoritesGrid.innerHTML = '<div class="no-favorites">Favori ürünlerinizi görmek için giriş yapmanız gerekiyor.</div>';
         return;
       }
 
       const favoritesSnapshot = await dataListWeb(`users/${user.id}/favorites`);
-      const favoritesGrid = document.getElementById('mztqiGrid');
+      const favoritesGrid = document.getElementById('mvre6Grid');
 
       favoritesGrid.innerHTML = '';
 
@@ -219,17 +221,17 @@
         const favoriteId = doc.id;
 
         const favoriteHTML = `
-          <div class="mztqiGridItem" data-favorite-id="${favoriteId}">
+          <div class="mvre6GridItem" data-favorite-id="${favoriteId}">
             <div class="favorite-badge" onclick="removeFromFavorites('${favoriteId}')">
               <span class="material-symbols-outlined">favorite</span>
             </div>
-            <div class="mztqiGridItemImg">
+            <div class="mvre6GridItemImg">
               <img src="${favorite.image || 'https://via.placeholder.com/200x200'}" alt="${favorite.name}" />
             </div>
-            <div class="mztqiGridItemBody">
-              <div class="mztqiGridItemTitle">${favorite.name}</div>
-              <div class="mztqiGridItemSpot">${favorite.category || 'Genel'}</div>
-              <div class="mztqiGridItemPrice">
+            <div class="mvre6GridItemBody">
+              <div class="mvre6GridItemTitle">${favorite.name}</div>
+              <div class="mvre6GridItemSpot">${favorite.category || 'Genel'}</div>
+              <div class="mvre6GridItemPrice">
                 <div class="price">${formatPrice(favorite.price)} ₺</div>
                 <button class="add-to-cart" onclick="addToCart('${favoriteId}', '${favorite.productId}')">
                   <span class="material-symbols-outlined">shopping_cart</span>
@@ -244,7 +246,7 @@
 
     } catch (error) {
       console.error('Favoriler yüklenirken hata:', error);
-      document.getElementById('mztqiGrid').innerHTML =
+      document.getElementById('mvre6Grid').innerHTML =
         '<div style="text-align: center; padding: 50px; color: #e74c3c; grid-column: 1/-1;">Favoriler yüklenirken bir hata oluştu.</div>';
     }
   }
@@ -396,7 +398,7 @@
       }, 500); // Firebase user objesi güncellenmesi için biraz bekle
     } else {
       // Kullanıcı giriş yapmamış
-      document.getElementById('mztqiGrid').innerHTML =
+      document.getElementById('mvre6Grid').innerHTML =
         '<div class="no-favorites">Favori ürünlerinizi görmek için giriş yapmanız gerekiyor.</div>';
     }
   });
@@ -645,28 +647,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="oynv5-trust-boxes">
-      <div class="oynv5-trust-item">
+<div class="w6ac0-trust-boxes">
+      <div class="w6ac0-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="oynv5-trust-text">
-          <div class="oynv5-trust-title">100% Secure Payment</div>
-          <div class="oynv5-trust-desc">Secure Payment with 3D Secure</div>
+        <div class="w6ac0-trust-text">
+          <div class="w6ac0-trust-title">100% Secure Payment</div>
+          <div class="w6ac0-trust-desc">Secure Payment with 3D Secure</div>
         </div>
       </div>
     
-      <div class="oynv5-trust-item">
+      <div class="w6ac0-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="oynv5-trust-text">
-          <div class="oynv5-trust-title">100% Original Product</div>
-          <div class="oynv5-trust-desc">Activation with 100% Licensed Original Product</div>
+        <div class="w6ac0-trust-text">
+          <div class="w6ac0-trust-title">100% Original Product</div>
+          <div class="w6ac0-trust-desc">Activation with 100% Licensed Original Product</div>
         </div>
       </div>
     
-      <div class="oynv5-trust-item">
+      <div class="w6ac0-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="oynv5-trust-text">
-          <div class="oynv5-trust-title">Fast Delivery</div>
-          <div class="oynv5-trust-desc">Online Fast Delivery for All Your Shopping</div>
+        <div class="w6ac0-trust-text">
+          <div class="w6ac0-trust-title">Fast Delivery</div>
+          <div class="w6ac0-trust-desc">Online Fast Delivery for All Your Shopping</div>
         </div>
       </div>
     </div>
@@ -712,7 +714,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/urunlerimiz"></a></li><li class="menu__item"><a class="menu__link" href="/en/baklava"></a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/en/yerelurunler"></a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim"></a></li>
+    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/bakir-mutfak-esyalari"></a></li><li class="menu__item"><a class="menu__link" href="/en/bakir-aksesuarlar"></a></li><li class="menu__item"><a class="menu__link" href="/en/ehli-keyf"></a></li><li class="menu__item"><a class="menu__link" href="/en/urunlerimiz"></a></li><li class="menu__item"><a class="menu__link" href="/en/yerelurunler"></a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim"></a></li>
   </ul>
   <p>Tiggergift 2025 cognite. &copy;</p>
 </footer>
@@ -748,7 +750,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=nn39d"></script>
-<script src="/src/cookie.js?v=nn39d"></script>
+<script type="text/javascript" src="/src/js.js?v=pjw17"></script>
+<script src="/src/cookie.js?v=pjw17"></script>
 
 </html>

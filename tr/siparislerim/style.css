@@ -1,10 +1,10 @@
 
-  .jlda8-header-wrapper {
+  .bgu2u-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .jlda8-header {
+  .bgu2u-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .jlda8-logo {
+  .bgu2u-logo {
     height: 80px;
   }
 
-  .jlda8-header-top {
+  .bgu2u-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .jlda8-search-box {
+  .bgu2u-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .jlda8-search-box span {
+  .bgu2u-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .jlda8-search-box input {
+  .bgu2u-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .jlda8-search-box button {
+  .bgu2u-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .jlda8-search-box button:hover {
+  .bgu2u-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .jlda8-support-info {
+  .bgu2u-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .jlda8-support-info span {
+  .bgu2u-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .jlda8-support-info small {
+  .bgu2u-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .jlda8-support-info strong {
+  .bgu2u-support-info strong {
     font-size: 16px;
   }
 
-  .jlda8-icons {
+  .bgu2u-icons {
     display: flex;
     gap: 10px;
   }
 
-  .jlda8-icons span {
+  .bgu2u-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .jlda8-icons span:hover {
+  .bgu2u-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,20 +111,21 @@
     cursor: pointer;
   }
 
-  .jlda8-header-bottom {
+  .bgu2u-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .jlda8-header-bottom-inner {
-    max-width: 1200px;
+  .bgu2u-header-bottom-inner {
+    width: var(--max);
     margin: auto;
     padding: 14px 30px;
     display: flex;
     align-items: center;
+    gap: 20px;
   }
 
-  .jlda8-category-btn {
+  .bgu2u-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +137,74 @@
     font-weight: 500;
   }
 
-  .jlda8-main-menu {
+  .bgu2u-main-menu {
     display: flex;
-    gap: 20px;
-    margin-left: 30px;
+    gap: 10px;
   }
 
-  .jlda8-main-menu a {
-    color: white;
+  .bgu2u-main-menu a {
+    color: black;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
   }
 
-  .jlda8-main-menu a:hover {
-    color: #238b23;
+  .bgu2u-main-menu a:hover {
+    background-color: #238b23;
+    color: white;
   }
 
-  .jlda8-menulistactive {
+  .bgu2u-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .jlda8-header-top {
+    .bgu2u-header-top {
       gap: 20px;
     }
 
-    .jlda8-search-box {
+    .bgu2u-search-box {
       margin: 0 10px;
     }
 
-    .jlda8-support-info strong {
+    .bgu2u-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .jlda8-header {
+    .bgu2u-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .jlda8-header-top {
+    .bgu2u-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .jlda8-search-box {
+    .bgu2u-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .jlda8-support-info {
+    .bgu2u-support-info {
       display: none;
     }
 
-    .jlda8-header-bottom-inner {
+    .bgu2u-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .jlda8-main-menu {
+    .bgu2u-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,28 +213,28 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .jlda8-logo {
+    .bgu2u-logo {
       height: 60px;
     }
 
-    .jlda8-search-box {
+    .bgu2u-search-box {
       flex: 0 1 150px;
     }
 
-    .jlda8-icons span {
+    .bgu2u-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .t2dts {
+  .gmesu {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .t2dtsTitle {
+  .gmesuTitle {
     background: linear-gradient(135deg, #333 0%, #4a4a4a 100%);
     border-radius: 8px;
     border: 2px solid #007bff;
@@ -244,7 +247,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .t2dtsBody {
+  .gmesuBody {
     display: flex;
     min-height: 500px;
   }
@@ -775,7 +778,7 @@
   }
 
 
-  .ez4i3-profile {
+  .pubth-profile {
     background-color: #111;
     padding: 5px;
     border-radius: 5px;
@@ -785,26 +788,26 @@
     gap: 10px;
   }
 
-  .ez4i3-profile>* {
+  .pubth-profile>* {
     display: flex;
     align-items: center;
   }
 
-  .ez4i3-user-img {
+  .pubth-user-img {
     border-radius: 100%;
     width: 40px;
     height: 40px;
     background-color: #ffffff;
   }
 
-  .ez4i3 {
+  .pubth {
     width: var(--max);
     display: flex;
     gap: 15px;
     margin: 10px 0px 10px 0px;
   }
 
-  .ez4i3-menu {
+  .pubth-menu {
     width: 220px;
     padding: 10px;
     background-color: #cd9624;
@@ -815,20 +818,20 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  .ez4i3-menu-title {
+  .pubth-menu-title {
     font-size: 15px;
     opacity: 0.8;
     color: #fff;
     padding: 5px;
   }
 
-  .ez4i3-menu-category {
+  .pubth-menu-category {
     display: flex;
     flex-direction: column;
     gap: 2px;
   }
 
-  .ez4i3-menu-category>a {
+  .pubth-menu-category>a {
     color: #fff;
     padding: 10px;
     cursor: pointer;
@@ -843,13 +846,13 @@
     border-width: 0px 0px 1px 0px;
   }
 
-  .ez4i3-menu-category>a:hover {
+  .pubth-menu-category>a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     background-color: #202020;
     border-radius: 10px;
   }
 
-  .ez4i3-body {
+  .pubth-body {
     background-color: #ffffff;
     flex: 1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -860,7 +863,7 @@
     min-height: calc(100vh - 230px);
   }
 
-  .ez4i3-menu-active {
+  .pubth-menu-active {
     background-color: #202020 !important;
   }
 
@@ -919,7 +922,7 @@
   }
 
 
-  .sa0mn-trust-boxes {
+  .etv6o-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -929,7 +932,7 @@
     gap: 0;
   }
 
-  .sa0mn-trust-item {
+  .etv6o-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -940,57 +943,57 @@
     gap: 16px;
   }
 
-  .sa0mn-trust-item .material-icons {
+  .etv6o-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .sa0mn-trust-text {
+  .etv6o-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .sa0mn-trust-title {
+  .etv6o-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .sa0mn-trust-desc {
+  .etv6o-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .sa0mn-trust-boxes {
+    .etv6o-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .sa0mn-trust-item {
+    .etv6o-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .sa0mn-trust-boxes {
+    .etv6o-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .sa0mn-trust-item {
+    .etv6o-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .sa0mn-trust-title {
+    .etv6o-trust-title {
       font-size: 16px;
     }
 
-    .sa0mn-trust-desc {
+    .etv6o-trust-desc {
       font-size: 13px;
     }
   }

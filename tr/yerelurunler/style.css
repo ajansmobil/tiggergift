@@ -1,10 +1,10 @@
 
-  .uovjw-header-wrapper {
+  .odmw5-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .uovjw-header {
+  .odmw5-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .uovjw-logo {
+  .odmw5-logo {
     height: 80px;
   }
 
-  .uovjw-header-top {
+  .odmw5-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .uovjw-search-box {
+  .odmw5-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .uovjw-search-box span {
+  .odmw5-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .uovjw-search-box input {
+  .odmw5-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .uovjw-search-box button {
+  .odmw5-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .uovjw-search-box button:hover {
+  .odmw5-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .uovjw-support-info {
+  .odmw5-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .uovjw-support-info span {
+  .odmw5-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .uovjw-support-info small {
+  .odmw5-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .uovjw-support-info strong {
+  .odmw5-support-info strong {
     font-size: 16px;
   }
 
-  .uovjw-icons {
+  .odmw5-icons {
     display: flex;
     gap: 10px;
   }
 
-  .uovjw-icons span {
+  .odmw5-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .uovjw-icons span:hover {
+  .odmw5-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,20 +111,21 @@
     cursor: pointer;
   }
 
-  .uovjw-header-bottom {
+  .odmw5-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .uovjw-header-bottom-inner {
-    max-width: 1200px;
+  .odmw5-header-bottom-inner {
+    width: var(--max);
     margin: auto;
     padding: 14px 30px;
     display: flex;
     align-items: center;
+    gap: 20px;
   }
 
-  .uovjw-category-btn {
+  .odmw5-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +137,74 @@
     font-weight: 500;
   }
 
-  .uovjw-main-menu {
+  .odmw5-main-menu {
     display: flex;
-    gap: 20px;
-    margin-left: 30px;
+    gap: 10px;
   }
 
-  .uovjw-main-menu a {
-    color: white;
+  .odmw5-main-menu a {
+    color: black;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
   }
 
-  .uovjw-main-menu a:hover {
-    color: #238b23;
+  .odmw5-main-menu a:hover {
+    background-color: #238b23;
+    color: white;
   }
 
-  .uovjw-menulistactive {
+  .odmw5-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .uovjw-header-top {
+    .odmw5-header-top {
       gap: 20px;
     }
 
-    .uovjw-search-box {
+    .odmw5-search-box {
       margin: 0 10px;
     }
 
-    .uovjw-support-info strong {
+    .odmw5-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .uovjw-header {
+    .odmw5-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .uovjw-header-top {
+    .odmw5-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .uovjw-search-box {
+    .odmw5-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .uovjw-support-info {
+    .odmw5-support-info {
       display: none;
     }
 
-    .uovjw-header-bottom-inner {
+    .odmw5-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .uovjw-main-menu {
+    .odmw5-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,22 +213,22 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .uovjw-logo {
+    .odmw5-logo {
       height: 60px;
     }
 
-    .uovjw-search-box {
+    .odmw5-search-box {
       flex: 0 1 150px;
     }
 
-    .uovjw-icons span {
+    .odmw5-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .apdih-trust-boxes {
+  .lacf7-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -235,7 +238,7 @@
     gap: 0;
   }
 
-  .apdih-trust-item {
+  .lacf7-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -246,57 +249,57 @@
     gap: 16px;
   }
 
-  .apdih-trust-item .material-icons {
+  .lacf7-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .apdih-trust-text {
+  .lacf7-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .apdih-trust-title {
+  .lacf7-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .apdih-trust-desc {
+  .lacf7-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .apdih-trust-boxes {
+    .lacf7-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .apdih-trust-item {
+    .lacf7-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .apdih-trust-boxes {
+    .lacf7-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .apdih-trust-item {
+    .lacf7-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .apdih-trust-title {
+    .lacf7-trust-title {
       font-size: 16px;
     }
 
-    .apdih-trust-desc {
+    .lacf7-trust-desc {
       font-size: 13px;
     }
   }

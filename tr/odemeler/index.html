@@ -8,6 +8,9 @@
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <meta http-equiv="Cache-Control" content="max-age=3600, public" />
+  <meta http-equiv="Pragma" content="cache" />
+  <meta http-equiv="Expires" content="3600" />
   <title>Ödemeler</title>
   <meta name="description" content="" />
   <meta name="keywords" content="" />
@@ -15,12 +18,11 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=q5r58" />
-  <link rel="shortcut icon" href="/img/icon.png?v=q5r58" type="image/png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-    rel="stylesheet" />
+
+
+  <link rel="stylesheet" href="/src/rubik.css" />
+  <link rel="stylesheet" href="/src/css.css?v=t4yg0" />
+  <link rel="shortcut icon" href="/img/icon.png?v=t4yg0" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -48,33 +50,33 @@
 </script>
 
 
-  <script type="text/javascript" src="/src/firebase.js?v=q5r58"></script>
-<link rel="stylesheet" href="style.css?v=q5r58">
+  <script type="text/javascript" src="/src/firebase.js?v=t4yg0"></script>
+<link rel="stylesheet" href="style.css?v=t4yg0">
 </head>
 
 <body>
-  <div id="header"><header class="gyrsl-header-wrapper">
-  <div class="gyrsl-header">
-    <div class="gyrsl-header-top">
-      <a href="/tr/" class="gyrsl-header-left">
-        <img src="/img/logo.png?v=q5r58" alt="Tiggergift Logo" class="gyrsl-logo" />
+  <div id="header"><header class="v2afj-header-wrapper">
+  <div class="v2afj-header">
+    <div class="v2afj-header-top">
+      <a href="/tr/" class="v2afj-header-left">
+        <img src="/img/logo.png?v=t4yg0" alt="Tiggergift Logo" class="v2afj-logo" />
       </a>
 
-      <div class="gyrsl-search-box">
+      <div class="v2afj-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="gyrsl-support-info">
+      <div class="v2afj-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
-          <strong>+90 342 221 00 02</strong>
+          <strong>0342 343 82 12</strong>
         </div>
       </div>
 
-      <div class="gyrsl-icons">
+      <div class="v2afj-icons">
         <a href="/tr/login/" class="material-symbols-outlined">person</a>
         <a href="/tr/favorilerim/" class="material-symbols-outlined">favorite</a>
         <a href="/tr/basket/" class="material-symbols-outlined">shopping_cart</a>
@@ -82,12 +84,12 @@
     </div>
   </div>
 
-  <div class="gyrsl-header-bottom">
-    <div class="gyrsl-header-bottom-inner">
-      <button class="gyrsl-category-btn">
+  <div class="v2afj-header-bottom">
+    <div class="v2afj-header-bottom-inner">
+      <button class="v2afj-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="gyrsl-main-menu"><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/baklava/">Baklava</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/iletisim/">İletişim</a></nav>
+      <nav class="v2afj-main-menu"><a href="/tr/bakir-mutfak-esyalari/">Bakır Mutfak Eşyaları</a><a href="/tr/bakir-aksesuarlar/">Bakır Aksesuarlar</a><a href="/tr/ehli-keyf/">Ehli Keyf</a><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/iletisim/">İletişim</a></nav>
     </div>
   </div>
 </header>
@@ -103,13 +105,13 @@
 </div>
 
 <!-- Main Content -->
-<div class="lm49q" id="adminMainContent" style="display: none;">
-  <div class="lm49q-menu">
-    <a href="/tr/admin/" class="lm49q-profile">
-      <div class="lm49q-user-img" id="userAvatar"></div>
+<div class="c6zim" id="adminMainContent" style="display: none;">
+  <div class="c6zim-menu">
+    <a href="/tr/admin/" class="c6zim-profile">
+      <div class="c6zim-user-img" id="userAvatar"></div>
       <div id="userName">Yükleniyor...</div>
     </a>
-    <div class="lm49q-menu-category">
+    <div class="c6zim-menu-category">
     <a href="/tr/admin/" >
       <span class="material-symbols-outlined">home</span>
       <div>Admin</div>
@@ -138,7 +140,7 @@
       <span class="material-symbols-outlined">campaign</span>
       <div>Kampanyalar</div>
     </a>
-    <a class="lm49q-menu-active" href="/tr/odemeler/" >
+    <a class="c6zim-menu-active" href="/tr/odemeler/" >
       <span class="material-symbols-outlined">payment</span>
       <div>Ödemeler</div>
     </a>
@@ -155,19 +157,19 @@
       <div>Loglar</div>
     </a></div>
   </div>
-  <div class="lm49q-body"><div class="vq0fd-admin-odemeler">
+  <div class="c6zim-body"><div class="ul0uq-admin-odemeler">
     <!-- Sayfa Başlığı -->
-    <div class="vq0fd-page-header">
-        <div class="vq0fd-header-left">
+    <div class="ul0uq-page-header">
+        <div class="ul0uq-header-left">
             <h1>Ödeme Yönetimi</h1>
-            <p class="vq0fd-header-subtitle">
+            <p class="ul0uq-header-subtitle">
                 <span class="material-symbols-outlined">payment</span>
                 Ödemeleri görüntüleyin ve yönetin
             </p>
         </div>
-        <div class="vq0fd-header-right">
-            <div class="vq0fd-header-actions">
-                <button class="vq0fd-btn vq0fd-btn-primary" onclick="loadPayments()">
+        <div class="ul0uq-header-right">
+            <div class="ul0uq-header-actions">
+                <button class="ul0uq-btn ul0uq-btn-primary" onclick="loadPayments()">
                     <span class="material-symbols-outlined">refresh</span>
                     Yenile
                 </button>
@@ -176,8 +178,8 @@
     </div>
 
     <!-- Ödeme Tablosu -->
-    <div class="vq0fd-payments-table-container">
-        <div class="vq0fd-payments-table">
+    <div class="ul0uq-payments-table-container">
+        <div class="ul0uq-payments-table">
             <table>
                 <thead>
                     <tr>
@@ -199,8 +201,8 @@
     </div>
 
     <!-- Demo Veri Ekleme Butonu -->
-    <div class="vq0fd-demo-section">
-        <button class="vq0fd-btn vq0fd-btn-success" onclick="addDemoPayments()">
+    <div class="ul0uq-demo-section">
+        <button class="ul0uq-btn ul0uq-btn-success" onclick="addDemoPayments()">
             <span class="material-symbols-outlined">add</span>
             Demo Veri Ekle
         </button>
@@ -246,7 +248,7 @@
                     <td><span class="status-badge">${payment.status}</span></td>
                     <td>${formatDate(payment.date)}</td>
                     <td>
-                        <button class="vq0fd-btn vq0fd-btn-sm" onclick="viewPayment('${doc.id}')">Görüntüle</button>
+                        <button class="ul0uq-btn ul0uq-btn-sm" onclick="viewPayment('${doc.id}')">Görüntüle</button>
                     </td>
                 `;
 
@@ -259,7 +261,7 @@
                 <tr>
                     <td colspan="6" style="text-align: center; padding: 40px; color: #dc3545;">
                         <div style="font-size: 16px; margin-bottom: 10px;">Veriler yüklenirken hata oluştu</div>
-                        <button class="vq0fd-btn vq0fd-btn-primary" onclick="loadPayments()">
+                        <button class="ul0uq-btn ul0uq-btn-primary" onclick="loadPayments()">
                             <span class="material-symbols-outlined">refresh</span>
                             Tekrar Dene
                         </button>
@@ -566,28 +568,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="aw105-trust-boxes">
-      <div class="aw105-trust-item">
+<div class="nsxm3-trust-boxes">
+      <div class="nsxm3-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="aw105-trust-text">
-          <div class="aw105-trust-title">100% Güvenli Ödeme</div>
-          <div class="aw105-trust-desc">3D Secure ile Güvenli Ödeme</div>
+        <div class="nsxm3-trust-text">
+          <div class="nsxm3-trust-title">100% Güvenli Ödeme</div>
+          <div class="nsxm3-trust-desc">3D Secure ile Güvenli Ödeme</div>
         </div>
       </div>
     
-      <div class="aw105-trust-item">
+      <div class="nsxm3-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="aw105-trust-text">
-          <div class="aw105-trust-title">%100 Orijinal Ürün</div>
-          <div class="aw105-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
+        <div class="nsxm3-trust-text">
+          <div class="nsxm3-trust-title">%100 Orijinal Ürün</div>
+          <div class="nsxm3-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
         </div>
       </div>
     
-      <div class="aw105-trust-item">
+      <div class="nsxm3-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="aw105-trust-text">
-          <div class="aw105-trust-title">Hızlı Teslimat</div>
-          <div class="aw105-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
+        <div class="nsxm3-trust-text">
+          <div class="nsxm3-trust-title">Hızlı Teslimat</div>
+          <div class="nsxm3-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
         </div>
       </div>
     </div>
@@ -633,7 +635,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/urunlerimiz">Kampanyalı</a></li><li class="menu__item"><a class="menu__link" href="/tr/baklava">Baklava</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/yerelurunler">Yerel Ürünler</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
+    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/bakir-mutfak-esyalari">Bakır Mutfak Eşyaları</a></li><li class="menu__item"><a class="menu__link" href="/tr/bakir-aksesuarlar">Bakır Aksesuarlar</a></li><li class="menu__item"><a class="menu__link" href="/tr/ehli-keyf">Ehli Keyf</a></li><li class="menu__item"><a class="menu__link" href="/tr/urunlerimiz">Kampanyalı</a></li><li class="menu__item"><a class="menu__link" href="/tr/yerelurunler">Yerel Ürünler</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
   </ul>
   <p>Tiggergift 2025 cognite. &copy;</p>
 </footer>
@@ -669,7 +671,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=q5r58"></script>
-<script src="/src/cookie.js?v=q5r58"></script>
+<script type="text/javascript" src="/src/js.js?v=t4yg0"></script>
+<script src="/src/cookie.js?v=t4yg0"></script>
 
 </html>

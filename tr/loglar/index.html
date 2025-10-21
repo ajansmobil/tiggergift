@@ -8,6 +8,9 @@
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <meta http-equiv="Cache-Control" content="max-age=3600, public" />
+  <meta http-equiv="Pragma" content="cache" />
+  <meta http-equiv="Expires" content="3600" />
   <title>Loglar</title>
   <meta name="description" content="" />
   <meta name="keywords" content="" />
@@ -15,12 +18,11 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=ne3ws" />
-  <link rel="shortcut icon" href="/img/icon.png?v=ne3ws" type="image/png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-    rel="stylesheet" />
+
+
+  <link rel="stylesheet" href="/src/rubik.css" />
+  <link rel="stylesheet" href="/src/css.css?v=lkxgj" />
+  <link rel="shortcut icon" href="/img/icon.png?v=lkxgj" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -48,33 +50,33 @@
 </script>
 
 
-  <script type="text/javascript" src="/src/firebase.js?v=ne3ws"></script>
-<link rel="stylesheet" href="style.css?v=ne3ws">
+  <script type="text/javascript" src="/src/firebase.js?v=lkxgj"></script>
+<link rel="stylesheet" href="style.css?v=lkxgj">
 </head>
 
 <body>
-  <div id="header"><header class="l1d4b-header-wrapper">
-  <div class="l1d4b-header">
-    <div class="l1d4b-header-top">
-      <a href="/tr/" class="l1d4b-header-left">
-        <img src="/img/logo.png?v=ne3ws" alt="Tiggergift Logo" class="l1d4b-logo" />
+  <div id="header"><header class="pvwro-header-wrapper">
+  <div class="pvwro-header">
+    <div class="pvwro-header-top">
+      <a href="/tr/" class="pvwro-header-left">
+        <img src="/img/logo.png?v=lkxgj" alt="Tiggergift Logo" class="pvwro-logo" />
       </a>
 
-      <div class="l1d4b-search-box">
+      <div class="pvwro-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="l1d4b-support-info">
+      <div class="pvwro-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
-          <strong>+90 342 221 00 02</strong>
+          <strong>0342 343 82 12</strong>
         </div>
       </div>
 
-      <div class="l1d4b-icons">
+      <div class="pvwro-icons">
         <a href="/tr/login/" class="material-symbols-outlined">person</a>
         <a href="/tr/favorilerim/" class="material-symbols-outlined">favorite</a>
         <a href="/tr/basket/" class="material-symbols-outlined">shopping_cart</a>
@@ -82,12 +84,12 @@
     </div>
   </div>
 
-  <div class="l1d4b-header-bottom">
-    <div class="l1d4b-header-bottom-inner">
-      <button class="l1d4b-category-btn">
+  <div class="pvwro-header-bottom">
+    <div class="pvwro-header-bottom-inner">
+      <button class="pvwro-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="l1d4b-main-menu"><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/baklava/">Baklava</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/iletisim/">İletişim</a></nav>
+      <nav class="pvwro-main-menu"><a href="/tr/bakir-mutfak-esyalari/">Bakır Mutfak Eşyaları</a><a href="/tr/bakir-aksesuarlar/">Bakır Aksesuarlar</a><a href="/tr/ehli-keyf/">Ehli Keyf</a><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/iletisim/">İletişim</a></nav>
     </div>
   </div>
 </header>
@@ -103,13 +105,13 @@
 </div>
 
 <!-- Main Content -->
-<div class="fhajl" id="adminMainContent" style="display: none;">
-  <div class="fhajl-menu">
-    <a href="/tr/admin/" class="fhajl-profile">
-      <div class="fhajl-user-img" id="userAvatar"></div>
+<div class="ekwzc" id="adminMainContent" style="display: none;">
+  <div class="ekwzc-menu">
+    <a href="/tr/admin/" class="ekwzc-profile">
+      <div class="ekwzc-user-img" id="userAvatar"></div>
       <div id="userName">Yükleniyor...</div>
     </a>
-    <div class="fhajl-menu-category">
+    <div class="ekwzc-menu-category">
     <a href="/tr/admin/" >
       <span class="material-symbols-outlined">home</span>
       <div>Admin</div>
@@ -150,23 +152,23 @@
       <span class="material-symbols-outlined">settings</span>
       <div>Ayarlar</div>
     </a>
-    <a class="fhajl-menu-active" href="/tr/loglar/" >
+    <a class="ekwzc-menu-active" href="/tr/loglar/" >
       <span class="material-symbols-outlined">history</span>
       <div>Loglar</div>
     </a></div>
   </div>
-  <div class="fhajl-body"><div class="pltas-admin-loglar">
-    <div class="pltas-page-header">
-        <div class="pltas-header-left">
+  <div class="ekwzc-body"><div class="bra7c-admin-loglar">
+    <div class="bra7c-page-header">
+        <div class="bra7c-header-left">
             <h1>Log Yönetimi</h1>
-            <p class="pltas-header-subtitle">
+            <p class="bra7c-header-subtitle">
                 <span class="material-symbols-outlined">history</span>
                 Sistem loglarını görüntüleyin
             </p>
         </div>
-        <div class="pltas-header-right">
-            <div class="pltas-header-actions">
-                <button class="pltas-btn pltas-btn-primary" onclick="loadLogs()">
+        <div class="bra7c-header-right">
+            <div class="bra7c-header-actions">
+                <button class="bra7c-btn bra7c-btn-primary" onclick="loadLogs()">
                     <span class="material-symbols-outlined">refresh</span>
                     Yenile
                 </button>
@@ -174,8 +176,8 @@
         </div>
     </div>
 
-    <div class="pltas-logs-table-container">
-        <div class="pltas-logs-table">
+    <div class="bra7c-logs-table-container">
+        <div class="bra7c-logs-table">
             <table>
                 <thead>
                     <tr>
@@ -196,8 +198,8 @@
     </div>
 
     <!-- Demo Veri Ekleme Butonu -->
-    <div class="pltas-demo-section">
-        <button class="pltas-btn pltas-btn-success" onclick="addDemoLogs()">
+    <div class="bra7c-demo-section">
+        <button class="bra7c-btn bra7c-btn-success" onclick="addDemoLogs()">
             <span class="material-symbols-outlined">add</span>
             Demo Veri Ekle
         </button>
@@ -241,7 +243,7 @@
                     <td><span class="level-badge level-${log.level}">${log.level}</span></td>
                     <td>${formatDate(log.timestamp)}</td>
                     <td>
-                        <button class="pltas-btn pltas-btn-sm" onclick="viewLog('${doc.id}')">Görüntüle</button>
+                        <button class="bra7c-btn bra7c-btn-sm" onclick="viewLog('${doc.id}')">Görüntüle</button>
                     </td>
                 `;
 
@@ -254,7 +256,7 @@
                 <tr>
                     <td colspan="5" style="text-align: center; padding: 40px; color: #dc3545;">
                         <div style="font-size: 16px; margin-bottom: 10px;">Veriler yüklenirken hata oluştu</div>
-                        <button class="pltas-btn pltas-btn-primary" onclick="loadLogs()">
+                        <button class="bra7c-btn bra7c-btn-primary" onclick="loadLogs()">
                             <span class="material-symbols-outlined">refresh</span>
                             Tekrar Dene
                         </button>
@@ -565,28 +567,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="esdp2-trust-boxes">
-      <div class="esdp2-trust-item">
+<div class="i5bv6-trust-boxes">
+      <div class="i5bv6-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="esdp2-trust-text">
-          <div class="esdp2-trust-title">100% Güvenli Ödeme</div>
-          <div class="esdp2-trust-desc">3D Secure ile Güvenli Ödeme</div>
+        <div class="i5bv6-trust-text">
+          <div class="i5bv6-trust-title">100% Güvenli Ödeme</div>
+          <div class="i5bv6-trust-desc">3D Secure ile Güvenli Ödeme</div>
         </div>
       </div>
     
-      <div class="esdp2-trust-item">
+      <div class="i5bv6-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="esdp2-trust-text">
-          <div class="esdp2-trust-title">%100 Orijinal Ürün</div>
-          <div class="esdp2-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
+        <div class="i5bv6-trust-text">
+          <div class="i5bv6-trust-title">%100 Orijinal Ürün</div>
+          <div class="i5bv6-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
         </div>
       </div>
     
-      <div class="esdp2-trust-item">
+      <div class="i5bv6-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="esdp2-trust-text">
-          <div class="esdp2-trust-title">Hızlı Teslimat</div>
-          <div class="esdp2-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
+        <div class="i5bv6-trust-text">
+          <div class="i5bv6-trust-title">Hızlı Teslimat</div>
+          <div class="i5bv6-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
         </div>
       </div>
     </div>
@@ -632,7 +634,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/urunlerimiz">Kampanyalı</a></li><li class="menu__item"><a class="menu__link" href="/tr/baklava">Baklava</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/yerelurunler">Yerel Ürünler</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
+    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/bakir-mutfak-esyalari">Bakır Mutfak Eşyaları</a></li><li class="menu__item"><a class="menu__link" href="/tr/bakir-aksesuarlar">Bakır Aksesuarlar</a></li><li class="menu__item"><a class="menu__link" href="/tr/ehli-keyf">Ehli Keyf</a></li><li class="menu__item"><a class="menu__link" href="/tr/urunlerimiz">Kampanyalı</a></li><li class="menu__item"><a class="menu__link" href="/tr/yerelurunler">Yerel Ürünler</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
   </ul>
   <p>Tiggergift 2025 cognite. &copy;</p>
 </footer>
@@ -668,7 +670,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=ne3ws"></script>
-<script src="/src/cookie.js?v=ne3ws"></script>
+<script type="text/javascript" src="/src/js.js?v=lkxgj"></script>
+<script src="/src/cookie.js?v=lkxgj"></script>
 
 </html>

@@ -1,10 +1,10 @@
 
-  .tuvac-header-wrapper {
+  .bf75e-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .tuvac-header {
+  .bf75e-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .tuvac-logo {
+  .bf75e-logo {
     height: 80px;
   }
 
-  .tuvac-header-top {
+  .bf75e-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .tuvac-search-box {
+  .bf75e-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .tuvac-search-box span {
+  .bf75e-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .tuvac-search-box input {
+  .bf75e-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .tuvac-search-box button {
+  .bf75e-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .tuvac-search-box button:hover {
+  .bf75e-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .tuvac-support-info {
+  .bf75e-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .tuvac-support-info span {
+  .bf75e-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .tuvac-support-info small {
+  .bf75e-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .tuvac-support-info strong {
+  .bf75e-support-info strong {
     font-size: 16px;
   }
 
-  .tuvac-icons {
+  .bf75e-icons {
     display: flex;
     gap: 10px;
   }
 
-  .tuvac-icons span {
+  .bf75e-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .tuvac-icons span:hover {
+  .bf75e-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,20 +111,21 @@
     cursor: pointer;
   }
 
-  .tuvac-header-bottom {
+  .bf75e-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .tuvac-header-bottom-inner {
-    max-width: 1200px;
+  .bf75e-header-bottom-inner {
+    width: var(--max);
     margin: auto;
     padding: 14px 30px;
     display: flex;
     align-items: center;
+    gap: 20px;
   }
 
-  .tuvac-category-btn {
+  .bf75e-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +137,74 @@
     font-weight: 500;
   }
 
-  .tuvac-main-menu {
+  .bf75e-main-menu {
     display: flex;
-    gap: 20px;
-    margin-left: 30px;
+    gap: 10px;
   }
 
-  .tuvac-main-menu a {
-    color: white;
+  .bf75e-main-menu a {
+    color: black;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
   }
 
-  .tuvac-main-menu a:hover {
-    color: #238b23;
+  .bf75e-main-menu a:hover {
+    background-color: #238b23;
+    color: white;
   }
 
-  .tuvac-menulistactive {
+  .bf75e-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .tuvac-header-top {
+    .bf75e-header-top {
       gap: 20px;
     }
 
-    .tuvac-search-box {
+    .bf75e-search-box {
       margin: 0 10px;
     }
 
-    .tuvac-support-info strong {
+    .bf75e-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .tuvac-header {
+    .bf75e-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .tuvac-header-top {
+    .bf75e-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .tuvac-search-box {
+    .bf75e-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .tuvac-support-info {
+    .bf75e-support-info {
       display: none;
     }
 
-    .tuvac-header-bottom-inner {
+    .bf75e-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .tuvac-main-menu {
+    .bf75e-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,22 +213,22 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .tuvac-logo {
+    .bf75e-logo {
       height: 60px;
     }
 
-    .tuvac-search-box {
+    .bf75e-search-box {
       flex: 0 1 150px;
     }
 
-    .tuvac-icons span {
+    .bf75e-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .pzt4r {
+  .z62r3 {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -233,7 +236,7 @@
     max-width: var(--max);
   }
 
-  .pzt4rTitle {
+  .z62r3Title {
     background: linear-gradient(135deg, #333333 0%, #4a4a4a 100%);
     border-radius: 8px;
     color: #fff;
@@ -246,14 +249,14 @@
     border: 2px solid #333333;
   }
 
-  .pzt4rBody {
+  .z62r3Body {
     display: flex;
     min-height: 200px;
     gap: 20px;
     flex-wrap: wrap;
   }
 
-  .pzt4rList {
+  .z62r3List {
     flex: 1;
     min-width: 300px;
     gap: 15px;
@@ -261,7 +264,7 @@
     flex-direction: column;
   }
 
-  .pzt4rListChile {
+  .z62r3ListChile {
     display: flex;
     background-color: #ffffff;
     border-radius: 10px;
@@ -273,12 +276,12 @@
     border: 1px solid #e0e0e0;
   }
 
-  .pzt4rListChile:hover {
+  .z62r3ListChile:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
 
-  .pzt4rListChileImg {
+  .z62r3ListChileImg {
     width: 120px;
     height: 120px;
     background-color: #f8f8f8;
@@ -286,49 +289,49 @@
     overflow: hidden;
   }
 
-  .pzt4rListChileImg>img {
+  .z62r3ListChileImg>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s;
   }
 
-  .pzt4rListChileImg>img:hover {
+  .z62r3ListChileImg>img:hover {
     transform: scale(1.05);
   }
 
-  .pzt4rListChileBody {
+  .z62r3ListChileBody {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 12px;
   }
 
-  .pzt4rListChileBodyTitle {
+  .z62r3ListChileBodyTitle {
     font-size: 1.1em;
     color: #333333;
     font-weight: 500;
   }
 
-  .pzt4rListChileBodySpot {
+  .z62r3ListChileBodySpot {
     color: #666;
     font-size: 0.9em;
   }
 
-  .pzt4rListChileBodyPrice {
+  .z62r3ListChileBodyPrice {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: auto;
   }
 
-  .pzt4rListChileBodyPriceBody {
+  .z62r3ListChileBodyPriceBody {
     font-size: 1.2em;
     font-weight: 600;
     color: #28a745;
   }
 
-  .pzt4rListChileBodyNumber {
+  .z62r3ListChileBodyNumber {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -376,12 +379,12 @@
     transform: scale(1.1);
   }
 
-  .pzt4rTotal {
+  .z62r3Total {
     width: 350px;
     min-width: 300px;
   }
 
-  .pzt4rTotalBody {
+  .z62r3TotalBody {
     background-color: #ffffff;
     border-radius: 10px;
     padding: 20px;
@@ -534,20 +537,20 @@
   }
 
   @media (max-width: 768px) {
-    .pzt4rBody {
+    .z62r3Body {
       flex-direction: column;
     }
 
-    .pzt4rTotal {
+    .z62r3Total {
       width: 100%;
     }
 
-    .pzt4rListChileImg {
+    .z62r3ListChileImg {
       width: 80px;
       height: 80px;
     }
 
-    .pzt4rListChileBodyTitle {
+    .z62r3ListChileBodyTitle {
       font-size: 1em;
     }
 
@@ -564,7 +567,7 @@
   }
 
 
-  .ecs6o-profile {
+  .uovoe-profile {
     background-color: #111;
     padding: 5px;
     border-radius: 5px;
@@ -574,26 +577,26 @@
     gap: 10px;
   }
 
-  .ecs6o-profile>* {
+  .uovoe-profile>* {
     display: flex;
     align-items: center;
   }
 
-  .ecs6o-user-img {
+  .uovoe-user-img {
     border-radius: 100%;
     width: 40px;
     height: 40px;
     background-color: #ffffff;
   }
 
-  .ecs6o {
+  .uovoe {
     width: var(--max);
     display: flex;
     gap: 15px;
     margin: 10px 0px 10px 0px;
   }
 
-  .ecs6o-menu {
+  .uovoe-menu {
     width: 220px;
     padding: 10px;
     background-color: #cd9624;
@@ -604,20 +607,20 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  .ecs6o-menu-title {
+  .uovoe-menu-title {
     font-size: 15px;
     opacity: 0.8;
     color: #fff;
     padding: 5px;
   }
 
-  .ecs6o-menu-category {
+  .uovoe-menu-category {
     display: flex;
     flex-direction: column;
     gap: 2px;
   }
 
-  .ecs6o-menu-category>a {
+  .uovoe-menu-category>a {
     color: #fff;
     padding: 10px;
     cursor: pointer;
@@ -632,13 +635,13 @@
     border-width: 0px 0px 1px 0px;
   }
 
-  .ecs6o-menu-category>a:hover {
+  .uovoe-menu-category>a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     background-color: #202020;
     border-radius: 10px;
   }
 
-  .ecs6o-body {
+  .uovoe-body {
     background-color: #ffffff;
     flex: 1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -649,7 +652,7 @@
     min-height: calc(100vh - 230px);
   }
 
-  .ecs6o-menu-active {
+  .uovoe-menu-active {
     background-color: #202020 !important;
   }
 
@@ -708,7 +711,7 @@
   }
 
 
-  .rknxe-trust-boxes {
+  .w27mg-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -718,7 +721,7 @@
     gap: 0;
   }
 
-  .rknxe-trust-item {
+  .w27mg-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -729,57 +732,57 @@
     gap: 16px;
   }
 
-  .rknxe-trust-item .material-icons {
+  .w27mg-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .rknxe-trust-text {
+  .w27mg-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .rknxe-trust-title {
+  .w27mg-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .rknxe-trust-desc {
+  .w27mg-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .rknxe-trust-boxes {
+    .w27mg-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .rknxe-trust-item {
+    .w27mg-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .rknxe-trust-boxes {
+    .w27mg-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .rknxe-trust-item {
+    .w27mg-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .rknxe-trust-title {
+    .w27mg-trust-title {
       font-size: 16px;
     }
 
-    .rknxe-trust-desc {
+    .w27mg-trust-desc {
       font-size: 13px;
     }
   }

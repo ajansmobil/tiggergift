@@ -8,6 +8,9 @@
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <meta http-equiv="Cache-Control" content="max-age=3600, public" />
+  <meta http-equiv="Pragma" content="cache" />
+  <meta http-equiv="Expires" content="3600" />
   <title>Admin</title>
   <meta name="description" content="" />
   <meta name="keywords" content="" />
@@ -15,12 +18,11 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=tah3c" />
-  <link rel="shortcut icon" href="/img/icon.png?v=tah3c" type="image/png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-    rel="stylesheet" />
+
+
+  <link rel="stylesheet" href="/src/rubik.css" />
+  <link rel="stylesheet" href="/src/css.css?v=hdfib" />
+  <link rel="shortcut icon" href="/img/icon.png?v=hdfib" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -48,33 +50,33 @@
 </script>
 
 
-  <script type="text/javascript" src="/src/firebase.js?v=tah3c"></script>
-<link rel="stylesheet" href="style.css?v=tah3c">
+  <script type="text/javascript" src="/src/firebase.js?v=hdfib"></script>
+<link rel="stylesheet" href="style.css?v=hdfib">
 </head>
 
 <body>
-  <div id="header"><header class="tst2a-header-wrapper">
-  <div class="tst2a-header">
-    <div class="tst2a-header-top">
-      <a href="/tr/" class="tst2a-header-left">
-        <img src="/img/logo.png?v=tah3c" alt="Tiggergift Logo" class="tst2a-logo" />
+  <div id="header"><header class="zoxhn-header-wrapper">
+  <div class="zoxhn-header">
+    <div class="zoxhn-header-top">
+      <a href="/tr/" class="zoxhn-header-left">
+        <img src="/img/logo.png?v=hdfib" alt="Tiggergift Logo" class="zoxhn-logo" />
       </a>
 
-      <div class="tst2a-search-box">
+      <div class="zoxhn-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="tst2a-support-info">
+      <div class="zoxhn-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
-          <strong>+90 342 221 00 02</strong>
+          <strong>0342 343 82 12</strong>
         </div>
       </div>
 
-      <div class="tst2a-icons">
+      <div class="zoxhn-icons">
         <a href="/tr/login/" class="material-symbols-outlined">person</a>
         <a href="/tr/favorilerim/" class="material-symbols-outlined">favorite</a>
         <a href="/tr/basket/" class="material-symbols-outlined">shopping_cart</a>
@@ -82,12 +84,12 @@
     </div>
   </div>
 
-  <div class="tst2a-header-bottom">
-    <div class="tst2a-header-bottom-inner">
-      <button class="tst2a-category-btn">
+  <div class="zoxhn-header-bottom">
+    <div class="zoxhn-header-bottom-inner">
+      <button class="zoxhn-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="tst2a-main-menu"><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/baklava/">Baklava</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/iletisim/">İletişim</a></nav>
+      <nav class="zoxhn-main-menu"><a href="/tr/bakir-mutfak-esyalari/">Bakır Mutfak Eşyaları</a><a href="/tr/bakir-aksesuarlar/">Bakır Aksesuarlar</a><a href="/tr/ehli-keyf/">Ehli Keyf</a><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/iletisim/">İletişim</a></nav>
     </div>
   </div>
 </header>
@@ -103,14 +105,14 @@
 </div>
 
 <!-- Main Content -->
-<div class="vcy3n" id="adminMainContent" style="display: none;">
-  <div class="vcy3n-menu">
-    <a href="/tr/admin/" class="vcy3n-profile">
-      <div class="vcy3n-user-img" id="userAvatar"></div>
+<div class="u9lsu" id="adminMainContent" style="display: none;">
+  <div class="u9lsu-menu">
+    <a href="/tr/admin/" class="u9lsu-profile">
+      <div class="u9lsu-user-img" id="userAvatar"></div>
       <div id="userName">Yükleniyor...</div>
     </a>
-    <div class="vcy3n-menu-category">
-    <a class="vcy3n-menu-active" href="/tr/admin/" >
+    <div class="u9lsu-menu-category">
+    <a class="u9lsu-menu-active" href="/tr/admin/" >
       <span class="material-symbols-outlined">home</span>
       <div>Admin</div>
     </a>
@@ -155,105 +157,105 @@
       <div>Loglar</div>
     </a></div>
   </div>
-  <div class="vcy3n-body"><div class="kvb1y-admin-page">
-    <div class="kvb1y-header">
-        <div class="kvb1y-welcome">
+  <div class="u9lsu-body"><div class="fdqkb-admin-page">
+    <div class="fdqkb-header">
+        <div class="fdqkb-welcome">
             <h1>Hoş Geldiniz, Admin</h1>
             <p>Bugün</p>
         </div>
-        <div class="kvb1y-quick-actions">
-            <button class="kvb1y-btn kvb1y-btn-primary" data-action="add_product">
+        <div class="fdqkb-quick-actions">
+            <button class="fdqkb-btn fdqkb-btn-primary" data-action="add_product">
                 <span class="material-symbols-outlined">add</span>
                 Yeni Ürün
             </button>
-            <button class="kvb1y-btn kvb1y-btn-secondary" data-action="view_orders">
+            <button class="fdqkb-btn fdqkb-btn-secondary" data-action="view_orders">
                 <span class="material-symbols-outlined">shopping_cart</span>
                 Siparişleri Gör
             </button>
         </div>
     </div>
 
-    <div class="kvb1y-stats-grid">
-        <div class="kvb1y-stat-card kvb1y-stat-orders">
-            <div class="kvb1y-stat-icon">
+    <div class="fdqkb-stats-grid">
+        <div class="fdqkb-stat-card fdqkb-stat-orders">
+            <div class="fdqkb-stat-icon">
                 <span class="material-symbols-outlined">shopping_bag</span>
             </div>
-            <div class="kvb1y-stat-content">
-                <div class="kvb1y-stat-number" data-stat="new_orders">12</div>
-                <div class="kvb1y-stat-label">Yeni Siparişler</div>
-                <div class="kvb1y-stat-change kvb1y-stat-positive" data-stat="orders_change">+8%
+            <div class="fdqkb-stat-content">
+                <div class="fdqkb-stat-number" data-stat="new_orders">12</div>
+                <div class="fdqkb-stat-label">Yeni Siparişler</div>
+                <div class="fdqkb-stat-change fdqkb-stat-positive" data-stat="orders_change">+8%
                 </div>
             </div>
         </div>
 
-        <div class="kvb1y-stat-card kvb1y-stat-revenue">
-            <div class="kvb1y-stat-icon">
+        <div class="fdqkb-stat-card fdqkb-stat-revenue">
+            <div class="fdqkb-stat-icon">
                 <span class="material-symbols-outlined">trending_up</span>
             </div>
-            <div class="kvb1y-stat-content">
-                <div class="kvb1y-stat-number" data-stat="today_revenue">₺15,420</div>
-                <div class="kvb1y-stat-label">Bugünkü Gelir</div>
-                <div class="kvb1y-stat-change kvb1y-stat-positive" data-stat="revenue_change">+12%
+            <div class="fdqkb-stat-content">
+                <div class="fdqkb-stat-number" data-stat="today_revenue">₺15,420</div>
+                <div class="fdqkb-stat-label">Bugünkü Gelir</div>
+                <div class="fdqkb-stat-change fdqkb-stat-positive" data-stat="revenue_change">+12%
                 </div>
             </div>
         </div>
 
-        <div class="kvb1y-stat-card kvb1y-stat-stock">
-            <div class="kvb1y-stat-icon">
+        <div class="fdqkb-stat-card fdqkb-stat-stock">
+            <div class="fdqkb-stat-icon">
                 <span class="material-symbols-outlined">inventory</span>
             </div>
-            <div class="kvb1y-stat-content">
-                <div class="kvb1y-stat-number" data-stat="low_stock_count">3</div>
-                <div class="kvb1y-stat-label">Düşük Stok</div>
-                <div class="kvb1y-stat-change kvb1y-stat-warning">Dikkat</div>
+            <div class="fdqkb-stat-content">
+                <div class="fdqkb-stat-number" data-stat="low_stock_count">3</div>
+                <div class="fdqkb-stat-label">Düşük Stok</div>
+                <div class="fdqkb-stat-change fdqkb-stat-warning">Dikkat</div>
             </div>
         </div>
 
-        <div class="kvb1y-stat-card kvb1y-stat-customers">
-            <div class="kvb1y-stat-icon">
+        <div class="fdqkb-stat-card fdqkb-stat-customers">
+            <div class="fdqkb-stat-icon">
                 <span class="material-symbols-outlined">group</span>
             </div>
-            <div class="kvb1y-stat-content">
-                <div class="kvb1y-stat-number" data-stat="new_customers">8</div>
-                <div class="kvb1y-stat-label">Yeni Müşteriler</div>
-                <div class="kvb1y-stat-change kvb1y-stat-positive" data-stat="customers_change">
+            <div class="fdqkb-stat-content">
+                <div class="fdqkb-stat-number" data-stat="new_customers">8</div>
+                <div class="fdqkb-stat-label">Yeni Müşteriler</div>
+                <div class="fdqkb-stat-change fdqkb-stat-positive" data-stat="customers_change">
                     +15%</div>
             </div>
         </div>
     </div>
 
-    <div class="kvb1y-content-grid">
-        <div class="kvb1y-recent-orders">
-            <div class="kvb1y-section-header">
+    <div class="fdqkb-content-grid">
+        <div class="fdqkb-recent-orders">
+            <div class="fdqkb-section-header">
                 <h3>Son Siparişler</h3>
-                <a href="#" class="kvb1y-view-all" data-section="orders">Tümünü Gör</a>
+                <a href="#" class="fdqkb-view-all" data-section="orders">Tümünü Gör</a>
             </div>
-            <div class="kvb1y-orders-list">
+            <div class="fdqkb-orders-list">
                 <!-- Dinamik içerik -->
             </div>
         </div>
 
-        <div class="kvb1y-stock-alerts">
-            <div class="kvb1y-section-header">
+        <div class="fdqkb-stock-alerts">
+            <div class="fdqkb-section-header">
                 <h3>Stok Uyarıları</h3>
-                <a href="#" class="kvb1y-view-all" data-section="stock">Tümünü Gör</a>
+                <a href="#" class="fdqkb-view-all" data-section="stock">Tümünü Gör</a>
             </div>
-            <div class="kvb1y-stock-list">
+            <div class="fdqkb-stock-list">
                 <!-- Dinamik içerik -->
             </div>
         </div>
     </div>
 
-    <div class="kvb1y-chart-section">
-        <div class="kvb1y-section-header">
+    <div class="fdqkb-chart-section">
+        <div class="fdqkb-section-header">
             <h3>Satış Grafiği</h3>
-            <div class="kvb1y-chart-periods">
-                <button class="kvb1y-period-btn kvb1y-period-active" data-period="7">7 Gün</button>
-                <button class="kvb1y-period-btn" data-period="30">30 Gün</button>
-                <button class="kvb1y-period-btn" data-period="90">3 Ay</button>
+            <div class="fdqkb-chart-periods">
+                <button class="fdqkb-period-btn fdqkb-period-active" data-period="7">7 Gün</button>
+                <button class="fdqkb-period-btn" data-period="30">30 Gün</button>
+                <button class="fdqkb-period-btn" data-period="90">3 Ay</button>
             </div>
         </div>
-        <div class="kvb1y-chart-container">
+        <div class="fdqkb-chart-container">
             <canvas id="salesChart" width="400" height="200"></canvas>
         </div>
     </div>
@@ -531,28 +533,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="ohivn-trust-boxes">
-      <div class="ohivn-trust-item">
+<div class="mnu4w-trust-boxes">
+      <div class="mnu4w-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="ohivn-trust-text">
-          <div class="ohivn-trust-title">100% Güvenli Ödeme</div>
-          <div class="ohivn-trust-desc">3D Secure ile Güvenli Ödeme</div>
+        <div class="mnu4w-trust-text">
+          <div class="mnu4w-trust-title">100% Güvenli Ödeme</div>
+          <div class="mnu4w-trust-desc">3D Secure ile Güvenli Ödeme</div>
         </div>
       </div>
     
-      <div class="ohivn-trust-item">
+      <div class="mnu4w-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="ohivn-trust-text">
-          <div class="ohivn-trust-title">%100 Orijinal Ürün</div>
-          <div class="ohivn-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
+        <div class="mnu4w-trust-text">
+          <div class="mnu4w-trust-title">%100 Orijinal Ürün</div>
+          <div class="mnu4w-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
         </div>
       </div>
     
-      <div class="ohivn-trust-item">
+      <div class="mnu4w-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="ohivn-trust-text">
-          <div class="ohivn-trust-title">Hızlı Teslimat</div>
-          <div class="ohivn-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
+        <div class="mnu4w-trust-text">
+          <div class="mnu4w-trust-title">Hızlı Teslimat</div>
+          <div class="mnu4w-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
         </div>
       </div>
     </div>
@@ -598,7 +600,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/urunlerimiz">Kampanyalı</a></li><li class="menu__item"><a class="menu__link" href="/tr/baklava">Baklava</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/yerelurunler">Yerel Ürünler</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
+    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/bakir-mutfak-esyalari">Bakır Mutfak Eşyaları</a></li><li class="menu__item"><a class="menu__link" href="/tr/bakir-aksesuarlar">Bakır Aksesuarlar</a></li><li class="menu__item"><a class="menu__link" href="/tr/ehli-keyf">Ehli Keyf</a></li><li class="menu__item"><a class="menu__link" href="/tr/urunlerimiz">Kampanyalı</a></li><li class="menu__item"><a class="menu__link" href="/tr/yerelurunler">Yerel Ürünler</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
   </ul>
   <p>Tiggergift 2025 cognite. &copy;</p>
 </footer>
@@ -634,7 +636,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=tah3c"></script>
-<script src="/src/cookie.js?v=tah3c"></script>
+<script type="text/javascript" src="/src/js.js?v=hdfib"></script>
+<script src="/src/cookie.js?v=hdfib"></script>
 
 </html>

@@ -1,10 +1,10 @@
 
-  .pfchm-header-wrapper {
+  .zwz0x-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .pfchm-header {
+  .zwz0x-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .pfchm-logo {
+  .zwz0x-logo {
     height: 80px;
   }
 
-  .pfchm-header-top {
+  .zwz0x-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .pfchm-search-box {
+  .zwz0x-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .pfchm-search-box span {
+  .zwz0x-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .pfchm-search-box input {
+  .zwz0x-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .pfchm-search-box button {
+  .zwz0x-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .pfchm-search-box button:hover {
+  .zwz0x-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .pfchm-support-info {
+  .zwz0x-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .pfchm-support-info span {
+  .zwz0x-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .pfchm-support-info small {
+  .zwz0x-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .pfchm-support-info strong {
+  .zwz0x-support-info strong {
     font-size: 16px;
   }
 
-  .pfchm-icons {
+  .zwz0x-icons {
     display: flex;
     gap: 10px;
   }
 
-  .pfchm-icons span {
+  .zwz0x-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .pfchm-icons span:hover {
+  .zwz0x-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,20 +111,21 @@
     cursor: pointer;
   }
 
-  .pfchm-header-bottom {
+  .zwz0x-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .pfchm-header-bottom-inner {
-    max-width: 1200px;
+  .zwz0x-header-bottom-inner {
+    width: var(--max);
     margin: auto;
     padding: 14px 30px;
     display: flex;
     align-items: center;
+    gap: 20px;
   }
 
-  .pfchm-category-btn {
+  .zwz0x-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +137,74 @@
     font-weight: 500;
   }
 
-  .pfchm-main-menu {
+  .zwz0x-main-menu {
     display: flex;
-    gap: 20px;
-    margin-left: 30px;
+    gap: 10px;
   }
 
-  .pfchm-main-menu a {
-    color: white;
+  .zwz0x-main-menu a {
+    color: black;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
   }
 
-  .pfchm-main-menu a:hover {
-    color: #238b23;
+  .zwz0x-main-menu a:hover {
+    background-color: #238b23;
+    color: white;
   }
 
-  .pfchm-menulistactive {
+  .zwz0x-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .pfchm-header-top {
+    .zwz0x-header-top {
       gap: 20px;
     }
 
-    .pfchm-search-box {
+    .zwz0x-search-box {
       margin: 0 10px;
     }
 
-    .pfchm-support-info strong {
+    .zwz0x-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .pfchm-header {
+    .zwz0x-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .pfchm-header-top {
+    .zwz0x-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .pfchm-search-box {
+    .zwz0x-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .pfchm-support-info {
+    .zwz0x-support-info {
       display: none;
     }
 
-    .pfchm-header-bottom-inner {
+    .zwz0x-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .pfchm-main-menu {
+    .zwz0x-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,15 +213,15 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .pfchm-logo {
+    .zwz0x-logo {
       height: 60px;
     }
 
-    .pfchm-search-box {
+    .zwz0x-search-box {
       flex: 0 1 150px;
     }
 
-    .pfchm-icons span {
+    .zwz0x-icons span {
       padding: 8px;
       font-size: 18px;
     }
@@ -467,7 +470,7 @@
   }
 
 
-  .ros0rbody {
+  .cd3pobody {
     margin: 10px 0px 10px 0px;
     width: 100%;
     height: 100%;
@@ -475,14 +478,14 @@
     justify-content: center;
     align-items: center;
   }
-  .ros0r {
+  .cd3po {
     width: var(--max);
   }
-  .ros0r > img {
+  .cd3po > img {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .ros0r {
+    .cd3po {
       width: 100%;
     }
   }
@@ -681,7 +684,7 @@
   }
 
 
-  .ghuls-trust-boxes {
+  .won7g-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -691,7 +694,7 @@
     gap: 0;
   }
 
-  .ghuls-trust-item {
+  .won7g-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -702,57 +705,57 @@
     gap: 16px;
   }
 
-  .ghuls-trust-item .material-icons {
+  .won7g-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .ghuls-trust-text {
+  .won7g-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .ghuls-trust-title {
+  .won7g-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .ghuls-trust-desc {
+  .won7g-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .ghuls-trust-boxes {
+    .won7g-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .ghuls-trust-item {
+    .won7g-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .ghuls-trust-boxes {
+    .won7g-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .ghuls-trust-item {
+    .won7g-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .ghuls-trust-title {
+    .won7g-trust-title {
       font-size: 16px;
     }
 
-    .ghuls-trust-desc {
+    .won7g-trust-desc {
       font-size: 13px;
     }
   }

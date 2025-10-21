@@ -8,6 +8,9 @@
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <meta http-equiv="Cache-Control" content="max-age=3600, public" />
+  <meta http-equiv="Pragma" content="cache" />
+  <meta http-equiv="Expires" content="3600" />
   <title>Raporlar</title>
   <meta name="description" content="" />
   <meta name="keywords" content="" />
@@ -15,12 +18,11 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=eu7qf" />
-  <link rel="shortcut icon" href="/img/icon.png?v=eu7qf" type="image/png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-    rel="stylesheet" />
+
+
+  <link rel="stylesheet" href="/src/rubik.css" />
+  <link rel="stylesheet" href="/src/css.css?v=aesgo" />
+  <link rel="shortcut icon" href="/img/icon.png?v=aesgo" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -48,33 +50,33 @@
 </script>
 
 
-  <script type="text/javascript" src="/src/firebase.js?v=eu7qf"></script>
-<link rel="stylesheet" href="style.css?v=eu7qf">
+  <script type="text/javascript" src="/src/firebase.js?v=aesgo"></script>
+<link rel="stylesheet" href="style.css?v=aesgo">
 </head>
 
 <body>
-  <div id="header"><header class="esynb-header-wrapper">
-  <div class="esynb-header">
-    <div class="esynb-header-top">
-      <a href="/tr/" class="esynb-header-left">
-        <img src="/img/logo.png?v=eu7qf" alt="Tiggergift Logo" class="esynb-logo" />
+  <div id="header"><header class="r6go3-header-wrapper">
+  <div class="r6go3-header">
+    <div class="r6go3-header-top">
+      <a href="/tr/" class="r6go3-header-left">
+        <img src="/img/logo.png?v=aesgo" alt="Tiggergift Logo" class="r6go3-logo" />
       </a>
 
-      <div class="esynb-search-box">
+      <div class="r6go3-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="esynb-support-info">
+      <div class="r6go3-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
-          <strong>+90 342 221 00 02</strong>
+          <strong>0342 343 82 12</strong>
         </div>
       </div>
 
-      <div class="esynb-icons">
+      <div class="r6go3-icons">
         <a href="/tr/login/" class="material-symbols-outlined">person</a>
         <a href="/tr/favorilerim/" class="material-symbols-outlined">favorite</a>
         <a href="/tr/basket/" class="material-symbols-outlined">shopping_cart</a>
@@ -82,12 +84,12 @@
     </div>
   </div>
 
-  <div class="esynb-header-bottom">
-    <div class="esynb-header-bottom-inner">
-      <button class="esynb-category-btn">
+  <div class="r6go3-header-bottom">
+    <div class="r6go3-header-bottom-inner">
+      <button class="r6go3-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="esynb-main-menu"><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/baklava/">Baklava</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/iletisim/">İletişim</a></nav>
+      <nav class="r6go3-main-menu"><a href="/tr/bakir-mutfak-esyalari/">Bakır Mutfak Eşyaları</a><a href="/tr/bakir-aksesuarlar/">Bakır Aksesuarlar</a><a href="/tr/ehli-keyf/">Ehli Keyf</a><a href="/tr/urunlerimiz/">Kampanyalı</a><a href="/tr/yerelurunler/">Yerel Ürünler</a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/iletisim/">İletişim</a></nav>
     </div>
   </div>
 </header>
@@ -103,13 +105,13 @@
 </div>
 
 <!-- Main Content -->
-<div class="rmfwn" id="adminMainContent" style="display: none;">
-  <div class="rmfwn-menu">
-    <a href="/tr/admin/" class="rmfwn-profile">
-      <div class="rmfwn-user-img" id="userAvatar"></div>
+<div class="gae92" id="adminMainContent" style="display: none;">
+  <div class="gae92-menu">
+    <a href="/tr/admin/" class="gae92-profile">
+      <div class="gae92-user-img" id="userAvatar"></div>
       <div id="userName">Yükleniyor...</div>
     </a>
-    <div class="rmfwn-menu-category">
+    <div class="gae92-menu-category">
     <a href="/tr/admin/" >
       <span class="material-symbols-outlined">home</span>
       <div>Admin</div>
@@ -142,7 +144,7 @@
       <span class="material-symbols-outlined">payment</span>
       <div>Ödemeler</div>
     </a>
-    <a class="rmfwn-menu-active" href="/tr/raporlar/" >
+    <a class="gae92-menu-active" href="/tr/raporlar/" >
       <span class="material-symbols-outlined">analytics</span>
       <div>Raporlar</div>
     </a>
@@ -155,19 +157,19 @@
       <div>Loglar</div>
     </a></div>
   </div>
-  <div class="rmfwn-body"><div class="c0cx3-admin-raporlar">
+  <div class="gae92-body"><div class="ue61n-admin-raporlar">
     <!-- Sayfa Başlığı -->
-    <div class="c0cx3-page-header">
-        <div class="c0cx3-header-left">
+    <div class="ue61n-page-header">
+        <div class="ue61n-header-left">
             <h1>Rapor Yönetimi</h1>
-            <p class="c0cx3-header-subtitle">
+            <p class="ue61n-header-subtitle">
                 <span class="material-symbols-outlined">analytics</span>
                 Raporları görüntüleyin ve analiz edin
             </p>
         </div>
-        <div class="c0cx3-header-right">
-            <div class="c0cx3-header-actions">
-                <button class="c0cx3-btn c0cx3-btn-primary" onclick="loadReports()">
+        <div class="ue61n-header-right">
+            <div class="ue61n-header-actions">
+                <button class="ue61n-btn ue61n-btn-primary" onclick="loadReports()">
                     <span class="material-symbols-outlined">refresh</span>
                     Yenile
                 </button>
@@ -176,8 +178,8 @@
     </div>
 
     <!-- Rapor Tablosu -->
-    <div class="c0cx3-reports-table-container">
-        <div class="c0cx3-reports-table">
+    <div class="ue61n-reports-table-container">
+        <div class="ue61n-reports-table">
             <table>
                 <thead>
                     <tr>
@@ -198,8 +200,8 @@
     </div>
 
     <!-- Demo Veri Ekleme Butonu -->
-    <div class="c0cx3-demo-section">
-        <button class="c0cx3-btn c0cx3-btn-success" onclick="addDemoReports()">
+    <div class="ue61n-demo-section">
+        <button class="ue61n-btn ue61n-btn-success" onclick="addDemoReports()">
             <span class="material-symbols-outlined">add</span>
             Demo Veri Ekle
         </button>
@@ -244,8 +246,8 @@
                     <td>${report.period}</td>
                     <td><span class="status-badge">${report.status}</span></td>
                     <td>
-                        <button class="c0cx3-btn c0cx3-btn-sm" onclick="viewReport('${doc.id}')">Görüntüle</button>
-                        <button class="c0cx3-btn c0cx3-btn-sm" onclick="downloadReport('${doc.id}')">İndir</button>
+                        <button class="ue61n-btn ue61n-btn-sm" onclick="viewReport('${doc.id}')">Görüntüle</button>
+                        <button class="ue61n-btn ue61n-btn-sm" onclick="downloadReport('${doc.id}')">İndir</button>
                     </td>
                 `;
 
@@ -258,7 +260,7 @@
                 <tr>
                     <td colspan="5" style="text-align: center; padding: 40px; color: #dc3545;">
                         <div style="font-size: 16px; margin-bottom: 10px;">Veriler yüklenirken hata oluştu</div>
-                        <button class="c0cx3-btn c0cx3-btn-primary" onclick="loadReports()">
+                        <button class="ue61n-btn ue61n-btn-primary" onclick="loadReports()">
                             <span class="material-symbols-outlined">refresh</span>
                             Tekrar Dene
                         </button>
@@ -562,28 +564,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="kv3ai-trust-boxes">
-      <div class="kv3ai-trust-item">
+<div class="aoj7z-trust-boxes">
+      <div class="aoj7z-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="kv3ai-trust-text">
-          <div class="kv3ai-trust-title">100% Güvenli Ödeme</div>
-          <div class="kv3ai-trust-desc">3D Secure ile Güvenli Ödeme</div>
+        <div class="aoj7z-trust-text">
+          <div class="aoj7z-trust-title">100% Güvenli Ödeme</div>
+          <div class="aoj7z-trust-desc">3D Secure ile Güvenli Ödeme</div>
         </div>
       </div>
     
-      <div class="kv3ai-trust-item">
+      <div class="aoj7z-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="kv3ai-trust-text">
-          <div class="kv3ai-trust-title">%100 Orijinal Ürün</div>
-          <div class="kv3ai-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
+        <div class="aoj7z-trust-text">
+          <div class="aoj7z-trust-title">%100 Orijinal Ürün</div>
+          <div class="aoj7z-trust-desc">%100 Lisanslı Orijinal Ürün ile Etkinleştirme</div>
         </div>
       </div>
     
-      <div class="kv3ai-trust-item">
+      <div class="aoj7z-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="kv3ai-trust-text">
-          <div class="kv3ai-trust-title">Hızlı Teslimat</div>
-          <div class="kv3ai-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
+        <div class="aoj7z-trust-text">
+          <div class="aoj7z-trust-title">Hızlı Teslimat</div>
+          <div class="aoj7z-trust-desc">Tüm Alışverişlerinizde Online Hızlı Teslimat</div>
         </div>
       </div>
     </div>
@@ -629,7 +631,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/urunlerimiz">Kampanyalı</a></li><li class="menu__item"><a class="menu__link" href="/tr/baklava">Baklava</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/yerelurunler">Yerel Ürünler</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
+    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/bakir-mutfak-esyalari">Bakır Mutfak Eşyaları</a></li><li class="menu__item"><a class="menu__link" href="/tr/bakir-aksesuarlar">Bakır Aksesuarlar</a></li><li class="menu__item"><a class="menu__link" href="/tr/ehli-keyf">Ehli Keyf</a></li><li class="menu__item"><a class="menu__link" href="/tr/urunlerimiz">Kampanyalı</a></li><li class="menu__item"><a class="menu__link" href="/tr/yerelurunler">Yerel Ürünler</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
   </ul>
   <p>Tiggergift 2025 cognite. &copy;</p>
 </footer>
@@ -665,7 +667,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=eu7qf"></script>
-<script src="/src/cookie.js?v=eu7qf"></script>
+<script type="text/javascript" src="/src/js.js?v=aesgo"></script>
+<script src="/src/cookie.js?v=aesgo"></script>
 
 </html>

@@ -12,7 +12,8 @@
         "urlsepet": "sepet",
         "page": "page",
         "menu-color": "#cd9624",
-        "menu-color-2": "#238B23"
+        "menu-color-2": "#238B23",
+        "phone": "0342 343 82 12"
       },
       "id": "khxvq5"
     },
@@ -29,7 +30,9 @@
         "imgwidth": "250px"
       },
       "data": [],
-      "id": "neapu8"
+      "id": "neapu8",
+      "version": "1.0.0",
+      "icon": "web_asset"
     },
     {
       "name": "E-ticaret Alt",
@@ -161,7 +164,9 @@
           "img": "03.jpg"
         }
       ],
-      "id": "libe6f"
+      "id": "libe6f",
+      "version": "1.0.0",
+      "icon": "view_carousel"
     },
     {
       "index": 4,
@@ -293,7 +298,9 @@
           "en": "You are already logged in!"
         }
       },
-      "id": "d28lp7"
+      "id": "d28lp7",
+      "version": "1.0.0",
+      "icon": "login"
     },
     {
       "index": 5,
@@ -325,7 +332,9 @@
         "img": "reklam.webp",
         "margin": "10px 0px 10px 0px"
       },
-      "id": "yt7snl"
+      "id": "yt7snl",
+      "version": "1.0.0",
+      "icon": "image"
     },
     {
       "index": 7,
@@ -339,7 +348,9 @@
         "font-size": "50",
         "backgroundcolor": "#000"
       },
-      "id": "pw78dc"
+      "id": "pw78dc",
+      "version": "1.0.0",
+      "icon": "web"
     },
     {
       "index": 8,
@@ -380,7 +391,9 @@
           "text": "Binevler Mah Şehit Ali Akarsu Sk No:25 / 1 Şahinbey / Gaziantep"
         }
       ],
-      "id": "cl635i"
+      "id": "cl635i",
+      "version": "1.0.0",
+      "icon": "contact_mail"
     },
     {
       "index": 9,
@@ -395,7 +408,9 @@
         "backgroundcolor": "#000",
         "category": "kurumsal"
       },
-      "id": "bjf04r"
+      "id": "bjf04r",
+      "version": "1.0.0",
+      "icon": "web"
     },
     {
       "name": "WhatsApp",
@@ -415,7 +430,9 @@
       },
       "data": [],
       "id": "d4xgxu",
-      "index": 10
+      "index": 10,
+      "version": "1.0.0",
+      "icon": "chat"
     },
     {
       "index": 11,
@@ -439,7 +456,9 @@
           "page": "admin"
         }
       ],
-      "id": "j2qy7w"
+      "id": "j2qy7w",
+      "version": "1.0.0",
+      "icon": "dashboard_customize"
     },
     {
       "index": 12,
@@ -534,11 +553,8 @@
         ]
       },
       "id": "vxisul",
-      "description": "E-ticaret admin sayfası ana dashboard modülü",
       "version": "1.0.0",
-      "icon": "dashboard",
-      "type": "module",
-      "author": "Code Matrix"
+      "icon": "dashboard"
     },
     {
       "index": 13,
@@ -727,11 +743,8 @@
         }
       },
       "id": "w1s72w",
-      "description": "E-ticaret admin paneli sipariş yönetimi modülü",
       "version": "1.0.0",
-      "icon": "shopping_cart",
-      "type": "module",
-      "author": "Code Matrix"
+      "icon": "shopping_cart"
     },
     {
       "index": 14,
@@ -811,11 +824,8 @@
         }
       },
       "id": "okm6a1",
-      "description": "E-ticaret sepet modülü",
       "version": "1.0.0",
-      "icon": "shopping_cart",
-      "type": "module",
-      "author": "Code Matrix"
+      "icon": "shopping_cart"
     },
     {
       "index": 15,
@@ -839,7 +849,9 @@
           "page": "user"
         }
       ],
-      "id": "hrd5qp"
+      "id": "hrd5qp",
+      "version": "1.0.0",
+      "icon": "dashboard_customize"
     },
     {
       "index": 16,
@@ -848,11 +860,8 @@
       "local": "body",
       "category": "e-commerce",
       "id": "cl6l1n",
-      "description": "E-ticaret adres modülü",
       "version": "1.0.0",
       "icon": "location_on",
-      "type": "module",
-      "author": "Code Matrix",
       "desing": {
         "color": "#333333",
         "bgcolor": "#ffffff",
@@ -896,11 +905,8 @@
       "local": "body",
       "category": "e-commerce",
       "id": "dw4wvd",
-      "description": "E-ticaret bildirim modülü",
       "version": "1.0.0",
       "icon": "notifications",
-      "type": "module",
-      "author": "Code Matrix",
       "desing": {
         "color": "#333333",
         "bgcolor": "#ffffff",
@@ -936,11 +942,8 @@
       "local": "body",
       "category": "e-commerce",
       "id": "qx9m0l",
-      "description": "E-ticaret değerlendirme modülü",
       "version": "1.0.0",
       "icon": "rate_review",
-      "type": "module",
-      "author": "Code Matrix",
       "desing": {
         "color": "#333333",
         "bgcolor": "#ffffff",
@@ -980,11 +983,8 @@
       "local": "body",
       "category": "e-commerce",
       "id": "cnxoum",
-      "description": "E-ticaret fatura modülü",
       "version": "1.0.0",
       "icon": "receipt",
-      "type": "module",
-      "author": "Code Matrix",
       "desing": {
         "color": "#333333",
         "bgcolor": "#ffffff",
@@ -1020,11 +1020,8 @@
       "local": "body",
       "category": "e-commerce",
       "id": "e1pysr",
-      "description": "E-ticaret favori ürünler modülü",
       "version": "1.0.0",
       "icon": "favorite",
-      "type": "module",
-      "author": "Code Matrix",
       "desing": {
         "color": "#333333",
         "bgcolor": "#ffffff",
@@ -1056,11 +1053,8 @@
       "local": "body",
       "category": "e-commerce",
       "id": "a030h0",
-      "description": "E-ticaret iade modülü",
       "version": "1.0.0",
       "icon": "swap_horiz",
-      "type": "module",
-      "author": "Code Matrix",
       "desing": {
         "color": "#333333",
         "bgcolor": "#ffffff",
@@ -1108,11 +1102,8 @@
       "local": "body",
       "category": "e-commerce",
       "id": "hp120i",
-      "description": "E-ticaret kredi kartı modülü",
       "version": "1.0.0",
       "icon": "credit_card",
-      "type": "module",
-      "author": "Code Matrix",
       "desing": {
         "color": "#333333",
         "bgcolor": "#ffffff",
@@ -1152,11 +1143,8 @@
       "local": "body",
       "category": "e-commerce",
       "id": "uc8pqi",
-      "description": "E-ticaret mesajlaşma modülü",
       "version": "1.0.0",
       "icon": "chat",
-      "type": "module",
-      "author": "Code Matrix",
       "desing": {
         "color": "#333333",
         "bgcolor": "#ffffff",
@@ -1196,11 +1184,8 @@
       "local": "body",
       "category": "e-commerce",
       "id": "bmfzrv",
-      "description": "E-ticaret sipariş modülü",
       "version": "1.0.0",
       "icon": "shopping_bag",
-      "type": "module",
-      "author": "Code Matrix",
       "desing": {
         "color": "#333333",
         "bgcolor": "#ffffff",
@@ -1256,11 +1241,8 @@
       "local": "body",
       "category": "e-commerce",
       "id": "tfozdv",
-      "description": "E-ticaret kullanıcı bilgileri modülü",
       "version": "1.0.0",
       "icon": "person",
-      "type": "module",
-      "author": "Code Matrix",
       "desing": {
         "color": "#333333",
         "bgcolor": "#ffffff",
@@ -1308,11 +1290,8 @@
       "local": "body",
       "category": "e-commerce",
       "id": "emy3c0",
-      "description": "E-ticaret kupon modülü",
       "version": "1.0.0",
       "icon": "local_offer",
-      "type": "module",
-      "author": "Code Matrix",
       "desing": {
         "color": "#333333",
         "bgcolor": "#ffffff",
@@ -1352,11 +1331,8 @@
       "local": "body",
       "category": "e-commerce",
       "id": "c4vuhb",
-      "description": "E-ticaret iletişim tercihleri modülü",
       "version": "1.0.0",
       "icon": "notifications_active",
-      "type": "module",
-      "author": "Code Matrix",
       "desing": {
         "color": "#333333",
         "bgcolor": "#ffffff",
@@ -1400,11 +1376,8 @@
       "local": "body",
       "category": "e-commerce",
       "id": "s4ja3q",
-      "description": "E-ticaret cüzdan modülü",
       "version": "1.0.0",
       "icon": "account_balance_wallet",
-      "type": "module",
-      "author": "Code Matrix",
       "desing": {
         "color": "#333333",
         "bgcolor": "#ffffff",
@@ -1457,11 +1430,8 @@
       "local": "body",
       "category": "e-commerce",
       "id": "qz47g7",
-      "description": "E-ticaret destek modülü",
       "version": "1.0.0",
       "icon": "support",
-      "type": "module",
-      "author": "Code Matrix",
       "desing": {
         "color": "#333333",
         "bgcolor": "#ffffff",
@@ -1660,11 +1630,8 @@
         }
       },
       "id": "ulej43",
-      "description": "E-ticaret ödeme modülü",
       "version": "1.0.0",
-      "icon": "payment",
-      "type": "module",
-      "author": "Code Matrix"
+      "icon": "payment"
     },
     {
       "index": 31,
@@ -1699,11 +1666,8 @@
         }
       },
       "id": "admin_urunler_31",
-      "description": "E-ticaret admin paneli ürün yönetimi modülü",
       "version": "1.0.0",
       "icon": "inventory_2",
-      "type": "module",
-      "author": "Code Matrix",
       "data": {
         "product_statuses": [
           {
@@ -1922,11 +1886,8 @@
         }
       },
       "id": "admin_kategoriler_32",
-      "description": "E-ticaret admin paneli kategori yönetimi modülü",
       "version": "1.0.0",
-      "icon": "category",
-      "type": "module",
-      "author": "Code Matrix"
+      "icon": "category"
     },
     {
       "index": 33,
@@ -1957,11 +1918,8 @@
         }
       },
       "id": "admin_musteriler_33",
-      "description": "E-ticaret admin paneli müşteri yönetimi modülü",
       "version": "1.0.0",
-      "icon": "people",
-      "type": "module",
-      "author": "Code Matrix"
+      "icon": "people"
     },
     {
       "index": 34,
@@ -2164,11 +2122,8 @@
         }
       },
       "id": "admin_kampanyalar_34",
-      "description": "E-ticaret admin paneli kampanya yönetimi modülü",
       "version": "1.0.0",
-      "icon": "campaign",
-      "type": "module",
-      "author": "Code Matrix"
+      "icon": "campaign"
     },
     {
       "index": 35,
@@ -2227,11 +2182,8 @@
         }
       },
       "id": "admin_odemeler_35",
-      "description": "E-ticaret admin paneli ödeme yönetimi modülü",
       "version": "1.0.0",
-      "icon": "payment",
-      "type": "module",
-      "author": "Code Matrix"
+      "icon": "payment"
     },
     {
       "index": 36,
@@ -2286,11 +2238,8 @@
         }
       },
       "id": "admin_raporlar_36",
-      "description": "E-ticaret admin paneli rapor yönetimi modülü",
       "version": "1.0.0",
-      "icon": "analytics",
-      "type": "module",
-      "author": "Code Matrix"
+      "icon": "analytics"
     },
     {
       "index": 37,
@@ -2345,11 +2294,8 @@
         }
       },
       "id": "admin_moduller_37",
-      "description": "E-ticaret admin paneli modül yönetimi modülü",
       "version": "1.0.0",
-      "icon": "extension",
-      "type": "module",
-      "author": "Code Matrix"
+      "icon": "extension"
     },
     {
       "index": 38,
@@ -2408,11 +2354,8 @@
         }
       },
       "id": "admin_uyeler_38",
-      "description": "E-ticaret admin paneli üye yönetimi modülü",
       "version": "1.0.0",
-      "icon": "people",
-      "type": "module",
-      "author": "Code Matrix"
+      "icon": "people"
     },
     {
       "index": 39,
@@ -2463,11 +2406,8 @@
         }
       },
       "id": "admin_ayarlar_39",
-      "description": "E-ticaret admin paneli ayar yönetimi modülü",
       "version": "1.0.0",
-      "icon": "settings",
-      "type": "module",
-      "author": "Code Matrix"
+      "icon": "settings"
     },
     {
       "index": 40,
@@ -2522,11 +2462,8 @@
         }
       },
       "id": "admin_loglar_40",
-      "description": "E-ticaret admin paneli log yönetimi modülü",
       "version": "1.0.0",
-      "icon": "history",
-      "type": "module",
-      "author": "Code Matrix"
+      "icon": "history"
     }
   ]
 }

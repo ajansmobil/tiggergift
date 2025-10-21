@@ -8,6 +8,9 @@
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <meta http-equiv="Cache-Control" content="max-age=3600, public" />
+  <meta http-equiv="Pragma" content="cache" />
+  <meta http-equiv="Expires" content="3600" />
   <title></title>
   <meta name="description" content="undefined" />
   <meta name="keywords" content="undefined" />
@@ -15,12 +18,11 @@
   <meta property="og:description" content="undefined" />
   <meta property="og:image" content="https://tiggergift.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=wbui2" />
-  <link rel="shortcut icon" href="/img/icon.png?v=wbui2" type="image/png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-    rel="stylesheet" />
+
+
+  <link rel="stylesheet" href="/src/rubik.css" />
+  <link rel="stylesheet" href="/src/css.css?v=pefel" />
+  <link rel="shortcut icon" href="/img/icon.png?v=pefel" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -48,33 +50,33 @@
 </script>
 
 
-  <script type="text/javascript" src="/src/firebase.js?v=wbui2"></script>
-<link rel="stylesheet" href="style.css?v=wbui2">
+  <script type="text/javascript" src="/src/firebase.js?v=pefel"></script>
+<link rel="stylesheet" href="style.css?v=pefel">
 </head>
 
 <body>
-  <div id="header"><header class="beht7-header-wrapper">
-  <div class="beht7-header">
-    <div class="beht7-header-top">
-      <a href="/en/" class="beht7-header-left">
-        <img src="/img/logo.png?v=wbui2" alt="Tiggergift Logo" class="beht7-logo" />
+  <div id="header"><header class="bflo3-header-wrapper">
+  <div class="bflo3-header">
+    <div class="bflo3-header-top">
+      <a href="/en/" class="bflo3-header-left">
+        <img src="/img/logo.png?v=pefel" alt="Tiggergift Logo" class="bflo3-logo" />
       </a>
 
-      <div class="beht7-search-box">
+      <div class="bflo3-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="beht7-support-info">
+      <div class="bflo3-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
-          <strong>+90 342 221 00 02</strong>
+          <strong>0342 343 82 12</strong>
         </div>
       </div>
 
-      <div class="beht7-icons">
+      <div class="bflo3-icons">
         <a href="/en/login/" class="material-symbols-outlined">person</a>
         <a href="/en/favorilerim/" class="material-symbols-outlined">favorite</a>
         <a href="/en/basket/" class="material-symbols-outlined">shopping_cart</a>
@@ -82,12 +84,12 @@
     </div>
   </div>
 
-  <div class="beht7-header-bottom">
-    <div class="beht7-header-bottom-inner">
-      <button class="beht7-category-btn">
+  <div class="bflo3-header-bottom">
+    <div class="bflo3-header-bottom-inner">
+      <button class="bflo3-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="beht7-main-menu"><a href="/en/urunlerimiz/"></a><a href="/en/baklava/"></a><a href="/en/kurumsal/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
+      <nav class="bflo3-main-menu"><a href="/en/bakir-mutfak-esyalari/"></a><a href="/en/bakir-aksesuarlar/"></a><a href="/en/ehli-keyf/"></a><a href="/en/urunlerimiz/"></a><a href="/en/yerelurunler/"></a><a href="/en/kurumsal/"></a><a href="/en/iletisim/"></a></nav>
     </div>
   </div>
 </header>
@@ -103,13 +105,13 @@
 </div>
 
 <!-- Main Content -->
-<div class="b29g7" id="adminMainContent" style="display: none;">
-  <div class="b29g7-menu">
-    <a href="/en/admin/" class="b29g7-profile">
-      <div class="b29g7-user-img" id="userAvatar"></div>
+<div class="ifwc2" id="adminMainContent" style="display: none;">
+  <div class="ifwc2-menu">
+    <a href="/en/admin/" class="ifwc2-profile">
+      <div class="ifwc2-user-img" id="userAvatar"></div>
       <div id="userName">Yükleniyor...</div>
     </a>
-    <div class="b29g7-menu-category">
+    <div class="ifwc2-menu-category">
     <a href="/en/admin/" >
       <span class="material-symbols-outlined">home</span>
       <div>Admin</div>
@@ -130,7 +132,7 @@
       <span class="material-symbols-outlined">people</span>
       <div>Customers</div>
     </a>
-    <a class="b29g7-menu-active" href="/en/moduller/" >
+    <a class="ifwc2-menu-active" href="/en/moduller/" >
       <span class="material-symbols-outlined">home</span>
       <div>Moduller</div>
     </a>
@@ -155,18 +157,18 @@
       <div>Logs</div>
     </a></div>
   </div>
-  <div class="b29g7-body"><div class="gm552-admin-moduller">
-    <div class="gm552-page-header">
-        <div class="gm552-header-left">
+  <div class="ifwc2-body"><div class="g21xe-admin-moduller">
+    <div class="g21xe-page-header">
+        <div class="g21xe-header-left">
             <h1>Module Management</h1>
-            <p class="gm552-header-subtitle">
+            <p class="g21xe-header-subtitle">
                 <span class="material-symbols-outlined">extension</span>
                 Manage and organize modules
             </p>
         </div>
-        <div class="gm552-header-right">
-            <div class="gm552-header-actions">
-                <button class="gm552-btn gm552-btn-primary" onclick="loadModules()">
+        <div class="g21xe-header-right">
+            <div class="g21xe-header-actions">
+                <button class="g21xe-btn g21xe-btn-primary" onclick="loadModules()">
                     <span class="material-symbols-outlined">refresh</span>
                     Refresh
                 </button>
@@ -174,8 +176,8 @@
         </div>
     </div>
 
-    <div class="gm552-modules-table-container">
-        <div class="gm552-modules-table">
+    <div class="g21xe-modules-table-container">
+        <div class="g21xe-modules-table">
             <table>
                 <thead>
                     <tr>
@@ -196,8 +198,8 @@
     </div>
 
     <!-- Demo Veri Ekleme Butonu -->
-    <div class="gm552-demo-section">
-        <button class="gm552-btn gm552-btn-success" onclick="addDemoModules()">
+    <div class="g21xe-demo-section">
+        <button class="g21xe-btn g21xe-btn-success" onclick="addDemoModules()">
             <span class="material-symbols-outlined">add</span>
             Add Demo Data
         </button>
@@ -241,7 +243,7 @@
                     <td>${module.category}</td>
                     <td><span class="status-badge">${module.status}</span></td>
                     <td>
-                        <button class="gm552-btn gm552-btn-sm" onclick="configureModule('${doc.id}')">Yapılandır</button>
+                        <button class="g21xe-btn g21xe-btn-sm" onclick="configureModule('${doc.id}')">Yapılandır</button>
                     </td>
                 `;
 
@@ -254,7 +256,7 @@
                 <tr>
                     <td colspan="5" style="text-align: center; padding: 40px; color: #dc3545;">
                         <div style="font-size: 16px; margin-bottom: 10px;">Veriler yüklenirken hata oluştu</div>
-                        <button class="gm552-btn gm552-btn-primary" onclick="loadModules()">
+                        <button class="g21xe-btn g21xe-btn-primary" onclick="loadModules()">
                             <span class="material-symbols-outlined">refresh</span>
                             Tekrar Dene
                         </button>
@@ -553,28 +555,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="u4i61-trust-boxes">
-      <div class="u4i61-trust-item">
+<div class="nmf0j-trust-boxes">
+      <div class="nmf0j-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="u4i61-trust-text">
-          <div class="u4i61-trust-title">100% Secure Payment</div>
-          <div class="u4i61-trust-desc">Secure Payment with 3D Secure</div>
+        <div class="nmf0j-trust-text">
+          <div class="nmf0j-trust-title">100% Secure Payment</div>
+          <div class="nmf0j-trust-desc">Secure Payment with 3D Secure</div>
         </div>
       </div>
     
-      <div class="u4i61-trust-item">
+      <div class="nmf0j-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="u4i61-trust-text">
-          <div class="u4i61-trust-title">100% Original Product</div>
-          <div class="u4i61-trust-desc">Activation with 100% Licensed Original Product</div>
+        <div class="nmf0j-trust-text">
+          <div class="nmf0j-trust-title">100% Original Product</div>
+          <div class="nmf0j-trust-desc">Activation with 100% Licensed Original Product</div>
         </div>
       </div>
     
-      <div class="u4i61-trust-item">
+      <div class="nmf0j-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="u4i61-trust-text">
-          <div class="u4i61-trust-title">Fast Delivery</div>
-          <div class="u4i61-trust-desc">Online Fast Delivery for All Your Shopping</div>
+        <div class="nmf0j-trust-text">
+          <div class="nmf0j-trust-title">Fast Delivery</div>
+          <div class="nmf0j-trust-desc">Online Fast Delivery for All Your Shopping</div>
         </div>
       </div>
     </div>
@@ -620,7 +622,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/urunlerimiz"></a></li><li class="menu__item"><a class="menu__link" href="/en/baklava"></a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/en/yerelurunler"></a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim"></a></li>
+    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/bakir-mutfak-esyalari"></a></li><li class="menu__item"><a class="menu__link" href="/en/bakir-aksesuarlar"></a></li><li class="menu__item"><a class="menu__link" href="/en/ehli-keyf"></a></li><li class="menu__item"><a class="menu__link" href="/en/urunlerimiz"></a></li><li class="menu__item"><a class="menu__link" href="/en/yerelurunler"></a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim"></a></li>
   </ul>
   <p>Tiggergift 2025 cognite. &copy;</p>
 </footer>
@@ -656,7 +658,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=wbui2"></script>
-<script src="/src/cookie.js?v=wbui2"></script>
+<script type="text/javascript" src="/src/js.js?v=pefel"></script>
+<script src="/src/cookie.js?v=pefel"></script>
 
 </html>

@@ -1,10 +1,10 @@
 
-  .qqn27-header-wrapper {
+  .r68yi-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .qqn27-header {
+  .r68yi-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .qqn27-logo {
+  .r68yi-logo {
     height: 80px;
   }
 
-  .qqn27-header-top {
+  .r68yi-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .qqn27-search-box {
+  .r68yi-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .qqn27-search-box span {
+  .r68yi-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .qqn27-search-box input {
+  .r68yi-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .qqn27-search-box button {
+  .r68yi-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .qqn27-search-box button:hover {
+  .r68yi-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .qqn27-support-info {
+  .r68yi-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .qqn27-support-info span {
+  .r68yi-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .qqn27-support-info small {
+  .r68yi-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .qqn27-support-info strong {
+  .r68yi-support-info strong {
     font-size: 16px;
   }
 
-  .qqn27-icons {
+  .r68yi-icons {
     display: flex;
     gap: 10px;
   }
 
-  .qqn27-icons span {
+  .r68yi-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .qqn27-icons span:hover {
+  .r68yi-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,20 +111,21 @@
     cursor: pointer;
   }
 
-  .qqn27-header-bottom {
+  .r68yi-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .qqn27-header-bottom-inner {
-    max-width: 1200px;
+  .r68yi-header-bottom-inner {
+    width: var(--max);
     margin: auto;
     padding: 14px 30px;
     display: flex;
     align-items: center;
+    gap: 20px;
   }
 
-  .qqn27-category-btn {
+  .r68yi-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +137,74 @@
     font-weight: 500;
   }
 
-  .qqn27-main-menu {
+  .r68yi-main-menu {
     display: flex;
-    gap: 20px;
-    margin-left: 30px;
+    gap: 10px;
   }
 
-  .qqn27-main-menu a {
-    color: white;
+  .r68yi-main-menu a {
+    color: black;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
   }
 
-  .qqn27-main-menu a:hover {
-    color: #238b23;
+  .r68yi-main-menu a:hover {
+    background-color: #238b23;
+    color: white;
   }
 
-  .qqn27-menulistactive {
+  .r68yi-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .qqn27-header-top {
+    .r68yi-header-top {
       gap: 20px;
     }
 
-    .qqn27-search-box {
+    .r68yi-search-box {
       margin: 0 10px;
     }
 
-    .qqn27-support-info strong {
+    .r68yi-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .qqn27-header {
+    .r68yi-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .qqn27-header-top {
+    .r68yi-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .qqn27-search-box {
+    .r68yi-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .qqn27-support-info {
+    .r68yi-support-info {
       display: none;
     }
 
-    .qqn27-header-bottom-inner {
+    .r68yi-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .qqn27-main-menu {
+    .r68yi-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,22 +213,22 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .qqn27-logo {
+    .r68yi-logo {
       height: 60px;
     }
 
-    .qqn27-search-box {
+    .r68yi-search-box {
       flex: 0 1 150px;
     }
 
-    .qqn27-icons span {
+    .r68yi-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .bat7v {
+  .g10ta {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -234,7 +237,7 @@
     width: 100%;
   }
 
-  .bat7vTitle {
+  .g10taTitle {
     background: linear-gradient(135deg, #333 0%, #4a4a4a 100%);
     border-radius: 8px;
     color: #fff;
@@ -246,7 +249,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .bat7vBody {
+  .g10taBody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -432,7 +435,7 @@
   }
 
 
-  .fyid9-profile {
+  .byu3i-profile {
     background-color: #111;
     padding: 5px;
     border-radius: 5px;
@@ -442,26 +445,26 @@
     gap: 10px;
   }
 
-  .fyid9-profile>* {
+  .byu3i-profile>* {
     display: flex;
     align-items: center;
   }
 
-  .fyid9-user-img {
+  .byu3i-user-img {
     border-radius: 100%;
     width: 40px;
     height: 40px;
     background-color: #ffffff;
   }
 
-  .fyid9 {
+  .byu3i {
     width: var(--max);
     display: flex;
     gap: 15px;
     margin: 10px 0px 10px 0px;
   }
 
-  .fyid9-menu {
+  .byu3i-menu {
     width: 220px;
     padding: 10px;
     background-color: #cd9624;
@@ -472,20 +475,20 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  .fyid9-menu-title {
+  .byu3i-menu-title {
     font-size: 15px;
     opacity: 0.8;
     color: #fff;
     padding: 5px;
   }
 
-  .fyid9-menu-category {
+  .byu3i-menu-category {
     display: flex;
     flex-direction: column;
     gap: 2px;
   }
 
-  .fyid9-menu-category>a {
+  .byu3i-menu-category>a {
     color: #fff;
     padding: 10px;
     cursor: pointer;
@@ -500,13 +503,13 @@
     border-width: 0px 0px 1px 0px;
   }
 
-  .fyid9-menu-category>a:hover {
+  .byu3i-menu-category>a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     background-color: #202020;
     border-radius: 10px;
   }
 
-  .fyid9-body {
+  .byu3i-body {
     background-color: #ffffff;
     flex: 1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -517,7 +520,7 @@
     min-height: calc(100vh - 230px);
   }
 
-  .fyid9-menu-active {
+  .byu3i-menu-active {
     background-color: #202020 !important;
   }
 
@@ -576,7 +579,7 @@
   }
 
 
-  .lxh2c-trust-boxes {
+  .x8kbo-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -586,7 +589,7 @@
     gap: 0;
   }
 
-  .lxh2c-trust-item {
+  .x8kbo-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -597,57 +600,57 @@
     gap: 16px;
   }
 
-  .lxh2c-trust-item .material-icons {
+  .x8kbo-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .lxh2c-trust-text {
+  .x8kbo-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .lxh2c-trust-title {
+  .x8kbo-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .lxh2c-trust-desc {
+  .x8kbo-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .lxh2c-trust-boxes {
+    .x8kbo-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .lxh2c-trust-item {
+    .x8kbo-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .lxh2c-trust-boxes {
+    .x8kbo-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .lxh2c-trust-item {
+    .x8kbo-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .lxh2c-trust-title {
+    .x8kbo-trust-title {
       font-size: 16px;
     }
 
-    .lxh2c-trust-desc {
+    .x8kbo-trust-desc {
       font-size: 13px;
     }
   }

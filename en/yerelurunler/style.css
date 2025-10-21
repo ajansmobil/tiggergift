@@ -1,10 +1,10 @@
 
-  .upo20-header-wrapper {
+  .po1lu-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .upo20-header {
+  .po1lu-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .upo20-logo {
+  .po1lu-logo {
     height: 80px;
   }
 
-  .upo20-header-top {
+  .po1lu-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .upo20-search-box {
+  .po1lu-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .upo20-search-box span {
+  .po1lu-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .upo20-search-box input {
+  .po1lu-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .upo20-search-box button {
+  .po1lu-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .upo20-search-box button:hover {
+  .po1lu-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .upo20-support-info {
+  .po1lu-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .upo20-support-info span {
+  .po1lu-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .upo20-support-info small {
+  .po1lu-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .upo20-support-info strong {
+  .po1lu-support-info strong {
     font-size: 16px;
   }
 
-  .upo20-icons {
+  .po1lu-icons {
     display: flex;
     gap: 10px;
   }
 
-  .upo20-icons span {
+  .po1lu-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .upo20-icons span:hover {
+  .po1lu-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,20 +111,21 @@
     cursor: pointer;
   }
 
-  .upo20-header-bottom {
+  .po1lu-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .upo20-header-bottom-inner {
-    max-width: 1200px;
+  .po1lu-header-bottom-inner {
+    width: var(--max);
     margin: auto;
     padding: 14px 30px;
     display: flex;
     align-items: center;
+    gap: 20px;
   }
 
-  .upo20-category-btn {
+  .po1lu-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -136,72 +137,74 @@
     font-weight: 500;
   }
 
-  .upo20-main-menu {
+  .po1lu-main-menu {
     display: flex;
-    gap: 20px;
-    margin-left: 30px;
+    gap: 10px;
   }
 
-  .upo20-main-menu a {
-    color: white;
+  .po1lu-main-menu a {
+    color: black;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
   }
 
-  .upo20-main-menu a:hover {
-    color: #238b23;
+  .po1lu-main-menu a:hover {
+    background-color: #238b23;
+    color: white;
   }
 
-  .upo20-menulistactive {
+  .po1lu-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .upo20-header-top {
+    .po1lu-header-top {
       gap: 20px;
     }
 
-    .upo20-search-box {
+    .po1lu-search-box {
       margin: 0 10px;
     }
 
-    .upo20-support-info strong {
+    .po1lu-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .upo20-header {
+    .po1lu-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .upo20-header-top {
+    .po1lu-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .upo20-search-box {
+    .po1lu-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .upo20-support-info {
+    .po1lu-support-info {
       display: none;
     }
 
-    .upo20-header-bottom-inner {
+    .po1lu-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .upo20-main-menu {
+    .po1lu-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -210,22 +213,22 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .upo20-logo {
+    .po1lu-logo {
       height: 60px;
     }
 
-    .upo20-search-box {
+    .po1lu-search-box {
       flex: 0 1 150px;
     }
 
-    .upo20-icons span {
+    .po1lu-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .xgza6-trust-boxes {
+  .ur2qz-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -235,7 +238,7 @@
     gap: 0;
   }
 
-  .xgza6-trust-item {
+  .ur2qz-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -246,57 +249,57 @@
     gap: 16px;
   }
 
-  .xgza6-trust-item .material-icons {
+  .ur2qz-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .xgza6-trust-text {
+  .ur2qz-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .xgza6-trust-title {
+  .ur2qz-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .xgza6-trust-desc {
+  .ur2qz-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .xgza6-trust-boxes {
+    .ur2qz-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .xgza6-trust-item {
+    .ur2qz-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .xgza6-trust-boxes {
+    .ur2qz-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .xgza6-trust-item {
+    .ur2qz-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .xgza6-trust-title {
+    .ur2qz-trust-title {
       font-size: 16px;
     }
 
-    .xgza6-trust-desc {
+    .ur2qz-trust-desc {
       font-size: 13px;
     }
   }
