@@ -1,10 +1,10 @@
 
-  .oxiut-header-wrapper {
+  .rafcc-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .oxiut-header {
+  .rafcc-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .oxiut-logo {
+  .rafcc-logo {
     height: 80px;
   }
 
-  .oxiut-header-top {
+  .rafcc-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .oxiut-search-box {
+  .rafcc-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .oxiut-search-box span {
+  .rafcc-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .oxiut-search-box input {
+  .rafcc-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .oxiut-search-box button {
+  .rafcc-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .oxiut-search-box button:hover {
+  .rafcc-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .oxiut-support-info {
+  .rafcc-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .oxiut-support-info span {
+  .rafcc-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .oxiut-support-info small {
+  .rafcc-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .oxiut-support-info strong {
+  .rafcc-support-info strong {
     font-size: 16px;
   }
 
-  .oxiut-icons {
+  .rafcc-icons {
     display: flex;
     gap: 10px;
   }
 
-  .oxiut-icons span {
+  .rafcc-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .oxiut-icons span:hover {
+  .rafcc-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .oxiut-header-bottom {
+  .rafcc-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .oxiut-header-bottom-inner {
+  .rafcc-header-bottom-inner {
     width: var(--max);
     margin: auto;
     padding: 14px 30px;
@@ -125,7 +125,7 @@
     gap: 20px;
   }
 
-  .oxiut-category-btn {
+  .rafcc-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -137,12 +137,12 @@
     font-weight: 500;
   }
 
-  .oxiut-main-menu {
+  .rafcc-main-menu {
     display: flex;
     gap: 10px;
   }
 
-  .oxiut-main-menu a {
+  .rafcc-main-menu a {
     color: black;
     text-decoration: none;
     font-weight: 500;
@@ -151,60 +151,60 @@
     border-radius: 10px;
   }
 
-  .oxiut-main-menu a:hover {
+  .rafcc-main-menu a:hover {
     background-color: #238b23;
     color: white;
   }
 
-  .oxiut-menulistactive {
+  .rafcc-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .oxiut-header-top {
+    .rafcc-header-top {
       gap: 20px;
     }
 
-    .oxiut-search-box {
+    .rafcc-search-box {
       margin: 0 10px;
     }
 
-    .oxiut-support-info strong {
+    .rafcc-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .oxiut-header {
+    .rafcc-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .oxiut-header-top {
+    .rafcc-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .oxiut-search-box {
+    .rafcc-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .oxiut-support-info {
+    .rafcc-support-info {
       display: none;
     }
 
-    .oxiut-header-bottom-inner {
+    .rafcc-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .oxiut-main-menu {
+    .rafcc-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -213,22 +213,22 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .oxiut-logo {
+    .rafcc-logo {
       height: 60px;
     }
 
-    .oxiut-search-box {
+    .rafcc-search-box {
       flex: 0 1 150px;
     }
 
-    .oxiut-icons span {
+    .rafcc-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .izqjt {
+  .za3wf {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -237,14 +237,14 @@
     position: relative;
   }
 
-  .izqjtcontainertitle {
+  .za3wfcontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
 
-  .izqjtcontainerlist {
+  .za3wfcontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -253,26 +253,26 @@
     transition: background-color 0.3s ease;
   }
 
-  .izqjtcontainerlist>div {
+  .za3wfcontainerlist>div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
 
-  .izqjtcontainerlist:hover {
+  .za3wfcontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
 
-  .izqjtcontainer {
+  .za3wfcontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
 
-  .izqjtcontainerbody {
+  .za3wfcontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -282,7 +282,7 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 
-  .izqjtbody {
+  .za3wfbody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
@@ -290,25 +290,25 @@
     padding: 20px;
   }
 
-  .izqjtcontainerlist>span {
+  .za3wfcontainerlist>span {
     font-size: 24px;
     color: #1e3046;
   }
 
   @media screen and (max-width: 1024px) {
-    .izqjtbody {
+    .za3wfbody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
 
-    .izqjtcontainerbody {
+    .za3wfcontainerbody {
       padding: 15px;
     }
   }
 
 
-  .o402k-trust-boxes {
+  .u5lvv-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -318,7 +318,7 @@
     gap: 0;
   }
 
-  .o402k-trust-item {
+  .u5lvv-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -329,57 +329,57 @@
     gap: 16px;
   }
 
-  .o402k-trust-item .material-icons {
+  .u5lvv-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .o402k-trust-text {
+  .u5lvv-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .o402k-trust-title {
+  .u5lvv-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .o402k-trust-desc {
+  .u5lvv-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .o402k-trust-boxes {
+    .u5lvv-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .o402k-trust-item {
+    .u5lvv-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .o402k-trust-boxes {
+    .u5lvv-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .o402k-trust-item {
+    .u5lvv-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .o402k-trust-title {
+    .u5lvv-trust-title {
       font-size: 16px;
     }
 
-    .o402k-trust-desc {
+    .u5lvv-trust-desc {
       font-size: 13px;
     }
   }

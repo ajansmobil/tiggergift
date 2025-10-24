@@ -1,10 +1,10 @@
 
-  .kr34q-header-wrapper {
+  .u90rr-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .kr34q-header {
+  .u90rr-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .kr34q-logo {
+  .u90rr-logo {
     height: 80px;
   }
 
-  .kr34q-header-top {
+  .u90rr-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .kr34q-search-box {
+  .u90rr-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .kr34q-search-box span {
+  .u90rr-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .kr34q-search-box input {
+  .u90rr-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .kr34q-search-box button {
+  .u90rr-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .kr34q-search-box button:hover {
+  .u90rr-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .kr34q-support-info {
+  .u90rr-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .kr34q-support-info span {
+  .u90rr-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .kr34q-support-info small {
+  .u90rr-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .kr34q-support-info strong {
+  .u90rr-support-info strong {
     font-size: 16px;
   }
 
-  .kr34q-icons {
+  .u90rr-icons {
     display: flex;
     gap: 10px;
   }
 
-  .kr34q-icons span {
+  .u90rr-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .kr34q-icons span:hover {
+  .u90rr-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .kr34q-header-bottom {
+  .u90rr-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .kr34q-header-bottom-inner {
+  .u90rr-header-bottom-inner {
     width: var(--max);
     margin: auto;
     padding: 14px 30px;
@@ -125,7 +125,7 @@
     gap: 20px;
   }
 
-  .kr34q-category-btn {
+  .u90rr-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -137,12 +137,12 @@
     font-weight: 500;
   }
 
-  .kr34q-main-menu {
+  .u90rr-main-menu {
     display: flex;
     gap: 10px;
   }
 
-  .kr34q-main-menu a {
+  .u90rr-main-menu a {
     color: black;
     text-decoration: none;
     font-weight: 500;
@@ -151,60 +151,60 @@
     border-radius: 10px;
   }
 
-  .kr34q-main-menu a:hover {
+  .u90rr-main-menu a:hover {
     background-color: #238b23;
     color: white;
   }
 
-  .kr34q-menulistactive {
+  .u90rr-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .kr34q-header-top {
+    .u90rr-header-top {
       gap: 20px;
     }
 
-    .kr34q-search-box {
+    .u90rr-search-box {
       margin: 0 10px;
     }
 
-    .kr34q-support-info strong {
+    .u90rr-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .kr34q-header {
+    .u90rr-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .kr34q-header-top {
+    .u90rr-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .kr34q-search-box {
+    .u90rr-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .kr34q-support-info {
+    .u90rr-support-info {
       display: none;
     }
 
-    .kr34q-header-bottom-inner {
+    .u90rr-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .kr34q-main-menu {
+    .u90rr-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -213,22 +213,22 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .kr34q-logo {
+    .u90rr-logo {
       height: 60px;
     }
 
-    .kr34q-search-box {
+    .u90rr-search-box {
       flex: 0 1 150px;
     }
 
-    .kr34q-icons span {
+    .u90rr-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-    .k63f2 {
+    .m3b6z {
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -236,7 +236,7 @@
         max-width: var(--max);
     }
 
-    .k63f2Title {
+    .m3b6zTitle {
         background: linear-gradient(135deg, #333333 0%, #4a4a4a 100%);
         border-radius: 8px;
         color: #fff;
@@ -762,7 +762,7 @@
     }
 
 
-  .op1u3-profile {
+  .rrkcc-profile {
     background-color: #111;
     padding: 5px;
     border-radius: 5px;
@@ -772,26 +772,26 @@
     gap: 10px;
   }
 
-  .op1u3-profile>* {
+  .rrkcc-profile>* {
     display: flex;
     align-items: center;
   }
 
-  .op1u3-user-img {
+  .rrkcc-user-img {
     border-radius: 100%;
     width: 40px;
     height: 40px;
     background-color: #ffffff;
   }
 
-  .op1u3 {
+  .rrkcc {
     width: var(--max);
     display: flex;
     gap: 15px;
     margin: 10px 0px 10px 0px;
   }
 
-  .op1u3-menu {
+  .rrkcc-menu {
     width: 220px;
     padding: 10px;
     background-color: #cd9624;
@@ -802,20 +802,20 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  .op1u3-menu-title {
+  .rrkcc-menu-title {
     font-size: 15px;
     opacity: 0.8;
     color: #fff;
     padding: 5px;
   }
 
-  .op1u3-menu-category {
+  .rrkcc-menu-category {
     display: flex;
     flex-direction: column;
     gap: 2px;
   }
 
-  .op1u3-menu-category>a {
+  .rrkcc-menu-category>a {
     color: #fff;
     padding: 10px;
     cursor: pointer;
@@ -830,13 +830,13 @@
     border-width: 0px 0px 1px 0px;
   }
 
-  .op1u3-menu-category>a:hover {
+  .rrkcc-menu-category>a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     background-color: #202020;
     border-radius: 10px;
   }
 
-  .op1u3-body {
+  .rrkcc-body {
     background-color: #ffffff;
     flex: 1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -847,7 +847,7 @@
     min-height: calc(100vh - 230px);
   }
 
-  .op1u3-menu-active {
+  .rrkcc-menu-active {
     background-color: #202020 !important;
   }
 
@@ -906,7 +906,7 @@
   }
 
 
-  .mk4nq-trust-boxes {
+  .wak28-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -916,7 +916,7 @@
     gap: 0;
   }
 
-  .mk4nq-trust-item {
+  .wak28-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -927,57 +927,57 @@
     gap: 16px;
   }
 
-  .mk4nq-trust-item .material-icons {
+  .wak28-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .mk4nq-trust-text {
+  .wak28-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .mk4nq-trust-title {
+  .wak28-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .mk4nq-trust-desc {
+  .wak28-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .mk4nq-trust-boxes {
+    .wak28-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .mk4nq-trust-item {
+    .wak28-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .mk4nq-trust-boxes {
+    .wak28-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .mk4nq-trust-item {
+    .wak28-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .mk4nq-trust-title {
+    .wak28-trust-title {
       font-size: 16px;
     }
 
-    .mk4nq-trust-desc {
+    .wak28-trust-desc {
       font-size: 13px;
     }
   }

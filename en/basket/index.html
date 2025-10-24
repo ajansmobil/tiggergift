@@ -21,8 +21,8 @@
 
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=fa9rf" />
-  <link rel="shortcut icon" href="/img/icon.png?v=fa9rf" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=mwdu3" />
+  <link rel="shortcut icon" href="/img/icon.png?v=mwdu3" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -50,25 +50,25 @@
 </script>
 
 
-  <script type="text/javascript" src="/src/firebase.js?v=fa9rf"></script>
-<link rel="stylesheet" href="style.css?v=fa9rf">
+  <script type="text/javascript" src="/src/firebase.js?v=mwdu3"></script>
+<link rel="stylesheet" href="style.css?v=mwdu3">
 </head>
 
 <body>
-  <div id="header"><header class="lcvx0-header-wrapper">
-  <div class="lcvx0-header">
-    <div class="lcvx0-header-top">
-      <a href="/en/" class="lcvx0-header-left">
-        <img src="/img/logo.png?v=fa9rf" alt="Tiggergift Logo" class="lcvx0-logo" />
+  <div id="header"><header class="w89nx-header-wrapper">
+  <div class="w89nx-header">
+    <div class="w89nx-header-top">
+      <a href="/en/" class="w89nx-header-left">
+        <img src="/img/logo.png?v=mwdu3" alt="Tiggergift Logo" class="w89nx-logo" />
       </a>
 
-      <div class="lcvx0-search-box">
+      <div class="w89nx-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="lcvx0-support-info">
+      <div class="w89nx-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
@@ -76,7 +76,7 @@
         </div>
       </div>
 
-      <div class="lcvx0-icons">
+      <div class="w89nx-icons">
         <a href="/en/login/" class="material-symbols-outlined">person</a>
         <a href="/en/favorilerim/" class="material-symbols-outlined">favorite</a>
         <a href="/en/basket/" class="material-symbols-outlined">shopping_cart</a>
@@ -84,32 +84,32 @@
     </div>
   </div>
 
-  <div class="lcvx0-header-bottom">
-    <div class="lcvx0-header-bottom-inner">
-      <button class="lcvx0-category-btn">
+  <div class="w89nx-header-bottom">
+    <div class="w89nx-header-bottom-inner">
+      <button class="w89nx-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="lcvx0-main-menu"><a href="/en/bakir-mutfak-esyalari/"></a><a href="/en/bakir-aksesuarlar/"></a><a href="/en/ehli-keyf/"></a><a href="/en/urunlerimiz/"></a><a href="/en/yerelurunler/"></a><a href="/en/kurumsal/"></a><a href="/en/iletisim/"></a></nav>
+      <nav class="w89nx-main-menu"><a href="/en/bakir-mutfak-esyalari/"></a><a href="/en/hakkimizda/"></a><a href="/en/bakir-aksesuarlar/"></a><a href="/en/ehli-keyf/"></a><a href="/en/urunlerimiz/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
     </div>
   </div>
 </header>
 
 
 </div>
-  <div id="content"><div class="pww7d">
-  <div class="pww7dTitle">
+  <div id="content"><div class="sdqo6">
+  <div class="sdqo6Title">
     <span class="material-symbols-outlined">shopping_cart</span>
     My Cart
   </div>
-  <div class="pww7dBody">
+  <div class="sdqo6Body">
     <!-- Cart Items List -->
-    <div class="pww7dList" id="cartItemsList">
+    <div class="sdqo6List" id="cartItemsList">
       <!-- Dynamic cart items will be loaded here -->
     </div>
 
     <!-- Cart Summary -->
-    <div class="pww7dTotal">
-      <div class="pww7dTotalBody">
+    <div class="sdqo6Total">
+      <div class="sdqo6TotalBody">
         <div class="cart-summary">
           <div class="summary-item">
             <span>Subtotal:</span>
@@ -202,18 +202,18 @@
   // Sepet öğesi HTML'i oluştur
   function generateCartItemHTML(item) {
     return `
-      <div class="pww7dListChile" data-item-id="${item.id}">
-        <div class="pww7dListChileImg">
+      <div class="sdqo6ListChile" data-item-id="${item.id}">
+        <div class="sdqo6ListChileImg">
           <img src="${item.image || '/img/no-image.png'}" alt="${item.name}" />
         </div>
-        <div class="pww7dListChileBody">
-          <div class="pww7dListChileBodyTitle">
+        <div class="sdqo6ListChileBody">
+          <div class="sdqo6ListChileBodyTitle">
             <span>${item.name}</span>
           </div>
-          <div class="pww7dListChileBodySpot">${item.category || 'Genel'}</div>
-          <div class="pww7dListChileBodyPrice">
-            <div class="pww7dListChileBodyPriceBody">${formatPrice(item.price)} ₺</div>
-            <div class="pww7dListChileBodyNumber">
+          <div class="sdqo6ListChileBodySpot">${item.category || 'Genel'}</div>
+          <div class="sdqo6ListChileBodyPrice">
+            <div class="sdqo6ListChileBodyPriceBody">${formatPrice(item.price)} ₺</div>
+            <div class="sdqo6ListChileBodyNumber">
               <button class="quantity-btn" onclick="updateQuantity('${item.id}', ${item.quantity - 1})">
                 <span class="material-symbols-outlined">remove</span>
               </button>
@@ -473,28 +473,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="q3x5f-trust-boxes">
-      <div class="q3x5f-trust-item">
+<div class="b8wwe-trust-boxes">
+      <div class="b8wwe-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="q3x5f-trust-text">
-          <div class="q3x5f-trust-title">100% Secure Payment</div>
-          <div class="q3x5f-trust-desc">Secure Payment with 3D Secure</div>
+        <div class="b8wwe-trust-text">
+          <div class="b8wwe-trust-title">100% Secure Payment</div>
+          <div class="b8wwe-trust-desc">Secure Payment with 3D Secure</div>
         </div>
       </div>
     
-      <div class="q3x5f-trust-item">
+      <div class="b8wwe-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="q3x5f-trust-text">
-          <div class="q3x5f-trust-title">100% Original Product</div>
-          <div class="q3x5f-trust-desc">Activation with 100% Licensed Original Product</div>
+        <div class="b8wwe-trust-text">
+          <div class="b8wwe-trust-title">100% Original Product</div>
+          <div class="b8wwe-trust-desc">Activation with 100% Licensed Original Product</div>
         </div>
       </div>
     
-      <div class="q3x5f-trust-item">
+      <div class="b8wwe-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="q3x5f-trust-text">
-          <div class="q3x5f-trust-title">Fast Delivery</div>
-          <div class="q3x5f-trust-desc">Online Fast Delivery for All Your Shopping</div>
+        <div class="b8wwe-trust-text">
+          <div class="b8wwe-trust-title">Fast Delivery</div>
+          <div class="b8wwe-trust-desc">Online Fast Delivery for All Your Shopping</div>
         </div>
       </div>
     </div>
@@ -540,7 +540,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/bakir-mutfak-esyalari"></a></li><li class="menu__item"><a class="menu__link" href="/en/bakir-aksesuarlar"></a></li><li class="menu__item"><a class="menu__link" href="/en/ehli-keyf"></a></li><li class="menu__item"><a class="menu__link" href="/en/urunlerimiz"></a></li><li class="menu__item"><a class="menu__link" href="/en/yerelurunler"></a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim"></a></li>
+    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/bakir-mutfak-esyalari"></a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsalknp"></a></li><li class="menu__item"><a class="menu__link" href="/en/bakir-aksesuarlar"></a></li><li class="menu__item"><a class="menu__link" href="/en/ehli-keyf"></a></li><li class="menu__item"><a class="menu__link" href="/en/urunlerimiz"></a></li><li class="menu__item"><a class="menu__link" href="/en/yerelurunler"></a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim"></a></li>
   </ul>
   <p>Tiggergift 2025 cognite. &copy;</p>
 </footer>
@@ -576,7 +576,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=fa9rf"></script>
-<script src="/src/cookie.js?v=fa9rf"></script>
+<script type="text/javascript" src="/src/js.js?v=mwdu3"></script>
+<script src="/src/cookie.js?v=mwdu3"></script>
 
 </html>

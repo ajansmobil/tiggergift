@@ -1,10 +1,10 @@
 
-  .g26ac-header-wrapper {
+  .jof10-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .g26ac-header {
+  .jof10-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .g26ac-logo {
+  .jof10-logo {
     height: 80px;
   }
 
-  .g26ac-header-top {
+  .jof10-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .g26ac-search-box {
+  .jof10-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .g26ac-search-box span {
+  .jof10-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .g26ac-search-box input {
+  .jof10-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .g26ac-search-box button {
+  .jof10-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .g26ac-search-box button:hover {
+  .jof10-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .g26ac-support-info {
+  .jof10-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .g26ac-support-info span {
+  .jof10-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .g26ac-support-info small {
+  .jof10-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .g26ac-support-info strong {
+  .jof10-support-info strong {
     font-size: 16px;
   }
 
-  .g26ac-icons {
+  .jof10-icons {
     display: flex;
     gap: 10px;
   }
 
-  .g26ac-icons span {
+  .jof10-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .g26ac-icons span:hover {
+  .jof10-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .g26ac-header-bottom {
+  .jof10-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .g26ac-header-bottom-inner {
+  .jof10-header-bottom-inner {
     width: var(--max);
     margin: auto;
     padding: 14px 30px;
@@ -125,7 +125,7 @@
     gap: 20px;
   }
 
-  .g26ac-category-btn {
+  .jof10-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -137,12 +137,12 @@
     font-weight: 500;
   }
 
-  .g26ac-main-menu {
+  .jof10-main-menu {
     display: flex;
     gap: 10px;
   }
 
-  .g26ac-main-menu a {
+  .jof10-main-menu a {
     color: black;
     text-decoration: none;
     font-weight: 500;
@@ -151,60 +151,60 @@
     border-radius: 10px;
   }
 
-  .g26ac-main-menu a:hover {
+  .jof10-main-menu a:hover {
     background-color: #238b23;
     color: white;
   }
 
-  .g26ac-menulistactive {
+  .jof10-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .g26ac-header-top {
+    .jof10-header-top {
       gap: 20px;
     }
 
-    .g26ac-search-box {
+    .jof10-search-box {
       margin: 0 10px;
     }
 
-    .g26ac-support-info strong {
+    .jof10-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .g26ac-header {
+    .jof10-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .g26ac-header-top {
+    .jof10-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .g26ac-search-box {
+    .jof10-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .g26ac-support-info {
+    .jof10-support-info {
       display: none;
     }
 
-    .g26ac-header-bottom-inner {
+    .jof10-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .g26ac-main-menu {
+    .jof10-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -213,22 +213,22 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .g26ac-logo {
+    .jof10-logo {
       height: 60px;
     }
 
-    .g26ac-search-box {
+    .jof10-search-box {
       flex: 0 1 150px;
     }
 
-    .g26ac-icons span {
+    .jof10-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .elpnm-trust-boxes {
+  .ts91o-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -238,7 +238,7 @@
     gap: 0;
   }
 
-  .elpnm-trust-item {
+  .ts91o-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -249,57 +249,57 @@
     gap: 16px;
   }
 
-  .elpnm-trust-item .material-icons {
+  .ts91o-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .elpnm-trust-text {
+  .ts91o-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .elpnm-trust-title {
+  .ts91o-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .elpnm-trust-desc {
+  .ts91o-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .elpnm-trust-boxes {
+    .ts91o-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .elpnm-trust-item {
+    .ts91o-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .elpnm-trust-boxes {
+    .ts91o-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .elpnm-trust-item {
+    .ts91o-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .elpnm-trust-title {
+    .ts91o-trust-title {
       font-size: 16px;
     }
 
-    .elpnm-trust-desc {
+    .ts91o-trust-desc {
       font-size: 13px;
     }
   }

@@ -1,10 +1,10 @@
 
-  .grylk-header-wrapper {
+  .ryvd3-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .grylk-header {
+  .ryvd3-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .grylk-logo {
+  .ryvd3-logo {
     height: 80px;
   }
 
-  .grylk-header-top {
+  .ryvd3-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .grylk-search-box {
+  .ryvd3-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .grylk-search-box span {
+  .ryvd3-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .grylk-search-box input {
+  .ryvd3-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .grylk-search-box button {
+  .ryvd3-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .grylk-search-box button:hover {
+  .ryvd3-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .grylk-support-info {
+  .ryvd3-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .grylk-support-info span {
+  .ryvd3-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .grylk-support-info small {
+  .ryvd3-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .grylk-support-info strong {
+  .ryvd3-support-info strong {
     font-size: 16px;
   }
 
-  .grylk-icons {
+  .ryvd3-icons {
     display: flex;
     gap: 10px;
   }
 
-  .grylk-icons span {
+  .ryvd3-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .grylk-icons span:hover {
+  .ryvd3-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .grylk-header-bottom {
+  .ryvd3-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .grylk-header-bottom-inner {
+  .ryvd3-header-bottom-inner {
     width: var(--max);
     margin: auto;
     padding: 14px 30px;
@@ -125,7 +125,7 @@
     gap: 20px;
   }
 
-  .grylk-category-btn {
+  .ryvd3-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -137,12 +137,12 @@
     font-weight: 500;
   }
 
-  .grylk-main-menu {
+  .ryvd3-main-menu {
     display: flex;
     gap: 10px;
   }
 
-  .grylk-main-menu a {
+  .ryvd3-main-menu a {
     color: black;
     text-decoration: none;
     font-weight: 500;
@@ -151,60 +151,60 @@
     border-radius: 10px;
   }
 
-  .grylk-main-menu a:hover {
+  .ryvd3-main-menu a:hover {
     background-color: #238b23;
     color: white;
   }
 
-  .grylk-menulistactive {
+  .ryvd3-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .grylk-header-top {
+    .ryvd3-header-top {
       gap: 20px;
     }
 
-    .grylk-search-box {
+    .ryvd3-search-box {
       margin: 0 10px;
     }
 
-    .grylk-support-info strong {
+    .ryvd3-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .grylk-header {
+    .ryvd3-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .grylk-header-top {
+    .ryvd3-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .grylk-search-box {
+    .ryvd3-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .grylk-support-info {
+    .ryvd3-support-info {
       display: none;
     }
 
-    .grylk-header-bottom-inner {
+    .ryvd3-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .grylk-main-menu {
+    .ryvd3-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -213,15 +213,15 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .grylk-logo {
+    .ryvd3-logo {
       height: 60px;
     }
 
-    .grylk-search-box {
+    .ryvd3-search-box {
       flex: 0 1 150px;
     }
 
-    .grylk-icons span {
+    .ryvd3-icons span {
       padding: 8px;
       font-size: 18px;
     }
@@ -231,45 +231,87 @@
   #content {
     justify-content: start;
   }
-  .rywbo {
-    display: flex;
+
+  .wmyjy {
     width: var(--max);
     margin-top: 20px;
-    gap: 20px;
-  }
-  .rywbo-menu {
-    width: 220px;
-    background-color: --menubgcolor--;
-    border-radius: 5px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
     gap: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    float: left;
+    position: relative;
   }
-  .rywbo-menu > a {
-    background-color: #ffffff;
-    padding: 10px 15px;
+
+  .wmyjy-menu-btn {
+    display: none;
+    background-color: #238B23;
+    padding: 10px 20px;
     border-radius: 5px;
-    color: #333;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-  .rywbo-menu > a:hover,
-  .rywbo-menu > .active {
-    background-color: #1e3046;
+    cursor: pointer;
+    font-weight: bold;
     color: #fff;
+    justify-content: space-between;
+    align-items: center;
   }
-  .rywbo-body {
-    flex: 1;
+
+  .wmyjy-menu-btn i {
+    font-size: 20px;
+  }
+
+  .wmyjy-menu {
+    width: 200px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 5px;
+    float: left;
   }
-  .rywbo-title {
+
+  .wmyjy-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    float: right;
+  }
+
+  .wmyjy-menu > a {
+    background-color: #fff;
+    padding: 10px;
+    float: left;
+    border-radius: 5px;
+  }
+
+  .wmyjy-menu > .active,
+  .wmyjy-menu > a:hover {
+    background-color: #cd9624;
+    color: #fff;
+    display: flex;
+  }
+
+  .wmyjy-desc-menu {
+    width: 200px;
+    background-color: #cd9624;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+
+  .wmyjy-desc-menu > div {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 5px;
+  }
+
+  .wmyjy-desc-body {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .wmyjy-title {
     width: 100%;
-    height: 200px;
-    background-color: #000;
+    height: 100px;
+    background-color: #238B23;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -278,7 +320,8 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .rywbo-title::before {
+
+  .wmyjy-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -292,27 +335,83 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .rywbo-title span {
+
+  .wmyjy-title span {
     position: relative;
     z-index: 2;
-    font-size: 50px;
+    font-size: 32px;
   }
+
+  .wmyjy-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+  }
+
+  .wmyjy-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(var(--max) - 460px);
+  }
+
+  .wmyjy-img img {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .wmyjy-desc {
+      width: calc(var(--max) - 240px);
+    }
+  }
+
   @media screen and (max-width: 1024px) {
-    .rywbo {
+    .wmyjy-menu-btn {
+      display: flex;
+      width: calc(100% - 55px);
+      margin-left: 5px;
+    }
+
+    .wmyjy {
+      display: flex;
       flex-direction: column;
-      width: calc(100% - 10px);
+      width: 100%;
       padding: 5px;
+      gap: 5px;
+      margin-top: 0px;
     }
-    .rywbo-menu {
-      display: none;
-    }
-    .rywbo-body {
+
+    .wmyjy-img {
       width: 100%;
     }
+
+    .wmyjy-body {
+      width: 100%;
+      order: 3;
+      padding: 10px;
+    }
+
+    .wmyjy-menu {
+      width: 100%;
+      float: none;
+      flex-direction: column;
+      order: 1;
+      display: none;
+    }
+
+    .wmyjy-menu.active {
+      display: flex;
+    }
+
+    .wmyjy-desc {
+      width: 100% !important;
+      order: 2;
+    }
   }
 
 
-  .m6uzi-trust-boxes {
+  .ziiwg-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -322,7 +421,7 @@
     gap: 0;
   }
 
-  .m6uzi-trust-item {
+  .ziiwg-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -333,57 +432,57 @@
     gap: 16px;
   }
 
-  .m6uzi-trust-item .material-icons {
+  .ziiwg-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .m6uzi-trust-text {
+  .ziiwg-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .m6uzi-trust-title {
+  .ziiwg-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .m6uzi-trust-desc {
+  .ziiwg-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .m6uzi-trust-boxes {
+    .ziiwg-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .m6uzi-trust-item {
+    .ziiwg-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .m6uzi-trust-boxes {
+    .ziiwg-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .m6uzi-trust-item {
+    .ziiwg-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .m6uzi-trust-title {
+    .ziiwg-trust-title {
       font-size: 16px;
     }
 
-    .m6uzi-trust-desc {
+    .ziiwg-trust-desc {
       font-size: 13px;
     }
   }

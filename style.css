@@ -1,10 +1,10 @@
 
-  .fdyft-header-wrapper {
+  .mc08a-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .fdyft-header {
+  .mc08a-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .fdyft-logo {
+  .mc08a-logo {
     height: 80px;
   }
 
-  .fdyft-header-top {
+  .mc08a-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .fdyft-search-box {
+  .mc08a-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .fdyft-search-box span {
+  .mc08a-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .fdyft-search-box input {
+  .mc08a-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .fdyft-search-box button {
+  .mc08a-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .fdyft-search-box button:hover {
+  .mc08a-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .fdyft-support-info {
+  .mc08a-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .fdyft-support-info span {
+  .mc08a-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .fdyft-support-info small {
+  .mc08a-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .fdyft-support-info strong {
+  .mc08a-support-info strong {
     font-size: 16px;
   }
 
-  .fdyft-icons {
+  .mc08a-icons {
     display: flex;
     gap: 10px;
   }
 
-  .fdyft-icons span {
+  .mc08a-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .fdyft-icons span:hover {
+  .mc08a-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .fdyft-header-bottom {
+  .mc08a-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .fdyft-header-bottom-inner {
+  .mc08a-header-bottom-inner {
     width: var(--max);
     margin: auto;
     padding: 14px 30px;
@@ -125,7 +125,7 @@
     gap: 20px;
   }
 
-  .fdyft-category-btn {
+  .mc08a-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -137,12 +137,12 @@
     font-weight: 500;
   }
 
-  .fdyft-main-menu {
+  .mc08a-main-menu {
     display: flex;
     gap: 10px;
   }
 
-  .fdyft-main-menu a {
+  .mc08a-main-menu a {
     color: black;
     text-decoration: none;
     font-weight: 500;
@@ -151,60 +151,60 @@
     border-radius: 10px;
   }
 
-  .fdyft-main-menu a:hover {
+  .mc08a-main-menu a:hover {
     background-color: #238b23;
     color: white;
   }
 
-  .fdyft-menulistactive {
+  .mc08a-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .fdyft-header-top {
+    .mc08a-header-top {
       gap: 20px;
     }
 
-    .fdyft-search-box {
+    .mc08a-search-box {
       margin: 0 10px;
     }
 
-    .fdyft-support-info strong {
+    .mc08a-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .fdyft-header {
+    .mc08a-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .fdyft-header-top {
+    .mc08a-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .fdyft-search-box {
+    .mc08a-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .fdyft-support-info {
+    .mc08a-support-info {
       display: none;
     }
 
-    .fdyft-header-bottom-inner {
+    .mc08a-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .fdyft-main-menu {
+    .mc08a-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -213,15 +213,15 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .fdyft-logo {
+    .mc08a-logo {
       height: 60px;
     }
 
-    .fdyft-search-box {
+    .mc08a-search-box {
       flex: 0 1 150px;
     }
 
-    .fdyft-icons span {
+    .mc08a-icons span {
       padding: 8px;
       font-size: 18px;
     }
@@ -470,7 +470,7 @@
   }
 
 
-  .rlk5zbody {
+  .yss3ubody {
     margin: 10px 0px 10px 0px;
     width: 100%;
     height: 100%;
@@ -478,14 +478,14 @@
     justify-content: center;
     align-items: center;
   }
-  .rlk5z {
+  .yss3u {
     width: var(--max);
   }
-  .rlk5z > img {
+  .yss3u > img {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .rlk5z {
+    .yss3u {
       width: 100%;
     }
   }
@@ -684,7 +684,7 @@
   }
 
 
-  .nhieb-trust-boxes {
+  .es3q3-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -694,7 +694,7 @@
     gap: 0;
   }
 
-  .nhieb-trust-item {
+  .es3q3-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -705,57 +705,57 @@
     gap: 16px;
   }
 
-  .nhieb-trust-item .material-icons {
+  .es3q3-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .nhieb-trust-text {
+  .es3q3-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .nhieb-trust-title {
+  .es3q3-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .nhieb-trust-desc {
+  .es3q3-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .nhieb-trust-boxes {
+    .es3q3-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .nhieb-trust-item {
+    .es3q3-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .nhieb-trust-boxes {
+    .es3q3-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .nhieb-trust-item {
+    .es3q3-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .nhieb-trust-title {
+    .es3q3-trust-title {
       font-size: 16px;
     }
 
-    .nhieb-trust-desc {
+    .es3q3-trust-desc {
       font-size: 13px;
     }
   }

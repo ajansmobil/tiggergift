@@ -396,23 +396,6 @@
       "icon": "contact_mail"
     },
     {
-      "index": 9,
-      "name": "Page Desing 3",
-      "path": "page-desing-3",
-      "local": "body",
-      "category": "page",
-      "desing": {
-        "height": "200",
-        "opacity": "0.5",
-        "font-size": "50",
-        "backgroundcolor": "#000",
-        "category": "kurumsal"
-      },
-      "id": "bjf04r",
-      "version": "1.0.0",
-      "icon": "web"
-    },
-    {
       "name": "WhatsApp",
       "path": "whatsapp",
       "local": "footer",
@@ -430,12 +413,12 @@
       },
       "data": [],
       "id": "d4xgxu",
-      "index": 10,
+      "index": 9,
       "version": "1.0.0",
       "icon": "chat"
     },
     {
-      "index": 11,
+      "index": 10,
       "name": "Admin Tema",
       "path": "admin-tema",
       "local": "body",
@@ -461,7 +444,7 @@
       "icon": "dashboard_customize"
     },
     {
-      "index": 12,
+      "index": 11,
       "name": "Admin Dashboard",
       "path": "admin-page",
       "local": "body",
@@ -557,7 +540,7 @@
       "icon": "dashboard"
     },
     {
-      "index": 13,
+      "index": 12,
       "name": "Admin Siparişler",
       "path": "admin-siparisler",
       "local": "body",
@@ -747,7 +730,7 @@
       "icon": "shopping_cart"
     },
     {
-      "index": 14,
+      "index": 13,
       "name": "Sepetim",
       "path": "eticaret-sepet",
       "local": "body",
@@ -828,7 +811,7 @@
       "icon": "shopping_cart"
     },
     {
-      "index": 15,
+      "index": 14,
       "name": "Tema",
       "path": "admin-tema",
       "local": "body",
@@ -854,7 +837,7 @@
       "icon": "dashboard_customize"
     },
     {
-      "index": 16,
+      "index": 15,
       "name": "Adreslerim",
       "path": "eticaret-adresler",
       "local": "body",
@@ -899,7 +882,7 @@
       }
     },
     {
-      "index": 17,
+      "index": 16,
       "name": "Bildirimlerim",
       "path": "eticaret-bildirimler",
       "local": "body",
@@ -936,7 +919,7 @@
       }
     },
     {
-      "index": 18,
+      "index": 17,
       "name": "Değerlendirmelerim",
       "path": "eticaret-degerlendirmeler",
       "local": "body",
@@ -977,7 +960,7 @@
       }
     },
     {
-      "index": 19,
+      "index": 18,
       "name": "Faturalarım",
       "path": "eticaret-faturalar",
       "local": "body",
@@ -1014,7 +997,7 @@
       }
     },
     {
-      "index": 20,
+      "index": 19,
       "name": "Favorilerim",
       "path": "eticaret-favorilerim",
       "local": "body",
@@ -1047,7 +1030,7 @@
       }
     },
     {
-      "index": 21,
+      "index": 20,
       "name": "İade ve Değişim",
       "path": "eticaret-iade",
       "local": "body",
@@ -1096,7 +1079,7 @@
       }
     },
     {
-      "index": 22,
+      "index": 21,
       "name": "Kredi Kartlarım",
       "path": "eticaret-kredikartlari",
       "local": "body",
@@ -1137,7 +1120,7 @@
       }
     },
     {
-      "index": 23,
+      "index": 22,
       "name": "Mesajlarım",
       "path": "eticaret-mesajlar",
       "local": "body",
@@ -1178,7 +1161,7 @@
       }
     },
     {
-      "index": 24,
+      "index": 23,
       "name": "Siparişlerim",
       "path": "eticaret-siparisler",
       "local": "body",
@@ -1235,7 +1218,7 @@
       }
     },
     {
-      "index": 25,
+      "index": 24,
       "name": "Kullanıcı Bilgilerim",
       "path": "eticaret-kullanicibilgileri",
       "local": "body",
@@ -1284,7 +1267,7 @@
       }
     },
     {
-      "index": 26,
+      "index": 25,
       "name": "Kuponlarım",
       "path": "eticaret-kuponlar",
       "local": "body",
@@ -1325,7 +1308,7 @@
       }
     },
     {
-      "index": 27,
+      "index": 26,
       "name": "İletişim Tercihlerim",
       "path": "eticaret-iletisimtercihleri",
       "local": "body",
@@ -1370,7 +1353,7 @@
       }
     },
     {
-      "index": 28,
+      "index": 27,
       "name": "Cüzdanım",
       "path": "eticaret-cuzdan",
       "local": "body",
@@ -1424,7 +1407,7 @@
       }
     },
     {
-      "index": 29,
+      "index": 28,
       "name": "Çözüm Merkezi",
       "path": "eticaret-cozummerkezi",
       "local": "body",
@@ -1461,7 +1444,7 @@
       }
     },
     {
-      "index": 30,
+      "index": 29,
       "name": "Ödeme",
       "path": "eticaret-odeme",
       "local": "body",
@@ -1634,7 +1617,7 @@
       "icon": "payment"
     },
     {
-      "index": 31,
+      "index": 30,
       "name": "Admin Ürünler",
       "path": "admin-urunler",
       "local": "body",
@@ -1771,7 +1754,7 @@
       }
     },
     {
-      "index": 32,
+      "index": 31,
       "name": "Admin Kategoriler",
       "path": "admin-kategoriler",
       "local": "body",
@@ -1890,7 +1873,7 @@
       "icon": "category"
     },
     {
-      "index": 33,
+      "index": 32,
       "name": "Admin Müşteriler",
       "path": "admin-musteriler",
       "local": "body",
@@ -1922,7 +1905,7 @@
       "icon": "people"
     },
     {
-      "index": 34,
+      "index": 33,
       "name": "Admin Kampanyalar",
       "path": "admin-kampanyalar",
       "local": "body",
@@ -2126,7 +2109,7 @@
       "icon": "campaign"
     },
     {
-      "index": 35,
+      "index": 34,
       "name": "Admin Ödemeler",
       "path": "admin-odemeler",
       "local": "body",
@@ -2186,7 +2169,7 @@
       "icon": "payment"
     },
     {
-      "index": 36,
+      "index": 35,
       "name": "Admin Raporlar",
       "path": "admin-raporlar",
       "local": "body",
@@ -2242,7 +2225,7 @@
       "icon": "analytics"
     },
     {
-      "index": 37,
+      "index": 36,
       "name": "Admin Modüller",
       "path": "admin-moduller",
       "local": "body",
@@ -2298,7 +2281,7 @@
       "icon": "extension"
     },
     {
-      "index": 38,
+      "index": 37,
       "name": "Admin Üyeler",
       "path": "admin-uyeler",
       "local": "body",
@@ -2358,7 +2341,7 @@
       "icon": "people"
     },
     {
-      "index": 39,
+      "index": 38,
       "name": "Admin Ayarlar",
       "path": "admin-ayarlar",
       "local": "body",
@@ -2410,7 +2393,7 @@
       "icon": "settings"
     },
     {
-      "index": 40,
+      "index": 39,
       "name": "Admin Loglar",
       "path": "admin-loglar",
       "local": "body",
@@ -2464,6 +2447,23 @@
       "id": "admin_loglar_40",
       "version": "1.0.0",
       "icon": "history"
+    },
+    {
+      "index": 40,
+      "name": "Page Desing 5",
+      "path": "page-desing-5",
+      "local": "body",
+      "category": "page",
+      "id": "gcegvl",
+      "desing": {
+        "height": "100",
+        "opacity": "0.5",
+        "font-size": "32",
+        "backgroundcolor": "#238B23",
+        "menu-active": "#cd9624"
+      },
+      "version": "1.0.0",
+      "icon": "web"
     }
   ]
 }

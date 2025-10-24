@@ -26,8 +26,31 @@
       "spot": {
         "tr": ""
       },
-      "desc": {},
-      "icon": "home"
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Kurumsal",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "rh20ipcfn1",
+      "path": "kurumsalknp",
+      "index": 1,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "hakkimizda",
+      "description": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "desc": {}
     },
     {
       "name": {
@@ -39,7 +62,7 @@
       "id": "sv2v8mdwjh",
       "url": "",
       "path": "bakir-aksesuarlar",
-      "index": 1,
+      "index": 2,
       "icon": "home",
       "desing": {
         "header": [],
@@ -65,7 +88,7 @@
       "id": "fo1o2aq1r2",
       "url": "",
       "path": "ehli-keyf",
-      "index": 2,
+      "index": 3,
       "desing": {
         "header": [],
         "body": [],
@@ -91,7 +114,7 @@
       "id": "tar4oohpyq",
       "externalUrl": "",
       "path": "urunlerimiz",
-      "index": 3,
+      "index": 4,
       "icon": "home",
       "desing": {
         "header": [],
@@ -111,7 +134,7 @@
       "id": "qfr1exlrla",
       "externalUrl": "",
       "path": "yerelurunler",
-      "index": 4,
+      "index": 5,
       "icon": "home",
       "desing": {
         "header": [],
@@ -120,26 +143,6 @@
       },
       "pathnext": "",
       "desc": {}
-    },
-    {
-      "name": {
-        "tr": "Kurumsal",
-        "en": ""
-      },
-      "status": "play",
-      "category": "",
-      "id": "rh20ipcfn1",
-      "externalUrl": "",
-      "path": "kurumsal",
-      "index": 5,
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "pathnext": "kurumsal",
-      "desc": {},
-      "icon": "home"
     },
     {
       "name": {

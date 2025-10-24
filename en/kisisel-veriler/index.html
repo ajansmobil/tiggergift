@@ -21,8 +21,8 @@
 
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=r909c" />
-  <link rel="shortcut icon" href="/img/icon.png?v=r909c" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=jxpii" />
+  <link rel="shortcut icon" href="/img/icon.png?v=jxpii" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -50,25 +50,25 @@
 </script>
 
 
-  <script type="text/javascript" src="/src/firebase.js?v=r909c"></script>
-<link rel="stylesheet" href="style.css?v=r909c">
+  <script type="text/javascript" src="/src/firebase.js?v=jxpii"></script>
+<link rel="stylesheet" href="style.css?v=jxpii">
 </head>
 
 <body>
-  <div id="header"><header class="gkkdq-header-wrapper">
-  <div class="gkkdq-header">
-    <div class="gkkdq-header-top">
-      <a href="/en/" class="gkkdq-header-left">
-        <img src="/img/logo.png?v=r909c" alt="Tiggergift Logo" class="gkkdq-logo" />
+  <div id="header"><header class="ltn2s-header-wrapper">
+  <div class="ltn2s-header">
+    <div class="ltn2s-header-top">
+      <a href="/en/" class="ltn2s-header-left">
+        <img src="/img/logo.png?v=jxpii" alt="Tiggergift Logo" class="ltn2s-logo" />
       </a>
 
-      <div class="gkkdq-search-box">
+      <div class="ltn2s-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="gkkdq-support-info">
+      <div class="ltn2s-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
@@ -76,7 +76,7 @@
         </div>
       </div>
 
-      <div class="gkkdq-icons">
+      <div class="ltn2s-icons">
         <a href="/en/login/" class="material-symbols-outlined">person</a>
         <a href="/en/favorilerim/" class="material-symbols-outlined">favorite</a>
         <a href="/en/basket/" class="material-symbols-outlined">shopping_cart</a>
@@ -84,26 +84,50 @@
     </div>
   </div>
 
-  <div class="gkkdq-header-bottom">
-    <div class="gkkdq-header-bottom-inner">
-      <button class="gkkdq-category-btn">
+  <div class="ltn2s-header-bottom">
+    <div class="ltn2s-header-bottom-inner">
+      <button class="ltn2s-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="gkkdq-main-menu"><a href="/en/bakir-mutfak-esyalari/"></a><a href="/en/bakir-aksesuarlar/"></a><a href="/en/ehli-keyf/"></a><a href="/en/urunlerimiz/"></a><a href="/en/yerelurunler/"></a><a href="/en/kurumsal/"></a><a href="/en/iletisim/"></a></nav>
+      <nav class="ltn2s-main-menu"><a href="/en/bakir-mutfak-esyalari/"></a><a href="/en/hakkimizda/"></a><a href="/en/bakir-aksesuarlar/"></a><a href="/en/ehli-keyf/"></a><a href="/en/urunlerimiz/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
     </div>
   </div>
 </header>
 
 
 </div>
-  <div id="content"><div class="xlery-title f36">
+  <div id="content"><div class="x4sl2-title f36">
   <span>undefined</span>
 </div>
-<div class="xlery">
-  <div class="xlery-menu"><a   href="/en/kurumsalyrv" >undefined</a><a   href="/en/hakkimizda" >undefined</a><a   href="/en/misyon" >undefined</a><a   href="/en/vizyon" >undefined</a><a   href="/en/kalite-politikamiz" >undefined</a><a   href="/en/gizlilik-politikasi" >undefined</a><a class="active"  href="/en/kisisel-veriler" >undefined</a><a   href="/en/kullanicihaklari" >undefined</a><a   href="/en/yasal-uyari" >undefined</a></div>
-  <div class="xlery-body"></div>
+<div class="x4sl2">
+  <div class="x4sl2-menu-btn">
+    <span>Menu</span>
+    <i class="fas fa-bars"></i>
+  </div>
+  <div class="x4sl2-menu"><a   href="/en/hakkimizda" >[object Object]</a><a   href="/en/misyon" >[object Object]</a><a   href="/en/vizyon" >[object Object]</a><a   href="/en/kalite-politikamiz" >[object Object]</a><a   href="/en/gizlilik-politikasi" >[object Object]</a><a class="active"  href="/en/kisisel-veriler" >[object Object]</a><a   href="/en/kullanicihaklari" >[object Object]</a><a   href="/en/yasal-uyari" >[object Object]</a></div>
+  <div class="x4sl2-desc">
+    
+    <div class="x4sl2-body"></div>
+  </div>
 </div>
 
+<script>
+  document
+    .querySelector(".x4sl2-menu-btn")
+    .addEventListener("click", function () {
+      document.querySelector(".x4sl2-menu").classList.toggle("active");
+      const icon = this.querySelector("i");
+      icon.classList.toggle("fa-bars");
+      icon.classList.toggle("fa-times");
+    });
+</script>
+
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+</head>
 </div>
   <div id="footer"><!-- Google Material Icons -->
 <link
@@ -112,28 +136,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="kjsoe-trust-boxes">
-      <div class="kjsoe-trust-item">
+<div class="zmf9z-trust-boxes">
+      <div class="zmf9z-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="kjsoe-trust-text">
-          <div class="kjsoe-trust-title">100% Secure Payment</div>
-          <div class="kjsoe-trust-desc">Secure Payment with 3D Secure</div>
+        <div class="zmf9z-trust-text">
+          <div class="zmf9z-trust-title">100% Secure Payment</div>
+          <div class="zmf9z-trust-desc">Secure Payment with 3D Secure</div>
         </div>
       </div>
     
-      <div class="kjsoe-trust-item">
+      <div class="zmf9z-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="kjsoe-trust-text">
-          <div class="kjsoe-trust-title">100% Original Product</div>
-          <div class="kjsoe-trust-desc">Activation with 100% Licensed Original Product</div>
+        <div class="zmf9z-trust-text">
+          <div class="zmf9z-trust-title">100% Original Product</div>
+          <div class="zmf9z-trust-desc">Activation with 100% Licensed Original Product</div>
         </div>
       </div>
     
-      <div class="kjsoe-trust-item">
+      <div class="zmf9z-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="kjsoe-trust-text">
-          <div class="kjsoe-trust-title">Fast Delivery</div>
-          <div class="kjsoe-trust-desc">Online Fast Delivery for All Your Shopping</div>
+        <div class="zmf9z-trust-text">
+          <div class="zmf9z-trust-title">Fast Delivery</div>
+          <div class="zmf9z-trust-desc">Online Fast Delivery for All Your Shopping</div>
         </div>
       </div>
     </div>
@@ -179,7 +203,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/bakir-mutfak-esyalari"></a></li><li class="menu__item"><a class="menu__link" href="/en/bakir-aksesuarlar"></a></li><li class="menu__item"><a class="menu__link" href="/en/ehli-keyf"></a></li><li class="menu__item"><a class="menu__link" href="/en/urunlerimiz"></a></li><li class="menu__item"><a class="menu__link" href="/en/yerelurunler"></a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim"></a></li>
+    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/bakir-mutfak-esyalari"></a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsalknp"></a></li><li class="menu__item"><a class="menu__link" href="/en/bakir-aksesuarlar"></a></li><li class="menu__item"><a class="menu__link" href="/en/ehli-keyf"></a></li><li class="menu__item"><a class="menu__link" href="/en/urunlerimiz"></a></li><li class="menu__item"><a class="menu__link" href="/en/yerelurunler"></a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim"></a></li>
   </ul>
   <p>Tiggergift 2025 cognite. &copy;</p>
 </footer>
@@ -215,7 +239,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=r909c"></script>
-<script src="/src/cookie.js?v=r909c"></script>
+<script type="text/javascript" src="/src/js.js?v=jxpii"></script>
+<script src="/src/cookie.js?v=jxpii"></script>
 
 </html>

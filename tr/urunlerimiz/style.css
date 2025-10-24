@@ -1,10 +1,10 @@
 
-  .jganj-header-wrapper {
+  .zg5a4-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .jganj-header {
+  .zg5a4-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .jganj-logo {
+  .zg5a4-logo {
     height: 80px;
   }
 
-  .jganj-header-top {
+  .zg5a4-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .jganj-search-box {
+  .zg5a4-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .jganj-search-box span {
+  .zg5a4-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .jganj-search-box input {
+  .zg5a4-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .jganj-search-box button {
+  .zg5a4-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .jganj-search-box button:hover {
+  .zg5a4-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .jganj-support-info {
+  .zg5a4-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .jganj-support-info span {
+  .zg5a4-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .jganj-support-info small {
+  .zg5a4-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .jganj-support-info strong {
+  .zg5a4-support-info strong {
     font-size: 16px;
   }
 
-  .jganj-icons {
+  .zg5a4-icons {
     display: flex;
     gap: 10px;
   }
 
-  .jganj-icons span {
+  .zg5a4-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .jganj-icons span:hover {
+  .zg5a4-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .jganj-header-bottom {
+  .zg5a4-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .jganj-header-bottom-inner {
+  .zg5a4-header-bottom-inner {
     width: var(--max);
     margin: auto;
     padding: 14px 30px;
@@ -125,7 +125,7 @@
     gap: 20px;
   }
 
-  .jganj-category-btn {
+  .zg5a4-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -137,12 +137,12 @@
     font-weight: 500;
   }
 
-  .jganj-main-menu {
+  .zg5a4-main-menu {
     display: flex;
     gap: 10px;
   }
 
-  .jganj-main-menu a {
+  .zg5a4-main-menu a {
     color: black;
     text-decoration: none;
     font-weight: 500;
@@ -151,60 +151,60 @@
     border-radius: 10px;
   }
 
-  .jganj-main-menu a:hover {
+  .zg5a4-main-menu a:hover {
     background-color: #238b23;
     color: white;
   }
 
-  .jganj-menulistactive {
+  .zg5a4-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .jganj-header-top {
+    .zg5a4-header-top {
       gap: 20px;
     }
 
-    .jganj-search-box {
+    .zg5a4-search-box {
       margin: 0 10px;
     }
 
-    .jganj-support-info strong {
+    .zg5a4-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .jganj-header {
+    .zg5a4-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .jganj-header-top {
+    .zg5a4-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .jganj-search-box {
+    .zg5a4-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .jganj-support-info {
+    .zg5a4-support-info {
       display: none;
     }
 
-    .jganj-header-bottom-inner {
+    .zg5a4-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .jganj-main-menu {
+    .zg5a4-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -213,22 +213,22 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .jganj-logo {
+    .zg5a4-logo {
       height: 60px;
     }
 
-    .jganj-search-box {
+    .zg5a4-search-box {
       flex: 0 1 150px;
     }
 
-    .jganj-icons span {
+    .zg5a4-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-  .pg1y0-trust-boxes {
+  .ndxox-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -238,7 +238,7 @@
     gap: 0;
   }
 
-  .pg1y0-trust-item {
+  .ndxox-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -249,57 +249,57 @@
     gap: 16px;
   }
 
-  .pg1y0-trust-item .material-icons {
+  .ndxox-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .pg1y0-trust-text {
+  .ndxox-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .pg1y0-trust-title {
+  .ndxox-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .pg1y0-trust-desc {
+  .ndxox-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .pg1y0-trust-boxes {
+    .ndxox-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .pg1y0-trust-item {
+    .ndxox-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .pg1y0-trust-boxes {
+    .ndxox-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .pg1y0-trust-item {
+    .ndxox-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .pg1y0-trust-title {
+    .ndxox-trust-title {
       font-size: 16px;
     }
 
-    .pg1y0-trust-desc {
+    .ndxox-trust-desc {
       font-size: 13px;
     }
   }

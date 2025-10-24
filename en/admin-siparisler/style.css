@@ -1,10 +1,10 @@
 
-  .m91b2-header-wrapper {
+  .v7dql-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .m91b2-header {
+  .v7dql-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .m91b2-logo {
+  .v7dql-logo {
     height: 80px;
   }
 
-  .m91b2-header-top {
+  .v7dql-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .m91b2-search-box {
+  .v7dql-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .m91b2-search-box span {
+  .v7dql-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .m91b2-search-box input {
+  .v7dql-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .m91b2-search-box button {
+  .v7dql-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .m91b2-search-box button:hover {
+  .v7dql-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .m91b2-support-info {
+  .v7dql-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .m91b2-support-info span {
+  .v7dql-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .m91b2-support-info small {
+  .v7dql-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .m91b2-support-info strong {
+  .v7dql-support-info strong {
     font-size: 16px;
   }
 
-  .m91b2-icons {
+  .v7dql-icons {
     display: flex;
     gap: 10px;
   }
 
-  .m91b2-icons span {
+  .v7dql-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .m91b2-icons span:hover {
+  .v7dql-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .m91b2-header-bottom {
+  .v7dql-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .m91b2-header-bottom-inner {
+  .v7dql-header-bottom-inner {
     width: var(--max);
     margin: auto;
     padding: 14px 30px;
@@ -125,7 +125,7 @@
     gap: 20px;
   }
 
-  .m91b2-category-btn {
+  .v7dql-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -137,12 +137,12 @@
     font-weight: 500;
   }
 
-  .m91b2-main-menu {
+  .v7dql-main-menu {
     display: flex;
     gap: 10px;
   }
 
-  .m91b2-main-menu a {
+  .v7dql-main-menu a {
     color: black;
     text-decoration: none;
     font-weight: 500;
@@ -151,60 +151,60 @@
     border-radius: 10px;
   }
 
-  .m91b2-main-menu a:hover {
+  .v7dql-main-menu a:hover {
     background-color: #238b23;
     color: white;
   }
 
-  .m91b2-menulistactive {
+  .v7dql-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .m91b2-header-top {
+    .v7dql-header-top {
       gap: 20px;
     }
 
-    .m91b2-search-box {
+    .v7dql-search-box {
       margin: 0 10px;
     }
 
-    .m91b2-support-info strong {
+    .v7dql-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .m91b2-header {
+    .v7dql-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .m91b2-header-top {
+    .v7dql-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .m91b2-search-box {
+    .v7dql-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .m91b2-support-info {
+    .v7dql-support-info {
       display: none;
     }
 
-    .m91b2-header-bottom-inner {
+    .v7dql-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .m91b2-main-menu {
+    .v7dql-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -213,29 +213,29 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .m91b2-logo {
+    .v7dql-logo {
       height: 60px;
     }
 
-    .m91b2-search-box {
+    .v7dql-search-box {
       flex: 0 1 150px;
     }
 
-    .m91b2-icons span {
+    .v7dql-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-    .npc43-admin-siparisler {
+    .lwomv-admin-siparisler {
         padding: 24px;
         background: var(--bgcolor, #f8f9fa);
         min-height: 100vh;
     }
 
     /* Sayfa Başlığı */
-    .npc43-page-header {
+    .lwomv-page-header {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -247,14 +247,14 @@
         border: 1px solid #e9ecef;
     }
 
-    .npc43-header-left h1 {
+    .lwomv-header-left h1 {
         margin: 0 0 8px 0;
         color: var(--colortitle, #2c3e50);
         font-size: 24px;
         font-weight: 600;
     }
 
-    .npc43-header-subtitle {
+    .lwomv-header-subtitle {
         margin: 0;
         color: #6c757d;
         font-size: 14px;
@@ -265,11 +265,11 @@
 
 
 
-    .npc43-header-right {
+    .lwomv-header-right {
         display: block;
     }
 
-    .npc43-header-actions {
+    .lwomv-header-actions {
         display: flex;
         gap: 12px;
         flex-wrap: wrap;
@@ -278,14 +278,14 @@
 
 
     /* İstatistikler */
-    .npc43-orders-stats {
+    .lwomv-orders-stats {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         gap: 20px;
         margin-bottom: 24px;
     }
 
-    .npc43-stat-item {
+    .lwomv-stat-item {
         background: white;
         padding: 20px;
         border-radius: var(--border_radius, 15px);
@@ -296,17 +296,17 @@
         transition: transform 0.3s ease;
     }
 
-    .npc43-stat-item:hover {
+    .lwomv-stat-item:hover {
         transform: translateY(-2px);
         box-shadow: var(--card_shadow, 0 6px 25px rgba(0, 0, 0, 0.15));
     }
 
-    .npc43-stat-item.active {
+    .lwomv-stat-item.active {
         border: 2px solid var(--color, #007bff);
         transform: translateY(-2px);
     }
 
-    .npc43-stat-icon {
+    .lwomv-stat-icon {
         width: 50px;
         height: 50px;
         border-radius: 12px;
@@ -316,67 +316,67 @@
         font-size: 24px;
     }
 
-    .npc43-stat-all .npc43-stat-icon {
+    .lwomv-stat-all .lwomv-stat-icon {
         background: #e3f2fd;
         color: #1976d2;
     }
 
-    .npc43-stat-pending .npc43-stat-icon {
+    .lwomv-stat-pending .lwomv-stat-icon {
         background: #fff3cd;
         color: #856404;
     }
 
-    .npc43-stat-approved .npc43-stat-icon {
+    .lwomv-stat-approved .lwomv-stat-icon {
         background: #d1ecf1;
         color: #0c5460;
     }
 
-    .npc43-stat-processing .npc43-stat-icon {
+    .lwomv-stat-processing .lwomv-stat-icon {
         background: #cce5ff;
         color: #004085;
     }
 
-    .npc43-stat-shipped .npc43-stat-icon {
+    .lwomv-stat-shipped .lwomv-stat-icon {
         background: #d1ecf1;
         color: #0c5460;
     }
 
-    .npc43-stat-completed .npc43-stat-icon {
+    .lwomv-stat-completed .lwomv-stat-icon {
         background: #d4edda;
         color: #155724;
     }
 
-    .npc43-stat-cancelled .npc43-stat-icon {
+    .lwomv-stat-cancelled .lwomv-stat-icon {
         background: #f8d7da;
         color: #721c24;
     }
 
-    .npc43-stat-returned .npc43-stat-icon {
+    .lwomv-stat-returned .lwomv-stat-icon {
         background: #fff3cd;
         color: #856404;
     }
 
-    .npc43-stat-number {
+    .lwomv-stat-number {
         font-size: 24px;
         font-weight: 700;
         color: var(--colortitle, #2c3e50);
         margin-bottom: 4px;
     }
 
-    .npc43-stat-label {
+    .lwomv-stat-label {
         font-size: 14px;
         color: #6c757d;
     }
 
     /* Tablo */
-    .npc43-orders-table-container {
+    .lwomv-orders-table-container {
         background: white;
         border-radius: var(--border_radius, 15px);
         box-shadow: var(--card_shadow, 0 4px 20px rgba(0, 0, 0, 0.08));
         overflow: hidden;
     }
 
-    .npc43-table-header {
+    .lwomv-table-header {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -385,13 +385,13 @@
         background: #f8f9fa;
     }
 
-    .npc43-table-actions {
+    .lwomv-table-actions {
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .npc43-table-title {
+    .lwomv-table-title {
         font-size: 18px;
         font-weight: 600;
         color: var(--colortitle, #2c3e50);
@@ -400,68 +400,68 @@
 
 
     /* Tablo İçeriği */
-    .npc43-orders-table {
+    .lwomv-orders-table {
         overflow-x: auto;
     }
 
-    .npc43-orders-table table {
+    .lwomv-orders-table table {
         width: 100%;
         border-collapse: collapse;
     }
 
-    .npc43-orders-table th,
-    .npc43-orders-table td {
+    .lwomv-orders-table th,
+    .lwomv-orders-table td {
         padding: 16px 12px;
         text-align: left;
         border-bottom: 1px solid #e9ecef;
     }
 
-    .npc43-orders-table th {
+    .lwomv-orders-table th {
         background: #f8f9fa;
         font-weight: 600;
         color: var(--colortitle, #2c3e50);
         font-size: 14px;
     }
 
-    .npc43-orders-table td {
+    .lwomv-orders-table td {
         font-size: 14px;
         color: #495057;
     }
 
-    .npc43-th-order {
+    .lwomv-th-order {
         width: 120px;
     }
 
-    .npc43-th-date {
+    .lwomv-th-date {
         width: 100px;
     }
 
-    .npc43-th-customer {
+    .lwomv-th-customer {
         width: 150px;
     }
 
-    .npc43-th-products {
+    .lwomv-th-products {
         width: 200px;
     }
 
-    .npc43-th-total {
+    .lwomv-th-total {
         width: 100px;
     }
 
-    .npc43-th-status {
+    .lwomv-th-status {
         width: 120px;
     }
 
-    .npc43-th-payment {
+    .lwomv-th-payment {
         width: 100px;
     }
 
-    .npc43-th-actions {
+    .lwomv-th-actions {
         width: 120px;
     }
 
     /* Durum Badge'leri */
-    .npc43-status-badge {
+    .lwomv-status-badge {
         padding: 6px 12px;
         border-radius: 20px;
         font-size: 12px;
@@ -471,7 +471,7 @@
     }
 
     /* Ödeme Badge'leri */
-    .npc43-payment-badge {
+    .lwomv-payment-badge {
         padding: 4px 8px;
         border-radius: 12px;
         font-size: 11px;
@@ -482,43 +482,43 @@
         min-width: 60px;
     }
 
-    .npc43-status-bekleyen {
+    .lwomv-status-bekleyen {
         background: #fff3cd;
         color: #856404;
     }
 
-    .npc43-status-onaylandi {
+    .lwomv-status-onaylandi {
         background: #cce5ff;
         color: #004085;
     }
 
-    .npc43-status-hazirlaniyor {
+    .lwomv-status-hazirlaniyor {
         background: #d1ecf1;
         color: #0c5460;
     }
 
-    .npc43-status-kargoda {
+    .lwomv-status-kargoda {
         background: #d4edda;
         color: #155724;
     }
 
-    .npc43-status-tamamlandi {
+    .lwomv-status-tamamlandi {
         background: #d4edda;
         color: #155724;
     }
 
-    .npc43-status-iptal {
+    .lwomv-status-iptal {
         background: #f8d7da;
         color: #721c24;
     }
 
-    .npc43-status-iade {
+    .lwomv-status-iade {
         background: #fff3cd;
         color: #856404;
     }
 
     /* Butonlar */
-    .npc43-btn {
+    .lwomv-btn {
         padding: 10px 16px;
         border: none;
         border-radius: 8px;
@@ -532,119 +532,119 @@
         text-decoration: none;
     }
 
-    .npc43-btn-primary {
+    .lwomv-btn-primary {
         background: var(--color, #007bff);
         color: white;
     }
 
-    .npc43-btn-primary:hover {
+    .lwomv-btn-primary:hover {
         background: #0056b3;
         transform: translateY(-1px);
     }
 
-    .npc43-btn-secondary {
+    .lwomv-btn-secondary {
         background: #6c757d;
         color: white;
     }
 
-    .npc43-btn-secondary:hover {
+    .lwomv-btn-secondary:hover {
         background: #545b62;
         transform: translateY(-1px);
     }
 
-    .npc43-btn-success {
+    .lwomv-btn-success {
         background: #28a745;
         color: white;
     }
 
-    .npc43-btn-warning {
+    .lwomv-btn-warning {
         background: #ffc107;
         color: #212529;
     }
 
-    .npc43-btn-info {
+    .lwomv-btn-info {
         background: #17a2b8;
         color: white;
     }
 
-    .npc43-btn-danger {
+    .lwomv-btn-danger {
         background: #dc3545;
         color: white;
     }
 
-    .npc43-btn-sm {
+    .lwomv-btn-sm {
         padding: 6px 10px;
         font-size: 12px;
     }
 
-    .npc43-action-buttons {
+    .lwomv-action-buttons {
         display: flex;
         gap: 6px;
     }
 
     /* Responsive */
     @media (max-width: 1024px) {
-        .npc43-orders-stats {
+        .lwomv-orders-stats {
             grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         }
 
-        .npc43-filter-options {
+        .lwomv-filter-options {
             gap: 8px;
         }
 
-        .npc43-filter-options select,
-        .npc43-filter-options input {
+        .lwomv-filter-options select,
+        .lwomv-filter-options input {
             min-width: 120px;
         }
     }
 
     @media (max-width: 768px) {
-        .npc43-admin-siparisler {
+        .lwomv-admin-siparisler {
             padding: 16px;
         }
 
-        .npc43-page-header {
+        .lwomv-page-header {
             flex-direction: column;
             gap: 16px;
             align-items: stretch;
         }
 
-        .npc43-header-actions {
+        .lwomv-header-actions {
             justify-content: center;
         }
 
-        .npc43-search-filters {
+        .lwomv-search-filters {
             padding: 16px;
         }
 
-        .npc43-filter-options {
+        .lwomv-filter-options {
             flex-direction: column;
             align-items: stretch;
         }
 
-        .npc43-filter-options select,
-        .npc43-filter-options input {
+        .lwomv-filter-options select,
+        .lwomv-filter-options input {
             width: 100%;
         }
 
-        .npc43-table-header {
+        .lwomv-table-header {
             flex-direction: column;
             gap: 16px;
             align-items: stretch;
         }
 
-        .npc43-orders-table {
+        .lwomv-orders-table {
             font-size: 12px;
         }
 
-        .npc43-orders-table th,
-        .npc43-orders-table td {
+        .lwomv-orders-table th,
+        .lwomv-orders-table td {
             padding: 8px 6px;
         }
     }
 
     /* Arama ve Filtreleme */
-    .npc43-search-filters {
+    .lwomv-search-filters {
         background: white;
         padding: 20px;
         border-radius: var(--border_radius, 15px);
@@ -653,7 +653,7 @@
         border: 1px solid #e9ecef;
     }
 
-    .npc43-filter-options {
+    .lwomv-filter-options {
         display: flex;
         gap: 16px;
         align-items: center;
@@ -661,14 +661,14 @@
         width: 100%;
     }
 
-    .npc43-search-box {
+    .lwomv-search-box {
         position: relative;
         flex: 1;
         min-width: 200px;
         max-width: 400px;
     }
 
-    .npc43-search-box span {
+    .lwomv-search-box span {
         position: absolute;
         left: 12px;
         top: 50%;
@@ -676,7 +676,7 @@
         color: #6c757d;
     }
 
-    .npc43-search-box input {
+    .lwomv-search-box input {
         width: 100%;
         padding: 10px 12px 10px 40px;
         border: 1px solid #e9ecef;
@@ -689,13 +689,13 @@
         white-space: nowrap;
     }
 
-    .npc43-search-box input:focus {
+    .lwomv-search-box input:focus {
         outline: none;
         border-color: var(--color, #007bff);
     }
 
-    .npc43-filter-options select,
-    .npc43-filter-options input[type="date"] {
+    .lwomv-filter-options select,
+    .lwomv-filter-options input[type="date"] {
         padding: 10px 12px;
         border: 1px solid #e9ecef;
         border-radius: 8px;
@@ -705,14 +705,14 @@
         transition: border-color 0.3s ease;
     }
 
-    .npc43-filter-options select:focus,
-    .npc43-filter-options input[type="date"]:focus {
+    .lwomv-filter-options select:focus,
+    .lwomv-filter-options input[type="date"]:focus {
         outline: none;
         border-color: var(--color, #007bff);
     }
 
     /* Sayfalama */
-    .npc43-pagination {
+    .lwomv-pagination {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -722,14 +722,14 @@
         background: #f8f9fa;
     }
 
-    .npc43-page-info {
+    .lwomv-page-info {
         font-size: 14px;
         color: #6c757d;
         font-weight: 500;
     }
 
     /* Modal */
-    .npc43-modal {
+    .lwomv-modal {
         display: none;
         position: fixed;
         z-index: 1000;
@@ -741,7 +741,7 @@
         backdrop-filter: blur(4px);
     }
 
-    .npc43-modal-content {
+    .lwomv-modal-content {
         background-color: white;
         margin: 5% auto;
         padding: 0;
@@ -764,7 +764,7 @@
         }
     }
 
-    .npc43-modal-header {
+    .lwomv-modal-header {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -774,14 +774,14 @@
         border-radius: var(--border_radius, 15px) var(--border_radius, 15px) 0 0;
     }
 
-    .npc43-modal-header h3 {
+    .lwomv-modal-header h3 {
         margin: 0;
         color: var(--colortitle, #2c3e50);
         font-size: 18px;
         font-weight: 600;
     }
 
-    .npc43-modal-close {
+    .lwomv-modal-close {
         color: #aaa;
         font-size: 28px;
         font-weight: bold;
@@ -790,20 +790,20 @@
         transition: color 0.3s ease;
     }
 
-    .npc43-modal-close:hover {
+    .lwomv-modal-close:hover {
         color: #000;
     }
 
-    .npc43-modal-body {
+    .lwomv-modal-body {
         padding: 20px;
     }
 
     /* Form Stilleri */
-    .npc43-form-group {
+    .lwomv-form-group {
         margin-bottom: 20px;
     }
 
-    .npc43-form-group label {
+    .lwomv-form-group label {
         display: block;
         margin-bottom: 8px;
         font-weight: 500;
@@ -811,9 +811,9 @@
         font-size: 14px;
     }
 
-    .npc43-form-group input,
-    .npc43-form-group select,
-    .npc43-form-group textarea {
+    .lwomv-form-group input,
+    .lwomv-form-group select,
+    .lwomv-form-group textarea {
         width: 100%;
         padding: 10px 12px;
         border: 1px solid #e9ecef;
@@ -823,19 +823,19 @@
         box-sizing: border-box;
     }
 
-    .npc43-form-group input:focus,
-    .npc43-form-group select:focus,
-    .npc43-form-group textarea:focus {
+    .lwomv-form-group input:focus,
+    .lwomv-form-group select:focus,
+    .lwomv-form-group textarea:focus {
         outline: none;
         border-color: var(--color, #007bff);
     }
 
-    .npc43-form-group textarea {
+    .lwomv-form-group textarea {
         resize: vertical;
         min-height: 80px;
     }
 
-    .npc43-form-actions {
+    .lwomv-form-actions {
         display: flex;
         gap: 12px;
         justify-content: flex-end;
@@ -845,34 +845,34 @@
     }
 
     /* Müşteri Bilgileri */
-    .npc43-customer-info {
+    .lwomv-customer-info {
         display: flex;
         flex-direction: column;
         gap: 4px;
     }
 
-    .npc43-customer-name {
+    .lwomv-customer-name {
         font-weight: 500;
         color: var(--colortitle, #2c3e50);
     }
 
-    .npc43-customer-email {
+    .lwomv-customer-email {
         font-size: 12px;
         color: #6c757d;
     }
 
     /* Ürün Hücresi */
-    .npc43-products-cell {
+    .lwomv-products-cell {
         max-width: 200px;
     }
 
-    .npc43-total-cell {
+    .lwomv-total-cell {
         font-weight: 600;
         color: var(--color, #007bff);
     }
 
     /* Bildirim Stilleri */
-    .npc43-notification {
+    .lwomv-notification {
         position: fixed;
         top: 20px;
         right: 20px;
@@ -897,56 +897,56 @@
         }
     }
 
-    .npc43-notification-success {
+    .lwomv-notification-success {
         background: #28a745;
     }
 
-    .npc43-notification-error {
+    .lwomv-notification-error {
         background: #dc3545;
     }
 
-    .npc43-notification-info {
+    .lwomv-notification-info {
         background: #17a2b8;
     }
 
     /* Sipariş Detay Stilleri */
-    .npc43-siparis-detail {
+    .lwomv-siparis-detail {
         max-height: 70vh;
         overflow-y: auto;
     }
 
-    .npc43-detail-section {
+    .lwomv-detail-section {
         margin-bottom: 24px;
         padding-bottom: 20px;
         border-bottom: 1px solid #e9ecef;
     }
 
-    .npc43-detail-section:last-child {
+    .lwomv-detail-section:last-child {
         border-bottom: none;
         margin-bottom: 0;
         padding-bottom: 0;
     }
 
-    .npc43-detail-section h4 {
+    .lwomv-detail-section h4 {
         margin: 0 0 16px 0;
         color: var(--colortitle, #2c3e50);
         font-size: 16px;
         font-weight: 600;
     }
 
-    .npc43-detail-grid {
+    .lwomv-detail-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         gap: 16px;
     }
 
-    .npc43-detail-item {
+    .lwomv-detail-item {
         display: flex;
         flex-direction: column;
         gap: 4px;
     }
 
-    .npc43-detail-item label {
+    .lwomv-detail-item label {
         font-size: 12px;
         color: #6c757d;
         font-weight: 500;
@@ -954,19 +954,19 @@
         letter-spacing: 0.5px;
     }
 
-    .npc43-detail-item span {
+    .lwomv-detail-item span {
         font-size: 14px;
         color: var(--colortitle, #2c3e50);
         font-weight: 500;
     }
 
-    .npc43-products-list {
+    .lwomv-products-list {
         display: flex;
         flex-direction: column;
         gap: 12px;
     }
 
-    .npc43-product-item {
+    .lwomv-product-item {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -976,19 +976,19 @@
         border: 1px solid #e9ecef;
     }
 
-    .npc43-product-name {
+    .lwomv-product-name {
         font-weight: 500;
         color: var(--colortitle, #2c3e50);
         flex: 1;
     }
 
-    .npc43-product-quantity {
+    .lwomv-product-quantity {
         color: #6c757d;
         font-size: 12px;
         margin: 0 16px;
     }
 
-    .npc43-product-price {
+    .lwomv-product-price {
         font-weight: 600;
         color: var(--color, #007bff);
         font-size: 14px;
@@ -997,35 +997,35 @@
 
     /* Responsive düzenlemeler */
     @media screen and (max-width: 768px) {
-        .npc43-filter-options {
+        .lwomv-filter-options {
             flex-direction: column;
             align-items: stretch;
             gap: 12px;
         }
 
-        .npc43-search-box {
+        .lwomv-search-box {
             min-width: 100%;
             max-width: 100%;
         }
 
-        .npc43-filter-options select,
-        .npc43-filter-options input[type="date"] {
+        .lwomv-filter-options select,
+        .lwomv-filter-options input[type="date"] {
             min-width: 100%;
         }
     }
 
     @media screen and (max-width: 480px) {
-        .npc43-search-filters {
+        .lwomv-search-filters {
             padding: 15px;
         }
 
-        .npc43-filter-options {
+        .lwomv-filter-options {
             gap: 10px;
         }
     }
 
 
-  .jee9c-profile {
+  .el7fb-profile {
     background-color: #111;
     padding: 5px;
     border-radius: 5px;
@@ -1035,26 +1035,26 @@
     gap: 10px;
   }
 
-  .jee9c-profile>* {
+  .el7fb-profile>* {
     display: flex;
     align-items: center;
   }
 
-  .jee9c-user-img {
+  .el7fb-user-img {
     border-radius: 100%;
     width: 40px;
     height: 40px;
     background-color: #ffffff;
   }
 
-  .jee9c {
+  .el7fb {
     width: var(--max);
     display: flex;
     gap: 15px;
     margin: 10px 0px 10px 0px;
   }
 
-  .jee9c-menu {
+  .el7fb-menu {
     width: 220px;
     padding: 10px;
     background-color: #601515;
@@ -1065,20 +1065,20 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  .jee9c-menu-title {
+  .el7fb-menu-title {
     font-size: 15px;
     opacity: 0.8;
     color: #fff;
     padding: 5px;
   }
 
-  .jee9c-menu-category {
+  .el7fb-menu-category {
     display: flex;
     flex-direction: column;
     gap: 2px;
   }
 
-  .jee9c-menu-category>a {
+  .el7fb-menu-category>a {
     color: #fff;
     padding: 10px;
     cursor: pointer;
@@ -1093,13 +1093,13 @@
     border-width: 0px 0px 1px 0px;
   }
 
-  .jee9c-menu-category>a:hover {
+  .el7fb-menu-category>a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     background-color: #202020;
     border-radius: 10px;
   }
 
-  .jee9c-body {
+  .el7fb-body {
     background-color: #ffffff;
     flex: 1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1110,7 +1110,7 @@
     min-height: calc(100vh - 230px);
   }
 
-  .jee9c-menu-active {
+  .el7fb-menu-active {
     background-color: #202020 !important;
   }
 
@@ -1169,7 +1169,7 @@
   }
 
 
-  .t11zf-trust-boxes {
+  .brnx2-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -1179,7 +1179,7 @@
     gap: 0;
   }
 
-  .t11zf-trust-item {
+  .brnx2-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -1190,57 +1190,57 @@
     gap: 16px;
   }
 
-  .t11zf-trust-item .material-icons {
+  .brnx2-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .t11zf-trust-text {
+  .brnx2-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .t11zf-trust-title {
+  .brnx2-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .t11zf-trust-desc {
+  .brnx2-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .t11zf-trust-boxes {
+    .brnx2-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .t11zf-trust-item {
+    .brnx2-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .t11zf-trust-boxes {
+    .brnx2-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .t11zf-trust-item {
+    .brnx2-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .t11zf-trust-title {
+    .brnx2-trust-title {
       font-size: 16px;
     }
 
-    .t11zf-trust-desc {
+    .brnx2-trust-desc {
       font-size: 13px;
     }
   }

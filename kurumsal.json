@@ -5,24 +5,6 @@
   "data": [
     {
       "name": {
-        "tr": "Kurumsal",
-        "en": ""
-      },
-      "status": "play",
-      "id": "kurumsal",
-      "path": "kurumsalyrv",
-      "category": "",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "index": 0,
-      "icon": "home",
-      "desc": {}
-    },
-    {
-      "name": {
         "tr": "Hakkımızda",
         "en": ""
       },
@@ -35,7 +17,7 @@
         "body": [],
         "footer": []
       },
-      "index": 1,
+      "index": 0,
       "icon": "home",
       "desc": {}
     },
@@ -53,7 +35,7 @@
         "body": [],
         "footer": []
       },
-      "index": 2,
+      "index": 1,
       "icon": "home",
       "desc": {}
     },
@@ -71,7 +53,7 @@
         "body": [],
         "footer": []
       },
-      "index": 3,
+      "index": 2,
       "icon": "home",
       "desc": {}
     },
@@ -89,7 +71,7 @@
         "body": [],
         "footer": []
       },
-      "index": 4,
+      "index": 3,
       "icon": "home",
       "desc": {}
     },
@@ -107,7 +89,7 @@
         "body": [],
         "footer": []
       },
-      "index": 5,
+      "index": 4,
       "icon": "home",
       "desc": {}
     },
@@ -125,7 +107,7 @@
         "body": [],
         "footer": []
       },
-      "index": 6,
+      "index": 5,
       "icon": "home",
       "desc": {}
     },
@@ -143,7 +125,7 @@
         "body": [],
         "footer": []
       },
-      "index": 7,
+      "index": 6,
       "icon": "home",
       "desc": {}
     },
@@ -161,7 +143,7 @@
         "body": [],
         "footer": []
       },
-      "index": 8,
+      "index": 7,
       "icon": "home",
       "desc": {}
     }
@@ -170,7 +152,7 @@
   "desing": {
     "header": [],
     "body": [
-      "bjf04r"
+      "gcegvl"
     ],
     "footer": []
   }

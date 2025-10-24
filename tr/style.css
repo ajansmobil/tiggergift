@@ -1,10 +1,10 @@
 
-  .pu4pf-header-wrapper {
+  .rx4qx-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .pu4pf-header {
+  .rx4qx-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .pu4pf-logo {
+  .rx4qx-logo {
     height: 80px;
   }
 
-  .pu4pf-header-top {
+  .rx4qx-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .pu4pf-search-box {
+  .rx4qx-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .pu4pf-search-box span {
+  .rx4qx-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .pu4pf-search-box input {
+  .rx4qx-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .pu4pf-search-box button {
+  .rx4qx-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .pu4pf-search-box button:hover {
+  .rx4qx-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .pu4pf-support-info {
+  .rx4qx-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .pu4pf-support-info span {
+  .rx4qx-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .pu4pf-support-info small {
+  .rx4qx-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .pu4pf-support-info strong {
+  .rx4qx-support-info strong {
     font-size: 16px;
   }
 
-  .pu4pf-icons {
+  .rx4qx-icons {
     display: flex;
     gap: 10px;
   }
 
-  .pu4pf-icons span {
+  .rx4qx-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .pu4pf-icons span:hover {
+  .rx4qx-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .pu4pf-header-bottom {
+  .rx4qx-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .pu4pf-header-bottom-inner {
+  .rx4qx-header-bottom-inner {
     width: var(--max);
     margin: auto;
     padding: 14px 30px;
@@ -125,7 +125,7 @@
     gap: 20px;
   }
 
-  .pu4pf-category-btn {
+  .rx4qx-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -137,12 +137,12 @@
     font-weight: 500;
   }
 
-  .pu4pf-main-menu {
+  .rx4qx-main-menu {
     display: flex;
     gap: 10px;
   }
 
-  .pu4pf-main-menu a {
+  .rx4qx-main-menu a {
     color: black;
     text-decoration: none;
     font-weight: 500;
@@ -151,60 +151,60 @@
     border-radius: 10px;
   }
 
-  .pu4pf-main-menu a:hover {
+  .rx4qx-main-menu a:hover {
     background-color: #238b23;
     color: white;
   }
 
-  .pu4pf-menulistactive {
+  .rx4qx-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .pu4pf-header-top {
+    .rx4qx-header-top {
       gap: 20px;
     }
 
-    .pu4pf-search-box {
+    .rx4qx-search-box {
       margin: 0 10px;
     }
 
-    .pu4pf-support-info strong {
+    .rx4qx-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .pu4pf-header {
+    .rx4qx-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .pu4pf-header-top {
+    .rx4qx-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .pu4pf-search-box {
+    .rx4qx-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .pu4pf-support-info {
+    .rx4qx-support-info {
       display: none;
     }
 
-    .pu4pf-header-bottom-inner {
+    .rx4qx-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .pu4pf-main-menu {
+    .rx4qx-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -213,15 +213,15 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .pu4pf-logo {
+    .rx4qx-logo {
       height: 60px;
     }
 
-    .pu4pf-search-box {
+    .rx4qx-search-box {
       flex: 0 1 150px;
     }
 
-    .pu4pf-icons span {
+    .rx4qx-icons span {
       padding: 8px;
       font-size: 18px;
     }
@@ -470,7 +470,7 @@
   }
 
 
-  .gkcvqbody {
+  .e7cuwbody {
     margin: 10px 0px 10px 0px;
     width: 100%;
     height: 100%;
@@ -478,14 +478,14 @@
     justify-content: center;
     align-items: center;
   }
-  .gkcvq {
+  .e7cuw {
     width: var(--max);
   }
-  .gkcvq > img {
+  .e7cuw > img {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .gkcvq {
+    .e7cuw {
       width: 100%;
     }
   }
@@ -684,7 +684,7 @@
   }
 
 
-  .w5gah-trust-boxes {
+  .n9136-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -694,7 +694,7 @@
     gap: 0;
   }
 
-  .w5gah-trust-item {
+  .n9136-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -705,57 +705,57 @@
     gap: 16px;
   }
 
-  .w5gah-trust-item .material-icons {
+  .n9136-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .w5gah-trust-text {
+  .n9136-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .w5gah-trust-title {
+  .n9136-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .w5gah-trust-desc {
+  .n9136-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .w5gah-trust-boxes {
+    .n9136-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .w5gah-trust-item {
+    .n9136-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .w5gah-trust-boxes {
+    .n9136-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .w5gah-trust-item {
+    .n9136-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .w5gah-trust-title {
+    .n9136-trust-title {
       font-size: 16px;
     }
 
-    .w5gah-trust-desc {
+    .n9136-trust-desc {
       font-size: 13px;
     }
   }

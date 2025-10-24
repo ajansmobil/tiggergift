@@ -7,13 +7,13 @@
   "id": "rh20ipcfn1",
   "externalUrl": "",
   "path": "kurumsalknp",
-  "index": 0,
+  "index": 1,
   "desing": {
     "header": [],
     "body": [],
     "footer": []
   },
-  "pathnext": "kurumsal",
+  "pathnext": "hakkimizda",
   "description": {
     "tr": ""
   },
@@ -26,6 +26,6 @@
   "spot": {
     "tr": ""
   },
-  "update": "2025-08-28T17:51:25.466Z",
+  "update": "2025-10-22T06:16:55.176Z",
   "date": "2025-07-25T07:24:24.003Z"
 }

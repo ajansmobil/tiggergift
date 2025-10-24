@@ -1,10 +1,10 @@
 
-  .zwz0x-header-wrapper {
+  .x5cwc-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .zwz0x-header {
+  .x5cwc-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .zwz0x-logo {
+  .x5cwc-logo {
     height: 80px;
   }
 
-  .zwz0x-header-top {
+  .x5cwc-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .zwz0x-search-box {
+  .x5cwc-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .zwz0x-search-box span {
+  .x5cwc-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .zwz0x-search-box input {
+  .x5cwc-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .zwz0x-search-box button {
+  .x5cwc-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .zwz0x-search-box button:hover {
+  .x5cwc-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .zwz0x-support-info {
+  .x5cwc-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .zwz0x-support-info span {
+  .x5cwc-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .zwz0x-support-info small {
+  .x5cwc-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .zwz0x-support-info strong {
+  .x5cwc-support-info strong {
     font-size: 16px;
   }
 
-  .zwz0x-icons {
+  .x5cwc-icons {
     display: flex;
     gap: 10px;
   }
 
-  .zwz0x-icons span {
+  .x5cwc-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .zwz0x-icons span:hover {
+  .x5cwc-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .zwz0x-header-bottom {
+  .x5cwc-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .zwz0x-header-bottom-inner {
+  .x5cwc-header-bottom-inner {
     width: var(--max);
     margin: auto;
     padding: 14px 30px;
@@ -125,7 +125,7 @@
     gap: 20px;
   }
 
-  .zwz0x-category-btn {
+  .x5cwc-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -137,12 +137,12 @@
     font-weight: 500;
   }
 
-  .zwz0x-main-menu {
+  .x5cwc-main-menu {
     display: flex;
     gap: 10px;
   }
 
-  .zwz0x-main-menu a {
+  .x5cwc-main-menu a {
     color: black;
     text-decoration: none;
     font-weight: 500;
@@ -151,60 +151,60 @@
     border-radius: 10px;
   }
 
-  .zwz0x-main-menu a:hover {
+  .x5cwc-main-menu a:hover {
     background-color: #238b23;
     color: white;
   }
 
-  .zwz0x-menulistactive {
+  .x5cwc-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .zwz0x-header-top {
+    .x5cwc-header-top {
       gap: 20px;
     }
 
-    .zwz0x-search-box {
+    .x5cwc-search-box {
       margin: 0 10px;
     }
 
-    .zwz0x-support-info strong {
+    .x5cwc-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .zwz0x-header {
+    .x5cwc-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .zwz0x-header-top {
+    .x5cwc-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .zwz0x-search-box {
+    .x5cwc-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .zwz0x-support-info {
+    .x5cwc-support-info {
       display: none;
     }
 
-    .zwz0x-header-bottom-inner {
+    .x5cwc-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .zwz0x-main-menu {
+    .x5cwc-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -213,15 +213,15 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .zwz0x-logo {
+    .x5cwc-logo {
       height: 60px;
     }
 
-    .zwz0x-search-box {
+    .x5cwc-search-box {
       flex: 0 1 150px;
     }
 
-    .zwz0x-icons span {
+    .x5cwc-icons span {
       padding: 8px;
       font-size: 18px;
     }
@@ -470,7 +470,7 @@
   }
 
 
-  .cd3pobody {
+  .mtl7ibody {
     margin: 10px 0px 10px 0px;
     width: 100%;
     height: 100%;
@@ -478,14 +478,14 @@
     justify-content: center;
     align-items: center;
   }
-  .cd3po {
+  .mtl7i {
     width: var(--max);
   }
-  .cd3po > img {
+  .mtl7i > img {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .cd3po {
+    .mtl7i {
       width: 100%;
     }
   }
@@ -684,7 +684,7 @@
   }
 
 
-  .won7g-trust-boxes {
+  .wv195-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -694,7 +694,7 @@
     gap: 0;
   }
 
-  .won7g-trust-item {
+  .wv195-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -705,57 +705,57 @@
     gap: 16px;
   }
 
-  .won7g-trust-item .material-icons {
+  .wv195-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .won7g-trust-text {
+  .wv195-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .won7g-trust-title {
+  .wv195-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .won7g-trust-desc {
+  .wv195-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .won7g-trust-boxes {
+    .wv195-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .won7g-trust-item {
+    .wv195-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .won7g-trust-boxes {
+    .wv195-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .won7g-trust-item {
+    .wv195-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .won7g-trust-title {
+    .wv195-trust-title {
       font-size: 16px;
     }
 
-    .won7g-trust-desc {
+    .wv195-trust-desc {
       font-size: 13px;
     }
   }

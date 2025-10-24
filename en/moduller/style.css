@@ -1,10 +1,10 @@
 
-  .bflo3-header-wrapper {
+  .olcyi-header-wrapper {
     background: #ffffff;
     width: 100%;
   }
 
-  .bflo3-header {
+  .olcyi-header {
     max-width: 1200px;
     margin: auto;
     padding: 16px 30px;
@@ -13,11 +13,11 @@
     align-items: center;
   }
 
-  .bflo3-logo {
+  .olcyi-logo {
     height: 80px;
   }
 
-  .bflo3-header-top {
+  .olcyi-header-top {
     display: flex;
     flex: 1;
     align-items: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
   }
 
-  .bflo3-search-box {
+  .olcyi-search-box {
     flex: 1;
     display: flex;
     align-items: center;
@@ -35,12 +35,12 @@
     margin: 0 20px;
   }
 
-  .bflo3-search-box span {
+  .olcyi-search-box span {
     margin-left: 10px;
     color: #cd9624;
   }
 
-  .bflo3-search-box input {
+  .olcyi-search-box input {
     flex: 1;
     padding: 10px;
     border: none;
@@ -48,7 +48,7 @@
     background: transparent;
   }
 
-  .bflo3-search-box button {
+  .olcyi-search-box button {
     background: #cd9624;
     color: white;
     border: none;
@@ -57,7 +57,7 @@
     font-weight: bold;
   }
 
-  .bflo3-search-box button:hover {
+  .olcyi-search-box button:hover {
     background: #238B23;
     color: white;
     border: none;
@@ -66,34 +66,34 @@
     font-weight: bold;
   }
 
-  .bflo3-support-info {
+  .olcyi-support-info {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000;
   }
 
-  .bflo3-support-info span {
+  .olcyi-support-info span {
     font-size: 40px;
     color: #cd9624;
   }
 
-  .bflo3-support-info small {
+  .olcyi-support-info small {
     display: block;
     font-size: 13px;
     color: #000;
   }
 
-  .bflo3-support-info strong {
+  .olcyi-support-info strong {
     font-size: 16px;
   }
 
-  .bflo3-icons {
+  .olcyi-icons {
     display: flex;
     gap: 10px;
   }
 
-  .bflo3-icons span {
+  .olcyi-icons span {
     background: #fef7e7;
     padding: 10px;
     border-radius: 50%;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
 
-  .bflo3-icons span:hover {
+  .olcyi-icons span:hover {
     background: #cd9624;
     padding: 10px;
     border-radius: 50%;
@@ -111,12 +111,12 @@
     cursor: pointer;
   }
 
-  .bflo3-header-bottom {
+  .olcyi-header-bottom {
     background: #cd9624;
     width: 100%;
   }
 
-  .bflo3-header-bottom-inner {
+  .olcyi-header-bottom-inner {
     width: var(--max);
     margin: auto;
     padding: 14px 30px;
@@ -125,7 +125,7 @@
     gap: 20px;
   }
 
-  .bflo3-category-btn {
+  .olcyi-category-btn {
     background: #238B23;
     color: #fff;
     border: none;
@@ -137,12 +137,12 @@
     font-weight: 500;
   }
 
-  .bflo3-main-menu {
+  .olcyi-main-menu {
     display: flex;
     gap: 10px;
   }
 
-  .bflo3-main-menu a {
+  .olcyi-main-menu a {
     color: black;
     text-decoration: none;
     font-weight: 500;
@@ -151,60 +151,60 @@
     border-radius: 10px;
   }
 
-  .bflo3-main-menu a:hover {
+  .olcyi-main-menu a:hover {
     background-color: #238b23;
     color: white;
   }
 
-  .bflo3-menulistactive {
+  .olcyi-menulistactive {
     color: #238b23 !important;
     font-weight: bold !important;
   }
 
   /* Tablet */
   @media screen and (max-width: 1024px) {
-    .bflo3-header-top {
+    .olcyi-header-top {
       gap: 20px;
     }
 
-    .bflo3-search-box {
+    .olcyi-search-box {
       margin: 0 10px;
     }
 
-    .bflo3-support-info strong {
+    .olcyi-support-info strong {
       font-size: 14px;
     }
   }
 
   /* Mobil */
   @media screen and (max-width: 768px) {
-    .bflo3-header {
+    .olcyi-header {
       padding: 10px 15px;
       flex-direction: column;
       gap: 15px;
     }
 
-    .bflo3-header-top {
+    .olcyi-header-top {
       width: 100%;
       justify-content: space-between;
     }
 
-    .bflo3-search-box {
+    .olcyi-search-box {
       flex: 0 1 200px;
       margin: 0;
     }
 
-    .bflo3-support-info {
+    .olcyi-support-info {
       display: none;
     }
 
-    .bflo3-header-bottom-inner {
+    .olcyi-header-bottom-inner {
       padding: 10px 15px;
       flex-direction: column;
       gap: 10px;
     }
 
-    .bflo3-main-menu {
+    .olcyi-main-menu {
       margin-left: 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -213,28 +213,28 @@
 
   /* Küçük Mobil */
   @media screen and (max-width: 480px) {
-    .bflo3-logo {
+    .olcyi-logo {
       height: 60px;
     }
 
-    .bflo3-search-box {
+    .olcyi-search-box {
       flex: 0 1 150px;
     }
 
-    .bflo3-icons span {
+    .olcyi-icons span {
       padding: 8px;
       font-size: 18px;
     }
   }
 
 
-    .g21xe-admin-moduller {
+    .nowpy-admin-moduller {
         padding: 24px;
         background: var(--bgcolor, #f8f9fa);
         min-height: 100vh;
     }
 
-    .g21xe-page-header {
+    .nowpy-page-header {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -246,14 +246,14 @@
         border: 1px solid #e9ecef;
     }
 
-    .g21xe-header-left h1 {
+    .nowpy-header-left h1 {
         margin: 0 0 8px 0;
         color: var(--colortitle, #2c3e50);
         font-size: 24px;
         font-weight: 600;
     }
 
-    .g21xe-header-subtitle {
+    .nowpy-header-subtitle {
         margin: 0;
         color: #6c757d;
         font-size: 14px;
@@ -262,48 +262,48 @@
         gap: 8px;
     }
 
-    .g21xe-header-actions {
+    .nowpy-header-actions {
         display: flex;
         gap: 12px;
         flex-wrap: wrap;
     }
 
-    .g21xe-modules-table-container {
+    .nowpy-modules-table-container {
         background: white;
         border-radius: var(--border_radius, 15px);
         box-shadow: var(--card_shadow, 0 4px 20px rgba(0, 0, 0, 0.08));
         overflow: hidden;
     }
 
-    .g21xe-modules-table {
+    .nowpy-modules-table {
         overflow-x: auto;
     }
 
-    .g21xe-modules-table table {
+    .nowpy-modules-table table {
         width: 100%;
         border-collapse: collapse;
     }
 
-    .g21xe-modules-table th,
-    .g21xe-modules-table td {
+    .nowpy-modules-table th,
+    .nowpy-modules-table td {
         padding: 16px 12px;
         text-align: left;
         border-bottom: 1px solid #e9ecef;
     }
 
-    .g21xe-modules-table th {
+    .nowpy-modules-table th {
         background: #f8f9fa;
         font-weight: 600;
         color: var(--colortitle, #2c3e50);
         font-size: 14px;
     }
 
-    .g21xe-modules-table td {
+    .nowpy-modules-table td {
         font-size: 14px;
         color: #495057;
     }
 
-    .g21xe-btn {
+    .nowpy-btn {
         padding: 10px 16px;
         border: none;
         border-radius: 8px;
@@ -317,29 +317,29 @@
         text-decoration: none;
     }
 
-    .g21xe-btn-primary {
+    .nowpy-btn-primary {
         background: var(--color, #007bff);
         color: white;
     }
 
     @media (max-width: 768px) {
-        .g21xe-admin-moduller {
+        .nowpy-admin-moduller {
             padding: 16px;
         }
 
-        .g21xe-page-header {
+        .nowpy-page-header {
             flex-direction: column;
             gap: 16px;
             align-items: stretch;
         }
 
-        .g21xe-header-actions {
+        .nowpy-header-actions {
             justify-content: center;
         }
     }
 
 
-  .ifwc2-profile {
+  .p5dox-profile {
     background-color: #111;
     padding: 5px;
     border-radius: 5px;
@@ -349,26 +349,26 @@
     gap: 10px;
   }
 
-  .ifwc2-profile>* {
+  .p5dox-profile>* {
     display: flex;
     align-items: center;
   }
 
-  .ifwc2-user-img {
+  .p5dox-user-img {
     border-radius: 100%;
     width: 40px;
     height: 40px;
     background-color: #ffffff;
   }
 
-  .ifwc2 {
+  .p5dox {
     width: var(--max);
     display: flex;
     gap: 15px;
     margin: 10px 0px 10px 0px;
   }
 
-  .ifwc2-menu {
+  .p5dox-menu {
     width: 220px;
     padding: 10px;
     background-color: #601515;
@@ -379,20 +379,20 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  .ifwc2-menu-title {
+  .p5dox-menu-title {
     font-size: 15px;
     opacity: 0.8;
     color: #fff;
     padding: 5px;
   }
 
-  .ifwc2-menu-category {
+  .p5dox-menu-category {
     display: flex;
     flex-direction: column;
     gap: 2px;
   }
 
-  .ifwc2-menu-category>a {
+  .p5dox-menu-category>a {
     color: #fff;
     padding: 10px;
     cursor: pointer;
@@ -407,13 +407,13 @@
     border-width: 0px 0px 1px 0px;
   }
 
-  .ifwc2-menu-category>a:hover {
+  .p5dox-menu-category>a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     background-color: #202020;
     border-radius: 10px;
   }
 
-  .ifwc2-body {
+  .p5dox-body {
     background-color: #ffffff;
     flex: 1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -424,7 +424,7 @@
     min-height: calc(100vh - 230px);
   }
 
-  .ifwc2-menu-active {
+  .p5dox-menu-active {
     background-color: #202020 !important;
   }
 
@@ -483,7 +483,7 @@
   }
 
 
-  .nmf0j-trust-boxes {
+  .bsozw-trust-boxes {
     max-width: var(--max);
     width: 100%;
     margin: 32px auto;
@@ -493,7 +493,7 @@
     gap: 0;
   }
 
-  .nmf0j-trust-item {
+  .bsozw-trust-item {
     flex: 1;
     min-width: 280px;
     background: #F8F9FF;
@@ -504,57 +504,57 @@
     gap: 16px;
   }
 
-  .nmf0j-trust-item .material-icons {
+  .bsozw-trust-item .material-icons {
     font-size: 36px;
     color: #1D3557;
   }
 
-  .nmf0j-trust-text {
+  .bsozw-trust-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .nmf0j-trust-title {
+  .bsozw-trust-title {
     font-weight: 700;
     color: #1D3557;
     font-size: 17px;
   }
 
-  .nmf0j-trust-desc {
+  .bsozw-trust-desc {
     color: #666;
     font-size: 14px;
     margin-top: 4px;
   }
 
   @media screen and (max-width: 1024px) {
-    .nmf0j-trust-boxes {
+    .bsozw-trust-boxes {
       max-width: 100%;
       padding: 0 20px;
     }
 
-    .nmf0j-trust-item {
+    .bsozw-trust-item {
       min-width: 250px;
       padding: 20px 30px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .nmf0j-trust-boxes {
+    .bsozw-trust-boxes {
       flex-direction: column;
       gap: 10px;
     }
 
-    .nmf0j-trust-item {
+    .bsozw-trust-item {
       min-width: auto;
       padding: 16px 20px;
     }
 
-    .nmf0j-trust-title {
+    .bsozw-trust-title {
       font-size: 16px;
     }
 
-    .nmf0j-trust-desc {
+    .bsozw-trust-desc {
       font-size: 13px;
     }
   }

@@ -21,8 +21,8 @@
 
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=nqevk" />
-  <link rel="shortcut icon" href="/img/icon.png?v=nqevk" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=f74ef" />
+  <link rel="shortcut icon" href="/img/icon.png?v=f74ef" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -50,25 +50,25 @@
 </script>
 
 
-  <script type="text/javascript" src="/src/firebase.js?v=nqevk"></script>
-<link rel="stylesheet" href="style.css?v=nqevk">
+  <script type="text/javascript" src="/src/firebase.js?v=f74ef"></script>
+<link rel="stylesheet" href="style.css?v=f74ef">
 </head>
 
 <body>
-  <div id="header"><header class="wks7s-header-wrapper">
-  <div class="wks7s-header">
-    <div class="wks7s-header-top">
-      <a href="/en/" class="wks7s-header-left">
-        <img src="/img/logo.png?v=nqevk" alt="Tiggergift Logo" class="wks7s-logo" />
+  <div id="header"><header class="ij03z-header-wrapper">
+  <div class="ij03z-header">
+    <div class="ij03z-header-top">
+      <a href="/en/" class="ij03z-header-left">
+        <img src="/img/logo.png?v=f74ef" alt="Tiggergift Logo" class="ij03z-logo" />
       </a>
 
-      <div class="wks7s-search-box">
+      <div class="ij03z-search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="Ürün ara..." />
         <button>Ara</button>
       </div>
 
-      <div class="wks7s-support-info">
+      <div class="ij03z-support-info">
         <span class="material-symbols-outlined">headphones</span>
         <div>
           <small>7/24 Destek</small>
@@ -76,7 +76,7 @@
         </div>
       </div>
 
-      <div class="wks7s-icons">
+      <div class="ij03z-icons">
         <a href="/en/login/" class="material-symbols-outlined">person</a>
         <a href="/en/favorilerim/" class="material-symbols-outlined">favorite</a>
         <a href="/en/basket/" class="material-symbols-outlined">shopping_cart</a>
@@ -84,26 +84,50 @@
     </div>
   </div>
 
-  <div class="wks7s-header-bottom">
-    <div class="wks7s-header-bottom-inner">
-      <button class="wks7s-category-btn">
+  <div class="ij03z-header-bottom">
+    <div class="ij03z-header-bottom-inner">
+      <button class="ij03z-category-btn">
         <span class="material-symbols-outlined">menu</span> Kategoriler
       </button>
-      <nav class="wks7s-main-menu"><a href="/en/bakir-mutfak-esyalari/"></a><a href="/en/bakir-aksesuarlar/"></a><a href="/en/ehli-keyf/"></a><a href="/en/urunlerimiz/"></a><a href="/en/yerelurunler/"></a><a href="/en/kurumsal/"></a><a href="/en/iletisim/"></a></nav>
+      <nav class="ij03z-main-menu"><a href="/en/bakir-mutfak-esyalari/"></a><a href="/en/hakkimizda/"></a><a href="/en/bakir-aksesuarlar/"></a><a href="/en/ehli-keyf/"></a><a href="/en/urunlerimiz/"></a><a href="/en/yerelurunler/"></a><a href="/en/iletisim/"></a></nav>
     </div>
   </div>
 </header>
 
 
 </div>
-  <div id="content"><div class="yinlx-title f36">
+  <div id="content"><div class="pphmg-title f36">
   <span>undefined</span>
 </div>
-<div class="yinlx">
-  <div class="yinlx-menu"><a   href="/en/kurumsalyrv" >undefined</a><a   href="/en/hakkimizda" >undefined</a><a class="active"  href="/en/misyon" >undefined</a><a   href="/en/vizyon" >undefined</a><a   href="/en/kalite-politikamiz" >undefined</a><a   href="/en/gizlilik-politikasi" >undefined</a><a   href="/en/kisisel-veriler" >undefined</a><a   href="/en/kullanicihaklari" >undefined</a><a   href="/en/yasal-uyari" >undefined</a></div>
-  <div class="yinlx-body"></div>
+<div class="pphmg">
+  <div class="pphmg-menu-btn">
+    <span>Menu</span>
+    <i class="fas fa-bars"></i>
+  </div>
+  <div class="pphmg-menu"><a   href="/en/hakkimizda" >[object Object]</a><a class="active"  href="/en/misyon" >[object Object]</a><a   href="/en/vizyon" >[object Object]</a><a   href="/en/kalite-politikamiz" >[object Object]</a><a   href="/en/gizlilik-politikasi" >[object Object]</a><a   href="/en/kisisel-veriler" >[object Object]</a><a   href="/en/kullanicihaklari" >[object Object]</a><a   href="/en/yasal-uyari" >[object Object]</a></div>
+  <div class="pphmg-desc">
+    
+    <div class="pphmg-body"></div>
+  </div>
 </div>
 
+<script>
+  document
+    .querySelector(".pphmg-menu-btn")
+    .addEventListener("click", function () {
+      document.querySelector(".pphmg-menu").classList.toggle("active");
+      const icon = this.querySelector("i");
+      icon.classList.toggle("fa-bars");
+      icon.classList.toggle("fa-times");
+    });
+</script>
+
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+</head>
 </div>
   <div id="footer"><!-- Google Material Icons -->
 <link
@@ -112,28 +136,28 @@
 />
 
 <!-- Güven Kutuları Alanı -->
-<div class="a3dfz-trust-boxes">
-      <div class="a3dfz-trust-item">
+<div class="m92kz-trust-boxes">
+      <div class="m92kz-trust-item">
         <span class="material-icons">account_balance_wallet</span>
-        <div class="a3dfz-trust-text">
-          <div class="a3dfz-trust-title">100% Secure Payment</div>
-          <div class="a3dfz-trust-desc">Secure Payment with 3D Secure</div>
+        <div class="m92kz-trust-text">
+          <div class="m92kz-trust-title">100% Secure Payment</div>
+          <div class="m92kz-trust-desc">Secure Payment with 3D Secure</div>
         </div>
       </div>
     
-      <div class="a3dfz-trust-item">
+      <div class="m92kz-trust-item">
         <span class="material-icons">inventory_2</span>
-        <div class="a3dfz-trust-text">
-          <div class="a3dfz-trust-title">100% Original Product</div>
-          <div class="a3dfz-trust-desc">Activation with 100% Licensed Original Product</div>
+        <div class="m92kz-trust-text">
+          <div class="m92kz-trust-title">100% Original Product</div>
+          <div class="m92kz-trust-desc">Activation with 100% Licensed Original Product</div>
         </div>
       </div>
     
-      <div class="a3dfz-trust-item">
+      <div class="m92kz-trust-item">
         <span class="material-icons">local_shipping</span>
-        <div class="a3dfz-trust-text">
-          <div class="a3dfz-trust-title">Fast Delivery</div>
-          <div class="a3dfz-trust-desc">Online Fast Delivery for All Your Shopping</div>
+        <div class="m92kz-trust-text">
+          <div class="m92kz-trust-title">Fast Delivery</div>
+          <div class="m92kz-trust-desc">Online Fast Delivery for All Your Shopping</div>
         </div>
       </div>
     </div>
@@ -179,7 +203,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/bakir-mutfak-esyalari"></a></li><li class="menu__item"><a class="menu__link" href="/en/bakir-aksesuarlar"></a></li><li class="menu__item"><a class="menu__link" href="/en/ehli-keyf"></a></li><li class="menu__item"><a class="menu__link" href="/en/urunlerimiz"></a></li><li class="menu__item"><a class="menu__link" href="/en/yerelurunler"></a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim"></a></li>
+    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/bakir-mutfak-esyalari"></a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsalknp"></a></li><li class="menu__item"><a class="menu__link" href="/en/bakir-aksesuarlar"></a></li><li class="menu__item"><a class="menu__link" href="/en/ehli-keyf"></a></li><li class="menu__item"><a class="menu__link" href="/en/urunlerimiz"></a></li><li class="menu__item"><a class="menu__link" href="/en/yerelurunler"></a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim"></a></li>
   </ul>
   <p>Tiggergift 2025 cognite. &copy;</p>
 </footer>
@@ -215,7 +239,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=nqevk"></script>
-<script src="/src/cookie.js?v=nqevk"></script>
+<script type="text/javascript" src="/src/js.js?v=f74ef"></script>
+<script src="/src/cookie.js?v=f74ef"></script>
 
 </html>
